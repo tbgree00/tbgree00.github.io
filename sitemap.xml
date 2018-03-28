@@ -56,6 +56,12 @@
   </url>
   
   <url>
+    <loc>/categories/homelab/</loc>
+    <lastmod>2018-03-27T12:57:51-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/networking/</loc>
     <lastmod>2016-03-11T12:57:51-04:00</lastmod>
     <priority>0</priority>

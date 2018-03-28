@@ -61,7 +61,7 @@
 				<time class="post__meta-date" datetime="2018-03-27T12:57:51">March 27, 2018</time>
 				<span class="post__meta-categories meta-categories">
 					<svg class="icon icon-category" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
-					<a class="meta-categories__link" href="/categories/vmware" rel="category">VMware</a>, <a class="meta-categories__link" href="/categories/vrealize-operations-manager" rel="category">vRealize Operations Manager</a></span>
+					<a class="meta-categories__link" href="/categories/vmware" rel="category">VMware</a>, <a class="meta-categories__link" href="/categories/vrealize-operations-manager" rel="category">vRealize Operations Manager</a>, <a class="meta-categories__link" href="/categories/homelab" rel="category">Homelab</a></span>
 			</p>
 		</header>
 		<div class="post__content clearfix">
@@ -98,11 +98,24 @@
 </tr>
 
 <tr>
+<td>End Point Agent DNS</td>
+<td>vrops.gc.local</td>
+</tr>
+
+<tr>
 <td>Certificate</td>
-<td>self signed</td>
+<td>self-signed</td>
 </tr>
 </tbody>
 </table>
+
+<p>Since there is only one master node, all adapters will point to it. In a larger cluster adapters would be assigned to different data nodes or remote collectors, as appropriate.</p>
+
+<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/vropshomelab.png" alt="Home Lab Diagram" /></p>
+
+<p>In this diagram we see the users accessing the UI URL, the End Point Agents accessing the FQDN of the single node, and both configured adapters residing on that same node. The adapters are fetching data from the endpoints, vCenter and Log Insight in this instance, and feeding it back to the analytics node for storage and processing.</p>
+
+<p>This exercise was a lot of effort considering the outcome will be &ldquo;Deploy a small node and point everything there.&rdquo; The effort will make more sense in the next post when we can compare a single node deployment to a cluster.</p>
 
 		</div>
 		
@@ -166,6 +179,7 @@
 		<ul class="widget__list">
 			<li class="widget__item"><a class="widget__link" href="/categories/azure">Azure</a></li>
 			<li class="widget__item"><a class="widget__link" href="/categories/community">Community</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/homelab">Homelab</a></li>
 			<li class="widget__item"><a class="widget__link" href="/categories/networking">Networking</a></li>
 			<li class="widget__item"><a class="widget__link" href="/categories/presentations">Presentations</a></li>
 			<li class="widget__item"><a class="widget__link" href="/categories/storage">Storage</a></li>

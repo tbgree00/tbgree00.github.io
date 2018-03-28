@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homelab on Virtualizing a Physical World</title>
+    <link>/categories/homelab/</link>
+    <description>Recent content in Homelab on Virtualizing a Physical World</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Mar 2018 12:57:51 -0400</lastBuildDate>
+    
+	<atom:link href="/categories/homelab/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VMware vRealize Operations Manager: Design for a Home Lab</title>
+      <link>/post/vropsdesignlab/</link>
+      <pubDate>Tue, 27 Mar 2018 12:57:51 -0400</pubDate>
+      
+      <guid>/post/vropsdesignlab/</guid>
+      <description>Designing for a Home Lab A practical way to gain experience with vRealize Operations Manager is to deploy and implement it into a home lab. A design for a home lab almost seems too simple, but planning it out and diagraming a simple example can help when the time comes to design a production environment. The environment will need to support the following:
+ Monitor 100 Objects Monitor 10 End Point Operations Management agents  The environment is also resource constrained, and the node can be no larger than a Small node size.</description>
+    </item>
+    
+  </channel>
+</rss>
