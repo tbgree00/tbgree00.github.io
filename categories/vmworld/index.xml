@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vmworld on Virtualizing a Physical World</title>
+    <link>/categories/vmworld/</link>
+    <description>Recent content in Vmworld on Virtualizing a Physical World</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Aug 2017 12:57:51 -0400</lastBuildDate>
+    
+	<atom:link href="/categories/vmworld/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hacking Public Speaking - Mentors to Help you Rock It</title>
+      <link>/post/2017-08-30-hackingpublicspeaking/</link>
+      <pubDate>Wed, 30 Aug 2017 12:57:51 -0400</pubDate>
+      
+      <guid>/post/2017-08-30-hackingpublicspeaking/</guid>
+      <description>Public speaking is hard. Standing in front of a crowd and being the center of attention can be a scary thought. Luckily, there are many members of the technology community out there willing to ease you through it. At VMworld 2017 I was fortunate enough to participate in a vBrownBag panel discussion with some giants in the VMware community: Edward Haletky, Simon Long, and Ariel Sanchez Mora.
+The four of us were talking after the session and decided we would like to formally arrange a mentoring program to help give back to the community that has helped us so much.</description>
+    </item>
+    
+    <item>
+      <title>VMworld 2017 is Almost Here</title>
+      <link>/post/2017-08-16-vmworld2017preview/</link>
+      <pubDate>Wed, 16 Aug 2017 12:57:51 -0400</pubDate>
+      
+      <guid>/post/2017-08-16-vmworld2017preview/</guid>
+      <description>VMworld 2017 is upon us and looks to be busy as ever. I&amp;rsquo;ll be returning to Las Vegas and the place this ride started last year. There has been a LOT happening in my life during the past 50 weeks. I&amp;rsquo;m proud to say I joined Rackspace in the Specialist Cloud Architecture business, representing VMware products and services. As many of you also know, I joined the vBrownBag crew and will be hanging out at the TechTalk booth as much as possible.</description>
+    </item>
+    
+  </channel>
+</rss>

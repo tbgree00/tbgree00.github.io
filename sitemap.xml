@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/post/vropsdesignintro/</loc>
+    <lastmod>2018-03-27T12:57:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/vropsdesignlab/</loc>
+    <lastmod>2018-03-27T12:57:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017-08-30-hackingpublicspeaking/</loc>
+    <lastmod>2017-08-30T12:57:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017-08-16-vmworld2017preview/</loc>
+    <lastmod>2017-08-16T12:57:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2017-06-03-azurestorageacct/</loc>
+    <lastmod>2017-06-03T12:57:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2016-03-11-switchmisconfig/</loc>
+    <lastmod>2016-03-11T12:57:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2016-03-08-disableats/</loc>
+    <lastmod>2016-03-08T12:57:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/azure/</loc>
+    <lastmod>2017-06-03T12:57:51-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2017-06-03T12:57:51-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/community/</loc>
+    <lastmod>2017-08-16T12:57:51-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/networking/</loc>
+    <lastmod>2016-03-11T12:57:51-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2018-03-27T12:57:51-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/presentations/</loc>
+    <lastmod>2017-08-30T12:57:51-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/storage/</loc>
+    <lastmod>2017-06-03T12:57:51-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2018-03-27T12:57:51-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/vmware/</loc>
+    <lastmod>2018-03-27T12:57:51-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/vmworld/</loc>
+    <lastmod>2017-08-30T12:57:51-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/vrealize-operations-manager/</loc>
+    <lastmod>2018-03-27T12:57:51-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

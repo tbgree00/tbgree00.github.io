@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Virtualizing a Physical World</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on Virtualizing a Physical World</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Mar 2018 12:57:51 -0400</lastBuildDate>
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VMware vRealize Operations Manager: Design Introduction</title>
+      <link>/post/vropsdesignintro/</link>
+      <pubDate>Tue, 27 Mar 2018 12:57:51 -0400</pubDate>
+      
+      <guid>/post/vropsdesignintro/</guid>
+      <description>Sizing a vRealize Operations Manager Environment VMware vRealize Operations Manager is the flagship monitoring suite for the entire VMware Software Defined Datacenter stack. The software is incredibly powerful, but it can be a bit daunting to a newcomer. Each update has improved out of the box functionality, however there is a lot to learn to master the software and truly make the most out of its features. Every successful environment starts with a strong design.</description>
+    </item>
+    
+    <item>
+      <title>VMware vRealize Operations Manager: Design for a Home Lab</title>
+      <link>/post/vropsdesignlab/</link>
+      <pubDate>Tue, 27 Mar 2018 12:57:51 -0400</pubDate>
+      
+      <guid>/post/vropsdesignlab/</guid>
+      <description>Designing for a Home Lab A practical way to gain experience with vRealize Operations Manager is to deploy and implement it into a home lab. A design for a home lab almost seems too simple, but planning it out and diagraming a simple example can help when the time comes to design a production environment. The environment will need to support the following:
+ Monitor 100 Objects Monitor 10 End Point Operations Management agents  The environment is also resource constrained, and the node can be no larger than a Small node size.</description>
+    </item>
+    
+    <item>
+      <title>Hacking Public Speaking - Mentors to Help you Rock It</title>
+      <link>/post/2017-08-30-hackingpublicspeaking/</link>
+      <pubDate>Wed, 30 Aug 2017 12:57:51 -0400</pubDate>
+      
+      <guid>/post/2017-08-30-hackingpublicspeaking/</guid>
+      <description>Public speaking is hard. Standing in front of a crowd and being the center of attention can be a scary thought. Luckily, there are many members of the technology community out there willing to ease you through it. At VMworld 2017 I was fortunate enough to participate in a vBrownBag panel discussion with some giants in the VMware community: Edward Haletky, Simon Long, and Ariel Sanchez Mora.
+The four of us were talking after the session and decided we would like to formally arrange a mentoring program to help give back to the community that has helped us so much.</description>
+    </item>
+    
+    <item>
+      <title>VMworld 2017 is Almost Here</title>
+      <link>/post/2017-08-16-vmworld2017preview/</link>
+      <pubDate>Wed, 16 Aug 2017 12:57:51 -0400</pubDate>
+      
+      <guid>/post/2017-08-16-vmworld2017preview/</guid>
+      <description>VMworld 2017 is upon us and looks to be busy as ever. I&amp;rsquo;ll be returning to Las Vegas and the place this ride started last year. There has been a LOT happening in my life during the past 50 weeks. I&amp;rsquo;m proud to say I joined Rackspace in the Specialist Cloud Architecture business, representing VMware products and services. As many of you also know, I joined the vBrownBag crew and will be hanging out at the TechTalk booth as much as possible.</description>
+    </item>
+    
+    <item>
+      <title>How to Create an Azure Storage Account</title>
+      <link>/post/2017-06-03-azurestorageacct/</link>
+      <pubDate>Sat, 03 Jun 2017 12:57:51 -0400</pubDate>
+      
+      <guid>/post/2017-06-03-azurestorageacct/</guid>
+      <description>In my article about creating an Azure virtual machine, I walked us through the very basic wizard to create a VM. There is an entire segment of the virtual machine build process dedicated to optional features. These features allow new virtual machines to integrate a VM into an existing Azure environment. When we created our first machine we accepted the default settings, which created new network and storage accounts. That works perfectly for a first look but it wouldn&amp;rsquo;t be appropriate for use in a real life Azure Infrastructure.</description>
+    </item>
+    
+    <item>
+      <title>Detecting a Misconfigured vSwitch</title>
+      <link>/post/2016-03-11-switchmisconfig/</link>
+      <pubDate>Fri, 11 Mar 2016 12:57:51 -0400</pubDate>
+      
+      <guid>/post/2016-03-11-switchmisconfig/</guid>
+      <description>Years ago I received a call for help from someone setting up a vSphere host. The install had never worked right and the clients were upset at the upgrade. It sometimes took 30 seconds to connect to a server and their SQL applications would crash daily. My intuition told me there was something strange going on with the network.
+It was a very basic install with one Standard vSwitch doing management and virtual machine network traffic.</description>
+    </item>
+    
+    <item>
+      <title>Disable Atomic Test and Set for Incompatible Storage Arrays</title>
+      <link>/post/2016-03-08-disableats/</link>
+      <pubDate>Tue, 08 Mar 2016 12:57:51 -0400</pubDate>
+      
+      <guid>/post/2016-03-08-disableats/</guid>
+      <description>After performing an upgrade from ESXi 4.1/ESXi 5.0 to ESXi 5.5 u2 I noticed increased latency events on hosts. More troubling, the affected hosts were frequently dropping all presented datastores, though they would reconnect within a few seconds. The events may appear in your event log as below:
+While there are many possible causes to explore these sorts of connectivity issues, one that is often overlooked is how ESXi heartbeating to the datastores.</description>
+    </item>
+    
+  </channel>
+</rss>
