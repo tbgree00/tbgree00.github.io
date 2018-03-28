@@ -6,9 +6,91 @@
     <description>Recent content in Tags on Virtualizing a Physical World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 03 Jun 2017 12:57:51 -0400</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Azure</title>
+      <link>/tags/azure/</link>
+      <pubDate>Sat, 03 Jun 2017 12:57:51 -0400</pubDate>
+      
+      <guid>/tags/azure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hardware</title>
+      <link>/tags/hardware/</link>
+      <pubDate>Tue, 08 Mar 2016 12:57:51 -0400</pubDate>
+      
+      <guid>/tags/hardware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Homelab</title>
+      <link>/tags/homelab/</link>
+      <pubDate>Tue, 27 Mar 2018 12:57:51 -0400</pubDate>
+      
+      <guid>/tags/homelab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mentoring</title>
+      <link>/tags/mentoring/</link>
+      <pubDate>Wed, 30 Aug 2017 12:57:51 -0400</pubDate>
+      
+      <guid>/tags/mentoring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Networking</title>
+      <link>/tags/networking/</link>
+      <pubDate>Fri, 11 Mar 2016 12:57:51 -0400</pubDate>
+      
+      <guid>/tags/networking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Public Speaking</title>
+      <link>/tags/public-speaking/</link>
+      <pubDate>Wed, 30 Aug 2017 12:57:51 -0400</pubDate>
+      
+      <guid>/tags/public-speaking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Storage</title>
+      <link>/tags/storage/</link>
+      <pubDate>Sat, 03 Jun 2017 12:57:51 -0400</pubDate>
+      
+      <guid>/tags/storage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vmworld</title>
+      <link>/tags/vmworld/</link>
+      <pubDate>Wed, 30 Aug 2017 12:57:51 -0400</pubDate>
+      
+      <guid>/tags/vmworld/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vrealize Operations Manager</title>
+      <link>/tags/vrealize-operations-manager/</link>
+      <pubDate>Tue, 27 Mar 2018 12:57:51 -0400</pubDate>
+      
+      <guid>/tags/vrealize-operations-manager/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

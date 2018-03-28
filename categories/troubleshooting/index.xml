@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Troubleshooting on Virtualizing a Physical World</title>
+    <link>/categories/troubleshooting/</link>
+    <description>Recent content in Troubleshooting on Virtualizing a Physical World</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Mar 2016 12:57:51 -0400</lastBuildDate>
+    
+	<atom:link href="/categories/troubleshooting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Detecting a Misconfigured vSwitch</title>
+      <link>/post/2016-03-11-switchmisconfig/</link>
+      <pubDate>Fri, 11 Mar 2016 12:57:51 -0400</pubDate>
+      
+      <guid>/post/2016-03-11-switchmisconfig/</guid>
+      <description>Years ago I received a call for help from someone setting up a vSphere host. The install had never worked right and the clients were upset at the upgrade. It sometimes took 30 seconds to connect to a server and their SQL applications would crash daily. My intuition told me there was something strange going on with the network.
+It was a very basic install with one Standard vSwitch doing management and virtual machine network traffic.</description>
+    </item>
+    
+    <item>
+      <title>Disable Atomic Test and Set for Incompatible Storage Arrays</title>
+      <link>/post/2016-03-08-disableats/</link>
+      <pubDate>Tue, 08 Mar 2016 12:57:51 -0400</pubDate>
+      
+      <guid>/post/2016-03-08-disableats/</guid>
+      <description>After performing an upgrade from ESXi 4.1/ESXi 5.0 to ESXi 5.5 u2 I noticed increased latency events on hosts. More troubling, the affected hosts were frequently dropping all presented datastores, though they would reconnect within a few seconds. The events may appear in your event log as below:
+While there are many possible causes to explore these sorts of connectivity issues, one that is often overlooked is how ESXi heartbeating to the datastores.</description>
+    </item>
+    
+  </channel>
+</rss>

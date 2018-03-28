@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud on Virtualizing a Physical World</title>
+    <link>/categories/cloud/</link>
+    <description>Recent content in Cloud on Virtualizing a Physical World</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Jun 2017 12:57:51 -0400</lastBuildDate>
+    
+	<atom:link href="/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Create an Azure Storage Account</title>
+      <link>/post/2017-06-03-azurestorageacct/</link>
+      <pubDate>Sat, 03 Jun 2017 12:57:51 -0400</pubDate>
+      
+      <guid>/post/2017-06-03-azurestorageacct/</guid>
+      <description>In my article about creating an Azure virtual machine, I walked us through the very basic wizard to create a VM. There is an entire segment of the virtual machine build process dedicated to optional features. These features allow new virtual machines to integrate a VM into an existing Azure environment. When we created our first machine we accepted the default settings, which created new network and storage accounts. That works perfectly for a first look but it wouldn&amp;rsquo;t be appropriate for use in a real life Azure Infrastructure.</description>
+    </item>
+    
+  </channel>
+</rss>

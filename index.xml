@@ -6,10 +6,29 @@
     <description>Recent content on Virtualizing a Physical World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Mar 2018 12:57:51 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 28 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About Me</title>
+      <link>/about/</link>
+      <pubDate>Wed, 28 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Tech Field Day Delegate, vExpert, VCIX, VCAP, VCP, vDad, Disney Nerd
+Thanks for reading!</description>
+    </item>
+    
+    <item>
+      <title>vRealize Operations Manager</title>
+      <link>/vrops/</link>
+      <pubDate>Wed, 28 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/vrops/</guid>
+      <description> Design  Introduction to Sizing and Design Designing for a Home Lab Designing for a Medium Environment  Resources  VMware Hands on Labs 1801-01-CMP, 1801-02-CMP, 1801-03-CMP, 1801-04-CMP Pluralsight course by David Davis mylearn.vmware.com Learning Paths Official vROPs Documentation Sizing Guide VMware KB2150421  </description>
+    </item>
     
     <item>
       <title>VMware vRealize Operations Manager: Design Introduction</title>

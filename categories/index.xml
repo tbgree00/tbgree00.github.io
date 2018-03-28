@@ -6,17 +6,16 @@
     <description>Recent content in Categories on Virtualizing a Physical World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Jun 2017 12:57:51 -0400</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Azure</title>
-      <link>/categories/azure/</link>
+      <title>Cloud</title>
+      <link>/categories/cloud/</link>
       <pubDate>Sat, 03 Jun 2017 12:57:51 -0400</pubDate>
       
-      <guid>/categories/azure/</guid>
+      <guid>/categories/cloud/</guid>
       <description></description>
     </item>
     
@@ -30,20 +29,11 @@
     </item>
     
     <item>
-      <title>Homelab</title>
-      <link>/categories/homelab/</link>
+      <title>Monitoring</title>
+      <link>/categories/monitoring/</link>
       <pubDate>Tue, 27 Mar 2018 12:57:51 -0400</pubDate>
       
-      <guid>/categories/homelab/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Networking</title>
-      <link>/categories/networking/</link>
-      <pubDate>Fri, 11 Mar 2016 12:57:51 -0400</pubDate>
-      
-      <guid>/categories/networking/</guid>
+      <guid>/categories/monitoring/</guid>
       <description></description>
     </item>
     
@@ -57,11 +47,11 @@
     </item>
     
     <item>
-      <title>Storage</title>
-      <link>/categories/storage/</link>
-      <pubDate>Sat, 03 Jun 2017 12:57:51 -0400</pubDate>
+      <title>Troubleshooting</title>
+      <link>/categories/troubleshooting/</link>
+      <pubDate>Fri, 11 Mar 2016 12:57:51 -0400</pubDate>
       
-      <guid>/categories/storage/</guid>
+      <guid>/categories/troubleshooting/</guid>
       <description></description>
     </item>
     
@@ -71,24 +61,6 @@
       <pubDate>Tue, 27 Mar 2018 12:57:51 -0400</pubDate>
       
       <guid>/categories/vmware/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vmworld</title>
-      <link>/categories/vmworld/</link>
-      <pubDate>Wed, 30 Aug 2017 12:57:51 -0400</pubDate>
-      
-      <guid>/categories/vmworld/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vrealize Operations Manager</title>
-      <link>/categories/vrealize-operations-manager/</link>
-      <pubDate>Tue, 27 Mar 2018 12:57:51 -0400</pubDate>
-      
-      <guid>/categories/vrealize-operations-manager/</guid>
       <description></description>
     </item>
     
