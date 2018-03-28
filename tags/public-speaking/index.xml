@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Public Speaking on Virtualizing a Physical World</title>
-    <link>/tags/public-speaking/</link>
+    <link>https://tbgree00.github.io/tags/public-speaking/</link>
     <description>Recent content in Public Speaking on Virtualizing a Physical World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 30 Aug 2017 12:57:51 -0400</lastBuildDate>
     
-	<atom:link href="/tags/public-speaking/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://tbgree00.github.io/tags/public-speaking/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hacking Public Speaking - Mentors to Help you Rock It</title>
-      <link>/post/2017-08-30-hackingpublicspeaking/</link>
+      <link>https://tbgree00.github.io/post/2017-08-30-hackingpublicspeaking/</link>
       <pubDate>Wed, 30 Aug 2017 12:57:51 -0400</pubDate>
       
-      <guid>/post/2017-08-30-hackingpublicspeaking/</guid>
+      <guid>https://tbgree00.github.io/post/2017-08-30-hackingpublicspeaking/</guid>
       <description>Public speaking is hard. Standing in front of a crowd and being the center of attention can be a scary thought. Luckily, there are many members of the technology community out there willing to ease you through it. At VMworld 2017 I was fortunate enough to participate in a vBrownBag panel discussion with some giants in the VMware community: Edward Haletky, Simon Long, and Ariel Sanchez Mora.
 The four of us were talking after the session and decided we would like to formally arrange a mentoring program to help give back to the community that has helped us so much.</description>
     </item>
