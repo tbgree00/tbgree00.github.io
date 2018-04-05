@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aws on Virtualizing a Physical World</title>
+    <link>https://tbgree00.github.io/tags/aws/</link>
+    <description>Recent content in Aws on Virtualizing a Physical World</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Dec 2016 12:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="https://tbgree00.github.io/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>&#39;Tis the Season for Certification</title>
+      <link>https://tbgree00.github.io/post/tistheseason2016/</link>
+      <pubDate>Thu, 15 Dec 2016 12:00:00 -0400</pubDate>
+      
+      <guid>https://tbgree00.github.io/post/tistheseason2016/</guid>
+      <description>The end of the calendar year brings family, travel, and performance evaluations. A big part of mine is training and tech development. It&amp;rsquo;s never too soon to start thinking about what is new and where your are interested in strengthening your skill.
+I asked some tech experts what skills are the stuff to learn for 2017. Keith Townsend @ctoadvisor responded with
+ Scripting (ie Cloud Formation, Powershell, Python)
+Hybrid infrastructure networking (AWS VPC&amp;gt;VPN integration)</description>
+    </item>
+    
+  </channel>
+</rss>

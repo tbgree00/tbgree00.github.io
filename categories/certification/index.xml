@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Certification on Virtualizing a Physical World</title>
+    <link>https://tbgree00.github.io/categories/certification/</link>
+    <description>Recent content in Certification on Virtualizing a Physical World</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Dec 2016 12:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="https://tbgree00.github.io/categories/certification/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>&#39;Tis the Season for Certification</title>
+      <link>https://tbgree00.github.io/post/tistheseason2016/</link>
+      <pubDate>Thu, 15 Dec 2016 12:00:00 -0400</pubDate>
+      
+      <guid>https://tbgree00.github.io/post/tistheseason2016/</guid>
+      <description>The end of the calendar year brings family, travel, and performance evaluations. A big part of mine is training and tech development. It&amp;rsquo;s never too soon to start thinking about what is new and where your are interested in strengthening your skill.
+I asked some tech experts what skills are the stuff to learn for 2017. Keith Townsend @ctoadvisor responded with
+ Scripting (ie Cloud Formation, Powershell, Python)
+Hybrid infrastructure networking (AWS VPC&amp;gt;VPN integration)</description>
+    </item>
+    
+    <item>
+      <title>First Steps for my VCDX Design</title>
+      <link>https://tbgree00.github.io/post/vcdxfirststeps/</link>
+      <pubDate>Sun, 06 Nov 2016 12:00:00 -0400</pubDate>
+      
+      <guid>https://tbgree00.github.io/post/vcdxfirststeps/</guid>
+      <description>I have publicly committed to submitting a design to the VCDX committee. My design is due in March 2017. I&amp;rsquo;m very glad I signed up to submit because it has kick started my motivation. Today I wanted to talk about my progress.
+I am using an actual design for a project I worked on. It&amp;rsquo;s a fairly complex system with many moving pieces. It mostly meets AMPRS requirements (Availability, Manageability, Performance, Recoverability, Security) so I shouldn&amp;rsquo;t have to do much tweaking to make it pass muster.</description>
+    </item>
+    
+    <item>
+      <title>Study Habits for Certification Success</title>
+      <link>https://tbgree00.github.io/post/certificationcareer/</link>
+      <pubDate>Wed, 02 Nov 2016 12:57:51 -0400</pubDate>
+      
+      <guid>https://tbgree00.github.io/post/certificationcareer/</guid>
+      <description>As I&amp;rsquo;ve stated before, I highly value certification. I think they provide a good goal and can encourage someone to dig deep and learn features of a technology they may have never looked into otherwise. I recently had a discussion which started with the question &amp;ldquo;can certifications make a career?&amp;rdquo;
+The even split came down to &amp;ldquo;yes, they prove your knowledge&amp;rdquo; and &amp;ldquo;no, it&amp;rsquo;s too easy to cheat for them to be valuable&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>My VCAP6-DCV Deploy Beta Experience</title>
+      <link>https://tbgree00.github.io/post/vcap6deploybeta/</link>
+      <pubDate>Wed, 29 Jun 2016 12:00:00 -0400</pubDate>
+      
+      <guid>https://tbgree00.github.io/post/vcap6deploybeta/</guid>
+      <description>I sat the VCAP6-DCV Beta last night. First off the test was extremely fun, much like the VCAP5-DCA. In a live lab your skills are really tested. The new interface provided some challenges but is overall better than the legacy interface. The console is faster and it&amp;rsquo;s a lot nicer to be able to open the manual over the interface. It is very cramped though. My center maybe had an 18 inch monitor so I was still minimizing my manual a lot.</description>
+    </item>
+    
+    <item>
+      <title>Strategy Going into the VCAP6-DCV Deploy</title>
+      <link>https://tbgree00.github.io/post/vcap6deploystrategy/</link>
+      <pubDate>Sat, 25 Jun 2016 12:57:51 -0400</pubDate>
+      
+      <guid>https://tbgree00.github.io/post/vcap6deploystrategy/</guid>
+      <description>As I prepare to take an advanced test on a version of VMware I had never touched prior to dropping my $100 I knew I needed a strategy. I searched the blueprint for what was new and hoped my notes from the DCA were enough to patch me through.
+Plenty of articles exist to study by. I used many of them to prepare myself. When the time comes for me to take my seat here is how I&amp;rsquo;ll prepare:</description>
+    </item>
+    
+    <item>
+      <title>VCAP6-DCV Deploy Blueprint Changes from VCAP5-DCA</title>
+      <link>https://tbgree00.github.io/post/vcap6deploychanges/</link>
+      <pubDate>Sun, 19 Jun 2016 12:00:00 -0400</pubDate>
+      
+      <guid>https://tbgree00.github.io/post/vcap6deploychanges/</guid>
+      <description>VMware recently announced a 2 week availability for the VCAP6-DCV Deploy beta. After some debate I signed up to sit the exam on June 28, 2016. They provide a beta version of the blueprint so I started there to see what had changed from my VCAP5-DCA 5.5 blueprint and notes. I made some quick notes and want to share them here.
+ As a disclaimer my list is quick first pass.</description>
+    </item>
+    
+    <item>
+      <title>My VCAP5-DCD Experience</title>
+      <link>https://tbgree00.github.io/post/vcap5dcdexperience/</link>
+      <pubDate>Fri, 08 Apr 2016 12:57:51 -0400</pubDate>
+      
+      <guid>https://tbgree00.github.io/post/vcap5dcdexperience/</guid>
+      <description>On March 29th I posted about VMware&amp;rsquo;s announcement regarding the retirement of the VCAP5 exams. Passing these exams have always been a bucket list item for me. I feel that they confirm a technician&amp;rsquo;s ability to actually use and conceptualize VMware more beyond the typical multiple choice exam. The VCP has become required for many job so having the next level up should set me apart from the competition.
+So after my March 8th pass I started gathering material to sit the DCD.</description>
+    </item>
+    
+    <item>
+      <title>VMware Announces VCAP5-DCA and VCAP5-DCD Exam Retirement</title>
+      <link>https://tbgree00.github.io/post/vcap5examretirement/</link>
+      <pubDate>Tue, 29 Mar 2016 12:57:51 -0400</pubDate>
+      
+      <guid>https://tbgree00.github.io/post/vcap5examretirement/</guid>
+      <description>On March 23rd VMware officially announced the retirement of their VCAP5 Datacenter exams. Read the official information here: 4 Exam Retirements in June
+It&amp;rsquo;s an interesting move as the VCAP6-DCA and DCD exams aren&amp;rsquo;t even available to book right now. You can still book and sit the exam up until the expiration dates (June 4th for DCA, June 24th for the DCD).
+I expected this but am a little disappointed. I booked my DCD for May 27th with the backup plan of taking a second shot at VMworld should I need it.</description>
+    </item>
+    
+    <item>
+      <title>Study Habits for Certification Success</title>
+      <link>https://tbgree00.github.io/post/studyhabits/</link>
+      <pubDate>Fri, 25 Mar 2016 12:57:51 -0400</pubDate>
+      
+      <guid>https://tbgree00.github.io/post/studyhabits/</guid>
+      <description>I don&amp;rsquo;t have a degree in Information Technology or in Computer Science. I&amp;rsquo;ve occasionally entertained going back to school to formally cement my education but never taken that step. Since I don&amp;rsquo;t have that education I&amp;rsquo;ve always looked to certification as a way to &amp;ldquo;prove my worth.&amp;rdquo; Some people may argue that certifications are just paper and aren&amp;rsquo;t worth anything, however I strongly disagree. I feel having a focus and a goal to work toward sharpens my continued education.</description>
+    </item>
+    
+    <item>
+      <title>My VCAP5-DCA Experience</title>
+      <link>https://tbgree00.github.io/post/vcap5dcaexperience/</link>
+      <pubDate>Fri, 18 Mar 2016 12:57:51 -0400</pubDate>
+      
+      <guid>https://tbgree00.github.io/post/vcap5dcaexperience/</guid>
+      <description>On March 3, 2016 I set the VCAP5-DCA exam. This was the most stressful and exciting test I had ever taken. Below are my thoughts and experiences on the exam. I originally posted them on the Techexams.net Virtualization Forum
+The blueprint is 100% on point for this test. Download it, download a checklist too and check off each point as you are reading and labbing them. I used the pluralsight Optimize and Scale course taught by Jason Nash, I had Staples print and bind the PDF study guide found at https://paulgrevink.</description>
+    </item>
+    
+  </channel>
+</rss>

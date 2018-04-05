@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://tbgree00.github.io/post/vropslicensing/</loc>
-    <lastmod>2018-04-04T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://tbgree00.github.io/page/about/</loc>
     <lastmod>2018-03-28T00:00:00+00:00</lastmod>
   </url>
@@ -43,6 +38,56 @@
   </url>
   
   <url>
+    <loc>https://tbgree00.github.io/post/tistheseason2016/</loc>
+    <lastmod>2016-12-15T12:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tbgree00.github.io/post/vcdxfirststeps/</loc>
+    <lastmod>2016-11-06T12:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tbgree00.github.io/post/certificationcareer/</loc>
+    <lastmod>2016-11-02T12:57:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tbgree00.github.io/post/vcap6deploybeta/</loc>
+    <lastmod>2016-06-29T12:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tbgree00.github.io/post/vcap6deploystrategy/</loc>
+    <lastmod>2016-06-25T12:57:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tbgree00.github.io/post/vcap6deploychanges/</loc>
+    <lastmod>2016-06-19T12:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tbgree00.github.io/post/vcap5dcdexperience/</loc>
+    <lastmod>2016-04-08T12:57:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tbgree00.github.io/post/vcap5examretirement/</loc>
+    <lastmod>2016-03-29T12:57:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tbgree00.github.io/post/studyhabits/</loc>
+    <lastmod>2016-03-25T12:57:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tbgree00.github.io/post/vcap5dcaexperience/</loc>
+    <lastmod>2016-03-18T12:57:51-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tbgree00.github.io/post/switchmisconfig/</loc>
     <lastmod>2016-03-11T12:57:51-04:00</lastmod>
   </url>
@@ -50,6 +95,12 @@
   <url>
     <loc>https://tbgree00.github.io/post/disableats/</loc>
     <lastmod>2016-03-08T12:57:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tbgree00.github.io/tags/aws/</loc>
+    <lastmod>2016-12-15T12:00:00-04:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -64,8 +115,20 @@
   </url>
   
   <url>
+    <loc>https://tbgree00.github.io/categories/certification/</loc>
+    <lastmod>2016-12-15T12:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://tbgree00.github.io/categories/cloud/</loc>
     <lastmod>2017-06-03T12:57:51-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tbgree00.github.io/tags/command-line/</loc>
+    <lastmod>2016-12-15T12:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -83,7 +146,7 @@
   
   <url>
     <loc>https://tbgree00.github.io/tags/homelab/</loc>
-    <lastmod>2018-04-04T12:57:51-04:00</lastmod>
+    <lastmod>2018-03-27T12:57:51-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -95,7 +158,7 @@
   
   <url>
     <loc>https://tbgree00.github.io/categories/monitoring/</loc>
-    <lastmod>2018-04-04T12:57:51-04:00</lastmod>
+    <lastmod>2018-03-27T12:57:51-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -113,13 +176,25 @@
   
   <url>
     <loc>https://tbgree00.github.io/post/</loc>
-    <lastmod>2018-04-04T12:57:51-04:00</lastmod>
+    <lastmod>2018-03-27T12:57:51-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tbgree00.github.io/tags/powercli/</loc>
+    <lastmod>2016-12-15T12:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://tbgree00.github.io/categories/presentations/</loc>
     <lastmod>2017-08-30T12:57:51-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tbgree00.github.io/categories/productivity/</loc>
+    <lastmod>2016-11-02T12:57:51-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -136,8 +211,20 @@
   </url>
   
   <url>
+    <loc>https://tbgree00.github.io/tags/studying/</loc>
+    <lastmod>2016-11-02T12:57:51-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://tbgree00.github.io/tags/</loc>
-    <lastmod>2017-06-03T12:57:51-04:00</lastmod>
+    <lastmod>2016-12-15T12:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tbgree00.github.io/tags/trip-report/</loc>
+    <lastmod>2016-06-29T12:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -148,14 +235,32 @@
   </url>
   
   <url>
+    <loc>https://tbgree00.github.io/tags/vcap/</loc>
+    <lastmod>2016-06-29T12:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tbgree00.github.io/tags/vcdx/</loc>
+    <lastmod>2016-11-06T12:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tbgree00.github.io/tags/vdm30in30/</loc>
+    <lastmod>2016-11-06T12:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://tbgree00.github.io/</loc>
-    <lastmod>2018-04-04T12:57:51-04:00</lastmod>
+    <lastmod>2018-03-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://tbgree00.github.io/categories/vmware/</loc>
-    <lastmod>2018-04-04T12:57:51-04:00</lastmod>
+    <lastmod>2018-03-27T12:57:51-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -167,7 +272,7 @@
   
   <url>
     <loc>https://tbgree00.github.io/tags/vrealize-operations-manager/</loc>
-    <lastmod>2018-04-04T12:57:51-04:00</lastmod>
+    <lastmod>2018-03-27T12:57:51-04:00</lastmod>
     <priority>0</priority>
   </url>
   
