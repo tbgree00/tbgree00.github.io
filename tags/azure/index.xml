@@ -13,10 +13,10 @@
     
     <item>
       <title>How to Create an Azure Storage Account</title>
-      <link>https://tbgree00.github.io/post/2017-06-03-azurestorageacct/</link>
+      <link>https://tbgree00.github.io/post/azurestorageacct/</link>
       <pubDate>Sat, 03 Jun 2017 12:57:51 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/2017-06-03-azurestorageacct/</guid>
+      <guid>https://tbgree00.github.io/post/azurestorageacct/</guid>
       <description>In my article about creating an Azure virtual machine, I walked us through the very basic wizard to create a VM. There is an entire segment of the virtual machine build process dedicated to optional features. These features allow new virtual machines to integrate a VM into an existing Azure environment. When we created our first machine we accepted the default settings, which created new network and storage accounts. That works perfectly for a first look but it wouldn&amp;rsquo;t be appropriate for use in a real life Azure Infrastructure.</description>
     </item>
     

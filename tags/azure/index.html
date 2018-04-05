@@ -47,8 +47,9 @@
 			
 <nav class="menu" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
 	<ul class="menu__list">
-		<li class="menu__item"><a class="menu__link" href="/about/">ABOUT ME</a></li>
-		<li class="menu__item"><a class="menu__link" href="/vrops/">VREALIZE OPERATIONS MANAGER</a></li>
+		<li class="menu__item"><a class="menu__link" href="/tags">TAGS</a></li>
+		<li class="menu__item"><a class="menu__link" href="/page/about/">ABOUT ME</a></li>
+		<li class="menu__item"><a class="menu__link" href="/page/vrops/">VREALIZE OPERATIONS MANAGER</a></li>
 	</ul>
 </nav>
 
@@ -62,7 +63,7 @@
 	<div class="list__content clearfix">
 		<header class="list__header">
 			<h3 class="list__title post__title ">
-				<a href="/post/2017-06-03-azurestorageacct/" rel="bookmark">How to Create an Azure Storage Account</a>
+				<a href="/post/azurestorageacct/" rel="bookmark">How to Create an Azure Storage Account</a>
 			</h3>
 			<div class="list__meta meta">
 				<svg class="icon icon-time" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
@@ -73,7 +74,7 @@
 			In my article about creating an Azure virtual machine, I walked us through the very basic wizard to create a VM. There is an entire segment of the virtual machine build process dedicated to optional features. These features allow new virtual machines to integrate a VM into an existing Azure environment. When we created our first machine we accepted the default settings, which created new network and storage accounts. That works perfectly for a first look but it wouldn&rsquo;t be appropriate for use in a real life Azure Infrastructure.
 		</div>
 		<div class="list__footer">
-			<a class="list__footer-readmore btn" href="/post/2017-06-03-azurestorageacct/">Read more…</a>
+			<a class="list__footer-readmore btn" href="/post/azurestorageacct/">Read more…</a>
 		</div>
 	</div>
 </article>
@@ -84,16 +85,26 @@
 
 <aside class="sidebar" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
 	
+<div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="//google.com/search">
+		<label>
+			<span class="screen-reader-text">Search for:</span>
+			<input class="widget-search__field" type="search" placeholder="SEARCH..." value="" name="q">
+		</label>
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="https://tbgree00.github.io/" />
+	</form>
+</div>
 	
 <div class="widget-recent widget">
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/post/vropslicensing/">VMware vRealize Operations Manager: Licensing and License Groups</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/vropsdesignintro/">VMware vRealize Operations Manager: Design Introduction</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/vropsdesignlab/">VMware vRealize Operations Manager: Design for a Home Lab</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/2017-08-30-hackingpublicspeaking/">Hacking Public Speaking - Mentors to Help you Rock It</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/2017-08-16-vmworld2017preview/">VMworld 2017 is Almost Here</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/2017-06-03-azurestorageacct/">How to Create an Azure Storage Account</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/hackingpublicspeaking/">Hacking Public Speaking - Mentors to Help you Rock It</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/vmworld2017preview/">VMworld 2017 is Almost Here</a></li>
 		</ul>
 	</div>
 </div>
@@ -117,13 +128,6 @@
 	<h4 class="widget-social__title widget__title">Social</h4>
 	<div class="widget-social__content widget__content">
 		<div class="widget-social__item widget__item">
-			<a class="widget-social__link widget__link btn" title="Facebook" rel="noopener noreferrer" href="https://facebook.com/tbgree00" target="_blank">
-				<svg class="widget-social__link-icon icon-facebook" viewBox="0 0 352 352" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="#fff"><path d="m0 32v288c0 17.5 14.5 32 32 32h288c17.5 0 32-14.5 32-32v-288c0-17.5-14.5-32-32-32h-288c-17.5 0-32 14.5-32 32zm320 0v288h-83v-108h41.5l6-48h-47.5v-31c0-14 3.5-23.5 23.5-23.5h26v-43.5c-4.4-.6-19.8-1.5-37.5-1.5-36.9 0-62 22.2-62 63.5v36h-42v48h42v108h-155v-288z"/></svg>
-				<span>Facebook</span>
-			</a>
-		</div>
-		
-		<div class="widget-social__item widget__item">
 			<a class="widget-social__link widget__link btn" title="Twitter" rel="noopener noreferrer" href="https://twitter.com/tbgree00" target="_blank">
 				<svg class="widget-social__link-icon icon-twitter" viewBox="0 0 384 312" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="#fff"><path d="m384 36.9c-14.1 6.3-29.3 10.5-45.2 12.4 16.3-9.7 28.8-25.2 34.6-43.6-15.2 9-32.1 15.6-50 19.1-14.4-15.2-34.9-24.8-57.5-24.8-43.5 0-78.8 35.3-78.8 78.8 0 6.2.7 12.2 2 17.9-65.5-3.3-123.5-34.6-162.4-82.3-6.7 11.6-10.6 25.2-10.6 39.6 0 27.3 13.9 51.4 35 65.6-12.9-.4-25.1-4-35.7-9.9v1c0 38.2 27.2 70 63.2 77.2-6.6 1.8-13.6 2.8-20.8 2.8-5.1 0-10-.5-14.8-1.4 10 31.3 39.1 54.1 73.6 54.7-27 21.1-60.9 33.7-97.8 33.7-6.4 0-12.6-.4-18.8-1.1 34.9 22.4 76.3 35.4 120.8 35.4 144.9 0 224.1-120 224.1-224.1 0-3.4-.1-6.8-.2-10.2 15.4-11.1 28.7-25 39.3-40.8z"/></svg>
 				<span>Twitter</span>
@@ -145,20 +149,6 @@
 </div>
 
 	
-<div class="widget-taglist widget">
-	<h4 class="widget__title">Tags</h4>
-	<div class="widget__content">
-		<a class="widget__link widget__link--taglist" href="/tags/azure" title="azure">azure</a>
-		<a class="widget__link widget__link--taglist" href="/tags/hardware" title="hardware">hardware</a>
-		<a class="widget__link widget__link--taglist" href="/tags/homelab" title="homelab">homelab</a>
-		<a class="widget__link widget__link--taglist" href="/tags/mentoring" title="mentoring">mentoring</a>
-		<a class="widget__link widget__link--taglist" href="/tags/networking" title="networking">networking</a>
-		<a class="widget__link widget__link--taglist" href="/tags/public-speaking" title="public-speaking">public-speaking</a>
-		<a class="widget__link widget__link--taglist" href="/tags/storage" title="storage">storage</a>
-		<a class="widget__link widget__link--taglist" href="/tags/vmworld" title="vmworld">vmworld</a>
-		<a class="widget__link widget__link--taglist" href="/tags/vrealize-operations-manager" title="vrealize-operations-manager">vrealize-operations-manager</a>
-	</div>
-</div>
 </aside>
 
 	</div>
