@@ -7,9 +7,7 @@
 <meta name="description" content=" Based in Lexington, KY, Virtualizing a Physical World is a blog by Thom Greene. His posts explore the world of technology certification, VMware troubleshooting, and interesting experiences in the tech world.">
 <meta name="generator" content="Hugo 0.37" />
 <meta property="og:title" content="VMware vRealize Operations Manager: Licensing and License Groups" />
-<meta property="og:description" content="Licensing Maintaining valid licensing in vRealize Operations Manager is crucial to getting the most out of the tool.
-To begin the discussion on licensing there are two key concepts: the license and the license group.
-A license is a key that provides specific features and capabilities to vRealize" />
+<meta property="og:description" content="Maintaining valid licensing in vRealize Operations Manager is crucial to getting the most out of the tool. There are two methods of licensing vROps: per processor with unlimited VMs or per virtual machine or physical server monitored. The latter method is also referred to as an Operating System Instance, or OSI. An OSI is any device, physical or virtual, that has an IP address and is capable of being monitored." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://tbgree00.github.io/post/vropslicensing/" />
 
@@ -52,9 +50,8 @@ A license is a key that provides specific features and capabilities to vRealize"
 			
 <nav class="menu" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
 	<ul class="menu__list">
-		<li class="menu__item"><a class="menu__link" href="/tags">TAGS</a></li>
+		<li class="menu__item"><a class="menu__link" href="/page/vrops/">VROPS</a></li>
 		<li class="menu__item"><a class="menu__link" href="/page/about/">ABOUT ME</a></li>
-		<li class="menu__item"><a class="menu__link" href="/page/vrops/">VREALIZE OPERATIONS MANAGER</a></li>
 	</ul>
 </nav>
 
@@ -76,13 +73,43 @@ A license is a key that provides specific features and capabilities to vRealize"
 		<div class="post__content clearfix">
 			
 
-<h2 id="licensing">Licensing</h2>
+<p>Maintaining valid licensing in vRealize Operations Manager is crucial to getting the most out of the tool. There are two methods of licensing vROps: per processor with unlimited VMs or per virtual machine or physical server monitored. The latter method is also referred to as an Operating System Instance, or OSI.  An OSI is any device, physical or virtual, that has an IP address and is capable of being monitored. Powered Off VMs don&rsquo;t count against your OSI count.</p>
 
-<p>Maintaining valid licensing in vRealize Operations Manager is crucial to getting the most out of the tool.</p>
+<h2 id="editions">Editions</h2>
 
-<p>To begin the discussion on licensing there are two key concepts: the license and the license group.</p>
+<p>There are three editions of vRealize Operations Manager: Standard, Advanced, and Enterprise.</p>
 
-<p>A license is a key that provides specific features and capabilities to vRealize</p>
+<h3 id="vrealize-operations-manager-standard">vRealize Operations Manager Standard</h3>
+
+<p>A vRealize Operations Manager Standard license unlocks the core monitoring and analytics platform. The focus of the standard edition is on vSphere and its components within the environment. This edition includes out of the box dashboards and reports, what-if scenarios and guided remediation. This edition also allows a user to set policies and create alerts with custom recommendations for remediation. This version is included in vSphere with Operations Management and can be licensed standalone per processor or per OSI.</p>
+
+<h3 id="vrealize-operations-manager-advanced">vRealize Operations Manager Advanced</h3>
+
+<p>The Advanced edition builds upon the deep analytics of the vSphere environment and adds in many features focused on customization and extensibility. This edition allows administrators to create customized dashboards and reports and to import third party management packs. These management packs extend vRealize compatibility to storage, networking devices, and even multiple clouds. Finally, vRealize Operations Manager Advanced introduces the Endpoint Operations agent, allowing for the monitoring of OS resources from within the virtual or physical machine. This version of vRealize Operations can be licensed per processor or per OSI as well.</p>
+
+<h3 id="vrealize-operations-manager-enterprise">vRealize Operations Manager Enterprise</h3>
+
+<p>vRealize Operations Manager Enterprise extends the reach of the Endpoint Operations agent into applications installed inside the operating system. Data can be collected from databases and applications, such as Microsoft SQL and Apache Tomcat. Enterprise edition is only licensed per OSI.</p>
+
+<p>Licenses can be mixed between license types (Per processor and per OSI) and Advanced and Enterprise versions. This is helpful of you want to license the majority of your environment as Advanced but need to use Enterprise edition on the smaller subset of database and critical application servers. The only restriction is that everything being managed has a valid license.</p>
+
+<p>What if you have a cluster of test machines in the same vCenter Server instance as your production workloads? You can exclude them from being managed and thus avoid licensing them via the concept of License Groups.</p>
+
+<h2 id="license-groups">License Groups</h2>
+
+<p>A license group is a collection of resources that can be associated with a vRealize Operations Manager license. When a license group is created it can be configured in two ways: The group can always include objects that meet a specific criteria (i.e. virtual machine that contain &ldquo;prod&rdquo;) or to explicitly include or exclude specific hosts or VMs.</p>
+
+<p>For example, this license group excludes the VM &ldquo;ansible&rdquo;</p>
+
+<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/vropslicenseexclude.png" alt="ansible exclude" /></p>
+
+<p>Excluded VMs don&rsquo;t count against your licensing. Adding the test machines mentioned earlier to the exclusion list will prevent them from consuming licenses. If you did happen to check out an excluded VM you would see a message that the license is invalid.</p>
+
+<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/vropsinvalidlicense.png" alt="License is Invalid" /></p>
+
+<p>Another reason to use a license group is mixing Advanced and Enterprise license keys. Create a new license group with the license key, add the objects dynamically or explicitly, and the new licensed features will be available.</p>
+
+<p>Licensing for vRealize Operations Manager can be fairly complex, so I hope this summary helps clear it up a little. These summaries are not exhaustive of all features present in each edition, just some of the highlights for context. For all of the latest information on vRealize Operations Manager please check out the <a href="https://www.vmware.com/products/vrealize-operations.html">official page</a></p>
 
 		</div>
 		
@@ -96,6 +123,17 @@ A license is a key that provides specific features and capabilities to vRealize"
 
 	</article>
 	
+<div class="authorbox clearfix">
+	<figure class="authorbox__avatar">
+		<img alt="Thom Greene avatar" src="/img/avatar.png" class="avatar" height="90" width="90">
+	</figure>
+	<div class="authorbox__header">
+		<span class="authorbox__name">About Thom Greene</span>
+	</div>
+	<div class="authorbox__description">
+		vBrownbag crew, vExpert, Disney Nerd.
+	</div>
+</div>
 	
 <nav class="post-nav row clearfix" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
 	<div class="post-nav__item post-nav__item--prev col-1-2">
@@ -137,10 +175,12 @@ A license is a key that provides specific features and capabilities to vRealize"
 	<h4 class="widget__title">Categories</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/categories/certification">Certification</a></li>
 			<li class="widget__item"><a class="widget__link" href="/categories/cloud">Cloud</a></li>
 			<li class="widget__item"><a class="widget__link" href="/categories/community">Community</a></li>
 			<li class="widget__item"><a class="widget__link" href="/categories/monitoring">Monitoring</a></li>
 			<li class="widget__item"><a class="widget__link" href="/categories/presentations">Presentations</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/productivity">Productivity</a></li>
 			<li class="widget__item"><a class="widget__link" href="/categories/troubleshooting">Troubleshooting</a></li>
 			<li class="widget__item"><a class="widget__link" href="/categories/vmware">Vmware</a></li>
 		</ul>
@@ -157,7 +197,7 @@ A license is a key that provides specific features and capabilities to vRealize"
 			</a>
 		</div>
 		<div class="widget-social__item widget__item">
-			<a class="widget-social__link widget__link btn" title="LinkedIn" rel="noopener noreferrer" href="https://linkedin.com/in/thomgreene" target="_blank">
+			<a class="widget-social__link widget__link btn" title="LinkedIn" rel="noopener noreferrer" href="https://linkedin.com/in/thom-greene" target="_blank">
 				<svg class="widget-social__link-icon icon-linkedin" viewBox="0 0 352 352" width="24" height="24" fill="#fff" xmlns="http://www.w3.org/2000/svg"><path d="M0,40v272c0,21.9,18.1,40,40,40h272c21.9,0,40-18.1,40-40V40c0-21.9-18.1-40-40-40H40C18.1,0,0,18.1,0,40z M312,32 c4.6,0,8,3.4,8,8v272c0,4.6-3.4,8-8,8H40c-4.6,0-8-3.4-8-8V40c0-4.6,3.4-8,8-8H312z M59.5,87c0,15.2,12.3,27.5,27.5,27.5 c15.2,0,27.5-12.3,27.5-27.5c0-15.2-12.3-27.5-27.5-27.5C71.8,59.5,59.5,71.8,59.5,87z M187,157h-1v-21h-45v152h47v-75 c0-19.8,3.9-39,28.5-39c24.2,0,24.5,22.4,24.5,40v74h47v-83.5c0-40.9-8.7-72-56.5-72C208.5,132.5,193.3,145.1,187,157z M64,288h47.5 V136H64V288z"/></svg>
 				<span>LinkedIn</span>
 			</a>
@@ -172,6 +212,28 @@ A license is a key that provides specific features and capabilities to vRealize"
 </div>
 
 	
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Tags</h4>
+	<div class="widget__content">
+		<a class="widget__link widget__link--taglist" href="/tags/aws" title="aws">aws</a>
+		<a class="widget__link widget__link--taglist" href="/tags/azure" title="azure">azure</a>
+		<a class="widget__link widget__link--taglist" href="/tags/command-line" title="command-line">command-line</a>
+		<a class="widget__link widget__link--taglist" href="/tags/hardware" title="hardware">hardware</a>
+		<a class="widget__link widget__link--taglist" href="/tags/homelab" title="homelab">homelab</a>
+		<a class="widget__link widget__link--taglist" href="/tags/mentoring" title="mentoring">mentoring</a>
+		<a class="widget__link widget__link--taglist" href="/tags/networking" title="networking">networking</a>
+		<a class="widget__link widget__link--taglist" href="/tags/powercli" title="powercli">powercli</a>
+		<a class="widget__link widget__link--taglist" href="/tags/public-speaking" title="public-speaking">public-speaking</a>
+		<a class="widget__link widget__link--taglist" href="/tags/storage" title="storage">storage</a>
+		<a class="widget__link widget__link--taglist" href="/tags/studying" title="studying">studying</a>
+		<a class="widget__link widget__link--taglist" href="/tags/trip-report" title="trip-report">trip-report</a>
+		<a class="widget__link widget__link--taglist" href="/tags/vcap" title="vcap">vcap</a>
+		<a class="widget__link widget__link--taglist" href="/tags/vcdx" title="vcdx">vcdx</a>
+		<a class="widget__link widget__link--taglist" href="/tags/vdm30in30" title="vdm30in30">vdm30in30</a>
+		<a class="widget__link widget__link--taglist" href="/tags/vmworld" title="vmworld">vmworld</a>
+		<a class="widget__link widget__link--taglist" href="/tags/vrealize-operations-manager" title="vrealize-operations-manager">vrealize-operations-manager</a>
+	</div>
+</div>
 </aside>
 
 	</div>

@@ -3,20 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Disable Atomic Test and Set for Incompatible Storage Arrays</title>
+<title>Appearances and Podcasts</title>
 <meta name="description" content=" Based in Lexington, KY, Virtualizing a Physical World is a blog by Thom Greene. His posts explore the world of technology certification, VMware troubleshooting, and interesting experiences in the tech world.">
 <meta name="generator" content="Hugo 0.37" />
-<meta property="og:title" content="Disable Atomic Test and Set for Incompatible Storage Arrays" />
-<meta property="og:description" content="After performing an upgrade from ESXi 4.1/ESXi 5.0 to ESXi 5.5 u2 I noticed increased latency events on hosts. More troubling, the affected hosts were frequently dropping all presented datastores, though they would reconnect within a few seconds. The events may appear in your event log as below:
-While there are many possible causes to explore these sorts of connectivity issues, one that is often overlooked is how ESXi heartbeating to the datastores." />
+<meta property="og:title" content="Appearances and Podcasts" />
+<meta property="og:description" content=" Podcasts " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://tbgree00.github.io/post/disableats/" />
+<meta property="og:url" content="https://tbgree00.github.io/page/speaking/" />
 
 
 
-<meta property="article:published_time" content="2016-03-08T12:57:51-04:00"/>
+<meta property="article:published_time" content="2018-03-28T00:00:00&#43;00:00"/>
 
-<meta property="article:modified_time" content="2016-03-08T12:57:51-04:00"/>
+<meta property="article:modified_time" content="2018-03-28T00:00:00&#43;00:00"/>
 
 
 
@@ -62,62 +61,19 @@ While there are many possible causes to explore these sorts of connectivity issu
 <main class="main-content content" role="main" itemprop="mainContentOfPage">
 	<article class="post">
 		<header class="post__header clearfix">
-			<h1 class="post__title">Disable Atomic Test and Set for Incompatible Storage Arrays</h1>
+			<h1 class="post__title">Appearances and Podcasts</h1>
 			<p class="post__meta meta">
 				<svg class="icon icon-time" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
-				<time class="post__meta-date" datetime="2016-03-08T12:57:51">March 08, 2016</time>
-				<span class="post__meta-categories meta-categories">
-					<svg class="icon icon-category" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
-					<a class="meta-categories__link" href="/categories/vmware" rel="category">VMware</a>, <a class="meta-categories__link" href="/categories/troubleshooting" rel="category">Troubleshooting</a></span>
+				<time class="post__meta-date" datetime="2018-03-28T00:00:00">March 28, 2018</time>
 			</p>
 		</header>
 		<div class="post__content clearfix">
 			
 
-<p>After performing an upgrade from ESXi 4.1/ESXi 5.0 to ESXi 5.5 u2 I noticed increased latency events on hosts. More troubling, the affected hosts were frequently dropping all presented datastores, though they would reconnect within a few seconds. The events may appear in your event log as below:</p>
-
-<p><img src="{{ &quot;/pictures/VMware/DisableATS/01ATSDrops.jpg&quot; | absolute_url }}" alt="Event Log Entries for Dropped Datastores" /></p>
-
-<p>While there are many possible causes to explore these sorts of connectivity issues, one that is often overlooked is how ESXi heartbeating to the datastores. Starting with ESXi 5.5 u2 the default datastore heartbeating protocol switch to Atomic Test and Set (ATS). Previous releases of ESXi used a SCSI reservation method to confirm the datastores were still present.</p>
-
-<p>With ATS, the host sends a heartbeat packet to the datastore every 8 seconds to make sure the datastore is still available. If the storage array is VAAI aware and is compatible with ATS heartbeating this works efficiently. If the array can&rsquo;t identify this heartbeat packet and respond to it very quickly the datastores could fail and you may encounter an &ldquo;atomic&rdquo; failure.</p>
-
-<p>Storage arrays that don&rsquo;t use VAAI plugins to identify ATS heartbeats treat those packets as any other storage request. During a point of high I/O, the array will put the ATS heartbeat into the queue and respond to it eventually. ATS is very sensitive to latency so it starts to panic and sends another packet. Eventually it just drops the connection and reconnects.</p>
-
-<p>The datastore exists and is available, it is just doesn&rsquo;t respond to the heartbeat packet storm. It reconnects quickly, however the momentary drop will pause the running VMs. Many applications aren&rsquo;t written to withstand a disconnect of even a few seconds. A pause of the VM can lead to app crashes and cranky end users.</p>
-
-<h1 id="how-can-we-fix-it">How Can We Fix It?</h1>
-
-<p>In a perfect world you would check with the storage vendor to see if there&rsquo;s an update or a plugin to make it support ATS. This isn&rsquo;t always possible, so luckily for us there is an easy, scriptable way to change this setting. It uses PowerCLI and can change the line on an entire datacenter in one line.</p>
-
-<p>To start, let&rsquo;s check the setting on one host:</p>
-
-<p><code>Get-VMHost &quot;hostname&quot; | Get-AdvancedSetting -Name VMFS3.UseATSForHBOnVMFS5</code></p>
-
-<p>This will return a line to tell you if have the feature enabled. In 5.5 u2 and beyond it will be enabled.</p>
-
-<p>Now we can disable the setting on that host:</p>
-
-<p><code>Get-VMHost | Get-AdvancedSetting -Name VMFS3.UseATSForHBOnVMFS5 | Set-AdvancedSetting -0 -Confirm:$false</code></p>
-
-<p>The Confirm:$false line is a way to confirm that you want to change this setting for every host when you run the command against the complete datacenter.</p>
-
-<p><code>Get-Datacenter &quot;datacenter&quot; | Get-VMHost | Get-AdvancedSetting -Name VMFS3.UseATSForHBOnVMFS5 | Set-AdvancedSetting -0 -Confirm:$false</code></p>
-
-<p>This will identify the datacenter in your vCenter server, get all the hosts in the datacenter, and disable ATS on VMFS5 datastores.</p>
-
-<p>You can find more information on this and other VAAI issues in <a href="https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&amp;cmd=displayKC&amp;externalId=1033665">VMware KB 1033665</a></p>
+<h2 id="podcasts">Podcasts</h2>
 
 		</div>
 		
-<div class="post__tags tags clearfix">
-	<svg class="icon icon-tag" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="m4.73135 3.3795002q0-.5597-.39604-.9557-.39604-.3961-.95577-.3961-.55974 0-.95578.3961-.39604.396-.39604.9557 0 .5598.39604.9558.39604.3961.95578.3961.55973 0 .95577-.3961.39604-.396.39604-.9558zm11.26865 6.0832q0 .5596998-.39076.9504998l-5.18548 5.196q-.41188.3908-.9610504.3908-.55974 0-.9505-.3908l-7.5511496-7.5616998q-.40132-.3907-.68119-1.0666-.27987-.6759-.27987-1.2357v-4.3934q0-.54920004.40132-.95050004.40132-.4013.9505-.4013h4.39339q.55974 0 1.23565.2799.67591.2798 1.07723.6812l7.55115 7.54060004q.39076.4118.39076.961z"/></svg>
-	<ul class="tags__list">
-		<li class="tags__item"><a class="tags__link" href="/tags/storage/" rel="tag">Storage</a></li>
-		<li class="tags__item"><a class="tags__link" href="/tags/hardware/" rel="tag">Hardware</a></li>
-		<li class="tags__item"><a class="tags__link" href="/tags/powercli/" rel="tag">PowerCLI</a></li>
-	</ul>
-</div>
 
 	</article>
 	
@@ -134,8 +90,11 @@ While there are many possible causes to explore these sorts of connectivity issu
 </div>
 	
 <nav class="post-nav row clearfix" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+	<div class="post-nav__item post-nav__item--prev col-1-2">
+		<a class="post-nav__link" href="/page/vrops/" rel="prev"><span class="post-nav__caption">«Previous</span><p class="post-nav__post-title">vRealize Operations Manager</p></a>
+	</div>
 	<div class="post-nav__item post-nav__item--next col-1-2">
-		<a class="post-nav__link" href="/post/switchmisconfig/" rel="next"><span class="post-nav__caption">Next»</span><p class="post-nav__post-title">Detecting a Misconfigured vSwitch</p></a>
+		<a class="post-nav__link" href="/page/about/" rel="next"><span class="post-nav__caption">Next»</span><p class="post-nav__post-title">About Me</p></a>
 	</div>
 </nav>
 
