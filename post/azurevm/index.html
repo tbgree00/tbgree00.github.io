@@ -3,20 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>VCAP6-DCV Deploy Blueprint Changes from VCAP5-DCA</title>
+<title>How to Create an Azure Virtual Machine</title>
 <meta name="description" content=" Based in Lexington, KY, Virtualizing a Physical World is a blog by Thom Greene. His posts explore the world of technology certification, VMware troubleshooting, and interesting experiences in the tech world.">
 <meta name="generator" content="Hugo 0.37" />
-<meta property="og:title" content="VCAP6-DCV Deploy Blueprint Changes from VCAP5-DCA" />
-<meta property="og:description" content="VMware recently announced a 2 week availability for the VCAP6-DCV Deploy beta. After some debate I signed up to sit the exam on June 28, 2016. They provide a beta version of the blueprint so I started there to see what had changed from my VCAP5-DCA 5.5 blueprint and notes. I made some quick notes and want to share them here.
- As a disclaimer my list is quick first pass." />
+<meta property="og:title" content="How to Create an Azure Virtual Machine" />
+<meta property="og:description" content="One of the most basic tasks a VMware administrator will perform is deploying a virtual machine. Whether it is creating a VM from scratch or using a template, we&rsquo;ve all worked through the wizard.
+As I dig deeper into Azure I can&rsquo;t help but bring my experience with vSphere along with me. The Azure Resource Manger is a very different experience from the vSphere Web Client but there also quite a few similarities." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://tbgree00.github.io/post/vcap6deploychanges/" />
+<meta property="og:url" content="https://tbgree00.github.io/post/azurevm/" />
 
 
 
-<meta property="article:published_time" content="2016-06-19T12:00:00-04:00"/>
+<meta property="article:published_time" content="2017-05-30T12:57:51-04:00"/>
 
-<meta property="article:modified_time" content="2016-06-19T12:00:00-04:00"/>
+<meta property="article:modified_time" content="2017-05-30T12:57:51-04:00"/>
 
 
 
@@ -63,185 +63,110 @@
 <main class="main-content content" role="main" itemprop="mainContentOfPage">
 	<article class="post">
 		<header class="post__header clearfix">
-			<h1 class="post__title">VCAP6-DCV Deploy Blueprint Changes from VCAP5-DCA</h1>
+			<h1 class="post__title">How to Create an Azure Virtual Machine</h1>
 			<p class="post__meta meta">
 				<svg class="icon icon-time" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
-				<time class="post__meta-date" datetime="2016-06-19T12:00:00">June 19, 2016</time>
+				<time class="post__meta-date" datetime="2017-05-30T12:57:51">May 30, 2017</time>
 				<span class="post__meta-categories meta-categories">
 					<svg class="icon icon-category" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
-					<a class="meta-categories__link" href="/categories/vmware" rel="category">VMware</a>, <a class="meta-categories__link" href="/categories/certification" rel="category">Certification</a></span>
+					<a class="meta-categories__link" href="/categories/cloud" rel="category">Cloud</a></span>
 			</p>
 		</header>
 		<div class="post__content clearfix">
-			<p>VMware recently announced a 2 week availability for the VCAP6-DCV Deploy beta.  After some debate I signed up to sit the exam on June 28, 2016. They provide a beta version of the blueprint so I started there to see what had changed from my VCAP5-DCA 5.5 blueprint and notes. I made some quick notes and want to share them here.</p>
+			<p>One of the most basic tasks a VMware administrator will perform is deploying a virtual machine. Whether it is creating a VM from scratch or using a template, we&rsquo;ve all worked through the wizard.</p>
 
-<blockquote>
-<p>As a disclaimer my list is quick first pass. Just because the objectives are the same between the two blueprints the underlying technology may not be. What I’m saying is don’t use this as an exclusive study guide! It’s only meant to detail the absolutely new stuff so I can start there before reviewing the stuff I learned in February.</p>
-</blockquote>
+<p>As I dig deeper into Azure I can&rsquo;t help but bring my experience with vSphere along with me. The Azure Resource Manger is a very different experience from the vSphere Web Client but there also quite a few similarities. I invite you to join me as I walk through the creation of an Azure Virtual machine.</p>
 
-<p>Objective 1.1 - Perform Advanced ESXi Host Configuration - All new from 5.5</p>
+<p>The basic deployment of an Azure Virtual Machine starts at <a href="https://portal.azure.com">https://portal.azure.com</a>. This leads you to the Azure Resource Manager (aka ARM) dashboard, the launching pad for all of Microsoft&rsquo;s ARM services. Once you&rsquo;re logged in, click on Virtual Machines in the left navigation blade.</p>
 
-<p>Objective 1.2 - Deploy and Configure Core Management Infrastructure Components - All new from 5.5</p>
+<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/azure/createvm/1-Azure-Dashboard.png" alt="Azure Dashboard" /></p>
 
-<p>Objective 1.3 - Deploy and Configure Update Manager Components - maps directly to Objective 5.2 on the 5.5 blueprint</p>
+<p>After you click into the Virtual Machine service, click the Add button to add a new Virtual Machine.</p>
 
-<p>Objective 2.1 - Implement Complex Storage Solutions - maps to Objective 1.1 on the 5.5 blueprint but has some changes:</p>
+<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/azure/createvm/2-Add-vm.png" alt="Add VM" /></p>
 
-<ul>
-<li>vVols coverage is new</li>
-<li>vSAN coverage is new</li>
-<li>Configure and view VMFS locking is new</li>
-<li>Storage I/O control and configuring multipathing is covered in Objective 1.3</li>
-</ul>
+<p>This opens the Azure virtual machine creation wizard. The navigation system is called a blade. These blades take you through the process of creating the virtual machine.</p>
 
-<p>Objective 2.2 - Manage Complex Storage Solutions - maps to Objective 1.2 on the 5.5 blueprint</p>
+<p>the first blade that opens is the Azure Marketplace. You can choose an operating system or a partner created image here. You can think of this as you vSphere content library or folder of templates.</p>
 
-<ul>
-<li>vSAN alarms is new</li>
-<li>Expand (Scale out/Scale up) vSAN hosts is new</li>
-</ul>
+<p>To continue through this tutorial click Windows Server</p>
 
-<p>Objective 2.3 Troubleshoot Complex Storage Solutions - sorta maps to Objective 1.3 on the 5.5 blueprint</p>
+<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/azure/createvm/3-choose-image.png" alt="Choose Operation System" /></p>
 
-<ul>
-<li>vSAN is new</li>
-<li>I couldn&rsquo;t find direct relations for the NFS or RDM troubleshooting but may have missed it.</li>
-</ul>
+<p>Another blade opens. This blade gives you many options for the version of Windows Server available to deploy. Choose Windows Server 2016 Datacenter</p>
 
-<p>Objective 3.1 - Implement and Manage vSphere Standard Switch Networks - maps to Objective 2.1 on the 5.5 blueprint</p>
+<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/azure/createvm/4-choose-version.png" alt="Choose OS Image" /></p>
 
-<ul>
-<li>Create a custom TCP/IP Stack is something I couldn&rsquo;t find or remember from 5.5</li>
-</ul>
+<p>After choosing the operating system version you choose a deployment model. There are two deployment models: Resource Manager and Classic. There are many differences between the two models, though I&rsquo;ll keep it brief in the interest of time. Basically, Resource Manager allows for grouping resources with the same lifecycle with Resource Groups. You can delete, delegate access with Role Based Access Control, and separate your bill via Resource group.</p>
 
-<p>Objective 3.2 - Implement and Manage vSphere 6.xDistributed Switch Networks - maps to Objective 2.2 on the 5.5 blueprint</p>
+<p>Azure is encouraging everyone to use Resource Manager so we will choose that.</p>
 
-<ul>
-<li>Deploy a LAG and migrate to LACP is new</li>
-<li>Create/Apply traffic marking and filtering rules is new</li>
-</ul>
+<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/azure/createvm/5-choose-deploy-model.png" alt="ChooseDeployModel" /></p>
 
-<p>Objective 3.3 - Scale a vSphere 6.x Network Implementation - maps to Objective 2.3 on the 5.5 blueprint</p>
+<p>Now it&rsquo;s time to start creating our virtual machine.  The first blade we encounter allows us to set the basic details of our machine. I will set up this machine as if I had a brand new account with nothing created aside from the subscription. Check out my <a href="https://tbgree00.github.io/post/azurefree/">Azure resources</a> post if you still need to set up a subscription. You can redeem the free trial or the Visual Studio Essentials credit mentioned in that article.</p>
 
-<ul>
-<li>Network I/O control 3 (resource pools and reservations)</li>
-<li>Determine and configure vDS port binding settings is new to the blueprint but I remember covering it.</li>
-</ul>
+<p>In this example I choose HDD as my VM disk type. You can also choose SSD but this affects your options for VM sizing and price.</p>
 
-<p>Objective 3.4 - Troubleshoot a vSphere 6.x network Implementation - maps to Objective 2.3 on the 5.5 blueprint</p>
+<p>I chose to create a new resource group for this example. If this VM was part of a bigger project or application We could choose an existing resource group.</p>
 
-<ul>
-<li>Perform a vDS Health Check for teaming, MTU, mismatches&hellip; is a new feature</li>
-<li>Use command line tools for VLAN is in old Objective 2.2</li>
-<li>Use DCUI to correct network connectivity issues is new</li>
-</ul>
+<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/azure/createvm/6-vm-basics.png" alt="VMBasics" /></p>
 
-<p>Objective 4.1 - Implement and Maintain Complex vSphere Availability Solutions maps to Objective 3.1 on the 5.5 blueprint</p>
+<p>After hitting OK another blade opens. This blade allows you to choose a size for the virtual machine. If you&rsquo;re a VMware administrator new to cloud, this will be an odd concept. When I make a VM in vSphere I can add any combination of cores and RAM.  In Azure you must choose from a number of predetermined VM sizes. Not only do these sizes impact CPU and RAM but also the maximum number of extra data disks that can be attached.</p>
 
-<ul>
-<li>Configure VM Component Protection (VMCP) is new</li>
-<li>Configure Fault Tolerance for multi-vCPU VMs is new</li>
-<li>Noticeably absent is any discussion on HA Slot Sizes or Admission Control.</li>
-</ul>
+<p>When the blade loads it only shows you three <strong>Recommended</strong> VM sizes. If the price and configuration of these machines are acceptable, feel free to click one. I felt it was very expensive so I clicked <strong>View All</strong>.</p>
 
-<p>Objective 4.2 - Implement and Manage Complex DRS Solutions maps exactly to Objective 3.2 on the 5.5 blueprint</p>
+<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/azure/createvm/7-view-all-size.png" alt="ViewAllSizes" /></p>
 
-<p>Objective 4.3 - Troubleshoot vSphere Clusters - is newish and sorta covered in Objective 3.3 on the 5.5 blueprint</p>
+<p>The full list of possible virtual machine sizes will populate. Some may be unavailable due to restrictions on your subscription. For example, there is a limit of 4 total cpu on my subscription so I couldn&rsquo;t deploy a 6 CPU machine,</p>
 
-<ul>
-<li>Resolve DRS/HA Faults is new</li>
-<li>Troubleshoot DRS/HA config issues is new</li>
-<li>Troubleshoot vSAN/HA interoperability is new</li>
-</ul>
+<p>Scroll through the list and choose a <strong>A0 Basic</strong> machine size. This will be fine for our example.</p>
 
-<p>Objective 5.1 - Execute VMware Cmdlets and Customize Scripts using PowerCLI - maps to Objective 7.1 on the 5.5 blueprint.</p>
+<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/azure/createvm/8-vm-size.png" alt="VMSize" /></p>
 
-<ul>
-<li>Use PowerCLI to configure and administer Auto Deploy (Including Image Builder) is new</li>
-<li>Create a report from a PowerCLI script is new</li>
-</ul>
+<p>Making that choice opens another blade for optional features. There is a lot to unpack on this blade:</p>
 
-<p>Objective 5.2 - Implement and Maintain Host Profiles - maps to Objective 5.1 on the 5.5 blueprint</p>
+<p><strong><a href="https://tbgree00.github.io/post/azurestorageacct/">Storage account</a></strong>: In vSphere datastores are configured on the host. When you deploy a VM you choose a datastore or datastore cluster. The performance and resilience are configured at the SAN. In Azure you must create a storage account to store your VMs.</p>
 
-<ul>
-<li>Configure stateful caching and installation for host deployment is new</li>
-</ul>
+<p>A storage account allows you to configure performance, encryption at rest, and redundancy on the account. After configuring this account you choose it from a drop down and it just works.</p>
 
-<p>Objective 5.3 - Manage and analyze vSphere log files - maps to Objective 5.4 on the 5.5 blueprint</p>
+<p><strong>Virtual Network</strong>: in vSphere networking is configured with vSwitches or distributed vSwitches. Unless you&rsquo;re using NSX you have little control of security or routing beyond that.</p>
 
-<ul>
-<li>Configure logging levels for vSphere isn&rsquo;t explicitly on the 5.5 blueprint but I remember watching a video that included this while studying.</li>
-</ul>
+<p>An Azure virtual network allows you to carve out subnets, create routes, and secure endpoints.  Each of the Virtual network, subnet, public IP, and security group can be customized here or chosen from an existing set.</p>
 
-<p>Objective 5.4 - Configure and manage Content Library - totally new topic</p>
+<p><strong>Extensions</strong> allow you to customize your virtual machine with programs from the Azure Marketplace. You can install antivirus agents, the Powershell desired state configuration agent, or the Puppet agent, for example.</p>
 
-<p>Objective 6.1 - Utilize Advanced vSphere Performance Monitoring Tools - maps exactly to Objective 4.1 on the 5.5 blueprint</p>
+<p><strong>High Availability</strong> in the cloud is very different than in a vSphere datacenter. So long as storage is shared between hosts in the cluster, a check box will allow a virtual machine to power on in seconds if a host crashes.</p>
 
-<p>Objective 6.2 - Optimize Virtual Machine Resources - maps to objective 4.2 on the 5.5 blueprint</p>
+<p>In Azure this isn&rsquo;t the case. If you only deploy one virtual machine there is no guarantee of availability. In order to achieve a 99.9 uptime you must deploy at least two virtual machines.</p>
 
-<ul>
-<li>Configure Flash Read Cache reservations is covered in 1.1 on the 5.5 blueprint</li>
-<li>Optimize a VM for latency sensitive workloads is new</li>
-</ul>
+<p>You have the option to create an availability set. This will let you deploy multiple identical copies of the virtual machine and assure that there will be at least one copy available 99.9% of the time.</p>
 
-<p>Objective 7.1 - Deploy and manage vSphere Replication - maps to Objective 4.4 on the 5.5 blueprint</p>
+<p>Just leave the defaults and click OK to move on.</p>
 
-<ul>
-<li><p>Configure and manage a vSphere Replication Infrastructure has more detail:</p>
+<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/azure/createvm/9-optional-settings.png" alt="OptionalSettings" /></p>
 
-<ul>
-<li>Isolate vSphere Replication network traffic is new</li>
-<li>Enable data compression of vSphere Replication traffic is new</li>
-</ul></li>
+<p>The summary blade displays everything we configured. At the bottom of the page is an interesting link: Download template and parameters. Click it.</p>
 
-<li><p>Analyze and resolve vSphere Replication issues also has more detail but not exactly new</p>
+<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/azure/createvm/10-summary-template.png" alt="Summary" /></p>
 
-<ul>
-<li>Storage Configuration</li>
-<li>Multiple point in time snapshots</li>
-<li>Enabling vSphere Replication on VMs</li>
-</ul></li>
-</ul>
+<p>There were quite a few clicks to go through just to deploy one VM. Azure provides us a very easy way to download a template to recreate this machine, just by clicking this link. A new blade opens and gives you the option to add the template to a library or to download the script and run it yourself. The best part is that you can customize the template and use it to deploy other virtual machines in the future.</p>
 
-<p>Objective 7.2 - Deploy and Manage vSphere Data Protection is a totally new topic</p>
+<p>Press the <strong>X</strong> in the top right of the template blade to return to the summary, then click OK.</p>
 
-<p>Objective 7.3 - Backup and Recover vSphere Configurations feels familiar but I couldn&rsquo;t find it on the 5.5 blueprint</p>
+<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/azure/createvm/11-save-template.png" alt="SaveTemplate" /></p>
 
-<p>Objective 8.1 - Configure a vSphere 6.x Environment for Security - maps to Objective 6.1 on the 5.5 blueprint but there is a lot of security changes.</p>
+<p>We are finally deploying our first Azure virtual machine. When you deploy a virtual machine it will create a widget on your dashboard. Once the machine has deployed you can click there to open the blade with the virtual machine connection and management information.</p>
 
-<ul>
-<li>Add/edit Remove users on ESXi hosts can be centrally managed now</li>
-<li>Enable and configure ESXi Pass Phrase is new</li>
-<li>Disable the Managed Object Browser (MOB) to reduce attach surface is new</li>
-</ul>
+<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/azure/createvm/12-deploy-widget.png" alt="DeployingWidget" /></p>
 
-<p>Objective 8.2 - Manage SSL certificates - maps to Objective 6.2 on the 5.5 blueprint but once again, certificates are different in 6.0 so this really needs to be reviewed</p>
-
-<ul>
-<li>Configure and manage VMware Certificate Authority is new</li>
-<li>Configure and manage VMware Endpoint Certificate Store is new</li>
-</ul>
-
-<p>Objective 8.3 - Harden a vSphere 6.x Deployment - maps to Objective 6.1 on the 5.5 blueprint. To be a broken record there are major differences here</p>
-
-<ul>
-<li>Enable and configure ESXi Lockdown mode (Strict/Normal) is new</li>
-<li>Configure a user on the Lockdown Mode Exception Users list is new</li>
-<li>Enable strong passwords and configure password policies are handled differently now with an advanced setting</li>
-<li>Configure vSphere hardening of virtual machines is a new topic but probably a combination of all this.</li>
-</ul>
-
-<p>This helped me look through and hopefully help me narrow down on topics. Auto-deploy is rampant throughout this blueprint and an area I really need to prioritize. Also there is a lot of vSAN.</p>
-
-<p>If you notice anywhere I messed up, missed a topic, or have any comments please let me know!</p>
+<p>There are many new concepts to learn as you extend VMware knowledge into Azure. Hopefully this helps clear up some of the basics of Azure Virtual Machines as they compare to vSphere virtual machines.</p>
 
 		</div>
 		
 <div class="post__tags tags clearfix">
 	<svg class="icon icon-tag" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="m4.73135 3.3795002q0-.5597-.39604-.9557-.39604-.3961-.95577-.3961-.55974 0-.95578.3961-.39604.396-.39604.9557 0 .5598.39604.9558.39604.3961.95578.3961.55973 0 .95577-.3961.39604-.396.39604-.9558zm11.26865 6.0832q0 .5596998-.39076.9504998l-5.18548 5.196q-.41188.3908-.9610504.3908-.55974 0-.9505-.3908l-7.5511496-7.5616998q-.40132-.3907-.68119-1.0666-.27987-.6759-.27987-1.2357v-4.3934q0-.54920004.40132-.95050004.40132-.4013.9505-.4013h4.39339q.55974 0 1.23565.2799.67591.2798 1.07723.6812l7.55115 7.54060004q.39076.4118.39076.961z"/></svg>
 	<ul class="tags__list">
-		<li class="tags__item"><a class="tags__link" href="/tags/vcap/" rel="tag">VCAP</a></li>
-		<li class="tags__item"><a class="tags__link" href="/tags/studying/" rel="tag">Studying</a></li>
+		<li class="tags__item"><a class="tags__link" href="/tags/azure/" rel="tag">Azure</a></li>
 	</ul>
 </div>
 
@@ -261,10 +186,10 @@
 	
 <nav class="post-nav row clearfix" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
 	<div class="post-nav__item post-nav__item--prev col-1-2">
-		<a class="post-nav__link" href="/post/vcap5dcdexperience/" rel="prev"><span class="post-nav__caption">«Previous</span><p class="post-nav__post-title">My VCAP5-DCD Experience</p></a>
+		<a class="post-nav__link" href="/post/azurefree/" rel="prev"><span class="post-nav__caption">«Previous</span><p class="post-nav__post-title">Getting Started with Azure for Free</p></a>
 	</div>
 	<div class="post-nav__item post-nav__item--next col-1-2">
-		<a class="post-nav__link" href="/post/vcap6deploystrategy/" rel="next"><span class="post-nav__caption">Next»</span><p class="post-nav__post-title">Strategy Going into the VCAP6-DCV Deploy</p></a>
+		<a class="post-nav__link" href="/post/azurestorageacct/" rel="next"><span class="post-nav__caption">Next»</span><p class="post-nav__post-title">How to Create an Azure Storage Account</p></a>
 	</div>
 </nav>
 

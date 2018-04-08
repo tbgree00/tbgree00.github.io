@@ -21,6 +21,25 @@
     </item>
     
     <item>
+      <title>How to Create an Azure Virtual Machine</title>
+      <link>https://tbgree00.github.io/post/azurevm/</link>
+      <pubDate>Tue, 30 May 2017 12:57:51 -0400</pubDate>
+      
+      <guid>https://tbgree00.github.io/post/azurevm/</guid>
+      <description>One of the most basic tasks a VMware administrator will perform is deploying a virtual machine. Whether it is creating a VM from scratch or using a template, we&amp;rsquo;ve all worked through the wizard.
+As I dig deeper into Azure I can&amp;rsquo;t help but bring my experience with vSphere along with me. The Azure Resource Manger is a very different experience from the vSphere Web Client but there also quite a few similarities.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Azure for Free</title>
+      <link>https://tbgree00.github.io/post/azurefree/</link>
+      <pubDate>Fri, 26 May 2017 12:57:51 -0400</pubDate>
+      
+      <guid>https://tbgree00.github.io/post/azurefree/</guid>
+      <description>I recently created a blog post about Getting Started with AWS. I like what they do and think they&amp;rsquo;re a great platform but there is more than one horse in the public cloud race. Microsoft Azure is a close second to AWS and getting better every day. Microsoft has many advantages that AWS doesn&amp;rsquo;t: They are probably already in your datacenter and you probably have an ELA with them. If you do, check and see if there are Azure credits in there.</description>
+    </item>
+    
+    <item>
       <title>&#39;Tis the Season for Certification</title>
       <link>https://tbgree00.github.io/post/tistheseason2016/</link>
       <pubDate>Thu, 15 Dec 2016 12:00:00 -0400</pubDate>
