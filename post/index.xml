@@ -13,85 +13,85 @@
     
     <item>
       <title>VMware vRealize Operations Manager: Licensing and License Groups</title>
-      <link>https://tbgree00.github.io/post/vropslicensing/</link>
+      <link>https://tbgree00.github.io/post/2018-04-04-vropslicensing/</link>
       <pubDate>Wed, 04 Apr 2018 12:57:51 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/vropslicensing/</guid>
+      <guid>https://tbgree00.github.io/post/2018-04-04-vropslicensing/</guid>
       <description>Maintaining valid licensing in vRealize Operations Manager is crucial to getting the most out of the tool. There are two methods of licensing vROps: per processor with unlimited VMs or per virtual machine or physical server monitored. The latter method is also referred to as an Operating System Instance, or OSI. An OSI is any device, physical or virtual, that has an IP address and is capable of being monitored.</description>
     </item>
     
     <item>
       <title>VMware vRealize Operations Manager: Design Introduction</title>
-      <link>https://tbgree00.github.io/post/vropsdesignintro/</link>
+      <link>https://tbgree00.github.io/post/2018-03-27-vropsdesignintro/</link>
       <pubDate>Tue, 27 Mar 2018 12:57:51 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/vropsdesignintro/</guid>
+      <guid>https://tbgree00.github.io/post/2018-03-27-vropsdesignintro/</guid>
       <description>Sizing a vRealize Operations Manager Environment VMware vRealize Operations Manager is the flagship monitoring suite for the entire VMware Software Defined Datacenter stack. The software is incredibly powerful, but it can be a bit daunting to a newcomer. Each update has improved out of the box functionality, however there is a lot to learn to master the software and truly make the most out of its features. Every successful environment starts with a strong design.</description>
     </item>
     
     <item>
       <title>VMware vRealize Operations Manager: Design for a Home Lab</title>
-      <link>https://tbgree00.github.io/post/vropsdesignlab/</link>
+      <link>https://tbgree00.github.io/post/2018-03-27-vropsdesignlab/</link>
       <pubDate>Tue, 27 Mar 2018 12:57:51 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/vropsdesignlab/</guid>
+      <guid>https://tbgree00.github.io/post/2018-03-27-vropsdesignlab/</guid>
       <description>Designing for a Home Lab A practical way to gain experience with vRealize Operations Manager is to deploy and implement it into a home lab. A design for a home lab almost seems too simple, but planning it out and diagraming a simple example can help when the time comes to design a production environment. The environment will need to support the following:
  Monitor 100 Objects Monitor 10 End Point Operations Management agents  The environment is also resource constrained, and the node can be no larger than a Small node size.</description>
     </item>
     
     <item>
       <title>Hacking Public Speaking - Mentors to Help you Rock It</title>
-      <link>https://tbgree00.github.io/post/hackingpublicspeaking/</link>
+      <link>https://tbgree00.github.io/post/2017-08-30-hackingpublicspeaking/</link>
       <pubDate>Wed, 30 Aug 2017 12:57:51 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/hackingpublicspeaking/</guid>
+      <guid>https://tbgree00.github.io/post/2017-08-30-hackingpublicspeaking/</guid>
       <description>Public speaking is hard. Standing in front of a crowd and being the center of attention can be a scary thought. Luckily, there are many members of the technology community out there willing to ease you through it. At VMworld 2017 I was fortunate enough to participate in a vBrownBag panel discussion with some giants in the VMware community: Edward Haletky, Simon Long, and Ariel Sanchez Mora.
 The four of us were talking after the session and decided we would like to formally arrange a mentoring program to help give back to the community that has helped us so much.</description>
     </item>
     
     <item>
       <title>VMworld 2017 is Almost Here</title>
-      <link>https://tbgree00.github.io/post/vmworld2017preview/</link>
+      <link>https://tbgree00.github.io/post/2017-08-16-vmworld2017preview/</link>
       <pubDate>Wed, 16 Aug 2017 12:57:51 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/vmworld2017preview/</guid>
+      <guid>https://tbgree00.github.io/post/2017-08-16-vmworld2017preview/</guid>
       <description>VMworld 2017 is upon us and looks to be busy as ever. I&amp;rsquo;ll be returning to Las Vegas and the place this ride started last year. There has been a LOT happening in my life during the past 50 weeks. I&amp;rsquo;m proud to say I joined Rackspace in the Specialist Cloud Architecture business, representing VMware products and services. As many of you also know, I joined the vBrownBag crew and will be hanging out at the TechTalk booth as much as possible.</description>
     </item>
     
     <item>
       <title>How to Create an Azure Storage Account</title>
-      <link>https://tbgree00.github.io/post/azurestorageacct/</link>
+      <link>https://tbgree00.github.io/post/2017-06-03-azurestorageacct/</link>
       <pubDate>Sat, 03 Jun 2017 12:57:51 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/azurestorageacct/</guid>
+      <guid>https://tbgree00.github.io/post/2017-06-03-azurestorageacct/</guid>
       <description>In my article about creating an Azure virtual machine, I walked us through the very basic wizard to create a VM. There is an entire segment of the virtual machine build process dedicated to optional features. These features allow new virtual machines to integrate a VM into an existing Azure environment. When we created our first machine we accepted the default settings, which created new network and storage accounts. That works perfectly for a first look but it wouldn&amp;rsquo;t be appropriate for use in a real life Azure Infrastructure.</description>
     </item>
     
     <item>
       <title>How to Create an Azure Virtual Machine</title>
-      <link>https://tbgree00.github.io/post/azurevm/</link>
+      <link>https://tbgree00.github.io/post/2017-05-30-azurevm/</link>
       <pubDate>Tue, 30 May 2017 12:57:51 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/azurevm/</guid>
+      <guid>https://tbgree00.github.io/post/2017-05-30-azurevm/</guid>
       <description>One of the most basic tasks a VMware administrator will perform is deploying a virtual machine. Whether it is creating a VM from scratch or using a template, we&amp;rsquo;ve all worked through the wizard.
 As I dig deeper into Azure I can&amp;rsquo;t help but bring my experience with vSphere along with me. The Azure Resource Manger is a very different experience from the vSphere Web Client but there also quite a few similarities.</description>
     </item>
     
     <item>
       <title>Getting Started with Azure for Free</title>
-      <link>https://tbgree00.github.io/post/azurefree/</link>
+      <link>https://tbgree00.github.io/post/2017-05-26-azurefree/</link>
       <pubDate>Fri, 26 May 2017 12:57:51 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/azurefree/</guid>
+      <guid>https://tbgree00.github.io/post/2017-05-26-azurefree/</guid>
       <description>I recently created a blog post about Getting Started with AWS. I like what they do and think they&amp;rsquo;re a great platform but there is more than one horse in the public cloud race. Microsoft Azure is a close second to AWS and getting better every day. Microsoft has many advantages that AWS doesn&amp;rsquo;t: They are probably already in your datacenter and you probably have an ELA with them. If you do, check and see if there are Azure credits in there.</description>
     </item>
     
     <item>
       <title>&#39;Tis the Season for Certification</title>
-      <link>https://tbgree00.github.io/post/tistheseason2016/</link>
+      <link>https://tbgree00.github.io/post/2016-12-15-tistheseason2016/</link>
       <pubDate>Thu, 15 Dec 2016 12:00:00 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/tistheseason2016/</guid>
+      <guid>https://tbgree00.github.io/post/2016-12-15-tistheseason2016/</guid>
       <description>The end of the calendar year brings family, travel, and performance evaluations. A big part of mine is training and tech development. It&amp;rsquo;s never too soon to start thinking about what is new and where your are interested in strengthening your skill.
 I asked some tech experts what skills are the stuff to learn for 2017. Keith Townsend @ctoadvisor responded with
  Scripting (ie Cloud Formation, Powershell, Python)
@@ -100,69 +100,98 @@ Hybrid infrastructure networking (AWS VPC&amp;gt;VPN integration)</description>
     
     <item>
       <title>First Steps for my VCDX Design</title>
-      <link>https://tbgree00.github.io/post/vcdxfirststeps/</link>
+      <link>https://tbgree00.github.io/post/2016-11-06-vcdxfirststeps/</link>
       <pubDate>Sun, 06 Nov 2016 12:00:00 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/vcdxfirststeps/</guid>
+      <guid>https://tbgree00.github.io/post/2016-11-06-vcdxfirststeps/</guid>
       <description>I have publicly committed to submitting a design to the VCDX committee. My design is due in March 2017. I&amp;rsquo;m very glad I signed up to submit because it has kick started my motivation. Today I wanted to talk about my progress.
 I am using an actual design for a project I worked on. It&amp;rsquo;s a fairly complex system with many moving pieces. It mostly meets AMPRS requirements (Availability, Manageability, Performance, Recoverability, Security) so I shouldn&amp;rsquo;t have to do much tweaking to make it pass muster.</description>
     </item>
     
     <item>
       <title>Study Habits for Certification Success</title>
-      <link>https://tbgree00.github.io/post/certificationcareer/</link>
+      <link>https://tbgree00.github.io/post/2016-11-02-certificationcareer/</link>
       <pubDate>Wed, 02 Nov 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/certificationcareer/</guid>
+      <guid>https://tbgree00.github.io/post/2016-11-02-certificationcareer/</guid>
       <description>As I&amp;rsquo;ve stated before, I highly value certification. I think they provide a good goal and can encourage someone to dig deep and learn features of a technology they may have never looked into otherwise. I recently had a discussion which started with the question &amp;ldquo;can certifications make a career?&amp;rdquo;
 The even split came down to &amp;ldquo;yes, they prove your knowledge&amp;rdquo; and &amp;ldquo;no, it&amp;rsquo;s too easy to cheat for them to be valuable&amp;rdquo;.</description>
     </item>
     
     <item>
       <title>My VCAP6-DCV Deploy Beta Experience</title>
-      <link>https://tbgree00.github.io/post/vcap6deploybeta/</link>
+      <link>https://tbgree00.github.io/post/2016-06-29-vcap6deploybeta/</link>
       <pubDate>Wed, 29 Jun 2016 12:00:00 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/vcap6deploybeta/</guid>
+      <guid>https://tbgree00.github.io/post/2016-06-29-vcap6deploybeta/</guid>
       <description>I sat the VCAP6-DCV Beta last night. First off the test was extremely fun, much like the VCAP5-DCA. In a live lab your skills are really tested. The new interface provided some challenges but is overall better than the legacy interface. The console is faster and it&amp;rsquo;s a lot nicer to be able to open the manual over the interface. It is very cramped though. My center maybe had an 18 inch monitor so I was still minimizing my manual a lot.</description>
     </item>
     
     <item>
       <title>Strategy Going into the VCAP6-DCV Deploy</title>
-      <link>https://tbgree00.github.io/post/vcap6deploystrategy/</link>
+      <link>https://tbgree00.github.io/post/2016-06-25-vcap6deploystrategy/</link>
       <pubDate>Sat, 25 Jun 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/vcap6deploystrategy/</guid>
+      <guid>https://tbgree00.github.io/post/2016-06-25-vcap6deploystrategy/</guid>
       <description>As I prepare to take an advanced test on a version of VMware I had never touched prior to dropping my $100 I knew I needed a strategy. I searched the blueprint for what was new and hoped my notes from the DCA were enough to patch me through.
 Plenty of articles exist to study by. I used many of them to prepare myself. When the time comes for me to take my seat here is how I&amp;rsquo;ll prepare:</description>
     </item>
     
     <item>
       <title>VCAP6-DCV Deploy Blueprint Changes from VCAP5-DCA</title>
-      <link>https://tbgree00.github.io/post/vcap6deploychanges/</link>
+      <link>https://tbgree00.github.io/post/2016-06-19-vcap6deploychanges/</link>
       <pubDate>Sun, 19 Jun 2016 12:00:00 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/vcap6deploychanges/</guid>
+      <guid>https://tbgree00.github.io/post/2016-06-19-vcap6deploychanges/</guid>
       <description>VMware recently announced a 2 week availability for the VCAP6-DCV Deploy beta. After some debate I signed up to sit the exam on June 28, 2016. They provide a beta version of the blueprint so I started there to see what had changed from my VCAP5-DCA 5.5 blueprint and notes. I made some quick notes and want to share them here.
  As a disclaimer my list is quick first pass.</description>
     </item>
     
     <item>
+      <title>My Head has been in the Cloud</title>
+      <link>https://tbgree00.github.io/post/2016-05-20-headincloud/</link>
+      <pubDate>Fri, 20 May 2016 12:57:51 -0400</pubDate>
+      
+      <guid>https://tbgree00.github.io/post/2016-05-20-headincloud/</guid>
+      <description>About two years ago I just happened to read an article in CIO magazine about &amp;ldquo;The Cloud&amp;rdquo;. I&amp;rsquo;ve always been a huge fan of virtualization and getting the most computing for my money. Reading about AWS in particular really excited me. I thought of Amazon as a fantastic retailer and this article and the research done afterward really opened my eyes.
+I&amp;rsquo;m all about infrastructure and approached my studies from that perspective.</description>
+    </item>
+    
+    <item>
+      <title>Keeping Organized</title>
+      <link>https://tbgree00.github.io/post/2016-05-12-keeporganized/</link>
+      <pubDate>Thu, 12 May 2016 12:57:51 -0400</pubDate>
+      
+      <guid>https://tbgree00.github.io/post/2016-05-12-keeporganized/</guid>
+      <description>Being in technology is hard. You have multiple priorities, projects, implementation, and break-fix issues that come your way. If you&amp;rsquo;re anything like me you want to fix everything and sometimes something could slip through the cracks. It happens to everyone occasionally and we&amp;rsquo;re all human.
+I spend a significant amount of time trying to stop that from happening to me. Being a successful technician and team member means you try to mitigate missing priorities.</description>
+    </item>
+    
+    <item>
       <title>My VCAP5-DCD Experience</title>
-      <link>https://tbgree00.github.io/post/vcap5dcdexperience/</link>
+      <link>https://tbgree00.github.io/post/2016-04-08-vcap5dcdexperience/</link>
       <pubDate>Fri, 08 Apr 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/vcap5dcdexperience/</guid>
+      <guid>https://tbgree00.github.io/post/2016-04-08-vcap5dcdexperience/</guid>
       <description>On March 29th I posted about VMware&amp;rsquo;s announcement regarding the retirement of the VCAP5 exams. Passing these exams have always been a bucket list item for me. I feel that they confirm a technician&amp;rsquo;s ability to actually use and conceptualize VMware more beyond the typical multiple choice exam. The VCP has become required for many job so having the next level up should set me apart from the competition.
 So after my March 8th pass I started gathering material to sit the DCD.</description>
     </item>
     
     <item>
+      <title>How to Check Negotiated Speed on Fibre Channel HBAs</title>
+      <link>https://tbgree00.github.io/post/2016-04-05-hbaspeed/</link>
+      <pubDate>Tue, 05 Apr 2016 12:00:00 -0400</pubDate>
+      
+      <guid>https://tbgree00.github.io/post/2016-04-05-hbaspeed/</guid>
+      <description>Fibre channel storage is great because it mostly &amp;ldquo;just works&amp;rdquo;. You provision storage, assign it to the WWPNs, rescan the adapters, and the luns are presented. There isn&amp;rsquo;t a lot of configuration in the GUI and, honestly, it can be hard to detect link speed or even if a link is up. In the Storage Adapter tab you can see if a path is down, but how do you detect the link speed?</description>
+    </item>
+    
+    <item>
       <title>VMware Announces VCAP5-DCA and VCAP5-DCD Exam Retirement</title>
-      <link>https://tbgree00.github.io/post/vcap5examretirement/</link>
+      <link>https://tbgree00.github.io/post/2016-03-29-vcap5examretirement/</link>
       <pubDate>Tue, 29 Mar 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/vcap5examretirement/</guid>
+      <guid>https://tbgree00.github.io/post/2016-03-29-vcap5examretirement/</guid>
       <description>On March 23rd VMware officially announced the retirement of their VCAP5 Datacenter exams. Read the official information here: 4 Exam Retirements in June
 It&amp;rsquo;s an interesting move as the VCAP6-DCA and DCD exams aren&amp;rsquo;t even available to book right now. You can still book and sit the exam up until the expiration dates (June 4th for DCA, June 24th for the DCD).
 I expected this but am a little disappointed. I booked my DCD for May 27th with the backup plan of taking a second shot at VMworld should I need it.</description>
@@ -170,39 +199,58 @@ I expected this but am a little disappointed. I booked my DCD for May 27th with 
     
     <item>
       <title>Study Habits for Certification Success</title>
-      <link>https://tbgree00.github.io/post/studyhabits/</link>
+      <link>https://tbgree00.github.io/post/2016-03-25-studyhabits/</link>
       <pubDate>Fri, 25 Mar 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/studyhabits/</guid>
+      <guid>https://tbgree00.github.io/post/2016-03-25-studyhabits/</guid>
       <description>I don&amp;rsquo;t have a degree in Information Technology or in Computer Science. I&amp;rsquo;ve occasionally entertained going back to school to formally cement my education but never taken that step. Since I don&amp;rsquo;t have that education I&amp;rsquo;ve always looked to certification as a way to &amp;ldquo;prove my worth.&amp;rdquo; Some people may argue that certifications are just paper and aren&amp;rsquo;t worth anything, however I strongly disagree. I feel having a focus and a goal to work toward sharpens my continued education.</description>
     </item>
     
     <item>
+      <title>Check and Configure Time Service Datacenter-wide</title>
+      <link>https://tbgree00.github.io/post/2016-03-22-configuretime/</link>
+      <pubDate>Tue, 22 Mar 2016 12:57:51 -0400</pubDate>
+      
+      <guid>https://tbgree00.github.io/post/2016-03-22-configuretime/</guid>
+      <description>I once had an opportunity to improve and standardize ESXi host time synchronization in an environment with hundreds of hosts. There had been issues with time sync and drift that needed to be addressed. To fix this I turned to PowerCLI to do a quick and dirty dump of the configuredNTP settings on each of the hosts in the Datacenter.
+Get-VMHost | Get-VMHostService |Where-Object {$_.key -eq &amp;quot;ntpd&amp;quot;}  This commandlet returns output which gets us part of the way to the solution, but we can refine it and make it better.</description>
+    </item>
+    
+    <item>
       <title>My VCAP5-DCA Experience</title>
-      <link>https://tbgree00.github.io/post/vcap5dcaexperience/</link>
+      <link>https://tbgree00.github.io/post/2016-03-18-vcap5dcaexperience/</link>
       <pubDate>Fri, 18 Mar 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/vcap5dcaexperience/</guid>
+      <guid>https://tbgree00.github.io/post/2016-03-18-vcap5dcaexperience/</guid>
       <description>On March 3, 2016 I set the VCAP5-DCA exam. This was the most stressful and exciting test I had ever taken. Below are my thoughts and experiences on the exam. I originally posted them on the Techexams.net Virtualization Forum
 The blueprint is 100% on point for this test. Download it, download a checklist too and check off each point as you are reading and labbing them. I used the pluralsight Optimize and Scale course taught by Jason Nash, I had Staples print and bind the PDF study guide found at https://paulgrevink.</description>
     </item>
     
     <item>
+      <title>Investigating VM Configuration Changes</title>
+      <link>https://tbgree00.github.io/post/2016-03-15-vmconfigchange/</link>
+      <pubDate>Tue, 15 Mar 2016 12:57:51 -0400</pubDate>
+      
+      <guid>https://tbgree00.github.io/post/2016-03-15-vmconfigchange/</guid>
+      <description>Tracking resource configuration is a common struggle for an enterprise level environment. Even SMBs can have trouble keeping track of how their memory is provisioned and when it changes. What&amp;rsquo;s worse, VMware&amp;rsquo;s vSphere Client doesn&amp;rsquo;t provide any insight as to what changes when someone edits the virtual machine settings. An event named&amp;rdquo;Reconfigure virtual machine&amp;rdquo; hits the task log but this isn&amp;rsquo;t a lot of information. If you open Edit Settings and click OK vCenter registers this event even if you didn&amp;rsquo;t change anything.</description>
+    </item>
+    
+    <item>
       <title>Detecting a Misconfigured vSwitch</title>
-      <link>https://tbgree00.github.io/post/switchmisconfig/</link>
+      <link>https://tbgree00.github.io/post/2016-03-11-switchmisconfig/</link>
       <pubDate>Fri, 11 Mar 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/switchmisconfig/</guid>
+      <guid>https://tbgree00.github.io/post/2016-03-11-switchmisconfig/</guid>
       <description>Years ago I received a call for help from someone setting up a vSphere host. The install had never worked right and the clients were upset at the upgrade. It sometimes took 30 seconds to connect to a server and their SQL applications would crash daily. My intuition told me there was something strange going on with the network.
 It was a very basic install with one Standard vSwitch doing management and virtual machine network traffic.</description>
     </item>
     
     <item>
       <title>Disable Atomic Test and Set for Incompatible Storage Arrays</title>
-      <link>https://tbgree00.github.io/post/disableats/</link>
+      <link>https://tbgree00.github.io/post/2016-03-08-disableats/</link>
       <pubDate>Tue, 08 Mar 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/disableats/</guid>
+      <guid>https://tbgree00.github.io/post/2016-03-08-disableats/</guid>
       <description>After performing an upgrade from ESXi 4.1/ESXi 5.0 to ESXi 5.5 u2 I noticed increased latency events on hosts. More troubling, the affected hosts were frequently dropping all presented datastores, though they would reconnect within a few seconds. The events may appear in your event log as below:
 While there are many possible causes to explore these sorts of connectivity issues, one that is often overlooked is how ESXi heartbeating to the datastores.</description>
     </item>

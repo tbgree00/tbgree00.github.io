@@ -32,6 +32,13 @@
 <script type="text/javascript" src="/js/scripts.js"></script>
 <link rel="shortcut icon" href="/favicon.ico">
 
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-117155450-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
 </head>
 <body class="body body-right-sidebar mobile" itemscope="itemscope" itemtype="http://schema.org/WebPage">
 	<div class="container container-outer">
@@ -49,7 +56,7 @@
 	<ul class="menu__list">
 		<li class="menu__item"><a class="menu__link" href="/page/vrops/">VROPS</a></li>
 		<li class="menu__item"><a class="menu__link" href="/tags/azure/">AZURE</a></li>
-		<li class="menu__item"><a class="menu__link" href="/page/about/">ABOUT ME</a></li>
+		<li class="menu__item"><a class="menu__link" href="/page/about/">ABOUT</a></li>
 	</ul>
 </nav>
 
@@ -63,7 +70,7 @@
 	<div class="list__content clearfix">
 		<header class="list__header">
 			<h3 class="list__title post__title ">
-				<a href="/post/tistheseason2016/" rel="bookmark">&#39;Tis the Season for Certification</a>
+				<a href="/post/2016-12-15-tistheseason2016/" rel="bookmark">&#39;Tis the Season for Certification</a>
 			</h3>
 			<div class="list__meta meta">
 				<svg class="icon icon-time" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
@@ -77,7 +84,7 @@ I asked some tech experts what skills are the stuff to learn for 2017. Keith Tow
 Hybrid infrastructure networking (AWS VPC&gt;VPN integration)
 		</div>
 		<div class="list__footer">
-			<a class="list__footer-readmore btn" href="/post/tistheseason2016/">Read more…</a>
+			<a class="list__footer-readmore btn" href="/post/2016-12-15-tistheseason2016/">Read more…</a>
 		</div>
 	</div>
 </article>
@@ -85,7 +92,46 @@ Hybrid infrastructure networking (AWS VPC&gt;VPN integration)
 	<div class="list__content clearfix">
 		<header class="list__header">
 			<h3 class="list__title post__title ">
-				<a href="/post/disableats/" rel="bookmark">Disable Atomic Test and Set for Incompatible Storage Arrays</a>
+				<a href="/post/2016-03-22-configuretime/" rel="bookmark">Check and Configure Time Service Datacenter-wide</a>
+			</h3>
+			<div class="list__meta meta">
+				<svg class="icon icon-time" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
+				<time class="list__meta-date" datetime="2016-03-22T12:57:51">March 22, 2016</time>
+			</div>
+		</header>
+		<div class="list__excerpt">
+			I once had an opportunity to improve and standardize ESXi host time synchronization in an environment with hundreds of hosts. There had been issues with time sync and drift that needed to be addressed. To fix this I turned to PowerCLI to do a quick and dirty dump of the configuredNTP settings on each of the hosts in the Datacenter.
+Get-VMHost | Get-VMHostService |Where-Object {$_.key -eq &quot;ntpd&quot;}  This commandlet returns output which gets us part of the way to the solution, but we can refine it and make it better.
+		</div>
+		<div class="list__footer">
+			<a class="list__footer-readmore btn" href="/post/2016-03-22-configuretime/">Read more…</a>
+		</div>
+	</div>
+</article>
+<article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="list__header">
+			<h3 class="list__title post__title ">
+				<a href="/post/2016-03-15-vmconfigchange/" rel="bookmark">Investigating VM Configuration Changes</a>
+			</h3>
+			<div class="list__meta meta">
+				<svg class="icon icon-time" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
+				<time class="list__meta-date" datetime="2016-03-15T12:57:51">March 15, 2016</time>
+			</div>
+		</header>
+		<div class="list__excerpt">
+			Tracking resource configuration is a common struggle for an enterprise level environment. Even SMBs can have trouble keeping track of how their memory is provisioned and when it changes. What&rsquo;s worse, VMware&rsquo;s vSphere Client doesn&rsquo;t provide any insight as to what changes when someone edits the virtual machine settings. An event named&rdquo;Reconfigure virtual machine&rdquo; hits the task log but this isn&rsquo;t a lot of information. If you open Edit Settings and click OK vCenter registers this event even if you didn&rsquo;t change anything.
+		</div>
+		<div class="list__footer">
+			<a class="list__footer-readmore btn" href="/post/2016-03-15-vmconfigchange/">Read more…</a>
+		</div>
+	</div>
+</article>
+<article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="list__header">
+			<h3 class="list__title post__title ">
+				<a href="/post/2016-03-08-disableats/" rel="bookmark">Disable Atomic Test and Set for Incompatible Storage Arrays</a>
 			</h3>
 			<div class="list__meta meta">
 				<svg class="icon icon-time" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
@@ -97,7 +143,7 @@ Hybrid infrastructure networking (AWS VPC&gt;VPN integration)
 While there are many possible causes to explore these sorts of connectivity issues, one that is often overlooked is how ESXi heartbeating to the datastores.
 		</div>
 		<div class="list__footer">
-			<a class="list__footer-readmore btn" href="/post/disableats/">Read more…</a>
+			<a class="list__footer-readmore btn" href="/post/2016-03-08-disableats/">Read more…</a>
 		</div>
 	</div>
 </article>
@@ -123,11 +169,11 @@ While there are many possible causes to explore these sorts of connectivity issu
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
-			<li class="widget__item"><a class="widget__link" href="/post/vropslicensing/">VMware vRealize Operations Manager: Licensing and License Groups</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/vropsdesignintro/">VMware vRealize Operations Manager: Design Introduction</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/vropsdesignlab/">VMware vRealize Operations Manager: Design for a Home Lab</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/hackingpublicspeaking/">Hacking Public Speaking - Mentors to Help you Rock It</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/vmworld2017preview/">VMworld 2017 is Almost Here</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/2018-04-04-vropslicensing/">VMware vRealize Operations Manager: Licensing and License Groups</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/2018-03-27-vropsdesignintro/">VMware vRealize Operations Manager: Design Introduction</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/2018-03-27-vropsdesignlab/">VMware vRealize Operations Manager: Design for a Home Lab</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/2017-08-30-hackingpublicspeaking/">Hacking Public Speaking - Mentors to Help you Rock It</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/2017-08-16-vmworld2017preview/">VMworld 2017 is Almost Here</a></li>
 		</ul>
 	</div>
 </div>
@@ -180,6 +226,7 @@ While there are many possible causes to explore these sorts of connectivity issu
 		<a class="widget__link widget__link--taglist" href="/tags/aws" title="aws">aws</a>
 		<a class="widget__link widget__link--taglist" href="/tags/azure" title="azure">azure</a>
 		<a class="widget__link widget__link--taglist" href="/tags/command-line" title="command-line">command-line</a>
+		<a class="widget__link widget__link--taglist" href="/tags/esxcli" title="esxcli">esxcli</a>
 		<a class="widget__link widget__link--taglist" href="/tags/hardware" title="hardware">hardware</a>
 		<a class="widget__link widget__link--taglist" href="/tags/homelab" title="homelab">homelab</a>
 		<a class="widget__link widget__link--taglist" href="/tags/mentoring" title="mentoring">mentoring</a>
