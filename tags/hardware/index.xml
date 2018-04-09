@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hardware on Virtualizing a Physical World</title>
-    <link>https://tbgree00.github.io/tags/hardware/</link>
+    <link>https://www.thomgreene.com/tags/hardware/</link>
     <description>Recent content in Hardware on Virtualizing a Physical World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 08 Mar 2016 12:57:51 -0400</lastBuildDate>
     
-	<atom:link href="https://tbgree00.github.io/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.thomgreene.com/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Disable Atomic Test and Set for Incompatible Storage Arrays</title>
-      <link>https://tbgree00.github.io/post/2016-03-08-disableats/</link>
+      <link>https://www.thomgreene.com/post/2016-03-08-disableats/</link>
       <pubDate>Tue, 08 Mar 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/2016-03-08-disableats/</guid>
+      <guid>https://www.thomgreene.com/post/2016-03-08-disableats/</guid>
       <description>After performing an upgrade from ESXi 4.1/ESXi 5.0 to ESXi 5.5 u2 I noticed increased latency events on hosts. More troubling, the affected hosts were frequently dropping all presented datastores, though they would reconnect within a few seconds. The events may appear in your event log as below:
 While there are many possible causes to explore these sorts of connectivity issues, one that is often overlooked is how ESXi heartbeating to the datastores.</description>
     </item>

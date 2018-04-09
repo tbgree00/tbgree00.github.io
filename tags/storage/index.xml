@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Storage on Virtualizing a Physical World</title>
-    <link>https://tbgree00.github.io/tags/storage/</link>
+    <link>https://www.thomgreene.com/tags/storage/</link>
     <description>Recent content in Storage on Virtualizing a Physical World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 03 Jun 2017 12:57:51 -0400</lastBuildDate>
     
-	<atom:link href="https://tbgree00.github.io/tags/storage/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.thomgreene.com/tags/storage/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How to Create an Azure Storage Account</title>
-      <link>https://tbgree00.github.io/post/2017-06-03-azurestorageacct/</link>
+      <link>https://www.thomgreene.com/post/2017-06-03-azurestorageacct/</link>
       <pubDate>Sat, 03 Jun 2017 12:57:51 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/2017-06-03-azurestorageacct/</guid>
+      <guid>https://www.thomgreene.com/post/2017-06-03-azurestorageacct/</guid>
       <description>In my article about creating an Azure virtual machine, I walked us through the very basic wizard to create a VM. There is an entire segment of the virtual machine build process dedicated to optional features. These features allow new virtual machines to integrate a VM into an existing Azure environment. When we created our first machine we accepted the default settings, which created new network and storage accounts. That works perfectly for a first look but it wouldn&amp;rsquo;t be appropriate for use in a real life Azure Infrastructure.</description>
     </item>
     
     <item>
       <title>How to Check Negotiated Speed on Fibre Channel HBAs</title>
-      <link>https://tbgree00.github.io/post/2016-04-05-hbaspeed/</link>
+      <link>https://www.thomgreene.com/post/2016-04-05-hbaspeed/</link>
       <pubDate>Tue, 05 Apr 2016 12:00:00 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/2016-04-05-hbaspeed/</guid>
+      <guid>https://www.thomgreene.com/post/2016-04-05-hbaspeed/</guid>
       <description>Fibre channel storage is great because it mostly &amp;ldquo;just works&amp;rdquo;. You provision storage, assign it to the WWPNs, rescan the adapters, and the luns are presented. There isn&amp;rsquo;t a lot of configuration in the GUI and, honestly, it can be hard to detect link speed or even if a link is up. In the Storage Adapter tab you can see if a path is down, but how do you detect the link speed?</description>
     </item>
     
     <item>
       <title>Disable Atomic Test and Set for Incompatible Storage Arrays</title>
-      <link>https://tbgree00.github.io/post/2016-03-08-disableats/</link>
+      <link>https://www.thomgreene.com/post/2016-03-08-disableats/</link>
       <pubDate>Tue, 08 Mar 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/2016-03-08-disableats/</guid>
+      <guid>https://www.thomgreene.com/post/2016-03-08-disableats/</guid>
       <description>After performing an upgrade from ESXi 4.1/ESXi 5.0 to ESXi 5.5 u2 I noticed increased latency events on hosts. More troubling, the affected hosts were frequently dropping all presented datastores, though they would reconnect within a few seconds. The events may appear in your event log as below:
 While there are many possible causes to explore these sorts of connectivity issues, one that is often overlooked is how ESXi heartbeating to the datastores.</description>
     </item>

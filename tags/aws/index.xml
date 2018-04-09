@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Aws on Virtualizing a Physical World</title>
-    <link>https://tbgree00.github.io/tags/aws/</link>
+    <link>https://www.thomgreene.com/tags/aws/</link>
     <description>Recent content in Aws on Virtualizing a Physical World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 15 Dec 2016 12:00:00 -0400</lastBuildDate>
     
-	<atom:link href="https://tbgree00.github.io/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.thomgreene.com/tags/aws/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>&#39;Tis the Season for Certification</title>
-      <link>https://tbgree00.github.io/post/2016-12-15-tistheseason2016/</link>
+      <link>https://www.thomgreene.com/post/2016-12-15-tistheseason2016/</link>
       <pubDate>Thu, 15 Dec 2016 12:00:00 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/2016-12-15-tistheseason2016/</guid>
+      <guid>https://www.thomgreene.com/post/2016-12-15-tistheseason2016/</guid>
       <description>The end of the calendar year brings family, travel, and performance evaluations. A big part of mine is training and tech development. It&amp;rsquo;s never too soon to start thinking about what is new and where your are interested in strengthening your skill.
 I asked some tech experts what skills are the stuff to learn for 2017. Keith Townsend @ctoadvisor responded with
  Scripting (ie Cloud Formation, Powershell, Python)
@@ -25,10 +25,10 @@ Hybrid infrastructure networking (AWS VPC&amp;gt;VPN integration)</description>
     
     <item>
       <title>My Head has been in the Cloud</title>
-      <link>https://tbgree00.github.io/post/2016-05-20-headincloud/</link>
+      <link>https://www.thomgreene.com/post/2016-05-20-headincloud/</link>
       <pubDate>Fri, 20 May 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/2016-05-20-headincloud/</guid>
+      <guid>https://www.thomgreene.com/post/2016-05-20-headincloud/</guid>
       <description>About two years ago I just happened to read an article in CIO magazine about &amp;ldquo;The Cloud&amp;rdquo;. I&amp;rsquo;ve always been a huge fan of virtualization and getting the most computing for my money. Reading about AWS in particular really excited me. I thought of Amazon as a fantastic retailer and this article and the research done afterward really opened my eyes.
 I&amp;rsquo;m all about infrastructure and approached my studies from that perspective.</description>
     </item>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Powercli on Virtualizing a Physical World</title>
-    <link>https://tbgree00.github.io/tags/powercli/</link>
+    <link>https://www.thomgreene.com/tags/powercli/</link>
     <description>Recent content in Powercli on Virtualizing a Physical World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 15 Dec 2016 12:00:00 -0400</lastBuildDate>
     
-	<atom:link href="https://tbgree00.github.io/tags/powercli/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.thomgreene.com/tags/powercli/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>&#39;Tis the Season for Certification</title>
-      <link>https://tbgree00.github.io/post/2016-12-15-tistheseason2016/</link>
+      <link>https://www.thomgreene.com/post/2016-12-15-tistheseason2016/</link>
       <pubDate>Thu, 15 Dec 2016 12:00:00 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/2016-12-15-tistheseason2016/</guid>
+      <guid>https://www.thomgreene.com/post/2016-12-15-tistheseason2016/</guid>
       <description>The end of the calendar year brings family, travel, and performance evaluations. A big part of mine is training and tech development. It&amp;rsquo;s never too soon to start thinking about what is new and where your are interested in strengthening your skill.
 I asked some tech experts what skills are the stuff to learn for 2017. Keith Townsend @ctoadvisor responded with
  Scripting (ie Cloud Formation, Powershell, Python)
@@ -25,29 +25,29 @@ Hybrid infrastructure networking (AWS VPC&amp;gt;VPN integration)</description>
     
     <item>
       <title>Check and Configure Time Service Datacenter-wide</title>
-      <link>https://tbgree00.github.io/post/2016-03-22-configuretime/</link>
+      <link>https://www.thomgreene.com/post/2016-03-22-configuretime/</link>
       <pubDate>Tue, 22 Mar 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/2016-03-22-configuretime/</guid>
+      <guid>https://www.thomgreene.com/post/2016-03-22-configuretime/</guid>
       <description>I once had an opportunity to improve and standardize ESXi host time synchronization in an environment with hundreds of hosts. There had been issues with time sync and drift that needed to be addressed. To fix this I turned to PowerCLI to do a quick and dirty dump of the configuredNTP settings on each of the hosts in the Datacenter.
 Get-VMHost | Get-VMHostService |Where-Object {$_.key -eq &amp;quot;ntpd&amp;quot;}  This commandlet returns output which gets us part of the way to the solution, but we can refine it and make it better.</description>
     </item>
     
     <item>
       <title>Investigating VM Configuration Changes</title>
-      <link>https://tbgree00.github.io/post/2016-03-15-vmconfigchange/</link>
+      <link>https://www.thomgreene.com/post/2016-03-15-vmconfigchange/</link>
       <pubDate>Tue, 15 Mar 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/2016-03-15-vmconfigchange/</guid>
+      <guid>https://www.thomgreene.com/post/2016-03-15-vmconfigchange/</guid>
       <description>Tracking resource configuration is a common struggle for an enterprise level environment. Even SMBs can have trouble keeping track of how their memory is provisioned and when it changes. What&amp;rsquo;s worse, VMware&amp;rsquo;s vSphere Client doesn&amp;rsquo;t provide any insight as to what changes when someone edits the virtual machine settings. An event named&amp;rdquo;Reconfigure virtual machine&amp;rdquo; hits the task log but this isn&amp;rsquo;t a lot of information. If you open Edit Settings and click OK vCenter registers this event even if you didn&amp;rsquo;t change anything.</description>
     </item>
     
     <item>
       <title>Disable Atomic Test and Set for Incompatible Storage Arrays</title>
-      <link>https://tbgree00.github.io/post/2016-03-08-disableats/</link>
+      <link>https://www.thomgreene.com/post/2016-03-08-disableats/</link>
       <pubDate>Tue, 08 Mar 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/2016-03-08-disableats/</guid>
+      <guid>https://www.thomgreene.com/post/2016-03-08-disableats/</guid>
       <description>After performing an upgrade from ESXi 4.1/ESXi 5.0 to ESXi 5.5 u2 I noticed increased latency events on hosts. More troubling, the affected hosts were frequently dropping all presented datastores, though they would reconnect within a few seconds. The events may appear in your event log as below:
 While there are many possible causes to explore these sorts of connectivity issues, one that is often overlooked is how ESXi heartbeating to the datastores.</description>
     </item>

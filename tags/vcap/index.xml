@@ -2,60 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vcap on Virtualizing a Physical World</title>
-    <link>https://tbgree00.github.io/tags/vcap/</link>
+    <link>https://www.thomgreene.com/tags/vcap/</link>
     <description>Recent content in Vcap on Virtualizing a Physical World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 29 Jun 2016 12:00:00 -0400</lastBuildDate>
     
-	<atom:link href="https://tbgree00.github.io/tags/vcap/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.thomgreene.com/tags/vcap/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My VCAP6-DCV Deploy Beta Experience</title>
-      <link>https://tbgree00.github.io/post/2016-06-29-vcap6deploybeta/</link>
+      <link>https://www.thomgreene.com/post/2016-06-29-vcap6deploybeta/</link>
       <pubDate>Wed, 29 Jun 2016 12:00:00 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/2016-06-29-vcap6deploybeta/</guid>
+      <guid>https://www.thomgreene.com/post/2016-06-29-vcap6deploybeta/</guid>
       <description>I sat the VCAP6-DCV Beta last night. First off the test was extremely fun, much like the VCAP5-DCA. In a live lab your skills are really tested. The new interface provided some challenges but is overall better than the legacy interface. The console is faster and it&amp;rsquo;s a lot nicer to be able to open the manual over the interface. It is very cramped though. My center maybe had an 18 inch monitor so I was still minimizing my manual a lot.</description>
     </item>
     
     <item>
       <title>Strategy Going into the VCAP6-DCV Deploy</title>
-      <link>https://tbgree00.github.io/post/2016-06-25-vcap6deploystrategy/</link>
+      <link>https://www.thomgreene.com/post/2016-06-25-vcap6deploystrategy/</link>
       <pubDate>Sat, 25 Jun 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/2016-06-25-vcap6deploystrategy/</guid>
+      <guid>https://www.thomgreene.com/post/2016-06-25-vcap6deploystrategy/</guid>
       <description>As I prepare to take an advanced test on a version of VMware I had never touched prior to dropping my $100 I knew I needed a strategy. I searched the blueprint for what was new and hoped my notes from the DCA were enough to patch me through.
 Plenty of articles exist to study by. I used many of them to prepare myself. When the time comes for me to take my seat here is how I&amp;rsquo;ll prepare:</description>
     </item>
     
     <item>
       <title>VCAP6-DCV Deploy Blueprint Changes from VCAP5-DCA</title>
-      <link>https://tbgree00.github.io/post/2016-06-19-vcap6deploychanges/</link>
+      <link>https://www.thomgreene.com/post/2016-06-19-vcap6deploychanges/</link>
       <pubDate>Sun, 19 Jun 2016 12:00:00 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/2016-06-19-vcap6deploychanges/</guid>
+      <guid>https://www.thomgreene.com/post/2016-06-19-vcap6deploychanges/</guid>
       <description>VMware recently announced a 2 week availability for the VCAP6-DCV Deploy beta. After some debate I signed up to sit the exam on June 28, 2016. They provide a beta version of the blueprint so I started there to see what had changed from my VCAP5-DCA 5.5 blueprint and notes. I made some quick notes and want to share them here.
  As a disclaimer my list is quick first pass.</description>
     </item>
     
     <item>
       <title>My VCAP5-DCD Experience</title>
-      <link>https://tbgree00.github.io/post/2016-04-08-vcap5dcdexperience/</link>
+      <link>https://www.thomgreene.com/post/2016-04-08-vcap5dcdexperience/</link>
       <pubDate>Fri, 08 Apr 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/2016-04-08-vcap5dcdexperience/</guid>
+      <guid>https://www.thomgreene.com/post/2016-04-08-vcap5dcdexperience/</guid>
       <description>On March 29th I posted about VMware&amp;rsquo;s announcement regarding the retirement of the VCAP5 exams. Passing these exams have always been a bucket list item for me. I feel that they confirm a technician&amp;rsquo;s ability to actually use and conceptualize VMware more beyond the typical multiple choice exam. The VCP has become required for many job so having the next level up should set me apart from the competition.
 So after my March 8th pass I started gathering material to sit the DCD.</description>
     </item>
     
     <item>
       <title>VMware Announces VCAP5-DCA and VCAP5-DCD Exam Retirement</title>
-      <link>https://tbgree00.github.io/post/2016-03-29-vcap5examretirement/</link>
+      <link>https://www.thomgreene.com/post/2016-03-29-vcap5examretirement/</link>
       <pubDate>Tue, 29 Mar 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/2016-03-29-vcap5examretirement/</guid>
+      <guid>https://www.thomgreene.com/post/2016-03-29-vcap5examretirement/</guid>
       <description>On March 23rd VMware officially announced the retirement of their VCAP5 Datacenter exams. Read the official information here: 4 Exam Retirements in June
 It&amp;rsquo;s an interesting move as the VCAP6-DCA and DCD exams aren&amp;rsquo;t even available to book right now. You can still book and sit the exam up until the expiration dates (June 4th for DCA, June 24th for the DCD).
 I expected this but am a little disappointed. I booked my DCD for May 27th with the backup plan of taking a second shot at VMworld should I need it.</description>
@@ -63,10 +63,10 @@ I expected this but am a little disappointed. I booked my DCD for May 27th with 
     
     <item>
       <title>My VCAP5-DCA Experience</title>
-      <link>https://tbgree00.github.io/post/2016-03-18-vcap5dcaexperience/</link>
+      <link>https://www.thomgreene.com/post/2016-03-18-vcap5dcaexperience/</link>
       <pubDate>Fri, 18 Mar 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/2016-03-18-vcap5dcaexperience/</guid>
+      <guid>https://www.thomgreene.com/post/2016-03-18-vcap5dcaexperience/</guid>
       <description>On March 3, 2016 I set the VCAP5-DCA exam. This was the most stressful and exciting test I had ever taken. Below are my thoughts and experiences on the exam. I originally posted them on the Techexams.net Virtualization Forum
 The blueprint is 100% on point for this test. Download it, download a checklist too and check off each point as you are reading and labbing them. I used the pluralsight Optimize and Scale course taught by Jason Nash, I had Staples print and bind the PDF study guide found at https://paulgrevink.</description>
     </item>

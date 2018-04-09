@@ -10,7 +10,7 @@
 <meta property="og:description" content="I once had an opportunity to improve and standardize ESXi host time synchronization in an environment with hundreds of hosts. There had been issues with time sync and drift that needed to be addressed. To fix this I turned to PowerCLI to do a quick and dirty dump of the configuredNTP settings on each of the hosts in the Datacenter.
 Get-VMHost | Get-VMHostService |Where-Object {$_.key -eq &quot;ntpd&quot;}  This commandlet returns output which gets us part of the way to the solution, but we can refine it and make it better." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://tbgree00.github.io/post/2016-03-22-configuretime/" />
+<meta property="og:url" content="https://www.thomgreene.com/post/2016-03-22-configuretime/" />
 
 
 
@@ -177,7 +177,7 @@ Get-VmHostService -VMHost $servername | Where-Object {$_.key -eq &quot;ntpd&quot
 			<input class="widget-search__field" type="search" placeholder="SEARCH..." value="" name="q">
 		</label>
 		<input class="widget-search__submit" type="submit" value="Search">
-		<input type="hidden" name="sitesearch" value="https://tbgree00.github.io/" />
+		<input type="hidden" name="sitesearch" value="https://www.thomgreene.com/" />
 	</form>
 </div>
 	

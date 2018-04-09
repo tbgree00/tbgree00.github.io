@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vdm30in30 on Virtualizing a Physical World</title>
-    <link>https://tbgree00.github.io/tags/vdm30in30/</link>
+    <link>https://www.thomgreene.com/tags/vdm30in30/</link>
     <description>Recent content in Vdm30in30 on Virtualizing a Physical World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 06 Nov 2016 12:00:00 -0400</lastBuildDate>
     
-	<atom:link href="https://tbgree00.github.io/tags/vdm30in30/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.thomgreene.com/tags/vdm30in30/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>First Steps for my VCDX Design</title>
-      <link>https://tbgree00.github.io/post/2016-11-06-vcdxfirststeps/</link>
+      <link>https://www.thomgreene.com/post/2016-11-06-vcdxfirststeps/</link>
       <pubDate>Sun, 06 Nov 2016 12:00:00 -0400</pubDate>
       
-      <guid>https://tbgree00.github.io/post/2016-11-06-vcdxfirststeps/</guid>
+      <guid>https://www.thomgreene.com/post/2016-11-06-vcdxfirststeps/</guid>
       <description>I have publicly committed to submitting a design to the VCDX committee. My design is due in March 2017. I&amp;rsquo;m very glad I signed up to submit because it has kick started my motivation. Today I wanted to talk about my progress.
 I am using an actual design for a project I worked on. It&amp;rsquo;s a fairly complex system with many moving pieces. It mostly meets AMPRS requirements (Availability, Manageability, Performance, Recoverability, Security) so I shouldn&amp;rsquo;t have to do much tweaking to make it pass muster.</description>
     </item>
