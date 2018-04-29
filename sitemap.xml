@@ -58,8 +58,38 @@
   </url>
   
   <url>
+    <loc>https://www.thomgreene.com/post/2017-01-03-techfieldday13/</loc>
+    <lastmod>2017-01-03T12:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.thomgreene.com/post/2017-01-02-lookingforward2017/</loc>
+    <lastmod>2017-01-02T12:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.thomgreene.com/post/2016-12-15-tistheseason2016/</loc>
     <lastmod>2016-12-15T12:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.thomgreene.com/post/2016-11-20-soyouwantahomelab/</loc>
+    <lastmod>2016-11-20T12:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.thomgreene.com/post/2016-11-19-vcenterplugintracker/</loc>
+    <lastmod>2016-11-19T12:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.thomgreene.com/post/2016-11-08-vexpert2017application/</loc>
+    <lastmod>2016-11-08T12:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.thomgreene.com/post/2016-11-07-ssodomainpt2/</loc>
+    <lastmod>2016-11-07T12:57:51-04:00</lastmod>
   </url>
   
   <url>
@@ -68,8 +98,53 @@
   </url>
   
   <url>
+    <loc>https://www.thomgreene.com/post/2016-11-05-fullstackengineer/</loc>
+    <lastmod>2016-11-05T12:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.thomgreene.com/post/2016-11-04-ssodomainpt1/</loc>
+    <lastmod>2016-11-04T12:57:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.thomgreene.com/post/2016-11-03-advicetoavoid/</loc>
+    <lastmod>2016-11-03T12:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.thomgreene.com/post/2016-11-02-certificationcareer/</loc>
     <lastmod>2016-11-02T12:57:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.thomgreene.com/post/2016-11-01-vdm30in30/</loc>
+    <lastmod>2016-11-01T12:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.thomgreene.com/post/2016-09-28-datastoreaccess/</loc>
+    <lastmod>2016-09-28T12:57:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.thomgreene.com/post/2016-09-01-vmworld2016review/</loc>
+    <lastmod>2016-09-01T12:57:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.thomgreene.com/post/2016-08-31-missioncomplete/</loc>
+    <lastmod>2016-08-31T12:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.thomgreene.com/post/2016-08-29-vmworld2016dayzero/</loc>
+    <lastmod>2016-08-29T12:57:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.thomgreene.com/post/2016-07-19-openstackmonth/</loc>
+    <lastmod>2016-07-19T12:57:51-04:00</lastmod>
   </url>
   
   <url>
@@ -85,6 +160,16 @@
   <url>
     <loc>https://www.thomgreene.com/post/2016-06-19-vcap6deploychanges/</loc>
     <lastmod>2016-06-19T12:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.thomgreene.com/post/2016-06-10-cloudoutsourcing/</loc>
+    <lastmod>2016-06-10T12:57:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.thomgreene.com/post/2016-06-05-overdesigned/</loc>
+    <lastmod>2016-06-05T12:57:51-04:00</lastmod>
   </url>
   
   <url>
@@ -184,6 +269,12 @@
   </url>
   
   <url>
+    <loc>https://www.thomgreene.com/tags/documentation/</loc>
+    <lastmod>2016-11-07T12:57:51-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.thomgreene.com/tags/esxcli/</loc>
     <lastmod>2016-04-05T12:00:00-04:00</lastmod>
     <priority>0</priority>
@@ -216,6 +307,12 @@
   <url>
     <loc>https://www.thomgreene.com/tags/networking/</loc>
     <lastmod>2016-03-11T12:57:51-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.thomgreene.com/tags/openstack/</loc>
+    <lastmod>2016-08-31T12:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -274,14 +371,26 @@
   </url>
   
   <url>
+    <loc>https://www.thomgreene.com/categories/tech-field-day/</loc>
+    <lastmod>2017-01-03T12:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.thomgreene.com/tags/tfd13/</loc>
+    <lastmod>2017-01-03T12:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.thomgreene.com/tags/trip-report/</loc>
-    <lastmod>2016-06-29T12:00:00-04:00</lastmod>
+    <lastmod>2016-08-31T12:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.thomgreene.com/categories/troubleshooting/</loc>
-    <lastmod>2016-04-05T12:00:00-04:00</lastmod>
+    <lastmod>2016-11-19T12:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -299,7 +408,7 @@
   
   <url>
     <loc>https://www.thomgreene.com/tags/vdm30in30/</loc>
-    <lastmod>2016-11-06T12:00:00-04:00</lastmod>
+    <lastmod>2016-11-20T12:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   

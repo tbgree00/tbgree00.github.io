@@ -6,10 +6,29 @@
     <description>Recent content in Troubleshooting on Virtualizing a Physical World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Apr 2016 12:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 19 Nov 2016 12:00:00 -0400</lastBuildDate>
     
 	<atom:link href="https://www.thomgreene.com/categories/troubleshooting/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>vCenter Plugin Tracker Spreadsheet</title>
+      <link>https://www.thomgreene.com/post/2016-11-19-vcenterplugintracker/</link>
+      <pubDate>Sat, 19 Nov 2016 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2016-11-19-vcenterplugintracker/</guid>
+      <description>As vCenter has evolved many programs and plugins depend on it for functionality. With the recent GA to vSphere 6.5 a discussion came up on twitter. Veeam released version 9.5 around the same time but it&amp;rsquo;s not compatible with vSphere 6.5. I tried to install Veeam into my lab but couldn&amp;rsquo;t. Instead I was met with an error warning me to wait until Veeam 9.5 Update 1.
+The discussion about Compatibility reminded me of the spreadsheet I use to track plugins and configuration of all my servers.</description>
+    </item>
+    
+    <item>
+      <title>Automation in Action: Which Hosts are Accessing a Given Datastore?</title>
+      <link>https://www.thomgreene.com/post/2016-09-28-datastoreaccess/</link>
+      <pubDate>Wed, 28 Sep 2016 12:57:51 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2016-09-28-datastoreaccess/</guid>
+      <description>One of the biggest challenges in a new environment can be mapping out resources. In a large environment you may encounter ESXi hosts that were moved between clusters, datastores that were mapped to multiple unnecessary hosts, or any number of additional surprises or inconsistencies. I encountered such a challenge and needed to answer a seemingly simple question: Which hosts and which clusters would be impacted by a loss of a datastore?</description>
+    </item>
     
     <item>
       <title>How to Check Negotiated Speed on Fibre Channel HBAs</title>

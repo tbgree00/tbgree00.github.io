@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech Field Day on Virtualizing a Physical World</title>
+    <link>https://www.thomgreene.com/categories/tech-field-day/</link>
+    <description>Recent content in Tech Field Day on Virtualizing a Physical World</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Jan 2017 12:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="https://www.thomgreene.com/categories/tech-field-day/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tech Field Day 13!</title>
+      <link>https://www.thomgreene.com/post/2017-01-03-techfieldday13/</link>
+      <pubDate>Tue, 03 Jan 2017 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2017-01-03-techfieldday13/</guid>
+      <description>I am extremely proud to say that I was selected as a delegate for Tech Field Day 13! You may be asking the question &amp;ldquo;what is Tech Field Day?&amp;rdquo; Well I&amp;rsquo;m glad you asked. Tech Field Day is an organization that takes independent IT professionals and IT vendors, puts them in the same room, and lets the good times roll. A delegate gets unprecedented access to a vendor&amp;rsquo;s executives and engineers.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -39,5 +39,15 @@
  Monitor 100 Objects Monitor 10 End Point Operations Management agents  The environment is also resource constrained, and the node can be no larger than a Small node size.</description>
     </item>
     
+    <item>
+      <title>So You Want a Home Lab</title>
+      <link>https://www.thomgreene.com/post/2016-11-20-soyouwantahomelab/</link>
+      <pubDate>Sun, 20 Nov 2016 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2016-11-20-soyouwantahomelab/</guid>
+      <description>In 2008 I purchased a Dell T110 tower server for my home. I wanted something to run ESXi 4 on so I could run Windows 2003 servers to study for my MCSE. From that point on a home lab has been critical to my success as a technician. It is very common for a technical professional to have some sort of personal space to mess around with.
+There are many reasons someone may want to spend hard earned money on a home lab.</description>
+    </item>
+    
   </channel>
 </rss>

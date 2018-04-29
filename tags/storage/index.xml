@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Automation in Action: Which Hosts are Accessing a Given Datastore?</title>
+      <link>https://www.thomgreene.com/post/2016-09-28-datastoreaccess/</link>
+      <pubDate>Wed, 28 Sep 2016 12:57:51 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2016-09-28-datastoreaccess/</guid>
+      <description>One of the biggest challenges in a new environment can be mapping out resources. In a large environment you may encounter ESXi hosts that were moved between clusters, datastores that were mapped to multiple unnecessary hosts, or any number of additional surprises or inconsistencies. I encountered such a challenge and needed to answer a seemingly simple question: Which hosts and which clusters would be impacted by a loss of a datastore?</description>
+    </item>
+    
+    <item>
       <title>How to Check Negotiated Speed on Fibre Channel HBAs</title>
       <link>https://www.thomgreene.com/post/2016-04-05-hbaspeed/</link>
       <pubDate>Tue, 05 Apr 2016 12:00:00 -0400</pubDate>
