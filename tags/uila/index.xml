@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uila on Virtualizing a Physical World</title>
+    <link>https://www.thomgreene.com/tags/uila/</link>
+    <description>Recent content in Uila on Virtualizing a Physical World</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Feb 2017 12:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="https://www.thomgreene.com/tags/uila/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Road to Root Cause</title>
+      <link>https://www.thomgreene.com/post/2017/2017-02-07-roadrootcause/</link>
+      <pubDate>Tue, 07 Feb 2017 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2017/2017-02-07-roadrootcause/</guid>
+      <description>Have you ever received a call from someone that started with &amp;ldquo;Why is everything so slow&amp;rdquo;? I think it&amp;rsquo;s a safe assumption that everyone working in IT Operations has heard some variation of that question. The request could be anything from issue accessing Yahoo mail to a mission critical application unable to communicate with its database. The worst of these calls happen at 2am. Everyone is crabby, nobody wants to take blame or have a finger pointed at them, and there may not be solid supporting data showing slow down.</description>
+    </item>
+    
+    <item>
+      <title>Tech Field Day 13 Preview: Uila</title>
+      <link>https://www.thomgreene.com/post/2017/2017-01-09-uilapreview/</link>
+      <pubDate>Mon, 09 Jan 2017 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2017/2017-01-09-uilapreview/</guid>
+      <description>As part two of my Tech Field Day preview I wanted to spotlight Uila, Inc (pronounced wee-lah). Uila Inc released Uila, a root cause analysis and network monitoring solution. Their solution was announced in February 2016 as a way to address a black hole in data center management tools.
+As virtualization has grown in prevalence and importance a new challenge has surfaced. When a virtualized application performs poorly there is no longer one tool to narrow it down.</description>
+    </item>
+    
+  </channel>
+</rss>

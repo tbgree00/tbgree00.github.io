@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Virtualizing a Physical World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Dec 2016 12:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 28 Apr 2017 12:57:51 -0400</lastBuildDate>
     
 	<atom:link href="https://www.thomgreene.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Aws</title>
       <link>https://www.thomgreene.com/tags/aws/</link>
-      <pubDate>Thu, 15 Dec 2016 12:00:00 -0400</pubDate>
+      <pubDate>Fri, 28 Apr 2017 12:57:51 -0400</pubDate>
       
       <guid>https://www.thomgreene.com/tags/aws/</guid>
       <description></description>
@@ -57,9 +57,18 @@
     </item>
     
     <item>
+      <title>Git</title>
+      <link>https://www.thomgreene.com/tags/git/</link>
+      <pubDate>Tue, 29 May 2018 10:57:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Hardware</title>
       <link>https://www.thomgreene.com/tags/hardware/</link>
-      <pubDate>Tue, 08 Mar 2016 12:57:51 -0400</pubDate>
+      <pubDate>Fri, 24 Feb 2017 12:57:51 -0400</pubDate>
       
       <guid>https://www.thomgreene.com/tags/hardware/</guid>
       <description></description>
@@ -71,6 +80,24 @@
       <pubDate>Wed, 04 Apr 2018 12:57:51 -0400</pubDate>
       
       <guid>https://www.thomgreene.com/tags/homelab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://www.thomgreene.com/tags/hugo/</link>
+      <pubDate>Tue, 29 May 2018 10:57:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://www.thomgreene.com/tags/markdown/</link>
+      <pubDate>Tue, 29 May 2018 10:57:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/tags/markdown/</guid>
       <description></description>
     </item>
     
@@ -95,7 +122,7 @@
     <item>
       <title>Openstack</title>
       <link>https://www.thomgreene.com/tags/openstack/</link>
-      <pubDate>Wed, 31 Aug 2016 12:00:00 -0400</pubDate>
+      <pubDate>Wed, 04 Jan 2017 12:00:00 -0400</pubDate>
       
       <guid>https://www.thomgreene.com/tags/openstack/</guid>
       <description></description>
@@ -104,7 +131,7 @@
     <item>
       <title>Powercli</title>
       <link>https://www.thomgreene.com/tags/powercli/</link>
-      <pubDate>Thu, 15 Dec 2016 12:00:00 -0400</pubDate>
+      <pubDate>Fri, 24 Feb 2017 12:57:51 -0400</pubDate>
       
       <guid>https://www.thomgreene.com/tags/powercli/</guid>
       <description></description>
@@ -140,7 +167,7 @@
     <item>
       <title>Tfd13</title>
       <link>https://www.thomgreene.com/tags/tfd13/</link>
-      <pubDate>Tue, 03 Jan 2017 12:00:00 -0400</pubDate>
+      <pubDate>Tue, 07 Feb 2017 12:00:00 -0400</pubDate>
       
       <guid>https://www.thomgreene.com/tags/tfd13/</guid>
       <description></description>
@@ -152,6 +179,24 @@
       <pubDate>Wed, 31 Aug 2016 12:00:00 -0400</pubDate>
       
       <guid>https://www.thomgreene.com/tags/trip-report/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uila</title>
+      <link>https://www.thomgreene.com/tags/uila/</link>
+      <pubDate>Tue, 07 Feb 2017 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/tags/uila/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vbrownbag</title>
+      <link>https://www.thomgreene.com/tags/vbrownbag/</link>
+      <pubDate>Tue, 25 Jul 2017 12:57:51 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/tags/vbrownbag/</guid>
       <description></description>
     </item>
     
@@ -179,6 +224,33 @@
       <pubDate>Sun, 20 Nov 2016 12:00:00 -0400</pubDate>
       
       <guid>https://www.thomgreene.com/tags/vdm30in30/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Veeam</title>
+      <link>https://www.thomgreene.com/tags/veeam/</link>
+      <pubDate>Tue, 07 Feb 2017 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/tags/veeam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vexpert</title>
+      <link>https://www.thomgreene.com/tags/vexpert/</link>
+      <pubDate>Mon, 30 Oct 2017 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/tags/vexpert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vmware Tools</title>
+      <link>https://www.thomgreene.com/tags/vmware-tools/</link>
+      <pubDate>Fri, 24 Feb 2017 12:57:51 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/tags/vmware-tools/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tech Field Day 13 Preview: Veeam</title>
+<meta name="description" content=" Based in Lexington, KY, Virtualizing a Physical World is a blog by Thom Greene. His posts explore the world of technology certification, VMware troubleshooting, and interesting experiences in the tech world.">
+<meta name="generator" content="Hugo 0.37" />
+<meta property="og:title" content="Tech Field Day 13 Preview: Veeam" />
+<meta property="og:description" content="Next up in my Tech Field Day 13 research is Veeam. It’s hard to talk about enterprise backup without discussing Veeam. Founded in 2006, Veeam was among the first to solve the challenge presented by backing up virtual machines. As the years have passed they continued to improve and add features to their product. It was just announced that in 2016 they saw 28% growth. That is remarkable growth for any company, especially if they have been around for 10 years." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.thomgreene.com/post/2017/2017-01-18-veeampreview/" />
+
+
+
+<meta property="article:published_time" content="2017-01-18T12:00:00-04:00"/>
+
+<meta property="article:modified_time" content="2017-01-18T12:00:00-04:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+<link rel="dns-prefetch" href="//fonts.gstatic.com" />
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700" type="text/css" media="all" />
+<link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+<script type="text/javascript" src="/js/scripts.js"></script>
+<link rel="shortcut icon" href="/favicon.ico">
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-117155450-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+</head>
+<body class="body body-right-sidebar mobile" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+	<div class="container container-outer">
+		<header class="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+			<div class="container container-inner clearfix">
+				<div class="logo" role="banner" itemscope="itemscope" itemtype="http://schema.org/Brand">
+					<a class="logo__link" href="/" title="Virtualizing a Physical World" rel="home">
+						<h1 class="logo__title">Virtualizing a Physical World</h1>
+						<h2 class="logo__tagline">Virtualizaton Blogging</h2>
+					</a>
+				</div>
+			</div>
+			
+<nav class="menu" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+	<ul class="menu__list">
+		<li class="menu__item"><a class="menu__link" href="/page/vrops/">VROPS</a></li>
+		<li class="menu__item"><a class="menu__link" href="/tags/azure/">AZURE</a></li>
+		<li class="menu__item"><a class="menu__link" href="/page/about/">ABOUT</a></li>
+	</ul>
+</nav>
+
+		</header>
+		<div class="wrapper clearfix">
+
+<main class="main-content content" role="main" itemprop="mainContentOfPage">
+	<article class="post">
+		<header class="post__header clearfix">
+			<h1 class="post__title">Tech Field Day 13 Preview: Veeam</h1>
+			<p class="post__meta meta">
+				<svg class="icon icon-time" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
+				<time class="post__meta-date" datetime="2017-01-18T12:00:00">January 18, 2017</time>
+				<span class="post__meta-categories meta-categories">
+					<svg class="icon icon-category" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+					<a class="meta-categories__link" href="/categories/tech-field-day" rel="category">Tech Field Day</a></span>
+			</p>
+		</header>
+		<div class="post__content clearfix">
+			<p>Next up in my Tech Field Day 13 research is Veeam. It’s hard to talk about enterprise backup without discussing Veeam. Founded in 2006, Veeam was among the first to solve the challenge presented by backing up virtual machines. As the years have passed they continued to improve and add features to their product. It was just announced that in 2016 they saw 28% growth. That is remarkable growth for any company, especially if they have been around for 10 years.</p>
+
+<p>It&rsquo;s honestly a little tough to preview a company as well known a Veeam. Their offering is so robust it’s hard to speculate what we&rsquo;ll see during their presentation. They do have a new product available that I hope to hear more about, Veeam Backup for Microsoft Office 365.</p>
+
+<p>We are in a brave new world of subscription services. It seems like every part of my life has a monthly fee. This trend is extending into the enterprise, lead by Office 365. Microsoft has taken exchange management out of IT’s hands, however we still have to consider compliance and our end user’s expectations. If an email or contact gets permanently deleted the user will expect a quick restore. If you&rsquo;re required to hold a copy of a mailbox for multiple years it&rsquo;s hard to ensure that you will have that information.</p>
+
+<p>Veeam Backup for Microsoft Office 365 solves this problem. It can back up your data and allow you to retain them as long as needed. You can restore objects from the backup or do compliance or litigation holds on mailboxes without worry. In previous roles I regularly performed litigation holds and they are a headache at best. Doing a hold in Office 365 with their tool was still a pain. Now, that data could be held in my preferred location and search with Veeam’s engine. This tool alone could have saved me days of time in my past life.</p>
+
+<p>I also feel like I should mention a beta they are conducting, Veeam Availability Orchestrator. Disaster recovery is a very complex process and an orchestrator is basically a requirement. Having a paper run book isn&rsquo;t enough anymore as it becomes out of date the minute it is printed. Having a tool that can use your existing backups to automate a DR event could streamline everything, especially a hybrid physical and virtual environment. If they show this product I&rsquo;ll be sure to go in depth about it.</p>
+
+<p>I personally used Veeam at a couple of jobs and never really had to think much about it; it just worked. When you are an administrator and a program &ldquo;just works&rdquo; you may not realize the full power of the software. As I&rsquo;ve been preparing to cover Veeam I realize they are much more than just a way to back up VMs. I can&rsquo;t wait to hear from them at Tech Field Day 13.</p>
+
+		</div>
+		
+<div class="post__tags tags clearfix">
+	<svg class="icon icon-tag" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="m4.73135 3.3795002q0-.5597-.39604-.9557-.39604-.3961-.95577-.3961-.55974 0-.95578.3961-.39604.396-.39604.9557 0 .5598.39604.9558.39604.3961.95578.3961.55973 0 .95577-.3961.39604-.396.39604-.9558zm11.26865 6.0832q0 .5596998-.39076.9504998l-5.18548 5.196q-.41188.3908-.9610504.3908-.55974 0-.9505-.3908l-7.5511496-7.5616998q-.40132-.3907-.68119-1.0666-.27987-.6759-.27987-1.2357v-4.3934q0-.54920004.40132-.95050004.40132-.4013.9505-.4013h4.39339q.55974 0 1.23565.2799.67591.2798 1.07723.6812l7.55115 7.54060004q.39076.4118.39076.961z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item"><a class="tags__link" href="/tags/tfd13/" rel="tag">TFD13</a></li>
+		<li class="tags__item"><a class="tags__link" href="/tags/veeam/" rel="tag">Veeam</a></li>
+	</ul>
+</div>
+
+	</article>
+	
+<div class="authorbox clearfix">
+	<figure class="authorbox__avatar">
+		<img alt="Thom Greene avatar" src="/img/avatar.png" class="avatar" height="90" width="90">
+	</figure>
+	<div class="authorbox__header">
+		<span class="authorbox__name">About Thom Greene</span>
+	</div>
+	<div class="authorbox__description">
+		vBrownbag crew, vExpert, Disney Nerd.
+	</div>
+</div>
+	
+<nav class="post-nav row clearfix" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+	<div class="post-nav__item post-nav__item--prev col-1-2">
+		<a class="post-nav__link" href="/post/2017/2017-01-16-stormagicpreview/" rel="prev"><span class="post-nav__caption">«Previous</span><p class="post-nav__post-title">Tech Field Day 13 Preview: StorMagic</p></a>
+	</div>
+	<div class="post-nav__item post-nav__item--next col-1-2">
+		<a class="post-nav__link" href="/post/2017/2017-01-20-robinpreview/" rel="next"><span class="post-nav__caption">Next»</span><p class="post-nav__post-title">Tech Field Day 13 Preview: Robin Systems</p></a>
+	</div>
+</nav>
+
+	
+</main>
+
+<aside class="sidebar" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
+	
+<div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="//google.com/search">
+		<label>
+			<span class="screen-reader-text">Search for:</span>
+			<input class="widget-search__field" type="search" placeholder="SEARCH..." value="" name="q">
+		</label>
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="https://www.thomgreene.com/" />
+	</form>
+</div>
+	
+<div class="widget-recent widget">
+	<h4 class="widget__title">Recent Posts</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/post/2018/2018-05-29-staticsitehugo/">Creating a Static Website using Hugo</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/2018/2018-04-04-vropslicensing/">VMware vRealize Operations Manager: Licensing and License Groups</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/2018/2018-03-27-vropsdesignintro/">VMware vRealize Operations Manager: Design Introduction</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/2018/2018-03-27-vropsdesignlab/">VMware vRealize Operations Manager: Design for a Home Lab</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/2017/2017-10-30-vexpertcloud2017/">vExpert Cloud Announcement!</a></li>
+		</ul>
+	</div>
+</div>
+
+	
+<div class="widget-categories widget">
+	<h4 class="widget__title">Categories</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/categories/backup">Backup</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/certification">Certification</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/cloud">Cloud</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/community">Community</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/monitoring">Monitoring</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/presentations">Presentations</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/productivity">Productivity</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/tech-field-day">Tech-Field-Day</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/troubleshooting">Troubleshooting</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/vmware">Vmware</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/website">Website</a></li>
+		</ul>
+	</div>
+</div>
+	
+<div class="widget-social widget">
+	<h4 class="widget-social__title widget__title">Social</h4>
+	<div class="widget-social__content widget__content">
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Twitter" rel="noopener noreferrer" href="https://twitter.com/tbgree00" target="_blank">
+				<svg class="widget-social__link-icon icon-twitter" viewBox="0 0 384 312" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="#fff"><path d="m384 36.9c-14.1 6.3-29.3 10.5-45.2 12.4 16.3-9.7 28.8-25.2 34.6-43.6-15.2 9-32.1 15.6-50 19.1-14.4-15.2-34.9-24.8-57.5-24.8-43.5 0-78.8 35.3-78.8 78.8 0 6.2.7 12.2 2 17.9-65.5-3.3-123.5-34.6-162.4-82.3-6.7 11.6-10.6 25.2-10.6 39.6 0 27.3 13.9 51.4 35 65.6-12.9-.4-25.1-4-35.7-9.9v1c0 38.2 27.2 70 63.2 77.2-6.6 1.8-13.6 2.8-20.8 2.8-5.1 0-10-.5-14.8-1.4 10 31.3 39.1 54.1 73.6 54.7-27 21.1-60.9 33.7-97.8 33.7-6.4 0-12.6-.4-18.8-1.1 34.9 22.4 76.3 35.4 120.8 35.4 144.9 0 224.1-120 224.1-224.1 0-3.4-.1-6.8-.2-10.2 15.4-11.1 28.7-25 39.3-40.8z"/></svg>
+				<span>Twitter</span>
+			</a>
+		</div>
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="LinkedIn" rel="noopener noreferrer" href="https://linkedin.com/in/thom-greene" target="_blank">
+				<svg class="widget-social__link-icon icon-linkedin" viewBox="0 0 352 352" width="24" height="24" fill="#fff" xmlns="http://www.w3.org/2000/svg"><path d="M0,40v272c0,21.9,18.1,40,40,40h272c21.9,0,40-18.1,40-40V40c0-21.9-18.1-40-40-40H40C18.1,0,0,18.1,0,40z M312,32 c4.6,0,8,3.4,8,8v272c0,4.6-3.4,8-8,8H40c-4.6,0-8-3.4-8-8V40c0-4.6,3.4-8,8-8H312z M59.5,87c0,15.2,12.3,27.5,27.5,27.5 c15.2,0,27.5-12.3,27.5-27.5c0-15.2-12.3-27.5-27.5-27.5C71.8,59.5,59.5,71.8,59.5,87z M187,157h-1v-21h-45v152h47v-75 c0-19.8,3.9-39,28.5-39c24.2,0,24.5,22.4,24.5,40v74h47v-83.5c0-40.9-8.7-72-56.5-72C208.5,132.5,193.3,145.1,187,157z M64,288h47.5 V136H64V288z"/></svg>
+				<span>LinkedIn</span>
+			</a>
+		</div>
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="GitHub" rel="noopener noreferrer" href="https://github.com/tbgree00" target="_blank">
+				<svg class="widget-social__link-icon icon-github" viewBox="0 0 384 374" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="#fff"><path d="m192 0c-106.1 0-192 85.8-192 191.7 0 84.7 55 156.6 131.3 181.9 9.6 1.8 13.1-4.2 13.1-9.2 0-4.6-.2-16.6-.3-32.6-53.4 11.6-64.7-25.7-64.7-25.7-8.7-22.1-21.3-28-21.3-28-17.4-11.9 1.3-11.6 1.3-11.6 19.3 1.4 29.4 19.8 29.4 19.8 17.1 29.3 44.9 20.8 55.9 15.9 1.7-12.4 6.7-20.8 12.2-25.6-42.6-4.8-87.5-21.3-87.5-94.8 0-20.9 7.5-38 19.8-51.4-2-4.9-8.6-24.3 1.9-50.7 0 0 16.1-5.2 52.8 19.7 15.3-4.2 31.7-6.4 48.1-6.5 16.3.1 32.7 2.2 48.1 6.5 36.7-24.8 52.8-19.7 52.8-19.7 10.5 26.4 3.9 45.9 1.9 50.7 12.3 13.4 19.7 30.5 19.7 51.4 0 73.7-44.9 89.9-87.7 94.6 6.9 5.9 13 17.6 13 35.5 0 25.6-.2 46.3-.2 52.6 0 5.1 3.5 11.1 13.2 9.2 76.2-25.5 131.2-97.3 131.2-182 0-105.9-86-191.7-192-191.7z"/></svg>
+				<span>GitHub</span>
+			</a>
+		</div>
+	</div>
+</div>
+
+	
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Tags</h4>
+	<div class="widget__content">
+		<a class="widget__link widget__link--taglist" href="/tags/aws" title="aws">aws</a>
+		<a class="widget__link widget__link--taglist" href="/tags/azure" title="azure">azure</a>
+		<a class="widget__link widget__link--taglist" href="/tags/command-line" title="command-line">command-line</a>
+		<a class="widget__link widget__link--taglist" href="/tags/documentation" title="documentation">documentation</a>
+		<a class="widget__link widget__link--taglist" href="/tags/esxcli" title="esxcli">esxcli</a>
+		<a class="widget__link widget__link--taglist" href="/tags/git" title="git">git</a>
+		<a class="widget__link widget__link--taglist" href="/tags/hardware" title="hardware">hardware</a>
+		<a class="widget__link widget__link--taglist" href="/tags/homelab" title="homelab">homelab</a>
+		<a class="widget__link widget__link--taglist" href="/tags/hugo" title="hugo">hugo</a>
+		<a class="widget__link widget__link--taglist" href="/tags/markdown" title="markdown">markdown</a>
+		<a class="widget__link widget__link--taglist" href="/tags/mentoring" title="mentoring">mentoring</a>
+		<a class="widget__link widget__link--taglist" href="/tags/networking" title="networking">networking</a>
+		<a class="widget__link widget__link--taglist" href="/tags/openstack" title="openstack">openstack</a>
+		<a class="widget__link widget__link--taglist" href="/tags/powercli" title="powercli">powercli</a>
+		<a class="widget__link widget__link--taglist" href="/tags/public-speaking" title="public-speaking">public-speaking</a>
+		<a class="widget__link widget__link--taglist" href="/tags/storage" title="storage">storage</a>
+		<a class="widget__link widget__link--taglist" href="/tags/studying" title="studying">studying</a>
+		<a class="widget__link widget__link--taglist" href="/tags/tfd13" title="tfd13">tfd13</a>
+		<a class="widget__link widget__link--taglist" href="/tags/trip-report" title="trip-report">trip-report</a>
+		<a class="widget__link widget__link--taglist" href="/tags/uila" title="uila">uila</a>
+		<a class="widget__link widget__link--taglist" href="/tags/vbrownbag" title="vbrownbag">vbrownbag</a>
+		<a class="widget__link widget__link--taglist" href="/tags/vcap" title="vcap">vcap</a>
+		<a class="widget__link widget__link--taglist" href="/tags/vcdx" title="vcdx">vcdx</a>
+		<a class="widget__link widget__link--taglist" href="/tags/vdm30in30" title="vdm30in30">vdm30in30</a>
+		<a class="widget__link widget__link--taglist" href="/tags/veeam" title="veeam">veeam</a>
+		<a class="widget__link widget__link--taglist" href="/tags/vexpert" title="vexpert">vexpert</a>
+		<a class="widget__link widget__link--taglist" href="/tags/vmware-tools" title="vmware-tools">vmware-tools</a>
+		<a class="widget__link widget__link--taglist" href="/tags/vmworld" title="vmworld">vmworld</a>
+		<a class="widget__link widget__link--taglist" href="/tags/vrealize-operations-manager" title="vrealize-operations-manager">vrealize-operations-manager</a>
+	</div>
+</div>
+</aside>
+
+	</div>
+		<footer class="footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+			<div class="container container-inner">
+				<p class="footer__copyright">&copy; 2018 Virtualizing a Physical World. <span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad theme</a>.</span></p>
+			</div>
+		</footer>
+	</div>
+
+<script>
+	var navigation = responsiveNav(".menu", {
+		navClass: "menu--collapse",
+	});
+</script>
+</body>
+</html>

@@ -13,10 +13,10 @@
     
     <item>
       <title>Detecting a Misconfigured vSwitch</title>
-      <link>https://www.thomgreene.com/post/2016-03-11-switchmisconfig/</link>
+      <link>https://www.thomgreene.com/post/2016/2016-03-11-switchmisconfig/</link>
       <pubDate>Fri, 11 Mar 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016-03-11-switchmisconfig/</guid>
+      <guid>https://www.thomgreene.com/post/2016/2016-03-11-switchmisconfig/</guid>
       <description>Years ago I received a call for help from someone setting up a vSphere host. The install had never worked right and the clients were upset at the upgrade. It sometimes took 30 seconds to connect to a server and their SQL applications would crash daily. My intuition told me there was something strange going on with the network.
 It was a very basic install with one Standard vSwitch doing management and virtual machine network traffic.</description>
     </item>

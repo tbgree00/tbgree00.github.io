@@ -6,9 +6,19 @@
     <description>Recent content in Categories on Virtualizing a Physical World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 07 Feb 2017 12:00:00 -0400</lastBuildDate>
     
 	<atom:link href="https://www.thomgreene.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Backup</title>
+      <link>https://www.thomgreene.com/categories/backup/</link>
+      <pubDate>Tue, 07 Feb 2017 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/categories/backup/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Certification</title>
@@ -31,7 +41,7 @@
     <item>
       <title>Community</title>
       <link>https://www.thomgreene.com/categories/community/</link>
-      <pubDate>Wed, 16 Aug 2017 12:57:51 -0400</pubDate>
+      <pubDate>Mon, 30 Oct 2017 12:00:00 -0400</pubDate>
       
       <guid>https://www.thomgreene.com/categories/community/</guid>
       <description></description>
@@ -67,7 +77,7 @@
     <item>
       <title>Tech Field Day</title>
       <link>https://www.thomgreene.com/categories/tech-field-day/</link>
-      <pubDate>Tue, 03 Jan 2017 12:00:00 -0400</pubDate>
+      <pubDate>Tue, 07 Feb 2017 12:00:00 -0400</pubDate>
       
       <guid>https://www.thomgreene.com/categories/tech-field-day/</guid>
       <description></description>
@@ -76,7 +86,7 @@
     <item>
       <title>Troubleshooting</title>
       <link>https://www.thomgreene.com/categories/troubleshooting/</link>
-      <pubDate>Sat, 19 Nov 2016 12:00:00 -0400</pubDate>
+      <pubDate>Fri, 24 Feb 2017 12:57:51 -0400</pubDate>
       
       <guid>https://www.thomgreene.com/categories/troubleshooting/</guid>
       <description></description>
@@ -88,6 +98,15 @@
       <pubDate>Wed, 04 Apr 2018 12:57:51 -0400</pubDate>
       
       <guid>https://www.thomgreene.com/categories/vmware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Website</title>
+      <link>https://www.thomgreene.com/categories/website/</link>
+      <pubDate>Tue, 29 May 2018 10:57:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/categories/website/</guid>
       <description></description>
     </item>
     

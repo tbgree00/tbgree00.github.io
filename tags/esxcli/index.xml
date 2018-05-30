@@ -13,19 +13,28 @@
     
     <item>
       <title>How to Check Negotiated Speed on Fibre Channel HBAs</title>
-      <link>https://www.thomgreene.com/post/2016-04-05-hbaspeed/</link>
+      <link>https://www.thomgreene.com/post/2016/2016-04-05-hbaspeed/</link>
       <pubDate>Tue, 05 Apr 2016 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016-04-05-hbaspeed/</guid>
+      <guid>https://www.thomgreene.com/post/2016/2016-04-05-hbaspeed/</guid>
       <description>Fibre channel storage is great because it mostly &amp;ldquo;just works&amp;rdquo;. You provision storage, assign it to the WWPNs, rescan the adapters, and the luns are presented. There isn&amp;rsquo;t a lot of configuration in the GUI and, honestly, it can be hard to detect link speed or even if a link is up. In the Storage Adapter tab you can see if a path is down, but how do you detect the link speed?</description>
     </item>
     
     <item>
       <title>Investigating VM Configuration Changes</title>
-      <link>https://www.thomgreene.com/post/2016-03-15-vmconfigchange/</link>
+      <link>https://www.thomgreene.com/blog/2016/3/11/x3s639ch7peru7quudjenlbcb9vhw0/</link>
       <pubDate>Tue, 15 Mar 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016-03-15-vmconfigchange/</guid>
+      <guid>https://www.thomgreene.com/blog/2016/3/11/x3s639ch7peru7quudjenlbcb9vhw0/</guid>
+      <description>Tracking resource configuration is a common struggle for an enterprise level environment. Even SMBs can have trouble keeping track of how their memory is provisioned and when it changes. What&amp;rsquo;s worse, VMware&amp;rsquo;s vSphere Client doesn&amp;rsquo;t provide any insight as to what changes when someone edits the virtual machine settings. An event named &amp;ldquo;Reconfigure virtual machine&amp;rdquo; hits the task log but this isn&amp;rsquo;t a lot of information. If you open Edit Settings and click OK vCenter registers this event even if you didn&amp;rsquo;t change anything.</description>
+    </item>
+    
+    <item>
+      <title>Investigating VM Configuration Changes</title>
+      <link>https://www.thomgreene.com/post/2016/2016-03-15-vmconfigchange/</link>
+      <pubDate>Tue, 15 Mar 2016 12:57:51 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2016/2016-03-15-vmconfigchange/</guid>
       <description>Tracking resource configuration is a common struggle for an enterprise level environment. Even SMBs can have trouble keeping track of how their memory is provisioned and when it changes. What&amp;rsquo;s worse, VMware&amp;rsquo;s vSphere Client doesn&amp;rsquo;t provide any insight as to what changes when someone edits the virtual machine settings. An event named&amp;rdquo;Reconfigure virtual machine&amp;rdquo; hits the task log but this isn&amp;rsquo;t a lot of information. If you open Edit Settings and click OK vCenter registers this event even if you didn&amp;rsquo;t change anything.</description>
     </item>
     
