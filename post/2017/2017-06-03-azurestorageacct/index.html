@@ -101,14 +101,7 @@ if (!doNotTrack) {
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2017-06-03T12:57:51-04:00">June 03, 2017</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/cloud/" rel="category">Cloud</a>
 	</span>
 </div></div>
-		</header>
-<div class="post__toc toc">
-	<div class="toc__title">Page content</div>
-	<div class="toc__menu">
-		<nav id="TableOfContents"></nav>
-	</div>
-</div>
-<div class="content post__content clearfix">
+		</header><div class="content post__content clearfix">
 			<p>In my article about creating an  <a href="https://www.thomgreene.com/post/2017/2017-05-30-azurevm/">Azure virtual machine</a>, I walked us through the very basic wizard to create a VM. There is an entire segment of the virtual machine build process dedicated to optional features. These features allow new virtual machines to integrate a VM into an existing Azure environment. When we created our first machine we accepted the default settings, which created new network and storage accounts. That works perfectly for a first look but it wouldn&rsquo;t be appropriate for use in a real life Azure Infrastructure. To flesh out our skills we need to dig deeper into these optional features.</p>
 <p>The first setting I want to investigate is the Azure storage account. There are so many settings and details about Azure Storage you could fill an entire <a href="https://www.amazon.com/Microsoft-Storage-Essentials-Chukri-Soueidi-ebook/dp/B013EJ3DVQ/ref=mt_kindle?_encoding=UTF8&amp;me=">book</a>. In order to focus, I will only look at the process and choices you&rsquo;ll make creating your first storage account. As the series progresses I&rsquo;ll dig deeper into the management and advanced configuration of a storage account.
 The concept of an Azure Storage account isn&rsquo;t too far removed from the idea of a SAN or NAS datastore in VMware but there are some differences. An Azure storage account is a scalable, high performance storage solution that allows storage of virtual machine hard disks, files, tables, queues, and so on. The capacity can grow as needed and the account can provide local or global redundancy depending on the need.</p>
@@ -315,7 +308,7 @@ We now have a custom general purpose storage account to use for blob, VM disks, 
 	<div class="container footer__container flex">
 		
 		<div class="footer__copyright">
-			&copy; 2020 John Doe.
+			&copy; 2020 Thom Greene.
 			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
 		</div>
 	</div>

@@ -101,14 +101,7 @@ if (!doNotTrack) {
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2017-02-07T12:00:00-04:00">February 07, 2017</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/tech-field-day/" rel="category">Tech Field Day</a>, <a class="meta__link" href="/categories/monitoring/" rel="category">Monitoring</a>
 	</span>
 </div></div>
-		</header>
-<div class="post__toc toc">
-	<div class="toc__title">Page content</div>
-	<div class="toc__menu">
-		<nav id="TableOfContents"></nav>
-	</div>
-</div>
-<div class="content post__content clearfix">
+		</header><div class="content post__content clearfix">
 			<p>Have you ever received a call from someone that started with &ldquo;Why is everything so slow&rdquo;? I think it&rsquo;s a safe assumption that everyone working in IT Operations has heard some variation of that question. The request could be anything from issue accessing Yahoo mail to a mission critical application unable to communicate with its database. The worst of these calls happen at 2am. Everyone is crabby, nobody wants to take blame or have a finger pointed at them, and there may not be solid supporting data showing slow down. The next day, everyone endures hours of root cause analysis. Unless the actual case is pinpointed you&rsquo;re left with a time bomb, knowing that it&rsquo;ll happen again.</p>
 <p>A common troubleshooting issue during an investigation is a lack of unified metrics. Every business vertical has a dedicated monitoring tool, each of which present the data differently. The array shows IOPs but you need to go into the network monitor to see any performance data gathered through the switches. vRealize Operations had hundreds of data points but it may not always line up. There are also issues with tracking the applications inside VMs. You don&rsquo;t have access to an in guest agent without vRealize Operations Enterprice. Sometimes it&rsquo;s even hard to access tools depending on security restrictions. Lastly, there isn&rsquo;t great visibility into the virtual switch on an ESXi host. It&rsquo;s not easy to gather historic information regarding packet flow through these switches without actively running a packet capture via ESXCli. If the problem cleared up, that data is gone.</p>
 <p>Uila aims to fill this gap. Their monitor, called Virtual Smart Tap, sits on each ESXi host. This allows the Management system to perform deep packet inspection on all packets that flow through virtual switches on the hosts. This is important in two key ways:</p>
@@ -289,7 +282,7 @@ if (!doNotTrack) {
 	<div class="container footer__container flex">
 		
 		<div class="footer__copyright">
-			&copy; 2020 John Doe.
+			&copy; 2020 Thom Greene.
 			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
 		</div>
 	</div>

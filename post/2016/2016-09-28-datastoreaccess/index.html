@@ -101,14 +101,7 @@ if (!doNotTrack) {
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2016-09-28T12:57:51-04:00">September 28, 2016</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/vmware/" rel="category">VMware</a>, <a class="meta__link" href="/categories/troubleshooting/" rel="category">Troubleshooting</a>
 	</span>
 </div></div>
-		</header>
-<div class="post__toc toc">
-	<div class="toc__title">Page content</div>
-	<div class="toc__menu">
-		<nav id="TableOfContents"></nav>
-	</div>
-</div>
-<div class="content post__content clearfix">
+		</header><div class="content post__content clearfix">
 			<p>One of the biggest challenges in a new environment can be mapping out resources. In a large environment you may encounter ESXi hosts that were moved between clusters, datastores that were mapped to multiple unnecessary hosts, or any number of additional surprises or inconsistencies. I encountered such a challenge and needed to answer a seemingly simple question: Which hosts and which clusters would be impacted by a loss of a datastore?</p>
 <p>Not knowing exactly how I wanted to tackle the task I started digging through vSphere Client manually. I looked at the datastore, listed out the hosts on the Hosts tab, then searched for those hosts and wrote out the clusters. This was tedious and repetitive but I figured out the format in which I should present the data. Time to script!</p>
 <p>I wanted to be prompted to enter a datastore name and have the identifier returned. I also wanted it to gather all of the hosts accessing the datastore, the clusters those hosts were in, and output that to a CSV. I have also thrown in some Quality of Life improvements suggested by coworkers. The script detects if you&rsquo;re already connected to vCenter and prompts you to connect if not and it outputs the file name and path once the script is complete. I use Powershell ISE to script but it works fine in PowerGUI or a traditional black box PowerCLI session.</p>
@@ -297,7 +290,7 @@ Write-Host File $ds-Hosts.csv written to $Filepath.Path
 	<div class="container footer__container flex">
 		
 		<div class="footer__copyright">
-			&copy; 2020 John Doe.
+			&copy; 2020 Thom Greene.
 			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
 		</div>
 	</div>
