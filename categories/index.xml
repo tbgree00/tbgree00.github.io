@@ -6,10 +6,19 @@
     <description>Recent content in Categories on thomgreene.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Jul 2018 14:51:25 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2020 12:39:17 -0400</lastBuildDate>
     
 	<atom:link href="https://www.thomgreene.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Certification</title>
+      <link>https://www.thomgreene.com/categories/certification/</link>
+      <pubDate>Mon, 25 May 2020 12:39:17 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/categories/certification/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Monitoring</title>
@@ -89,15 +98,6 @@
       <pubDate>Tue, 07 Feb 2017 12:00:00 -0400</pubDate>
       
       <guid>https://www.thomgreene.com/categories/tech-field-day/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Certification</title>
-      <link>https://www.thomgreene.com/categories/certification/</link>
-      <pubDate>Thu, 15 Dec 2016 12:00:00 -0400</pubDate>
-      
-      <guid>https://www.thomgreene.com/categories/certification/</guid>
       <description></description>
     </item>
     
