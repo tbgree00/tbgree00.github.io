@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Networking on thomgreene.com</title>
-    <link>https://www.thomgreene.com/tags/networking/</link>
+    <link>https://thomgreene.com/tags/networking/</link>
     <description>Recent content in Networking on thomgreene.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 11 Mar 2016 12:57:51 -0400</lastBuildDate>
     
-	<atom:link href="https://www.thomgreene.com/tags/networking/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thomgreene.com/tags/networking/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Detecting a Misconfigured vSwitch</title>
-      <link>https://www.thomgreene.com/post/2016/2016-03-11-switchmisconfig/</link>
+      <link>https://thomgreene.com/post/2016/2016-03-11-switchmisconfig/</link>
       <pubDate>Fri, 11 Mar 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-03-11-switchmisconfig/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-03-11-switchmisconfig/</guid>
       <description>Years ago I received a call for help from someone setting up a vSphere host. The install had never worked right and the clients were upset at the upgrade. It sometimes took 30 seconds to connect to a server and their SQL applications would crash daily. My intuition told me there was something strange going on with the network.
 It was a very basic install with one Standard vSwitch doing management and virtual machine network traffic.</description>
     </item>

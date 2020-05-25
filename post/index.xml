@@ -2,208 +2,208 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on thomgreene.com</title>
-    <link>https://www.thomgreene.com/post/</link>
+    <link>https://thomgreene.com/post/</link>
     <description>Recent content in Posts on thomgreene.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 25 May 2020 12:39:17 -0400</lastBuildDate>
     
-	<atom:link href="https://www.thomgreene.com/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thomgreene.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>At-Home Certification: The New Normal</title>
-      <link>https://www.thomgreene.com/post/2020/2020-05-25-onlinecertification/</link>
+      <link>https://thomgreene.com/post/2020/2020-05-25-onlinecertification/</link>
       <pubDate>Mon, 25 May 2020 12:39:17 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2020/2020-05-25-onlinecertification/</guid>
+      <guid>https://thomgreene.com/post/2020/2020-05-25-onlinecertification/</guid>
       <description>2020 will go down in history as the year that changed the world. A global pandemic forced everyone to stay indoors, employers were forced to embrace work-from-home, and companies that supported employees had to respond. One industry that responded quickly was certification. Pearson Vue had already allowed some certification to be taken at home, but now most major technology vendors got on board. This opens up a new world of opportunity and a degree of accessibility that benefits everyone in the IT industry.</description>
     </item>
     
     <item>
       <title>Uila 2.0 Hybrid Cloud Monitoring</title>
-      <link>https://www.thomgreene.com/post/2018/2018-7-16-uilahybridcloud/</link>
+      <link>https://thomgreene.com/post/2018/2018-7-16-uilahybridcloud/</link>
       <pubDate>Mon, 16 Jul 2018 14:51:25 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2018/2018-7-16-uilahybridcloud/</guid>
+      <guid>https://thomgreene.com/post/2018/2018-7-16-uilahybridcloud/</guid>
       <description>On July 16, 2018, Uila released version 2.0 of its application monitoring and analytics platform. Previously we explored its application discovery and mapping features, focusing on resources that resided within an on-premises datacenter. As industry trends shift toward a hybrid cloud model many monitoring tools have a visibility gap. They only inspect data within their domains, creating a black hole between the on-premises datacenter and the cloud instances. Uila 2.0 seeks to fill that gap and provide real time visibility across any cloud.</description>
     </item>
     
     <item>
       <title>Make the Most out of VMworld 2018</title>
-      <link>https://www.thomgreene.com/post/2018/2018-07-05-vmworldtips/</link>
+      <link>https://thomgreene.com/post/2018/2018-07-05-vmworldtips/</link>
       <pubDate>Thu, 05 Jul 2018 10:44:37 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2018/2018-07-05-vmworldtips/</guid>
+      <guid>https://thomgreene.com/post/2018/2018-07-05-vmworldtips/</guid>
       <description>VMworld is one of the most anticipated events of the year for many people in the tech world. Engineers and architects from all over the world come together to share, learn, and make new friends. I have been fortunate enough to attend both VMworld 2016 and 2017 and have learned many lessons about how to maximize my time.
 There are a few tips you&amp;rsquo;ll read over and over again. They are definitely worth repeating, though.</description>
     </item>
     
     <item>
       <title>Application Discovery and Mapping with Uila</title>
-      <link>https://www.thomgreene.com/post/2018/2018-06-29-uilaappdiscovery/</link>
+      <link>https://thomgreene.com/post/2018/2018-06-29-uilaappdiscovery/</link>
       <pubDate>Fri, 29 Jun 2018 09:05:25 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2018/2018-06-29-uilaappdiscovery/</guid>
+      <guid>https://thomgreene.com/post/2018/2018-06-29-uilaappdiscovery/</guid>
       <description>Uila is a platform that seeks to amplify visibility into a virtualized environment, allowing technicians to determine root cause for performance and availability issues. Increasing availability and determining root cause are critically important but are only one part of the Uila platform. The dashboard retains its familiar appearance, with its green/yellow/red application performance visualization but the software itself has many new features to explore.
 Ulia has spent significant time and effort enhancing other features, in particular application mapping and documentation.</description>
     </item>
     
     <item>
       <title>Creating a Static Website using Hugo</title>
-      <link>https://www.thomgreene.com/post/2018/2018-05-29-staticsitehugo/</link>
+      <link>https://thomgreene.com/post/2018/2018-05-29-staticsitehugo/</link>
       <pubDate>Tue, 29 May 2018 10:57:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2018/2018-05-29-staticsitehugo/</guid>
+      <guid>https://thomgreene.com/post/2018/2018-05-29-staticsitehugo/</guid>
       <description>There are many options for maintaining a website these days. There are free options on blogger and WordPress, all the way up to premium services. I hosted this site on Squarespace for many years. The service is good but their templates selection was lacking for a tech blog. I was also underwhelmed with their editor&amp;rsquo;s performance and it is fairly expensive. I set a goal to migrate my website onto another service to both reduce the cost to maintain and to make it a little easier to update if I am offline.</description>
     </item>
     
     <item>
       <title>VMware vRealize Operations Manager: Licensing and License Groups</title>
-      <link>https://www.thomgreene.com/post/2018/2018-04-04-vropslicensing/</link>
+      <link>https://thomgreene.com/post/2018/2018-04-04-vropslicensing/</link>
       <pubDate>Wed, 04 Apr 2018 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2018/2018-04-04-vropslicensing/</guid>
+      <guid>https://thomgreene.com/post/2018/2018-04-04-vropslicensing/</guid>
       <description>Maintaining valid licensing in vRealize Operations Manager is crucial to getting the most out of the tool. There are two methods of licensing vROps: per processor with unlimited VMs or per virtual machine or physical server monitored. The latter method is also referred to as an Operating System Instance, or OSI. An OSI is any device, physical or virtual, that has an IP address and is capable of being monitored. Powered Off VMs don&amp;rsquo;t count against your OSI count.</description>
     </item>
     
     <item>
       <title>VMware vRealize Operations Manager: Design for a Home Lab</title>
-      <link>https://www.thomgreene.com/post/2018/2018-03-27-vropsdesignlab/</link>
+      <link>https://thomgreene.com/post/2018/2018-03-27-vropsdesignlab/</link>
       <pubDate>Tue, 27 Mar 2018 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2018/2018-03-27-vropsdesignlab/</guid>
+      <guid>https://thomgreene.com/post/2018/2018-03-27-vropsdesignlab/</guid>
       <description>Designing for a Home Lab A practical way to gain experience with vRealize Operations Manager is to deploy and implement it into a home lab. A design for a home lab almost seems too simple, but planning it out and diagraming a simple example can help when the time comes to design a production environment. The environment will need to support the following:
  Monitor 100 Objects Monitor 10 End Point Operations Management agents  The environment is also resource constrained, and the node can be no larger than a Small node size.</description>
     </item>
     
     <item>
       <title>VMware vRealize Operations Manager: Design Introduction</title>
-      <link>https://www.thomgreene.com/post/2018/2018-03-27-vropsdesignintro/</link>
+      <link>https://thomgreene.com/post/2018/2018-03-27-vropsdesignintro/</link>
       <pubDate>Tue, 27 Mar 2018 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2018/2018-03-27-vropsdesignintro/</guid>
+      <guid>https://thomgreene.com/post/2018/2018-03-27-vropsdesignintro/</guid>
       <description>Sizing a vRealize Operations Manager Environment VMware vRealize Operations Manager is the flagship monitoring suite for the entire VMware Software Defined Datacenter stack. The software is incredibly powerful, but it can be a bit daunting to a newcomer. Each update has improved out of the box functionality, however there is a lot to learn to master the software and truly make the most out of its features. Every successful environment starts with a strong design.</description>
     </item>
     
     <item>
       <title>vExpert Cloud Announcement!</title>
-      <link>https://www.thomgreene.com/post/2017/2017-10-30-vexpertcloud2017/</link>
+      <link>https://thomgreene.com/post/2017/2017-10-30-vexpertcloud2017/</link>
       <pubDate>Mon, 30 Oct 2017 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2017/2017-10-30-vexpertcloud2017/</guid>
+      <guid>https://thomgreene.com/post/2017/2017-10-30-vexpertcloud2017/</guid>
       <description>I am proud to announce that I have been named a member of the inaugural group of vExpert Cloud. The vExpert program is an award given to community members that contribute via blogs, VMUG, vBrownbag, and other means. Since VMware is such a large product the vExpert team has broken the disciplines up into three additional specialties: NSX, vSAN, and Cloud. This cloud designation is extremely valuable to me as my focus over the past three months has been VMware Cloud Foundation.</description>
     </item>
     
     <item>
       <title>Hacking Public Speaking - Mentors to Help you Rock It</title>
-      <link>https://www.thomgreene.com/post/2017/2017-08-30-hackingpublicspeaking/</link>
+      <link>https://thomgreene.com/post/2017/2017-08-30-hackingpublicspeaking/</link>
       <pubDate>Wed, 30 Aug 2017 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2017/2017-08-30-hackingpublicspeaking/</guid>
+      <guid>https://thomgreene.com/post/2017/2017-08-30-hackingpublicspeaking/</guid>
       <description>Public speaking is hard. Standing in front of a crowd and being the center of attention can be a scary thought. Luckily, there are many members of the technology community out there willing to ease you through it. At VMworld 2017 I was fortunate enough to participate in a vBrownBag panel discussion with some giants in the VMware community: Edward Haletky, Simon Long, and Ariel Sanchez Mora.
 The four of us were talking after the session and decided we would like to formally arrange a mentoring program to help give back to the community that has helped us so much.</description>
     </item>
     
     <item>
       <title>VMworld 2017 is Almost Here</title>
-      <link>https://www.thomgreene.com/post/2017/2017-08-16-vmworld2017preview/</link>
+      <link>https://thomgreene.com/post/2017/2017-08-16-vmworld2017preview/</link>
       <pubDate>Wed, 16 Aug 2017 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2017/2017-08-16-vmworld2017preview/</guid>
+      <guid>https://thomgreene.com/post/2017/2017-08-16-vmworld2017preview/</guid>
       <description>VMworld 2017 is upon us and looks to be busy as ever. I&amp;rsquo;ll be returning to Las Vegas and the place this ride started last year. There has been a LOT happening in my life during the past 50 weeks. I&amp;rsquo;m proud to say I joined Rackspace in the Specialist Cloud Architecture business, representing VMware products and services. As many of you also know, I joined the vBrownBag crew and will be hanging out at the TechTalk booth as much as possible.</description>
     </item>
     
     <item>
       <title>Mock Job Interview</title>
-      <link>https://www.thomgreene.com/post/2017/2017-07-25-mockjobinterview/</link>
+      <link>https://thomgreene.com/post/2017/2017-07-25-mockjobinterview/</link>
       <pubDate>Tue, 25 Jul 2017 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2017/2017-07-25-mockjobinterview/</guid>
+      <guid>https://thomgreene.com/post/2017/2017-07-25-mockjobinterview/</guid>
       <description>ob interviews are really hard. Between having to take time off work with little notice, having to prep, and then opening yourself up to be judged by a stranger. The experience causes me a lot of anxiety. Being good at an interview is a skill. The key to mastering any skill is practice, so I asked my fellow vBrownBag crewmates to help me with a mock interview. Rebecca Fitzhugh agreed to help out and we recorded it for the vBrownBag podcast</description>
     </item>
     
     <item>
       <title>How to Create an Azure Storage Account</title>
-      <link>https://www.thomgreene.com/post/2017/2017-06-03-azurestorageacct/</link>
+      <link>https://thomgreene.com/post/2017/2017-06-03-azurestorageacct/</link>
       <pubDate>Sat, 03 Jun 2017 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2017/2017-06-03-azurestorageacct/</guid>
+      <guid>https://thomgreene.com/post/2017/2017-06-03-azurestorageacct/</guid>
       <description>In my article about creating an Azure virtual machine, I walked us through the very basic wizard to create a VM. There is an entire segment of the virtual machine build process dedicated to optional features. These features allow new virtual machines to integrate a VM into an existing Azure environment. When we created our first machine we accepted the default settings, which created new network and storage accounts. That works perfectly for a first look but it wouldn&amp;rsquo;t be appropriate for use in a real life Azure Infrastructure.</description>
     </item>
     
     <item>
       <title>How to Create an Azure Virtual Machine</title>
-      <link>https://www.thomgreene.com/post/2017/2017-05-30-azurevm/</link>
+      <link>https://thomgreene.com/post/2017/2017-05-30-azurevm/</link>
       <pubDate>Tue, 30 May 2017 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2017/2017-05-30-azurevm/</guid>
+      <guid>https://thomgreene.com/post/2017/2017-05-30-azurevm/</guid>
       <description>One of the most basic tasks a VMware administrator will perform is deploying a virtual machine. Whether it is creating a VM from scratch or using a template, we&amp;rsquo;ve all worked through the wizard.
 As I dig deeper into Azure I can&amp;rsquo;t help but bring my experience with vSphere along with me. The Azure Resource Manger is a very different experience from the vSphere Web Client but there also quite a few similarities.</description>
     </item>
     
     <item>
       <title>Getting Started with Azure for Free</title>
-      <link>https://www.thomgreene.com/post/2017/2017-05-26-azurefree/</link>
+      <link>https://thomgreene.com/post/2017/2017-05-26-azurefree/</link>
       <pubDate>Fri, 26 May 2017 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2017/2017-05-26-azurefree/</guid>
+      <guid>https://thomgreene.com/post/2017/2017-05-26-azurefree/</guid>
       <description>I recently created a blog post about Getting Started with AWS. I like what they do and think they&amp;rsquo;re a great platform but there is more than one horse in the public cloud race. Microsoft Azure is a close second to AWS and getting better every day. Microsoft has many advantages that AWS doesn&amp;rsquo;t: They are probably already in your datacenter and you probably have an ELA with them. If you do, check and see if there are Azure credits in there.</description>
     </item>
     
     <item>
       <title>Qwiklabs for AWS</title>
-      <link>https://www.thomgreene.com/post/2017/2017-04-28-quicklabsaws/</link>
+      <link>https://thomgreene.com/post/2017/2017-04-28-quicklabsaws/</link>
       <pubDate>Fri, 28 Apr 2017 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2017/2017-04-28-quicklabsaws/</guid>
+      <guid>https://thomgreene.com/post/2017/2017-04-28-quicklabsaws/</guid>
       <description>A little while ago I wrote about getting started with AWS. I have since been reintroduced to Qwicklabs and felt I should talk a little about this resource.
 I have always been a hands-on learner. I built a home lab to teach myself VMware, I had a Windows domain in my house, and so on. The easiest way to learn AWS is to dig in and with the free tier you don&amp;rsquo;t even have to pay.</description>
     </item>
     
     <item>
       <title>Getting Started with AWS on the Cheap</title>
-      <link>https://www.thomgreene.com/post/2017/2017-04-13-getstartedaws/</link>
+      <link>https://thomgreene.com/post/2017/2017-04-13-getstartedaws/</link>
       <pubDate>Thu, 13 Apr 2017 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2017/2017-04-13-getstartedaws/</guid>
+      <guid>https://thomgreene.com/post/2017/2017-04-13-getstartedaws/</guid>
       <description>I have been skimming the surface of AWS and Azure for various work projects and as part of my new role as a vBrownBag crew member. I feel it is safe to say that public cloud has arrived for the enterprise. It is a very scary transition for Operations. Cloud reminds/infers layoffs and reorgs. If we don&amp;rsquo;t manage hardware why have a hardware team. I think education is the easiest way to cut through fear.</description>
     </item>
     
     <item>
       <title>Upgrading VMware Tools Without a Reboot Using PowerCLI</title>
-      <link>https://www.thomgreene.com/post/2017/2017-02-24-vmtoolsnoreboot/</link>
+      <link>https://thomgreene.com/post/2017/2017-02-24-vmtoolsnoreboot/</link>
       <pubDate>Fri, 24 Feb 2017 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2017/2017-02-24-vmtoolsnoreboot/</guid>
+      <guid>https://thomgreene.com/post/2017/2017-02-24-vmtoolsnoreboot/</guid>
       <description>Historically, one of my biggest little annoyances with a VMware version upgrade has been upgrading VMware tools. In vSphere 5.5, VMware added the ability to update tools without a reboot. If you were manually kicking off the tools upgrade all you need to do is enter the following features into the advanced settings box
 /s /v&amp;quot;/qn REBOOT=ReallySuppress?This is great and causes the tool update to only lose one ping instead of requiring a full restart.</description>
     </item>
     
     <item>
       <title>Backups are Important, Recovery is Essential</title>
-      <link>https://www.thomgreene.com/post/2017/2017-02-22-veeambackupsimportant/</link>
+      <link>https://thomgreene.com/post/2017/2017-02-22-veeambackupsimportant/</link>
       <pubDate>Tue, 07 Feb 2017 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2017/2017-02-22-veeambackupsimportant/</guid>
+      <guid>https://thomgreene.com/post/2017/2017-02-22-veeambackupsimportant/</guid>
       <description>On January 31, 2017 Gitlab experienced a massive database outage. They suffered hours of downtime, which they have detailed here. The transparency in that link is breathtaking for a couple reasons. First, any company willing to details their failures and challenges in such public terms gets my kudos. It&amp;rsquo;s not easy to put yourself on display, warts and all. Second, there are so many self inflicted wounds and unforced errors in the story.</description>
     </item>
     
     <item>
       <title>The Road to Root Cause</title>
-      <link>https://www.thomgreene.com/post/2017/2017-02-07-roadrootcause/</link>
+      <link>https://thomgreene.com/post/2017/2017-02-07-roadrootcause/</link>
       <pubDate>Tue, 07 Feb 2017 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2017/2017-02-07-roadrootcause/</guid>
+      <guid>https://thomgreene.com/post/2017/2017-02-07-roadrootcause/</guid>
       <description>Have you ever received a call from someone that started with &amp;ldquo;Why is everything so slow&amp;rdquo;? I think it&amp;rsquo;s a safe assumption that everyone working in IT Operations has heard some variation of that question. The request could be anything from issue accessing Yahoo mail to a mission critical application unable to communicate with its database. The worst of these calls happen at 2am. Everyone is crabby, nobody wants to take blame or have a finger pointed at them, and there may not be solid supporting data showing slow down.</description>
     </item>
     
     <item>
       <title>Tech Field Day 13 is Here</title>
-      <link>https://www.thomgreene.com/post/2017/2017-02-01-tfd13ishere/</link>
+      <link>https://thomgreene.com/post/2017/2017-02-01-tfd13ishere/</link>
       <pubDate>Wed, 01 Feb 2017 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2017/2017-02-01-tfd13ishere/</guid>
+      <guid>https://thomgreene.com/post/2017/2017-02-01-tfd13ishere/</guid>
       <description>The time has finally arrived! Please watch us this week at http://techfieldday.com/event/tfd13/
 If you have any questions for anyone, please tweet me and I&amp;rsquo;ll be sure to ask.
 Here is the schedule of events:</description>
@@ -211,103 +211,103 @@ Here is the schedule of events:</description>
     
     <item>
       <title>Tech Field Day 13 Preview: DellEMC</title>
-      <link>https://www.thomgreene.com/post/2017/2017-01-27-dellemcpreview/</link>
+      <link>https://thomgreene.com/post/2017/2017-01-27-dellemcpreview/</link>
       <pubDate>Fri, 27 Jan 2017 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2017/2017-01-27-dellemcpreview/</guid>
+      <guid>https://thomgreene.com/post/2017/2017-01-27-dellemcpreview/</guid>
       <description>Last but not least in my Tech Field Day 13 Preview series is Dell EMC. If you&amp;rsquo;re reading this you are probably aware of the Dell and EMC merger that occurred in September 2016. This 67 billion dollar merger took the #2 server manufacturer by market share and combined it with the (tied for) #1 storage vendor. The dust is starting to settle and server bezels are starting to reflect the new logos.</description>
     </item>
     
     <item>
       <title>Tech Field Day 13 Preview: SolarWinds</title>
-      <link>https://www.thomgreene.com/post/2017/2017-01-25-solarwindspreview/</link>
+      <link>https://thomgreene.com/post/2017/2017-01-25-solarwindspreview/</link>
       <pubDate>Wed, 25 Jan 2017 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2017/2017-01-25-solarwindspreview/</guid>
+      <guid>https://thomgreene.com/post/2017/2017-01-25-solarwindspreview/</guid>
       <description>There are a few companies presenting at Tech Field Day 13 that have such robust catalogs that they are hard to preview. SolarWinds is such a company. They were founded in 1999 to provide management and monitoring tools for every layer of the datacenter. In January 2017, IDC recognized SolarWinds as the market share leader in Network Management Software. You can read the press release here.
 I have professional experience using their network configuration manager and virtualization manager tools.</description>
     </item>
     
     <item>
       <title>Tech Field Day 13 Preview: Platform9</title>
-      <link>https://www.thomgreene.com/post/2017/2017-01-23-platform9preview/</link>
+      <link>https://thomgreene.com/post/2017/2017-01-23-platform9preview/</link>
       <pubDate>Mon, 23 Jan 2017 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2017/2017-01-23-platform9preview/</guid>
+      <guid>https://thomgreene.com/post/2017/2017-01-23-platform9preview/</guid>
       <description>Tech Field Day is drawing closer and I’ve really enjoyed the opportunity to dig into vendors during these previews. I have definitely found some products I wish I had known about during one struggle or another. Platform9 is such a vendor. Launched in 2014 by a group of former VMware employees, Platform9 has a goal of bringing OpenStack and Kubernetes Containers to an organization while utilizing their existing investments in hardware and virtualization.</description>
     </item>
     
     <item>
       <title>Tech Field Day 13 Preview: Robin Systems</title>
-      <link>https://www.thomgreene.com/post/2017/2017-01-20-robinpreview/</link>
+      <link>https://thomgreene.com/post/2017/2017-01-20-robinpreview/</link>
       <pubDate>Fri, 20 Jan 2017 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2017/2017-01-20-robinpreview/</guid>
+      <guid>https://thomgreene.com/post/2017/2017-01-20-robinpreview/</guid>
       <description>I am continuing my Tech Field Day 13 preview series with Robin Systems. Robin offers a compelling infrastructure that takes an application-first look at a datacenter. Virtualization changed the datacenter by abstracting the OS away from the hardware. You could devote one application to one OS and run many virtual machines on one physical host. As virtualization has evolved, many businesses use a VM first approach. This are some consequences: Running a VM requires overhead for the OS and essentially ties the application to that one VM.</description>
     </item>
     
     <item>
       <title>Tech Field Day 13 Preview: Veeam</title>
-      <link>https://www.thomgreene.com/post/2017/2017-01-18-veeampreview/</link>
+      <link>https://thomgreene.com/post/2017/2017-01-18-veeampreview/</link>
       <pubDate>Wed, 18 Jan 2017 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2017/2017-01-18-veeampreview/</guid>
+      <guid>https://thomgreene.com/post/2017/2017-01-18-veeampreview/</guid>
       <description>Next up in my Tech Field Day 13 research is Veeam. It’s hard to talk about enterprise backup without discussing Veeam. Founded in 2006, Veeam was among the first to solve the challenge presented by backing up virtual machines. As the years have passed they continued to improve and add features to their product. It was just announced that in 2016 they saw 28% growth. That is remarkable growth for any company, especially if they have been around for 10 years.</description>
     </item>
     
     <item>
       <title>Tech Field Day 13 Preview: StorMagic</title>
-      <link>https://www.thomgreene.com/post/2017/2017-01-16-stormagicpreview/</link>
+      <link>https://thomgreene.com/post/2017/2017-01-16-stormagicpreview/</link>
       <pubDate>Mon, 16 Jan 2017 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2017/2017-01-16-stormagicpreview/</guid>
+      <guid>https://thomgreene.com/post/2017/2017-01-16-stormagicpreview/</guid>
       <description>For my next Tech Field Day preview I will focus on StorMagic. Founded in 2006, StorMagic has strove to find a simple, cost effective software defined storage solution. Virtualization depends on shared storage to provide high availability. This is typically provided with a SAN or NAS device. Sometimes there’s a branch office or some remote site that needs server infrastructure but it doesn’t make financial sense or is logistically impossible to buy a primary storage device.</description>
     </item>
     
     <item>
       <title>Tech Field Day 13 Preview: Uila</title>
-      <link>https://www.thomgreene.com/post/2017/2017-01-09-uilapreview/</link>
+      <link>https://thomgreene.com/post/2017/2017-01-09-uilapreview/</link>
       <pubDate>Mon, 09 Jan 2017 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2017/2017-01-09-uilapreview/</guid>
+      <guid>https://thomgreene.com/post/2017/2017-01-09-uilapreview/</guid>
       <description>As part two of my Tech Field Day preview I wanted to spotlight Uila, Inc (pronounced wee-lah). Uila Inc released Uila, a root cause analysis and network monitoring solution. Their solution was announced in February 2016 as a way to address a black hole in data center management tools.
 As virtualization has grown in prevalence and importance a new challenge has surfaced. When a virtualized application performs poorly there is no longer one tool to narrow it down.</description>
     </item>
     
     <item>
       <title>Tech Field Day 13 Preview: Zerostack</title>
-      <link>https://www.thomgreene.com/post/2017/2017-01-04-zerostackpreview/</link>
+      <link>https://thomgreene.com/post/2017/2017-01-04-zerostackpreview/</link>
       <pubDate>Wed, 04 Jan 2017 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2017/2017-01-04-zerostackpreview/</guid>
+      <guid>https://thomgreene.com/post/2017/2017-01-04-zerostackpreview/</guid>
       <description>There are many interesting and exciting vendors on the itinerary for Tech Field Day 13. One that really intrigues me is ZeroStack. I did a month long study trying to learn Openstack for my vBrownbag Tech talk at VMworld 2016. I love cloud technologies and their ease of consumption. There are a lot of issues associated with public cloud that Openstack addresses. You use on-premises hardware, have total control of your data, and don&amp;rsquo;t have the reoccurring costs.</description>
     </item>
     
     <item>
       <title>Tech Field Day 13!</title>
-      <link>https://www.thomgreene.com/post/2017/2017-01-03-techfieldday13/</link>
+      <link>https://thomgreene.com/post/2017/2017-01-03-techfieldday13/</link>
       <pubDate>Tue, 03 Jan 2017 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2017/2017-01-03-techfieldday13/</guid>
+      <guid>https://thomgreene.com/post/2017/2017-01-03-techfieldday13/</guid>
       <description>I am extremely proud to say that I was selected as a delegate for Tech Field Day 13! You may be asking the question &amp;ldquo;what is Tech Field Day?&amp;rdquo; Well I&amp;rsquo;m glad you asked. Tech Field Day is an organization that takes independent IT professionals and IT vendors, puts them in the same room, and lets the good times roll. A delegate gets unprecedented access to a vendor&amp;rsquo;s executives and engineers.</description>
     </item>
     
     <item>
       <title>Looking Forward to 2017</title>
-      <link>https://www.thomgreene.com/post/2017/2017-01-02-lookingforward2017/</link>
+      <link>https://thomgreene.com/post/2017/2017-01-02-lookingforward2017/</link>
       <pubDate>Mon, 02 Jan 2017 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2017/2017-01-02-lookingforward2017/</guid>
+      <guid>https://thomgreene.com/post/2017/2017-01-02-lookingforward2017/</guid>
       <description>It’s a very common sentiment that 2016 was a bad year. If you pay attention to the news and pop culture this seems accurate. Many of the celebrities I grew up watching and listening to passed away. The election cycle was filled with mud slinging and people on both sides seemed to lose their mind. There were many people in my extended social circle who experienced personal tragedies.
 I was one of the lucky ones.</description>
     </item>
     
     <item>
       <title>&#39;Tis the Season for Certification</title>
-      <link>https://www.thomgreene.com/post/2016/2016-12-15-tistheseason2016/</link>
+      <link>https://thomgreene.com/post/2016/2016-12-15-tistheseason2016/</link>
       <pubDate>Thu, 15 Dec 2016 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-12-15-tistheseason2016/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-12-15-tistheseason2016/</guid>
       <description>The end of the calendar year brings family, travel, and performance evaluations. A big part of mine is training and tech development. It&amp;rsquo;s never too soon to start thinking about what is new and where your are interested in strengthening your skill.
 I asked some tech experts what skills are the stuff to learn for 2017. Keith Townsend @ctoadvisor responded with
  Scripting (ie Cloud Formation, Powershell, Python)
@@ -316,246 +316,246 @@ Hybrid infrastructure networking (AWS VPC&amp;gt;VPN integration)</description>
     
     <item>
       <title>So You Want a Home Lab</title>
-      <link>https://www.thomgreene.com/post/2016/2016-11-20-soyouwantahomelab/</link>
+      <link>https://thomgreene.com/post/2016/2016-11-20-soyouwantahomelab/</link>
       <pubDate>Sun, 20 Nov 2016 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-11-20-soyouwantahomelab/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-11-20-soyouwantahomelab/</guid>
       <description>In 2008 I purchased a Dell T110 tower server for my home. I wanted something to run ESXi 4 on so I could run Windows 2003 servers to study for my MCSE. From that point on a home lab has been critical to my success as a technician. It is very common for a technical professional to have some sort of personal space to mess around with.
 There are many reasons someone may want to spend hard earned money on a home lab.</description>
     </item>
     
     <item>
       <title>vCenter Plugin Tracker Spreadsheet</title>
-      <link>https://www.thomgreene.com/post/2016/2016-11-19-vcenterplugintracker/</link>
+      <link>https://thomgreene.com/post/2016/2016-11-19-vcenterplugintracker/</link>
       <pubDate>Sat, 19 Nov 2016 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-11-19-vcenterplugintracker/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-11-19-vcenterplugintracker/</guid>
       <description>As vCenter has evolved many programs and plugins depend on it for functionality. With the recent GA to vSphere 6.5 a discussion came up on twitter. Veeam released version 9.5 around the same time but it&amp;rsquo;s not compatible with vSphere 6.5. I tried to install Veeam into my lab but couldn&amp;rsquo;t. Instead I was met with an error warning me to wait until Veeam 9.5 Update 1.
 The discussion about Compatibility reminded me of the spreadsheet I use to track plugins and configuration of all my servers.</description>
     </item>
     
     <item>
       <title>VMware vExpert 2017 Applications are Now Open!</title>
-      <link>https://www.thomgreene.com/post/2016/2016-11-08-vexpert2017application/</link>
+      <link>https://thomgreene.com/post/2016/2016-11-08-vexpert2017application/</link>
       <pubDate>Tue, 08 Nov 2016 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-11-08-vexpert2017application/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-11-08-vexpert2017application/</guid>
       <description>The application for vExpert 2017 opened today and go through December 16th. The vExpert program is a VMware advocacy group that recognizes people who give back to the VMware community and promote VMware technology. You can become a vExpert by leading a VMUG, speaking, blogging, and/or tweeting your support of VMware technology.
 I can say one of the best things that has happened in my career was being selected as vExpert 2016.</description>
     </item>
     
     <item>
       <title>Merging SSO Domains in vCenter Server 5.5 pt 2: How?</title>
-      <link>https://www.thomgreene.com/post/2016/2016-11-07-ssodomainpt2/</link>
+      <link>https://thomgreene.com/post/2016/2016-11-07-ssodomainpt2/</link>
       <pubDate>Mon, 07 Nov 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-11-07-ssodomainpt2/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-11-07-ssodomainpt2/</guid>
       <description>In part 1 of my discussion about Merging SSO Domains I discussed why I was required to make that change. To recap: Enhanced Linked Mode is a business requirement in 6.0 and that requires all vCenters to belong to the same SSO Domain. You can&amp;rsquo;t merge SSO domains in 6.0 so we need to do it before the upgrade.
 While the concept sounds simple enough execution gets a bit complicated. There are a lot of services that need to be modified and some architectural decisions to make.</description>
     </item>
     
     <item>
       <title>First Steps for my VCDX Design</title>
-      <link>https://www.thomgreene.com/post/2016/2016-11-06-vcdxfirststeps/</link>
+      <link>https://thomgreene.com/post/2016/2016-11-06-vcdxfirststeps/</link>
       <pubDate>Sun, 06 Nov 2016 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-11-06-vcdxfirststeps/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-11-06-vcdxfirststeps/</guid>
       <description>I have publicly committed to submitting a design to the VCDX committee. My design is due in March 2017. I&amp;rsquo;m very glad I signed up to submit because it has kick started my motivation. Today I wanted to talk about my progress.
 I am using an actual design for a project I worked on. It&amp;rsquo;s a fairly complex system with many moving pieces. It mostly meets AMPRS requirements (Availability, Manageability, Performance, Recoverability, Security) so I shouldn&amp;rsquo;t have to do much tweaking to make it pass muster.</description>
     </item>
     
     <item>
       <title>Can You be a Full Stack Engineer</title>
-      <link>https://www.thomgreene.com/post/2016/2016-11-05-fullstackengineer/</link>
+      <link>https://thomgreene.com/post/2016/2016-11-05-fullstackengineer/</link>
       <pubDate>Sat, 05 Nov 2016 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-11-05-fullstackengineer/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-11-05-fullstackengineer/</guid>
       <description>I&amp;rsquo;m a huge fan of the Full Stack Journey podcast. In the show Scott Lowe investigates the question &amp;ldquo;Can someone truly be a full stack engineer?”. He and his guests work together to give actionable advice and talk about the benefits of being a full stack engineer vs working in a silo.
 The definition of a full stack engineer really hard to pin down. Many people have opinions on the matter and they revolve around some common themes.</description>
     </item>
     
     <item>
       <title>Merging SSO Domains in vCenter 5.5 part 1: Why?</title>
-      <link>https://www.thomgreene.com/post/2016/2016-11-04-ssodomainpt1/</link>
+      <link>https://thomgreene.com/post/2016/2016-11-04-ssodomainpt1/</link>
       <pubDate>Fri, 04 Nov 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-11-04-ssodomainpt1/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-11-04-ssodomainpt1/</guid>
       <description>Sometimes tasks that seem simple at first can become very complicated. When I was first tasked with upgrading a vCenter 5.5 environment to 6.0 I imagined mounting an ISO, clicking through the wizard, and voila, upgrade complete. This may work when you only have one vCenter server in a simple environment, however in an enterprise this is typically far from the optimal way to approach the upgrade.
 Over the next couple of entries I will talk about my progress toward a vSphere 6 upgrade.</description>
     </item>
     
     <item>
       <title>What Would I Advise Someone to Avoid in their Career?</title>
-      <link>https://www.thomgreene.com/post/2016/2016-11-03-advicetoavoid/</link>
+      <link>https://thomgreene.com/post/2016/2016-11-03-advicetoavoid/</link>
       <pubDate>Thu, 03 Nov 2016 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-11-03-advicetoavoid/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-11-03-advicetoavoid/</guid>
       <description>I am a regular listener to The Geek Whisperers podcast. If you haven&amp;rsquo;t listened to them before please check them out here. Trust me, you won&amp;rsquo;t regret it. The podcast always has a very interesting guest and they talk soft skills and high level concepts with very technical people. A lot of their discussion revolves around career paths, decisions that lead their guest to their current position, and practical advice a listener can implement to change, improve, or develop similar skills.</description>
     </item>
     
     <item>
       <title>Study Habits for Certification Success</title>
-      <link>https://www.thomgreene.com/post/2016/2016-11-02-certificationcareer/</link>
+      <link>https://thomgreene.com/post/2016/2016-11-02-certificationcareer/</link>
       <pubDate>Wed, 02 Nov 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-11-02-certificationcareer/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-11-02-certificationcareer/</guid>
       <description>As I&amp;rsquo;ve stated before, I highly value certification. I think they provide a good goal and can encourage someone to dig deep and learn features of a technology they may have never looked into otherwise. I recently had a discussion which started with the question &amp;ldquo;can certifications make a career?&amp;rdquo;
 The even split came down to &amp;ldquo;yes, they prove your knowledge&amp;rdquo; and &amp;ldquo;no, it&amp;rsquo;s too easy to cheat for them to be valuable&amp;rdquo;.</description>
     </item>
     
     <item>
       <title>First Steps for my VCDX Design</title>
-      <link>https://www.thomgreene.com/post/2016/2016-11-01-vdm30in30/</link>
+      <link>https://thomgreene.com/post/2016/2016-11-01-vdm30in30/</link>
       <pubDate>Tue, 01 Nov 2016 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-11-01-vdm30in30/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-11-01-vdm30in30/</guid>
       <description>After a lot of going back and fourth, gnashing my teeth, etc I decided to participate in the #vDM30in30 challenge. I suppose that starting a VCDX design and working to improve my presentation skills wasn&amp;rsquo;t enough. Add on work responsibilities and family time and I have a challenge ahead of me.
 I refuse to let doubt or fear stop me so here I go. In the next month I hope to talk about the following topics (and more!</description>
     </item>
     
     <item>
       <title>Automation in Action: Which Hosts are Accessing a Given Datastore?</title>
-      <link>https://www.thomgreene.com/post/2016/2016-09-28-datastoreaccess/</link>
+      <link>https://thomgreene.com/post/2016/2016-09-28-datastoreaccess/</link>
       <pubDate>Wed, 28 Sep 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-09-28-datastoreaccess/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-09-28-datastoreaccess/</guid>
       <description>One of the biggest challenges in a new environment can be mapping out resources. In a large environment you may encounter ESXi hosts that were moved between clusters, datastores that were mapped to multiple unnecessary hosts, or any number of additional surprises or inconsistencies. I encountered such a challenge and needed to answer a seemingly simple question: Which hosts and which clusters would be impacted by a loss of a datastore?</description>
     </item>
     
     <item>
       <title>VMworld 2016 In Review</title>
-      <link>https://www.thomgreene.com/post/2016/2016-09-01-vmworld2016review/</link>
+      <link>https://thomgreene.com/post/2016/2016-09-01-vmworld2016review/</link>
       <pubDate>Thu, 01 Sep 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-09-01-vmworld2016review/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-09-01-vmworld2016review/</guid>
       <description>My first VMworld is coming to an end and has been an amazing experience. I have learned a lot about VMware&amp;rsquo;s pipeline, dug deep with vendors to learn more about products we are evaluating, and sat in some breakout session with tips that will help me improve our environment today.
 Cross cloud services is the most interesting and important development as far as I am concerned. They are using NSX and their other SDDC services to provide a single dashboard with visualization and control of your AWS, Azure, and Google cloud resources.</description>
     </item>
     
     <item>
       <title>Mission Accomplished: Openstack in a Month</title>
-      <link>https://www.thomgreene.com/post/2016/2016-08-31-missioncomplete/</link>
+      <link>https://thomgreene.com/post/2016/2016-08-31-missioncomplete/</link>
       <pubDate>Wed, 31 Aug 2016 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-08-31-missioncomplete/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-08-31-missioncomplete/</guid>
       <description>In July I posted about my insane goal of giving a talk at VMworld on a technology I knew nothing about. I chose Openstack, which at that time was nothing more than a buzzword to me. I remember reading tweets saying VMware Administrators needed to pay attention to Openstack but couldn&amp;rsquo;t tell you what it was.
 VMworld has arrived and on Monday, August 29th, 2016 I presented my talk. I am not afraid of public speaking but got some jitters as the crew started counting me down.</description>
     </item>
     
     <item>
       <title>VMworld 2016 Day 0</title>
-      <link>https://www.thomgreene.com/post/2016/2016-08-29-vmworld2016dayzero/</link>
+      <link>https://thomgreene.com/post/2016/2016-08-29-vmworld2016dayzero/</link>
       <pubDate>Mon, 29 Aug 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-08-29-vmworld2016dayzero/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-08-29-vmworld2016dayzero/</guid>
       <description>I arrived at VMworld on Sunday August 28th in the mid morning. I was exhausted after a long and early flight but activities were already underway so I jumped right in. Registration was quick and I got a sweet backpack out of it.
 Day 0 is a great time to meet up with new pals and get the lay of the land. I did a couple laps of both floors and basically know where I&amp;rsquo;m going.</description>
     </item>
     
     <item>
       <title>Learning OpenStack in a Month</title>
-      <link>https://www.thomgreene.com/post/2016/2016-07-19-openstackmonth/</link>
+      <link>https://thomgreene.com/post/2016/2016-07-19-openstackmonth/</link>
       <pubDate>Tue, 19 Jul 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-07-19-openstackmonth/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-07-19-openstackmonth/</guid>
       <description>I&amp;rsquo;ve never been a person to shy away from a technology or educational challenge. When I was presented with AWS as a platform to move forward with in my consulting days I jumped on it. I went from &amp;ldquo;couch to AWS&amp;rdquo; within a couple weeks and did my first deployment six weeks after starting my journey.
 I wanted to replicate this journey. Jumping in the deep end and having a deadline to learn something well enough to really use it excites me.</description>
     </item>
     
     <item>
       <title>My VCAP6-DCV Deploy Beta Experience</title>
-      <link>https://www.thomgreene.com/post/2016/2016-06-29-vcap6deploybeta/</link>
+      <link>https://thomgreene.com/post/2016/2016-06-29-vcap6deploybeta/</link>
       <pubDate>Wed, 29 Jun 2016 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-06-29-vcap6deploybeta/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-06-29-vcap6deploybeta/</guid>
       <description>I sat the VCAP6-DCV Beta last night. First off the test was extremely fun, much like the VCAP5-DCA. In a live lab your skills are really tested. The new interface provided some challenges but is overall better than the legacy interface. The console is faster and it&amp;rsquo;s a lot nicer to be able to open the manual over the interface. It is very cramped though. My center maybe had an 18 inch monitor so I was still minimizing my manual a lot.</description>
     </item>
     
     <item>
       <title>Strategy Going into the VCAP6-DCV Deploy</title>
-      <link>https://www.thomgreene.com/post/2016/2016-06-25-vcap6deploystrategy/</link>
+      <link>https://thomgreene.com/post/2016/2016-06-25-vcap6deploystrategy/</link>
       <pubDate>Sat, 25 Jun 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-06-25-vcap6deploystrategy/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-06-25-vcap6deploystrategy/</guid>
       <description>As I prepare to take an advanced test on a version of VMware I had never touched prior to dropping my $100 I knew I needed a strategy. I searched the blueprint for what was new and hoped my notes from the DCA were enough to patch me through.
 Plenty of articles exist to study by. I used many of them to prepare myself. When the time comes for me to take my seat here is how I&amp;rsquo;ll prepare:</description>
     </item>
     
     <item>
       <title>VCAP6-DCV Deploy Blueprint Changes from VCAP5-DCA</title>
-      <link>https://www.thomgreene.com/post/2016/2016-06-19-vcap6deploychanges/</link>
+      <link>https://thomgreene.com/post/2016/2016-06-19-vcap6deploychanges/</link>
       <pubDate>Sun, 19 Jun 2016 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-06-19-vcap6deploychanges/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-06-19-vcap6deploychanges/</guid>
       <description>VMware recently announced a 2 week availability for the VCAP6-DCV Deploy beta. After some debate I signed up to sit the exam on June 28, 2016. They provide a beta version of the blueprint so I started there to see what had changed from my VCAP5-DCA 5.5 blueprint and notes. I made some quick notes and want to share them here.
  As a disclaimer my list is quick first pass.</description>
     </item>
     
     <item>
       <title>Cloud = Outsourcing</title>
-      <link>https://www.thomgreene.com/post/2016/2016-06-10-cloudoutsourcing/</link>
+      <link>https://thomgreene.com/post/2016/2016-06-10-cloudoutsourcing/</link>
       <pubDate>Fri, 10 Jun 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-06-10-cloudoutsourcing/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-06-10-cloudoutsourcing/</guid>
       <description>Discussion of the cloud seems to be popping up around me daily. Part of it is my own instigation but other people are starting the discussions as well. It is always a lively debate with three sides. There&amp;rsquo;s very pro-cloud, cloud for specific use cases, and there are the totally anti-cloud people. A member of that political faction contributed the following quote to the meeting&amp;rsquo;s chat:
  Cloud n. /Kloud/ def.</description>
     </item>
     
     <item>
       <title>Over Designed and Under Documented</title>
-      <link>https://www.thomgreene.com/post/2016/2016-06-05-overdesigned/</link>
+      <link>https://thomgreene.com/post/2016/2016-06-05-overdesigned/</link>
       <pubDate>Sun, 05 Jun 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-06-05-overdesigned/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-06-05-overdesigned/</guid>
       <description>Documentation is important. I doubt anybody would disagree with this statement. I don&amp;rsquo;t know anyone who would say they went into a new job or a new client with enough documentation to feel confident. Most of this knowledge comes from digging in and there is rarely enough time to stop and open Visio. We all want documentation in six months but it&amp;rsquo;s never today&amp;rsquo;s priority.
 Documentation becomes crucial when you create a new standard or design something outside of the existing standard.</description>
     </item>
     
     <item>
       <title>My Head has been in the Cloud</title>
-      <link>https://www.thomgreene.com/post/2016/2016-05-20-headincloud/</link>
+      <link>https://thomgreene.com/post/2016/2016-05-20-headincloud/</link>
       <pubDate>Fri, 20 May 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-05-20-headincloud/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-05-20-headincloud/</guid>
       <description>About two years ago I just happened to read an article in CIO magazine about &amp;ldquo;The Cloud&amp;rdquo;. I&amp;rsquo;ve always been a huge fan of virtualization and getting the most computing for my money. Reading about AWS in particular really excited me. I thought of Amazon as a fantastic retailer and this article and the research done afterward really opened my eyes.
 I&amp;rsquo;m all about infrastructure and approached my studies from that perspective.</description>
     </item>
     
     <item>
       <title>Keeping Organized</title>
-      <link>https://www.thomgreene.com/post/2016/2016-05-12-keeporganized/</link>
+      <link>https://thomgreene.com/post/2016/2016-05-12-keeporganized/</link>
       <pubDate>Thu, 12 May 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-05-12-keeporganized/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-05-12-keeporganized/</guid>
       <description>Being in technology is hard. You have multiple priorities, projects, implementation, and break-fix issues that come your way. If you&amp;rsquo;re anything like me you want to fix everything and sometimes something could slip through the cracks. It happens to everyone occasionally and we&amp;rsquo;re all human.
 I spend a significant amount of time trying to stop that from happening to me. Being a successful technician and team member means you try to mitigate missing priorities.</description>
     </item>
     
     <item>
       <title>My VCAP5-DCD Experience</title>
-      <link>https://www.thomgreene.com/post/2016/2016-04-08-vcap5dcdexperience/</link>
+      <link>https://thomgreene.com/post/2016/2016-04-08-vcap5dcdexperience/</link>
       <pubDate>Fri, 08 Apr 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-04-08-vcap5dcdexperience/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-04-08-vcap5dcdexperience/</guid>
       <description>On March 29th I posted about VMware&amp;rsquo;s announcement regarding the retirement of the VCAP5 exams. Passing these exams have always been a bucket list item for me. I feel that they confirm a technician&amp;rsquo;s ability to actually use and conceptualize VMware more beyond the typical multiple choice exam. The VCP has become required for many job so having the next level up should set me apart from the competition.
 So after my March 8th pass I started gathering material to sit the DCD.</description>
     </item>
     
     <item>
       <title>How to Check Negotiated Speed on Fibre Channel HBAs</title>
-      <link>https://www.thomgreene.com/post/2016/2016-04-05-hbaspeed/</link>
+      <link>https://thomgreene.com/post/2016/2016-04-05-hbaspeed/</link>
       <pubDate>Tue, 05 Apr 2016 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-04-05-hbaspeed/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-04-05-hbaspeed/</guid>
       <description>Fibre channel storage is great because it mostly &amp;ldquo;just works&amp;rdquo;. You provision storage, assign it to the WWPNs, rescan the adapters, and the luns are presented. There isn&amp;rsquo;t a lot of configuration in the GUI and, honestly, it can be hard to detect link speed or even if a link is up. In the Storage Adapter tab you can see if a path is down, but how do you detect the link speed?</description>
     </item>
     
     <item>
       <title>VMware Announces VCAP5-DCA and VCAP5-DCD Exam Retirement</title>
-      <link>https://www.thomgreene.com/post/2016/2016-03-29-vcap5examretirement/</link>
+      <link>https://thomgreene.com/post/2016/2016-03-29-vcap5examretirement/</link>
       <pubDate>Tue, 29 Mar 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-03-29-vcap5examretirement/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-03-29-vcap5examretirement/</guid>
       <description>On March 23rd VMware officially announced the retirement of their VCAP5 Datacenter exams. Read the official information here: 4 Exam Retirements in June
 It&amp;rsquo;s an interesting move as the VCAP6-DCA and DCD exams aren&amp;rsquo;t even available to book right now. You can still book and sit the exam up until the expiration dates (June 4th for DCA, June 24th for the DCD).
 I expected this but am a little disappointed. I booked my DCD for May 27th with the backup plan of taking a second shot at VMworld should I need it.</description>
@@ -563,58 +563,58 @@ I expected this but am a little disappointed. I booked my DCD for May 27th with 
     
     <item>
       <title>Study Habits for Certification Success</title>
-      <link>https://www.thomgreene.com/post/2016/2016-03-25-studyhabits/</link>
+      <link>https://thomgreene.com/post/2016/2016-03-25-studyhabits/</link>
       <pubDate>Fri, 25 Mar 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-03-25-studyhabits/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-03-25-studyhabits/</guid>
       <description>I don&amp;rsquo;t have a degree in Information Technology or in Computer Science. I&amp;rsquo;ve occasionally entertained going back to school to formally cement my education but never taken that step. Since I don&amp;rsquo;t have that education I&amp;rsquo;ve always looked to certification as a way to &amp;ldquo;prove my worth.&amp;rdquo; Some people may argue that certifications are just paper and aren&amp;rsquo;t worth anything, however I strongly disagree. I feel having a focus and a goal to work toward sharpens my continued education.</description>
     </item>
     
     <item>
       <title>Check and Configure Time Service Datacenter-wide</title>
-      <link>https://www.thomgreene.com/post/2016/2016-03-22-configuretime/</link>
+      <link>https://thomgreene.com/post/2016/2016-03-22-configuretime/</link>
       <pubDate>Tue, 22 Mar 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-03-22-configuretime/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-03-22-configuretime/</guid>
       <description>I once had an opportunity to improve and standardize ESXi host time synchronization in an environment with hundreds of hosts. There had been issues with time sync and drift that needed to be addressed. To fix this I turned to PowerCLI to do a quick and dirty dump of the configuredNTP settings on each of the hosts in the Datacenter.
 Get-VMHost | Get-VMHostService |Where-Object {$_.key -eq &amp;quot;ntpd&amp;quot;}This commandlet returns output which gets us part of the way to the solution, but we can refine it and make it better.</description>
     </item>
     
     <item>
       <title>My VCAP5-DCA Experience</title>
-      <link>https://www.thomgreene.com/post/2016/2016-03-18-vcap5dcaexperience/</link>
+      <link>https://thomgreene.com/post/2016/2016-03-18-vcap5dcaexperience/</link>
       <pubDate>Fri, 18 Mar 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-03-18-vcap5dcaexperience/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-03-18-vcap5dcaexperience/</guid>
       <description>On March 3, 2016 I set the VCAP5-DCA exam. This was the most stressful and exciting test I had ever taken. Below are my thoughts and experiences on the exam. I originally posted them on the Techexams.net Virtualization Forum
 The blueprint is 100% on point for this test. Download it, download a checklist too and check off each point as you are reading and labbing them. I used the pluralsight Optimize and Scale course taught by Jason Nash, I had Staples print and bind the PDF study guide found at https://paulgrevink.</description>
     </item>
     
     <item>
       <title>Investigating VM Configuration Changes</title>
-      <link>https://www.thomgreene.com/post/2016/2016-03-15-vmconfigchange/</link>
+      <link>https://thomgreene.com/post/2016/2016-03-15-vmconfigchange/</link>
       <pubDate>Tue, 15 Mar 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-03-15-vmconfigchange/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-03-15-vmconfigchange/</guid>
       <description>Tracking resource configuration is a common struggle for an enterprise level environment. Even SMBs can have trouble keeping track of how their memory is provisioned and when it changes. What&amp;rsquo;s worse, VMware&amp;rsquo;s vSphere Client doesn&amp;rsquo;t provide any insight as to what changes when someone edits the virtual machine settings. An event named&amp;quot;Reconfigure virtual machine&amp;rdquo; hits the task log but this isn&amp;rsquo;t a lot of information. If you open Edit Settings and click OK vCenter registers this event even if you didn&amp;rsquo;t change anything.</description>
     </item>
     
     <item>
       <title>Detecting a Misconfigured vSwitch</title>
-      <link>https://www.thomgreene.com/post/2016/2016-03-11-switchmisconfig/</link>
+      <link>https://thomgreene.com/post/2016/2016-03-11-switchmisconfig/</link>
       <pubDate>Fri, 11 Mar 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-03-11-switchmisconfig/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-03-11-switchmisconfig/</guid>
       <description>Years ago I received a call for help from someone setting up a vSphere host. The install had never worked right and the clients were upset at the upgrade. It sometimes took 30 seconds to connect to a server and their SQL applications would crash daily. My intuition told me there was something strange going on with the network.
 It was a very basic install with one Standard vSwitch doing management and virtual machine network traffic.</description>
     </item>
     
     <item>
       <title>Disable Atomic Test and Set for Incompatible Storage Arrays</title>
-      <link>https://www.thomgreene.com/post/2016/2016-03-08-disableats/</link>
+      <link>https://thomgreene.com/post/2016/2016-03-08-disableats/</link>
       <pubDate>Tue, 08 Mar 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-03-08-disableats/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-03-08-disableats/</guid>
       <description>After performing an upgrade from ESXi 4.1/ESXi 5.0 to ESXi 5.5 u2 I noticed increased latency events on hosts. More troubling, the affected hosts were frequently dropping all presented datastores, though they would reconnect within a few seconds. The events may appear in your event log as below:
 While there are many possible causes to explore these sorts of connectivity issues, one that is often overlooked is how ESXi heartbeating to the datastores.</description>
     </item>

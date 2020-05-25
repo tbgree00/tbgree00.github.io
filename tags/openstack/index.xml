@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>OpenStack on thomgreene.com</title>
-    <link>https://www.thomgreene.com/tags/openstack/</link>
+    <link>https://thomgreene.com/tags/openstack/</link>
     <description>Recent content in OpenStack on thomgreene.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 04 Jan 2017 12:00:00 -0400</lastBuildDate>
     
-	<atom:link href="https://www.thomgreene.com/tags/openstack/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thomgreene.com/tags/openstack/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Tech Field Day 13 Preview: Zerostack</title>
-      <link>https://www.thomgreene.com/post/2017/2017-01-04-zerostackpreview/</link>
+      <link>https://thomgreene.com/post/2017/2017-01-04-zerostackpreview/</link>
       <pubDate>Wed, 04 Jan 2017 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2017/2017-01-04-zerostackpreview/</guid>
+      <guid>https://thomgreene.com/post/2017/2017-01-04-zerostackpreview/</guid>
       <description>There are many interesting and exciting vendors on the itinerary for Tech Field Day 13. One that really intrigues me is ZeroStack. I did a month long study trying to learn Openstack for my vBrownbag Tech talk at VMworld 2016. I love cloud technologies and their ease of consumption. There are a lot of issues associated with public cloud that Openstack addresses. You use on-premises hardware, have total control of your data, and don&amp;rsquo;t have the reoccurring costs.</description>
     </item>
     
     <item>
       <title>Mission Accomplished: Openstack in a Month</title>
-      <link>https://www.thomgreene.com/post/2016/2016-08-31-missioncomplete/</link>
+      <link>https://thomgreene.com/post/2016/2016-08-31-missioncomplete/</link>
       <pubDate>Wed, 31 Aug 2016 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-08-31-missioncomplete/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-08-31-missioncomplete/</guid>
       <description>In July I posted about my insane goal of giving a talk at VMworld on a technology I knew nothing about. I chose Openstack, which at that time was nothing more than a buzzword to me. I remember reading tweets saying VMware Administrators needed to pay attention to Openstack but couldn&amp;rsquo;t tell you what it was.
 VMworld has arrived and on Monday, August 29th, 2016 I presented my talk. I am not afraid of public speaking but got some jitters as the crew started counting me down.</description>
     </item>
     
     <item>
       <title>Learning OpenStack in a Month</title>
-      <link>https://www.thomgreene.com/post/2016/2016-07-19-openstackmonth/</link>
+      <link>https://thomgreene.com/post/2016/2016-07-19-openstackmonth/</link>
       <pubDate>Tue, 19 Jul 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-07-19-openstackmonth/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-07-19-openstackmonth/</guid>
       <description>I&amp;rsquo;ve never been a person to shy away from a technology or educational challenge. When I was presented with AWS as a platform to move forward with in my consulting days I jumped on it. I went from &amp;ldquo;couch to AWS&amp;rdquo; within a couple weeks and did my first deployment six weeks after starting my journey.
 I wanted to replicate this journey. Jumping in the deep end and having a deadline to learn something well enough to really use it excites me.</description>
     </item>

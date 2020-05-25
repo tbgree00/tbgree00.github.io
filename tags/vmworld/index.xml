@@ -2,70 +2,70 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>VMworld on thomgreene.com</title>
-    <link>https://www.thomgreene.com/tags/vmworld/</link>
+    <link>https://thomgreene.com/tags/vmworld/</link>
     <description>Recent content in VMworld on thomgreene.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 05 Jul 2018 10:44:37 -0400</lastBuildDate>
     
-	<atom:link href="https://www.thomgreene.com/tags/vmworld/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thomgreene.com/tags/vmworld/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Make the Most out of VMworld 2018</title>
-      <link>https://www.thomgreene.com/post/2018/2018-07-05-vmworldtips/</link>
+      <link>https://thomgreene.com/post/2018/2018-07-05-vmworldtips/</link>
       <pubDate>Thu, 05 Jul 2018 10:44:37 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2018/2018-07-05-vmworldtips/</guid>
+      <guid>https://thomgreene.com/post/2018/2018-07-05-vmworldtips/</guid>
       <description>VMworld is one of the most anticipated events of the year for many people in the tech world. Engineers and architects from all over the world come together to share, learn, and make new friends. I have been fortunate enough to attend both VMworld 2016 and 2017 and have learned many lessons about how to maximize my time.
 There are a few tips you&amp;rsquo;ll read over and over again. They are definitely worth repeating, though.</description>
     </item>
     
     <item>
       <title>Hacking Public Speaking - Mentors to Help you Rock It</title>
-      <link>https://www.thomgreene.com/post/2017/2017-08-30-hackingpublicspeaking/</link>
+      <link>https://thomgreene.com/post/2017/2017-08-30-hackingpublicspeaking/</link>
       <pubDate>Wed, 30 Aug 2017 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2017/2017-08-30-hackingpublicspeaking/</guid>
+      <guid>https://thomgreene.com/post/2017/2017-08-30-hackingpublicspeaking/</guid>
       <description>Public speaking is hard. Standing in front of a crowd and being the center of attention can be a scary thought. Luckily, there are many members of the technology community out there willing to ease you through it. At VMworld 2017 I was fortunate enough to participate in a vBrownBag panel discussion with some giants in the VMware community: Edward Haletky, Simon Long, and Ariel Sanchez Mora.
 The four of us were talking after the session and decided we would like to formally arrange a mentoring program to help give back to the community that has helped us so much.</description>
     </item>
     
     <item>
       <title>VMworld 2017 is Almost Here</title>
-      <link>https://www.thomgreene.com/post/2017/2017-08-16-vmworld2017preview/</link>
+      <link>https://thomgreene.com/post/2017/2017-08-16-vmworld2017preview/</link>
       <pubDate>Wed, 16 Aug 2017 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2017/2017-08-16-vmworld2017preview/</guid>
+      <guid>https://thomgreene.com/post/2017/2017-08-16-vmworld2017preview/</guid>
       <description>VMworld 2017 is upon us and looks to be busy as ever. I&amp;rsquo;ll be returning to Las Vegas and the place this ride started last year. There has been a LOT happening in my life during the past 50 weeks. I&amp;rsquo;m proud to say I joined Rackspace in the Specialist Cloud Architecture business, representing VMware products and services. As many of you also know, I joined the vBrownBag crew and will be hanging out at the TechTalk booth as much as possible.</description>
     </item>
     
     <item>
       <title>VMworld 2016 In Review</title>
-      <link>https://www.thomgreene.com/post/2016/2016-09-01-vmworld2016review/</link>
+      <link>https://thomgreene.com/post/2016/2016-09-01-vmworld2016review/</link>
       <pubDate>Thu, 01 Sep 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-09-01-vmworld2016review/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-09-01-vmworld2016review/</guid>
       <description>My first VMworld is coming to an end and has been an amazing experience. I have learned a lot about VMware&amp;rsquo;s pipeline, dug deep with vendors to learn more about products we are evaluating, and sat in some breakout session with tips that will help me improve our environment today.
 Cross cloud services is the most interesting and important development as far as I am concerned. They are using NSX and their other SDDC services to provide a single dashboard with visualization and control of your AWS, Azure, and Google cloud resources.</description>
     </item>
     
     <item>
       <title>Mission Accomplished: Openstack in a Month</title>
-      <link>https://www.thomgreene.com/post/2016/2016-08-31-missioncomplete/</link>
+      <link>https://thomgreene.com/post/2016/2016-08-31-missioncomplete/</link>
       <pubDate>Wed, 31 Aug 2016 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-08-31-missioncomplete/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-08-31-missioncomplete/</guid>
       <description>In July I posted about my insane goal of giving a talk at VMworld on a technology I knew nothing about. I chose Openstack, which at that time was nothing more than a buzzword to me. I remember reading tweets saying VMware Administrators needed to pay attention to Openstack but couldn&amp;rsquo;t tell you what it was.
 VMworld has arrived and on Monday, August 29th, 2016 I presented my talk. I am not afraid of public speaking but got some jitters as the crew started counting me down.</description>
     </item>
     
     <item>
       <title>VMworld 2016 Day 0</title>
-      <link>https://www.thomgreene.com/post/2016/2016-08-29-vmworld2016dayzero/</link>
+      <link>https://thomgreene.com/post/2016/2016-08-29-vmworld2016dayzero/</link>
       <pubDate>Mon, 29 Aug 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-08-29-vmworld2016dayzero/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-08-29-vmworld2016dayzero/</guid>
       <description>I arrived at VMworld on Sunday August 28th in the mid morning. I was exhausted after a long and early flight but activities were already underway so I jumped right in. Registration was quick and I got a sweet backpack out of it.
 Day 0 is a great time to meet up with new pals and get the lay of the land. I did a couple laps of both floors and basically know where I&amp;rsquo;m going.</description>
     </item>

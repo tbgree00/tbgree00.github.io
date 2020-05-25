@@ -2,50 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mentoring on thomgreene.com</title>
-    <link>https://www.thomgreene.com/tags/mentoring/</link>
+    <link>https://thomgreene.com/tags/mentoring/</link>
     <description>Recent content in Mentoring on thomgreene.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 30 Aug 2017 12:57:51 -0400</lastBuildDate>
     
-	<atom:link href="https://www.thomgreene.com/tags/mentoring/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thomgreene.com/tags/mentoring/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hacking Public Speaking - Mentors to Help you Rock It</title>
-      <link>https://www.thomgreene.com/post/2017/2017-08-30-hackingpublicspeaking/</link>
+      <link>https://thomgreene.com/post/2017/2017-08-30-hackingpublicspeaking/</link>
       <pubDate>Wed, 30 Aug 2017 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2017/2017-08-30-hackingpublicspeaking/</guid>
+      <guid>https://thomgreene.com/post/2017/2017-08-30-hackingpublicspeaking/</guid>
       <description>Public speaking is hard. Standing in front of a crowd and being the center of attention can be a scary thought. Luckily, there are many members of the technology community out there willing to ease you through it. At VMworld 2017 I was fortunate enough to participate in a vBrownBag panel discussion with some giants in the VMware community: Edward Haletky, Simon Long, and Ariel Sanchez Mora.
 The four of us were talking after the session and decided we would like to formally arrange a mentoring program to help give back to the community that has helped us so much.</description>
     </item>
     
     <item>
       <title>Mock Job Interview</title>
-      <link>https://www.thomgreene.com/post/2017/2017-07-25-mockjobinterview/</link>
+      <link>https://thomgreene.com/post/2017/2017-07-25-mockjobinterview/</link>
       <pubDate>Tue, 25 Jul 2017 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2017/2017-07-25-mockjobinterview/</guid>
+      <guid>https://thomgreene.com/post/2017/2017-07-25-mockjobinterview/</guid>
       <description>ob interviews are really hard. Between having to take time off work with little notice, having to prep, and then opening yourself up to be judged by a stranger. The experience causes me a lot of anxiety. Being good at an interview is a skill. The key to mastering any skill is practice, so I asked my fellow vBrownBag crewmates to help me with a mock interview. Rebecca Fitzhugh agreed to help out and we recorded it for the vBrownBag podcast</description>
     </item>
     
     <item>
       <title>Looking Forward to 2017</title>
-      <link>https://www.thomgreene.com/post/2017/2017-01-02-lookingforward2017/</link>
+      <link>https://thomgreene.com/post/2017/2017-01-02-lookingforward2017/</link>
       <pubDate>Mon, 02 Jan 2017 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2017/2017-01-02-lookingforward2017/</guid>
+      <guid>https://thomgreene.com/post/2017/2017-01-02-lookingforward2017/</guid>
       <description>It’s a very common sentiment that 2016 was a bad year. If you pay attention to the news and pop culture this seems accurate. Many of the celebrities I grew up watching and listening to passed away. The election cycle was filled with mud slinging and people on both sides seemed to lose their mind. There were many people in my extended social circle who experienced personal tragedies.
 I was one of the lucky ones.</description>
     </item>
     
     <item>
       <title>&#39;Tis the Season for Certification</title>
-      <link>https://www.thomgreene.com/post/2016/2016-12-15-tistheseason2016/</link>
+      <link>https://thomgreene.com/post/2016/2016-12-15-tistheseason2016/</link>
       <pubDate>Thu, 15 Dec 2016 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-12-15-tistheseason2016/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-12-15-tistheseason2016/</guid>
       <description>The end of the calendar year brings family, travel, and performance evaluations. A big part of mine is training and tech development. It&amp;rsquo;s never too soon to start thinking about what is new and where your are interested in strengthening your skill.
 I asked some tech experts what skills are the stuff to learn for 2017. Keith Townsend @ctoadvisor responded with
  Scripting (ie Cloud Formation, Powershell, Python)

@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Documentation on thomgreene.com</title>
-    <link>https://www.thomgreene.com/tags/documentation/</link>
+    <link>https://thomgreene.com/tags/documentation/</link>
     <description>Recent content in Documentation on thomgreene.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 07 Nov 2016 12:57:51 -0400</lastBuildDate>
     
-	<atom:link href="https://www.thomgreene.com/tags/documentation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thomgreene.com/tags/documentation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Merging SSO Domains in vCenter Server 5.5 pt 2: How?</title>
-      <link>https://www.thomgreene.com/post/2016/2016-11-07-ssodomainpt2/</link>
+      <link>https://thomgreene.com/post/2016/2016-11-07-ssodomainpt2/</link>
       <pubDate>Mon, 07 Nov 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-11-07-ssodomainpt2/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-11-07-ssodomainpt2/</guid>
       <description>In part 1 of my discussion about Merging SSO Domains I discussed why I was required to make that change. To recap: Enhanced Linked Mode is a business requirement in 6.0 and that requires all vCenters to belong to the same SSO Domain. You can&amp;rsquo;t merge SSO domains in 6.0 so we need to do it before the upgrade.
 While the concept sounds simple enough execution gets a bit complicated. There are a lot of services that need to be modified and some architectural decisions to make.</description>
     </item>
     
     <item>
       <title>Merging SSO Domains in vCenter 5.5 part 1: Why?</title>
-      <link>https://www.thomgreene.com/post/2016/2016-11-04-ssodomainpt1/</link>
+      <link>https://thomgreene.com/post/2016/2016-11-04-ssodomainpt1/</link>
       <pubDate>Fri, 04 Nov 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-11-04-ssodomainpt1/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-11-04-ssodomainpt1/</guid>
       <description>Sometimes tasks that seem simple at first can become very complicated. When I was first tasked with upgrading a vCenter 5.5 environment to 6.0 I imagined mounting an ISO, clicking through the wizard, and voila, upgrade complete. This may work when you only have one vCenter server in a simple environment, however in an enterprise this is typically far from the optimal way to approach the upgrade.
 Over the next couple of entries I will talk about my progress toward a vSphere 6 upgrade.</description>
     </item>
     
     <item>
       <title>Over Designed and Under Documented</title>
-      <link>https://www.thomgreene.com/post/2016/2016-06-05-overdesigned/</link>
+      <link>https://thomgreene.com/post/2016/2016-06-05-overdesigned/</link>
       <pubDate>Sun, 05 Jun 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/post/2016/2016-06-05-overdesigned/</guid>
+      <guid>https://thomgreene.com/post/2016/2016-06-05-overdesigned/</guid>
       <description>Documentation is important. I doubt anybody would disagree with this statement. I don&amp;rsquo;t know anyone who would say they went into a new job or a new client with enough documentation to feel confident. Most of this knowledge comes from digging in and there is rarely enough time to stop and open Visio. We all want documentation in six months but it&amp;rsquo;s never today&amp;rsquo;s priority.
 Documentation becomes crucial when you create a new standard or design something outside of the existing standard.</description>
     </item>
