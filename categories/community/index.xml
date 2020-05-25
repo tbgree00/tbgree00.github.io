@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Community on Virtualizing a Physical World</title>
+    <link>https://www.thomgreene.com/categories/community/</link>
+    <description>Recent content in Community on Virtualizing a Physical World</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Jul 2018 10:44:37 -0400</lastBuildDate>
+    
+	<atom:link href="https://www.thomgreene.com/categories/community/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Make the Most out of VMworld 2018</title>
+      <link>https://www.thomgreene.com/post/2018/2018-07-05-vmworldtips/</link>
+      <pubDate>Thu, 05 Jul 2018 10:44:37 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2018/2018-07-05-vmworldtips/</guid>
+      <description>VMworld is one of the most anticipated events of the year for many people in the tech world. Engineers and architects from all over the world come together to share, learn, and make new friends. I have been fortunate enough to attend both VMworld 2016 and 2017 and have learned many lessons about how to maximize my time.
+There are a few tips you&amp;rsquo;ll read over and over again. They are definitely worth repeating, though.</description>
+    </item>
+    
+    <item>
+      <title>vExpert Cloud Announcement!</title>
+      <link>https://www.thomgreene.com/post/2017/2017-10-30-vexpertcloud2017/</link>
+      <pubDate>Mon, 30 Oct 2017 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2017/2017-10-30-vexpertcloud2017/</guid>
+      <description>I am proud to announce that I have been named a member of the inaugural group of vExpert Cloud. The vExpert program is an award given to community members that contribute via blogs, VMUG, vBrownbag, and other means. Since VMware is such a large product the vExpert team has broken the disciplines up into three additional specialties: NSX, vSAN, and Cloud. This cloud designation is extremely valuable to me as my focus over the past three months has been VMware Cloud Foundation.</description>
+    </item>
+    
+    <item>
+      <title>VMworld 2017 is Almost Here</title>
+      <link>https://www.thomgreene.com/post/2017/2017-08-16-vmworld2017preview/</link>
+      <pubDate>Wed, 16 Aug 2017 12:57:51 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2017/2017-08-16-vmworld2017preview/</guid>
+      <description>VMworld 2017 is upon us and looks to be busy as ever. I&amp;rsquo;ll be returning to Las Vegas and the place this ride started last year. There has been a LOT happening in my life during the past 50 weeks. I&amp;rsquo;m proud to say I joined Rackspace in the Specialist Cloud Architecture business, representing VMware products and services. As many of you also know, I joined the vBrownBag crew and will be hanging out at the TechTalk booth as much as possible.</description>
+    </item>
+    
+    <item>
+      <title>Mock Job Interview</title>
+      <link>https://www.thomgreene.com/post/2017/2017-07-25-mockjobinterview/</link>
+      <pubDate>Tue, 25 Jul 2017 12:57:51 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2017/2017-07-25-mockjobinterview/</guid>
+      <description>ob interviews are really hard. Between having to take time off work with little notice, having to prep, and then opening yourself up to be judged by a stranger. The experience causes me a lot of anxiety. Being good at an interview is a skill. The key to mastering any skill is practice, so I asked my fellow vBrownBag crewmates to help me with a mock interview. Rebecca Fitzhugh agreed to help out and we recorded it for the vBrownBag podcast</description>
+    </item>
+    
+    <item>
+      <title>Looking Forward to 2017</title>
+      <link>https://www.thomgreene.com/post/2017/2017-01-02-lookingforward2017/</link>
+      <pubDate>Mon, 02 Jan 2017 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2017/2017-01-02-lookingforward2017/</guid>
+      <description>It’s a very common sentiment that 2016 was a bad year. If you pay attention to the news and pop culture this seems accurate. Many of the celebrities I grew up watching and listening to passed away. The election cycle was filled with mud slinging and people on both sides seemed to lose their mind. There were many people in my extended social circle who experienced personal tragedies.
+I was one of the lucky ones.</description>
+    </item>
+    
+    <item>
+      <title>So You Want a Home Lab</title>
+      <link>https://www.thomgreene.com/post/2016/2016-11-20-soyouwantahomelab/</link>
+      <pubDate>Sun, 20 Nov 2016 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2016/2016-11-20-soyouwantahomelab/</guid>
+      <description>In 2008 I purchased a Dell T110 tower server for my home. I wanted something to run ESXi 4 on so I could run Windows 2003 servers to study for my MCSE. From that point on a home lab has been critical to my success as a technician. It is very common for a technical professional to have some sort of personal space to mess around with.
+There are many reasons someone may want to spend hard earned money on a home lab.</description>
+    </item>
+    
+    <item>
+      <title>VMware vExpert 2017 Applications are Now Open!</title>
+      <link>https://www.thomgreene.com/post/2016/2016-11-08-vexpert2017application/</link>
+      <pubDate>Tue, 08 Nov 2016 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2016/2016-11-08-vexpert2017application/</guid>
+      <description>The application for vExpert 2017 opened today and go through December 16th. The vExpert program is a VMware advocacy group that recognizes people who give back to the VMware community and promote VMware technology. You can become a vExpert by leading a VMUG, speaking, blogging, and/or tweeting your support of VMware technology.
+I can say one of the best things that has happened in my career was being selected as vExpert 2016.</description>
+    </item>
+    
+    <item>
+      <title>Can You be a Full Stack Engineer</title>
+      <link>https://www.thomgreene.com/post/2016/2016-11-05-fullstackengineer/</link>
+      <pubDate>Sat, 05 Nov 2016 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2016/2016-11-05-fullstackengineer/</guid>
+      <description>I&amp;rsquo;m a huge fan of the Full Stack Journey podcast. In the show Scott Lowe investigates the question &amp;ldquo;Can someone truly be a full stack engineer?”. He and his guests work together to give actionable advice and talk about the benefits of being a full stack engineer vs working in a silo.
+The definition of a full stack engineer really hard to pin down. Many people have opinions on the matter and they revolve around some common themes.</description>
+    </item>
+    
+    <item>
+      <title>What Would I Advise Someone to Avoid in their Career?</title>
+      <link>https://www.thomgreene.com/post/2016/2016-11-03-advicetoavoid/</link>
+      <pubDate>Thu, 03 Nov 2016 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2016/2016-11-03-advicetoavoid/</guid>
+      <description>I am a regular listener to The Geek Whisperers podcast. If you haven&amp;rsquo;t listened to them before please check them out here. Trust me, you won&amp;rsquo;t regret it. The podcast always has a very interesting guest and they talk soft skills and high level concepts with very technical people. A lot of their discussion revolves around career paths, decisions that lead their guest to their current position, and practical advice a listener can implement to change, improve, or develop similar skills.</description>
+    </item>
+    
+    <item>
+      <title>First Steps for my VCDX Design</title>
+      <link>https://www.thomgreene.com/post/2016/2016-11-01-vdm30in30/</link>
+      <pubDate>Tue, 01 Nov 2016 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2016/2016-11-01-vdm30in30/</guid>
+      <description>After a lot of going back and fourth, gnashing my teeth, etc I decided to participate in the #vDM30in30 challenge. I suppose that starting a VCDX design and working to improve my presentation skills wasn&amp;rsquo;t enough. Add on work responsibilities and family time and I have a challenge ahead of me.
+I refuse to let doubt or fear stop me so here I go. In the next month I hope to talk about the following topics (and more!</description>
+    </item>
+    
+    <item>
+      <title>VMworld 2016 In Review</title>
+      <link>https://www.thomgreene.com/post/2016/2016-09-01-vmworld2016review/</link>
+      <pubDate>Thu, 01 Sep 2016 12:57:51 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2016/2016-09-01-vmworld2016review/</guid>
+      <description>My first VMworld is coming to an end and has been an amazing experience. I have learned a lot about VMware&amp;rsquo;s pipeline, dug deep with vendors to learn more about products we are evaluating, and sat in some breakout session with tips that will help me improve our environment today.
+Cross cloud services is the most interesting and important development as far as I am concerned. They are using NSX and their other SDDC services to provide a single dashboard with visualization and control of your AWS, Azure, and Google cloud resources.</description>
+    </item>
+    
+    <item>
+      <title>Mission Accomplished: Openstack in a Month</title>
+      <link>https://www.thomgreene.com/post/2016/2016-08-31-missioncomplete/</link>
+      <pubDate>Wed, 31 Aug 2016 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2016/2016-08-31-missioncomplete/</guid>
+      <description>In July I posted about my insane goal of giving a talk at VMworld on a technology I knew nothing about. I chose Openstack, which at that time was nothing more than a buzzword to me. I remember reading tweets saying VMware Administrators needed to pay attention to Openstack but couldn&amp;rsquo;t tell you what it was.
+VMworld has arrived and on Monday, August 29th, 2016 I presented my talk. I am not afraid of public speaking but got some jitters as the crew started counting me down.</description>
+    </item>
+    
+    <item>
+      <title>VMworld 2016 Day 0</title>
+      <link>https://www.thomgreene.com/post/2016/2016-08-29-vmworld2016dayzero/</link>
+      <pubDate>Mon, 29 Aug 2016 12:57:51 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2016/2016-08-29-vmworld2016dayzero/</guid>
+      <description>I arrived at VMworld on Sunday August 28th in the mid morning. I was exhausted after a long and early flight but activities were already underway so I jumped right in. Registration was quick and I got a sweet backpack out of it.
+Day 0 is a great time to meet up with new pals and get the lay of the land. I did a couple laps of both floors and basically know where I&amp;rsquo;m going.</description>
+    </item>
+    
+  </channel>
+</rss>

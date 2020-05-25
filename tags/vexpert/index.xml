@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vExpert on Virtualizing a Physical World</title>
+    <link>https://www.thomgreene.com/tags/vexpert/</link>
+    <description>Recent content in vExpert on Virtualizing a Physical World</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Oct 2017 12:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="https://www.thomgreene.com/tags/vexpert/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>vExpert Cloud Announcement!</title>
+      <link>https://www.thomgreene.com/post/2017/2017-10-30-vexpertcloud2017/</link>
+      <pubDate>Mon, 30 Oct 2017 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2017/2017-10-30-vexpertcloud2017/</guid>
+      <description>I am proud to announce that I have been named a member of the inaugural group of vExpert Cloud. The vExpert program is an award given to community members that contribute via blogs, VMUG, vBrownbag, and other means. Since VMware is such a large product the vExpert team has broken the disciplines up into three additional specialties: NSX, vSAN, and Cloud. This cloud designation is extremely valuable to me as my focus over the past three months has been VMware Cloud Foundation.</description>
+    </item>
+    
+  </channel>
+</rss>

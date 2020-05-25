@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VMware on Virtualizing a Physical World</title>
+    <link>https://www.thomgreene.com/categories/vmware/</link>
+    <description>Recent content in VMware on Virtualizing a Physical World</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Apr 2018 12:57:51 -0400</lastBuildDate>
+    
+	<atom:link href="https://www.thomgreene.com/categories/vmware/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VMware vRealize Operations Manager: Licensing and License Groups</title>
+      <link>https://www.thomgreene.com/post/2018/2018-04-04-vropslicensing/</link>
+      <pubDate>Wed, 04 Apr 2018 12:57:51 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2018/2018-04-04-vropslicensing/</guid>
+      <description>Maintaining valid licensing in vRealize Operations Manager is crucial to getting the most out of the tool. There are two methods of licensing vROps: per processor with unlimited VMs or per virtual machine or physical server monitored. The latter method is also referred to as an Operating System Instance, or OSI. An OSI is any device, physical or virtual, that has an IP address and is capable of being monitored. Powered Off VMs don&amp;rsquo;t count against your OSI count.</description>
+    </item>
+    
+    <item>
+      <title>VMware vRealize Operations Manager: Design for a Home Lab</title>
+      <link>https://www.thomgreene.com/post/2018/2018-03-27-vropsdesignlab/</link>
+      <pubDate>Tue, 27 Mar 2018 12:57:51 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2018/2018-03-27-vropsdesignlab/</guid>
+      <description>Designing for a Home Lab A practical way to gain experience with vRealize Operations Manager is to deploy and implement it into a home lab. A design for a home lab almost seems too simple, but planning it out and diagraming a simple example can help when the time comes to design a production environment. The environment will need to support the following:
+ Monitor 100 Objects Monitor 10 End Point Operations Management agents  The environment is also resource constrained, and the node can be no larger than a Small node size.</description>
+    </item>
+    
+    <item>
+      <title>VMware vRealize Operations Manager: Design Introduction</title>
+      <link>https://www.thomgreene.com/post/2018/2018-03-27-vropsdesignintro/</link>
+      <pubDate>Tue, 27 Mar 2018 12:57:51 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2018/2018-03-27-vropsdesignintro/</guid>
+      <description>Sizing a vRealize Operations Manager Environment VMware vRealize Operations Manager is the flagship monitoring suite for the entire VMware Software Defined Datacenter stack. The software is incredibly powerful, but it can be a bit daunting to a newcomer. Each update has improved out of the box functionality, however there is a lot to learn to master the software and truly make the most out of its features. Every successful environment starts with a strong design.</description>
+    </item>
+    
+    <item>
+      <title>Upgrading VMware Tools Without a Reboot Using PowerCLI</title>
+      <link>https://www.thomgreene.com/post/2017/2017-02-24-vmtoolsnoreboot/</link>
+      <pubDate>Fri, 24 Feb 2017 12:57:51 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2017/2017-02-24-vmtoolsnoreboot/</guid>
+      <description>Historically, one of my biggest little annoyances with a VMware version upgrade has been upgrading VMware tools. In vSphere 5.5, VMware added the ability to update tools without a reboot. If you were manually kicking off the tools upgrade all you need to do is enter the following features into the advanced settings box
+/s /v&amp;quot;/qn REBOOT=ReallySuppress?This is great and causes the tool update to only lose one ping instead of requiring a full restart.</description>
+    </item>
+    
+    <item>
+      <title>vCenter Plugin Tracker Spreadsheet</title>
+      <link>https://www.thomgreene.com/post/2016/2016-11-19-vcenterplugintracker/</link>
+      <pubDate>Sat, 19 Nov 2016 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2016/2016-11-19-vcenterplugintracker/</guid>
+      <description>As vCenter has evolved many programs and plugins depend on it for functionality. With the recent GA to vSphere 6.5 a discussion came up on twitter. Veeam released version 9.5 around the same time but it&amp;rsquo;s not compatible with vSphere 6.5. I tried to install Veeam into my lab but couldn&amp;rsquo;t. Instead I was met with an error warning me to wait until Veeam 9.5 Update 1.
+The discussion about Compatibility reminded me of the spreadsheet I use to track plugins and configuration of all my servers.</description>
+    </item>
+    
+    <item>
+      <title>Merging SSO Domains in vCenter Server 5.5 pt 2: How?</title>
+      <link>https://www.thomgreene.com/post/2016/2016-11-07-ssodomainpt2/</link>
+      <pubDate>Mon, 07 Nov 2016 12:57:51 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2016/2016-11-07-ssodomainpt2/</guid>
+      <description>In part 1 of my discussion about Merging SSO Domains I discussed why I was required to make that change. To recap: Enhanced Linked Mode is a business requirement in 6.0 and that requires all vCenters to belong to the same SSO Domain. You can&amp;rsquo;t merge SSO domains in 6.0 so we need to do it before the upgrade.
+While the concept sounds simple enough execution gets a bit complicated. There are a lot of services that need to be modified and some architectural decisions to make.</description>
+    </item>
+    
+    <item>
+      <title>First Steps for my VCDX Design</title>
+      <link>https://www.thomgreene.com/post/2016/2016-11-06-vcdxfirststeps/</link>
+      <pubDate>Sun, 06 Nov 2016 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2016/2016-11-06-vcdxfirststeps/</guid>
+      <description>I have publicly committed to submitting a design to the VCDX committee. My design is due in March 2017. I&amp;rsquo;m very glad I signed up to submit because it has kick started my motivation. Today I wanted to talk about my progress.
+I am using an actual design for a project I worked on. It&amp;rsquo;s a fairly complex system with many moving pieces. It mostly meets AMPRS requirements (Availability, Manageability, Performance, Recoverability, Security) so I shouldn&amp;rsquo;t have to do much tweaking to make it pass muster.</description>
+    </item>
+    
+    <item>
+      <title>Merging SSO Domains in vCenter 5.5 part 1: Why?</title>
+      <link>https://www.thomgreene.com/post/2016/2016-11-04-ssodomainpt1/</link>
+      <pubDate>Fri, 04 Nov 2016 12:57:51 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2016/2016-11-04-ssodomainpt1/</guid>
+      <description>Sometimes tasks that seem simple at first can become very complicated. When I was first tasked with upgrading a vCenter 5.5 environment to 6.0 I imagined mounting an ISO, clicking through the wizard, and voila, upgrade complete. This may work when you only have one vCenter server in a simple environment, however in an enterprise this is typically far from the optimal way to approach the upgrade.
+Over the next couple of entries I will talk about my progress toward a vSphere 6 upgrade.</description>
+    </item>
+    
+    <item>
+      <title>Automation in Action: Which Hosts are Accessing a Given Datastore?</title>
+      <link>https://www.thomgreene.com/post/2016/2016-09-28-datastoreaccess/</link>
+      <pubDate>Wed, 28 Sep 2016 12:57:51 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2016/2016-09-28-datastoreaccess/</guid>
+      <description>One of the biggest challenges in a new environment can be mapping out resources. In a large environment you may encounter ESXi hosts that were moved between clusters, datastores that were mapped to multiple unnecessary hosts, or any number of additional surprises or inconsistencies. I encountered such a challenge and needed to answer a seemingly simple question: Which hosts and which clusters would be impacted by a loss of a datastore?</description>
+    </item>
+    
+    <item>
+      <title>My VCAP6-DCV Deploy Beta Experience</title>
+      <link>https://www.thomgreene.com/post/2016/2016-06-29-vcap6deploybeta/</link>
+      <pubDate>Wed, 29 Jun 2016 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2016/2016-06-29-vcap6deploybeta/</guid>
+      <description>I sat the VCAP6-DCV Beta last night. First off the test was extremely fun, much like the VCAP5-DCA. In a live lab your skills are really tested. The new interface provided some challenges but is overall better than the legacy interface. The console is faster and it&amp;rsquo;s a lot nicer to be able to open the manual over the interface. It is very cramped though. My center maybe had an 18 inch monitor so I was still minimizing my manual a lot.</description>
+    </item>
+    
+    <item>
+      <title>Strategy Going into the VCAP6-DCV Deploy</title>
+      <link>https://www.thomgreene.com/post/2016/2016-06-25-vcap6deploystrategy/</link>
+      <pubDate>Sat, 25 Jun 2016 12:57:51 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2016/2016-06-25-vcap6deploystrategy/</guid>
+      <description>As I prepare to take an advanced test on a version of VMware I had never touched prior to dropping my $100 I knew I needed a strategy. I searched the blueprint for what was new and hoped my notes from the DCA were enough to patch me through.
+Plenty of articles exist to study by. I used many of them to prepare myself. When the time comes for me to take my seat here is how I&amp;rsquo;ll prepare:</description>
+    </item>
+    
+    <item>
+      <title>VCAP6-DCV Deploy Blueprint Changes from VCAP5-DCA</title>
+      <link>https://www.thomgreene.com/post/2016/2016-06-19-vcap6deploychanges/</link>
+      <pubDate>Sun, 19 Jun 2016 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2016/2016-06-19-vcap6deploychanges/</guid>
+      <description>VMware recently announced a 2 week availability for the VCAP6-DCV Deploy beta. After some debate I signed up to sit the exam on June 28, 2016. They provide a beta version of the blueprint so I started there to see what had changed from my VCAP5-DCA 5.5 blueprint and notes. I made some quick notes and want to share them here.
+ As a disclaimer my list is quick first pass.</description>
+    </item>
+    
+    <item>
+      <title>My VCAP5-DCD Experience</title>
+      <link>https://www.thomgreene.com/post/2016/2016-04-08-vcap5dcdexperience/</link>
+      <pubDate>Fri, 08 Apr 2016 12:57:51 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2016/2016-04-08-vcap5dcdexperience/</guid>
+      <description>On March 29th I posted about VMware&amp;rsquo;s announcement regarding the retirement of the VCAP5 exams. Passing these exams have always been a bucket list item for me. I feel that they confirm a technician&amp;rsquo;s ability to actually use and conceptualize VMware more beyond the typical multiple choice exam. The VCP has become required for many job so having the next level up should set me apart from the competition.
+So after my March 8th pass I started gathering material to sit the DCD.</description>
+    </item>
+    
+    <item>
+      <title>How to Check Negotiated Speed on Fibre Channel HBAs</title>
+      <link>https://www.thomgreene.com/post/2016/2016-04-05-hbaspeed/</link>
+      <pubDate>Tue, 05 Apr 2016 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2016/2016-04-05-hbaspeed/</guid>
+      <description>Fibre channel storage is great because it mostly &amp;ldquo;just works&amp;rdquo;. You provision storage, assign it to the WWPNs, rescan the adapters, and the luns are presented. There isn&amp;rsquo;t a lot of configuration in the GUI and, honestly, it can be hard to detect link speed or even if a link is up. In the Storage Adapter tab you can see if a path is down, but how do you detect the link speed?</description>
+    </item>
+    
+    <item>
+      <title>VMware Announces VCAP5-DCA and VCAP5-DCD Exam Retirement</title>
+      <link>https://www.thomgreene.com/post/2016/2016-03-29-vcap5examretirement/</link>
+      <pubDate>Tue, 29 Mar 2016 12:57:51 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2016/2016-03-29-vcap5examretirement/</guid>
+      <description>On March 23rd VMware officially announced the retirement of their VCAP5 Datacenter exams. Read the official information here: 4 Exam Retirements in June
+It&amp;rsquo;s an interesting move as the VCAP6-DCA and DCD exams aren&amp;rsquo;t even available to book right now. You can still book and sit the exam up until the expiration dates (June 4th for DCA, June 24th for the DCD).
+I expected this but am a little disappointed. I booked my DCD for May 27th with the backup plan of taking a second shot at VMworld should I need it.</description>
+    </item>
+    
+    <item>
+      <title>Study Habits for Certification Success</title>
+      <link>https://www.thomgreene.com/post/2016/2016-03-25-studyhabits/</link>
+      <pubDate>Fri, 25 Mar 2016 12:57:51 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2016/2016-03-25-studyhabits/</guid>
+      <description>I don&amp;rsquo;t have a degree in Information Technology or in Computer Science. I&amp;rsquo;ve occasionally entertained going back to school to formally cement my education but never taken that step. Since I don&amp;rsquo;t have that education I&amp;rsquo;ve always looked to certification as a way to &amp;ldquo;prove my worth.&amp;rdquo; Some people may argue that certifications are just paper and aren&amp;rsquo;t worth anything, however I strongly disagree. I feel having a focus and a goal to work toward sharpens my continued education.</description>
+    </item>
+    
+    <item>
+      <title>Check and Configure Time Service Datacenter-wide</title>
+      <link>https://www.thomgreene.com/post/2016/2016-03-22-configuretime/</link>
+      <pubDate>Tue, 22 Mar 2016 12:57:51 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2016/2016-03-22-configuretime/</guid>
+      <description>I once had an opportunity to improve and standardize ESXi host time synchronization in an environment with hundreds of hosts. There had been issues with time sync and drift that needed to be addressed. To fix this I turned to PowerCLI to do a quick and dirty dump of the configuredNTP settings on each of the hosts in the Datacenter.
+Get-VMHost | Get-VMHostService |Where-Object {$_.key -eq &amp;quot;ntpd&amp;quot;}This commandlet returns output which gets us part of the way to the solution, but we can refine it and make it better.</description>
+    </item>
+    
+    <item>
+      <title>My VCAP5-DCA Experience</title>
+      <link>https://www.thomgreene.com/post/2016/2016-03-18-vcap5dcaexperience/</link>
+      <pubDate>Fri, 18 Mar 2016 12:57:51 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2016/2016-03-18-vcap5dcaexperience/</guid>
+      <description>On March 3, 2016 I set the VCAP5-DCA exam. This was the most stressful and exciting test I had ever taken. Below are my thoughts and experiences on the exam. I originally posted them on the Techexams.net Virtualization Forum
+The blueprint is 100% on point for this test. Download it, download a checklist too and check off each point as you are reading and labbing them. I used the pluralsight Optimize and Scale course taught by Jason Nash, I had Staples print and bind the PDF study guide found at https://paulgrevink.</description>
+    </item>
+    
+    <item>
+      <title>Investigating VM Configuration Changes</title>
+      <link>https://www.thomgreene.com/post/2016/2016-03-15-vmconfigchange/</link>
+      <pubDate>Tue, 15 Mar 2016 12:57:51 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2016/2016-03-15-vmconfigchange/</guid>
+      <description>Tracking resource configuration is a common struggle for an enterprise level environment. Even SMBs can have trouble keeping track of how their memory is provisioned and when it changes. What&amp;rsquo;s worse, VMware&amp;rsquo;s vSphere Client doesn&amp;rsquo;t provide any insight as to what changes when someone edits the virtual machine settings. An event named&amp;quot;Reconfigure virtual machine&amp;rdquo; hits the task log but this isn&amp;rsquo;t a lot of information. If you open Edit Settings and click OK vCenter registers this event even if you didn&amp;rsquo;t change anything.</description>
+    </item>
+    
+    <item>
+      <title>Detecting a Misconfigured vSwitch</title>
+      <link>https://www.thomgreene.com/post/2016/2016-03-11-switchmisconfig/</link>
+      <pubDate>Fri, 11 Mar 2016 12:57:51 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2016/2016-03-11-switchmisconfig/</guid>
+      <description>Years ago I received a call for help from someone setting up a vSphere host. The install had never worked right and the clients were upset at the upgrade. It sometimes took 30 seconds to connect to a server and their SQL applications would crash daily. My intuition told me there was something strange going on with the network.
+It was a very basic install with one Standard vSwitch doing management and virtual machine network traffic.</description>
+    </item>
+    
+    <item>
+      <title>Disable Atomic Test and Set for Incompatible Storage Arrays</title>
+      <link>https://www.thomgreene.com/post/2016/2016-03-08-disableats/</link>
+      <pubDate>Tue, 08 Mar 2016 12:57:51 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2016/2016-03-08-disableats/</guid>
+      <description>After performing an upgrade from ESXi 4.1/ESXi 5.0 to ESXi 5.5 u2 I noticed increased latency events on hosts. More troubling, the affected hosts were frequently dropping all presented datastores, though they would reconnect within a few seconds. The events may appear in your event log as below:
+While there are many possible causes to explore these sorts of connectivity issues, one that is often overlooked is how ESXi heartbeating to the datastores.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TFD13 on Virtualizing a Physical World</title>
+    <link>https://www.thomgreene.com/tags/tfd13/</link>
+    <description>Recent content in TFD13 on Virtualizing a Physical World</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Feb 2017 12:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="https://www.thomgreene.com/tags/tfd13/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Backups are Important, Recovery is Essential</title>
+      <link>https://www.thomgreene.com/post/2017/2017-02-22-veeambackupsimportant/</link>
+      <pubDate>Tue, 07 Feb 2017 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2017/2017-02-22-veeambackupsimportant/</guid>
+      <description>On January 31, 2017 Gitlab experienced a massive database outage. They suffered hours of downtime, which they have detailed here. The transparency in that link is breathtaking for a couple reasons. First, any company willing to details their failures and challenges in such public terms gets my kudos. It&amp;rsquo;s not easy to put yourself on display, warts and all. Second, there are so many self inflicted wounds and unforced errors in the story.</description>
+    </item>
+    
+    <item>
+      <title>The Road to Root Cause</title>
+      <link>https://www.thomgreene.com/post/2017/2017-02-07-roadrootcause/</link>
+      <pubDate>Tue, 07 Feb 2017 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2017/2017-02-07-roadrootcause/</guid>
+      <description>Have you ever received a call from someone that started with &amp;ldquo;Why is everything so slow&amp;rdquo;? I think it&amp;rsquo;s a safe assumption that everyone working in IT Operations has heard some variation of that question. The request could be anything from issue accessing Yahoo mail to a mission critical application unable to communicate with its database. The worst of these calls happen at 2am. Everyone is crabby, nobody wants to take blame or have a finger pointed at them, and there may not be solid supporting data showing slow down.</description>
+    </item>
+    
+    <item>
+      <title>Tech Field Day 13 is Here</title>
+      <link>https://www.thomgreene.com/post/2017/2017-02-01-tfd13ishere/</link>
+      <pubDate>Wed, 01 Feb 2017 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2017/2017-02-01-tfd13ishere/</guid>
+      <description>The time has finally arrived! Please watch us this week at http://techfieldday.com/event/tfd13/
+If you have any questions for anyone, please tweet me and I&amp;rsquo;ll be sure to ask.
+Here is the schedule of events:</description>
+    </item>
+    
+    <item>
+      <title>Tech Field Day 13 Preview: DellEMC</title>
+      <link>https://www.thomgreene.com/post/2017/2017-01-27-dellemcpreview/</link>
+      <pubDate>Fri, 27 Jan 2017 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2017/2017-01-27-dellemcpreview/</guid>
+      <description>Last but not least in my Tech Field Day 13 Preview series is Dell EMC. If you&amp;rsquo;re reading this you are probably aware of the Dell and EMC merger that occurred in September 2016. This 67 billion dollar merger took the #2 server manufacturer by market share and combined it with the (tied for) #1 storage vendor. The dust is starting to settle and server bezels are starting to reflect the new logos.</description>
+    </item>
+    
+    <item>
+      <title>Tech Field Day 13 Preview: SolarWinds</title>
+      <link>https://www.thomgreene.com/post/2017/2017-01-25-solarwindspreview/</link>
+      <pubDate>Wed, 25 Jan 2017 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2017/2017-01-25-solarwindspreview/</guid>
+      <description>There are a few companies presenting at Tech Field Day 13 that have such robust catalogs that they are hard to preview. SolarWinds is such a company. They were founded in 1999 to provide management and monitoring tools for every layer of the datacenter. In January 2017, IDC recognized SolarWinds as the market share leader in Network Management Software. You can read the press release here.
+I have professional experience using their network configuration manager and virtualization manager tools.</description>
+    </item>
+    
+    <item>
+      <title>Tech Field Day 13 Preview: Platform9</title>
+      <link>https://www.thomgreene.com/post/2017/2017-01-23-platform9preview/</link>
+      <pubDate>Mon, 23 Jan 2017 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2017/2017-01-23-platform9preview/</guid>
+      <description>Tech Field Day is drawing closer and I’ve really enjoyed the opportunity to dig into vendors during these previews. I have definitely found some products I wish I had known about during one struggle or another. Platform9 is such a vendor. Launched in 2014 by a group of former VMware employees, Platform9 has a goal of bringing OpenStack and Kubernetes Containers to an organization while utilizing their existing investments in hardware and virtualization.</description>
+    </item>
+    
+    <item>
+      <title>Tech Field Day 13 Preview: Robin Systems</title>
+      <link>https://www.thomgreene.com/post/2017/2017-01-20-robinpreview/</link>
+      <pubDate>Fri, 20 Jan 2017 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2017/2017-01-20-robinpreview/</guid>
+      <description>I am continuing my Tech Field Day 13 preview series with Robin Systems. Robin offers a compelling infrastructure that takes an application-first look at a datacenter. Virtualization changed the datacenter by abstracting the OS away from the hardware. You could devote one application to one OS and run many virtual machines on one physical host. As virtualization has evolved, many businesses use a VM first approach. This are some consequences: Running a VM requires overhead for the OS and essentially ties the application to that one VM.</description>
+    </item>
+    
+    <item>
+      <title>Tech Field Day 13 Preview: Veeam</title>
+      <link>https://www.thomgreene.com/post/2017/2017-01-18-veeampreview/</link>
+      <pubDate>Wed, 18 Jan 2017 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2017/2017-01-18-veeampreview/</guid>
+      <description>Next up in my Tech Field Day 13 research is Veeam. It’s hard to talk about enterprise backup without discussing Veeam. Founded in 2006, Veeam was among the first to solve the challenge presented by backing up virtual machines. As the years have passed they continued to improve and add features to their product. It was just announced that in 2016 they saw 28% growth. That is remarkable growth for any company, especially if they have been around for 10 years.</description>
+    </item>
+    
+    <item>
+      <title>Tech Field Day 13 Preview: StorMagic</title>
+      <link>https://www.thomgreene.com/post/2017/2017-01-16-stormagicpreview/</link>
+      <pubDate>Mon, 16 Jan 2017 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2017/2017-01-16-stormagicpreview/</guid>
+      <description>For my next Tech Field Day preview I will focus on StorMagic. Founded in 2006, StorMagic has strove to find a simple, cost effective software defined storage solution. Virtualization depends on shared storage to provide high availability. This is typically provided with a SAN or NAS device. Sometimes there’s a branch office or some remote site that needs server infrastructure but it doesn’t make financial sense or is logistically impossible to buy a primary storage device.</description>
+    </item>
+    
+    <item>
+      <title>Tech Field Day 13 Preview: Uila</title>
+      <link>https://www.thomgreene.com/post/2017/2017-01-09-uilapreview/</link>
+      <pubDate>Mon, 09 Jan 2017 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2017/2017-01-09-uilapreview/</guid>
+      <description>As part two of my Tech Field Day preview I wanted to spotlight Uila, Inc (pronounced wee-lah). Uila Inc released Uila, a root cause analysis and network monitoring solution. Their solution was announced in February 2016 as a way to address a black hole in data center management tools.
+As virtualization has grown in prevalence and importance a new challenge has surfaced. When a virtualized application performs poorly there is no longer one tool to narrow it down.</description>
+    </item>
+    
+    <item>
+      <title>Tech Field Day 13 Preview: Zerostack</title>
+      <link>https://www.thomgreene.com/post/2017/2017-01-04-zerostackpreview/</link>
+      <pubDate>Wed, 04 Jan 2017 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2017/2017-01-04-zerostackpreview/</guid>
+      <description>There are many interesting and exciting vendors on the itinerary for Tech Field Day 13. One that really intrigues me is ZeroStack. I did a month long study trying to learn Openstack for my vBrownbag Tech talk at VMworld 2016. I love cloud technologies and their ease of consumption. There are a lot of issues associated with public cloud that Openstack addresses. You use on-premises hardware, have total control of your data, and don&amp;rsquo;t have the reoccurring costs.</description>
+    </item>
+    
+    <item>
+      <title>Tech Field Day 13!</title>
+      <link>https://www.thomgreene.com/post/2017/2017-01-03-techfieldday13/</link>
+      <pubDate>Tue, 03 Jan 2017 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2017/2017-01-03-techfieldday13/</guid>
+      <description>I am extremely proud to say that I was selected as a delegate for Tech Field Day 13! You may be asking the question &amp;ldquo;what is Tech Field Day?&amp;rdquo; Well I&amp;rsquo;m glad you asked. Tech Field Day is an organization that takes independent IT professionals and IT vendors, puts them in the same room, and lets the good times roll. A delegate gets unprecedented access to a vendor&amp;rsquo;s executives and engineers.</description>
+    </item>
+    
+  </channel>
+</rss>
