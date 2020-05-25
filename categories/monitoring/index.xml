@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Monitoring on Virtualizing a Physical World</title>
@@ -6,10 +6,29 @@
     <description>Recent content in Monitoring on Virtualizing a Physical World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Apr 2018 12:57:51 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 16 Jul 2018 14:51:25 -0400</lastBuildDate>
     
 	<atom:link href="https://www.thomgreene.com/categories/monitoring/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Uila 2.0 Hybrid Cloud Monitoring</title>
+      <link>https://www.thomgreene.com/post/2018/2018-7-16-uilahybridcloud/</link>
+      <pubDate>Mon, 16 Jul 2018 14:51:25 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2018/2018-7-16-uilahybridcloud/</guid>
+      <description>On July 16, 2018, Uila released version 2.0 of its application monitoring and analytics platform. Previously we explored its application discovery and mapping features, focusing on resources that resided within an on-premises datacenter. As industry trends shift toward a hybrid cloud model many monitoring tools have a visibility gap. They only inspect data within their domains, creating a black hole between the on-premises datacenter and the cloud instances. Uila 2.0 seeks to fill that gap and provide real time visibility across any cloud.</description>
+    </item>
+    
+    <item>
+      <title>Application Discovery and Mapping with Uila</title>
+      <link>https://www.thomgreene.com/post/2018/2018-06-29-uilaappdiscovery/</link>
+      <pubDate>Fri, 29 Jun 2018 09:05:25 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2018/2018-06-29-uilaappdiscovery/</guid>
+      <description>Uila is a platform that seeks to amplify visibility into a virtualized environment, allowing technicians to determine root cause for performance and availability issues. Increasing availability and determining root cause are critically important but are only one part of the Uila platform. The dashboard retains its familiar appearance, with its green/yellow/red application performance visualization but the software itself has many new features to explore.
+Ulia has spent significant time and effort enhancing other features, in particular application mapping and documentation.</description>
+    </item>
     
     <item>
       <title>VMware vRealize Operations Manager: Licensing and License Groups</title>
@@ -17,16 +36,7 @@
       <pubDate>Wed, 04 Apr 2018 12:57:51 -0400</pubDate>
       
       <guid>https://www.thomgreene.com/post/2018/2018-04-04-vropslicensing/</guid>
-      <description>Maintaining valid licensing in vRealize Operations Manager is crucial to getting the most out of the tool. There are two methods of licensing vROps: per processor with unlimited VMs or per virtual machine or physical server monitored. The latter method is also referred to as an Operating System Instance, or OSI. An OSI is any device, physical or virtual, that has an IP address and is capable of being monitored.</description>
-    </item>
-    
-    <item>
-      <title>VMware vRealize Operations Manager: Design Introduction</title>
-      <link>https://www.thomgreene.com/post/2018/2018-03-27-vropsdesignintro/</link>
-      <pubDate>Tue, 27 Mar 2018 12:57:51 -0400</pubDate>
-      
-      <guid>https://www.thomgreene.com/post/2018/2018-03-27-vropsdesignintro/</guid>
-      <description>Sizing a vRealize Operations Manager Environment VMware vRealize Operations Manager is the flagship monitoring suite for the entire VMware Software Defined Datacenter stack. The software is incredibly powerful, but it can be a bit daunting to a newcomer. Each update has improved out of the box functionality, however there is a lot to learn to master the software and truly make the most out of its features. Every successful environment starts with a strong design.</description>
+      <description>Maintaining valid licensing in vRealize Operations Manager is crucial to getting the most out of the tool. There are two methods of licensing vROps: per processor with unlimited VMs or per virtual machine or physical server monitored. The latter method is also referred to as an Operating System Instance, or OSI. An OSI is any device, physical or virtual, that has an IP address and is capable of being monitored. Powered Off VMs don&amp;rsquo;t count against your OSI count.</description>
     </item>
     
     <item>
@@ -37,6 +47,15 @@
       <guid>https://www.thomgreene.com/post/2018/2018-03-27-vropsdesignlab/</guid>
       <description>Designing for a Home Lab A practical way to gain experience with vRealize Operations Manager is to deploy and implement it into a home lab. A design for a home lab almost seems too simple, but planning it out and diagraming a simple example can help when the time comes to design a production environment. The environment will need to support the following:
  Monitor 100 Objects Monitor 10 End Point Operations Management agents  The environment is also resource constrained, and the node can be no larger than a Small node size.</description>
+    </item>
+    
+    <item>
+      <title>VMware vRealize Operations Manager: Design Introduction</title>
+      <link>https://www.thomgreene.com/post/2018/2018-03-27-vropsdesignintro/</link>
+      <pubDate>Tue, 27 Mar 2018 12:57:51 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2018/2018-03-27-vropsdesignintro/</guid>
+      <description>Sizing a vRealize Operations Manager Environment VMware vRealize Operations Manager is the flagship monitoring suite for the entire VMware Software Defined Datacenter stack. The software is incredibly powerful, but it can be a bit daunting to a newcomer. Each update has improved out of the box functionality, however there is a lot to learn to master the software and truly make the most out of its features. Every successful environment starts with a strong design.</description>
     </item>
     
     <item>

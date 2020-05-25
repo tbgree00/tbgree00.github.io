@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Troubleshooting on Virtualizing a Physical World</title>
@@ -18,7 +18,7 @@
       
       <guid>https://www.thomgreene.com/post/2017/2017-02-24-vmtoolsnoreboot/</guid>
       <description>Historically, one of my biggest little annoyances with a VMware version upgrade has been upgrading VMware tools. In vSphere 5.5, VMware added the ability to update tools without a reboot. If you were manually kicking off the tools upgrade all you need to do is enter the following features into the advanced settings box
-/s /v&amp;quot;/qn REBOOT=ReallySuppress?  This is great and causes the tool update to only lose one ping instead of requiring a full restart.</description>
+/s /v&amp;quot;/qn REBOOT=ReallySuppress?This is great and causes the tool update to only lose one ping instead of requiring a full restart.</description>
     </item>
     
     <item>
@@ -56,16 +56,7 @@ The discussion about Compatibility reminded me of the spreadsheet I use to track
       
       <guid>https://www.thomgreene.com/post/2016/2016-03-22-configuretime/</guid>
       <description>I once had an opportunity to improve and standardize ESXi host time synchronization in an environment with hundreds of hosts. There had been issues with time sync and drift that needed to be addressed. To fix this I turned to PowerCLI to do a quick and dirty dump of the configuredNTP settings on each of the hosts in the Datacenter.
-Get-VMHost | Get-VMHostService |Where-Object {$_.key -eq &amp;quot;ntpd&amp;quot;}  This commandlet returns output which gets us part of the way to the solution, but we can refine it and make it better.</description>
-    </item>
-    
-    <item>
-      <title>Investigating VM Configuration Changes</title>
-      <link>https://www.thomgreene.com/blog/2016/3/11/x3s639ch7peru7quudjenlbcb9vhw0/</link>
-      <pubDate>Tue, 15 Mar 2016 12:57:51 -0400</pubDate>
-      
-      <guid>https://www.thomgreene.com/blog/2016/3/11/x3s639ch7peru7quudjenlbcb9vhw0/</guid>
-      <description>Tracking resource configuration is a common struggle for an enterprise level environment. Even SMBs can have trouble keeping track of how their memory is provisioned and when it changes. What&amp;rsquo;s worse, VMware&amp;rsquo;s vSphere Client doesn&amp;rsquo;t provide any insight as to what changes when someone edits the virtual machine settings. An event named &amp;ldquo;Reconfigure virtual machine&amp;rdquo; hits the task log but this isn&amp;rsquo;t a lot of information. If you open Edit Settings and click OK vCenter registers this event even if you didn&amp;rsquo;t change anything.</description>
+Get-VMHost | Get-VMHostService |Where-Object {$_.key -eq &amp;quot;ntpd&amp;quot;}This commandlet returns output which gets us part of the way to the solution, but we can refine it and make it better.</description>
     </item>
     
     <item>
@@ -74,7 +65,7 @@ Get-VMHost | Get-VMHostService |Where-Object {$_.key -eq &amp;quot;ntpd&amp;quot
       <pubDate>Tue, 15 Mar 2016 12:57:51 -0400</pubDate>
       
       <guid>https://www.thomgreene.com/post/2016/2016-03-15-vmconfigchange/</guid>
-      <description>Tracking resource configuration is a common struggle for an enterprise level environment. Even SMBs can have trouble keeping track of how their memory is provisioned and when it changes. What&amp;rsquo;s worse, VMware&amp;rsquo;s vSphere Client doesn&amp;rsquo;t provide any insight as to what changes when someone edits the virtual machine settings. An event named&amp;rdquo;Reconfigure virtual machine&amp;rdquo; hits the task log but this isn&amp;rsquo;t a lot of information. If you open Edit Settings and click OK vCenter registers this event even if you didn&amp;rsquo;t change anything.</description>
+      <description>Tracking resource configuration is a common struggle for an enterprise level environment. Even SMBs can have trouble keeping track of how their memory is provisioned and when it changes. What&amp;rsquo;s worse, VMware&amp;rsquo;s vSphere Client doesn&amp;rsquo;t provide any insight as to what changes when someone edits the virtual machine settings. An event named&amp;quot;Reconfigure virtual machine&amp;rdquo; hits the task log but this isn&amp;rsquo;t a lot of information. If you open Edit Settings and click OK vCenter registers this event even if you didn&amp;rsquo;t change anything.</description>
     </item>
     
     <item>

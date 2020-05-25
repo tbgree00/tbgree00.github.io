@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Virtualizing a Physical World</title>
@@ -63,7 +63,7 @@ IBM IBM Cloud – Bare metal deployments</description>
       <pubDate>Wed, 28 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.thomgreene.com/page/vrops/</guid>
-      <description> Design  Introduction to Sizing and Design Designing for a Home Lab Licensing vRealize Operations Manager  Videos  vRealize Operations Manager: From Zero to Useful   Resources  VMware Hands on Labs 1801-01-CMP, 1801-02-CMP, 1801-03-CMP, 1801-04-CMP Pluralsight course by David Davis mylearn.vmware.com Learning Paths Official vROPs Documentation Sizing Guide VMware KB2150421 vRealize Operations Health Check Script vROps Hands on Lab  </description>
+      <description>Design  Introduction to Sizing and Design Designing for a Home Lab Licensing vRealize Operations Manager  Videos  vRealize Operations Manager: From Zero to Useful  Resources  VMware Hands on Labs 1801-01-CMP, 1801-02-CMP, 1801-03-CMP, 1801-04-CMP Pluralsight course by David Davis mylearn.vmware.com Learning Paths Official vROPs Documentation Sizing Guide VMware KB2150421 vRealize Operations Health Check Script vROps Hands on Lab  </description>
     </item>
     
   </channel>

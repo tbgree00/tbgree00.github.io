@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Virtualizing a Physical World</title>
@@ -6,53 +6,35 @@
     <description>Recent content in Tags on Virtualizing a Physical World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Apr 2017 12:57:51 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 16 Jul 2018 14:51:25 -0400</lastBuildDate>
     
 	<atom:link href="https://www.thomgreene.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Aws</title>
-      <link>https://www.thomgreene.com/tags/aws/</link>
-      <pubDate>Fri, 28 Apr 2017 12:57:51 -0400</pubDate>
+      <title>Uila</title>
+      <link>https://www.thomgreene.com/tags/uila/</link>
+      <pubDate>Mon, 16 Jul 2018 14:51:25 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/tags/aws/</guid>
+      <guid>https://www.thomgreene.com/tags/uila/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Azure</title>
-      <link>https://www.thomgreene.com/tags/azure/</link>
-      <pubDate>Sat, 03 Jun 2017 12:57:51 -0400</pubDate>
+      <title>vBrownbag</title>
+      <link>https://www.thomgreene.com/tags/vbrownbag/</link>
+      <pubDate>Thu, 05 Jul 2018 10:44:37 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/tags/azure/</guid>
+      <guid>https://www.thomgreene.com/tags/vbrownbag/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Command Line</title>
-      <link>https://www.thomgreene.com/tags/command-line/</link>
-      <pubDate>Thu, 15 Dec 2016 12:00:00 -0400</pubDate>
+      <title>VMworld</title>
+      <link>https://www.thomgreene.com/tags/vmworld/</link>
+      <pubDate>Thu, 05 Jul 2018 10:44:37 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/tags/command-line/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Documentation</title>
-      <link>https://www.thomgreene.com/tags/documentation/</link>
-      <pubDate>Mon, 07 Nov 2016 12:57:51 -0400</pubDate>
-      
-      <guid>https://www.thomgreene.com/tags/documentation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Esxcli</title>
-      <link>https://www.thomgreene.com/tags/esxcli/</link>
-      <pubDate>Tue, 05 Apr 2016 12:00:00 -0400</pubDate>
-      
-      <guid>https://www.thomgreene.com/tags/esxcli/</guid>
+      <guid>https://www.thomgreene.com/tags/vmworld/</guid>
       <description></description>
     </item>
     
@@ -62,24 +44,6 @@
       <pubDate>Tue, 29 May 2018 10:57:00 -0400</pubDate>
       
       <guid>https://www.thomgreene.com/tags/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hardware</title>
-      <link>https://www.thomgreene.com/tags/hardware/</link>
-      <pubDate>Fri, 24 Feb 2017 12:57:51 -0400</pubDate>
-      
-      <guid>https://www.thomgreene.com/tags/hardware/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Homelab</title>
-      <link>https://www.thomgreene.com/tags/homelab/</link>
-      <pubDate>Wed, 04 Apr 2018 12:57:51 -0400</pubDate>
-      
-      <guid>https://www.thomgreene.com/tags/homelab/</guid>
       <description></description>
     </item>
     
@@ -102,38 +66,38 @@
     </item>
     
     <item>
+      <title>Homelab</title>
+      <link>https://www.thomgreene.com/tags/homelab/</link>
+      <pubDate>Wed, 04 Apr 2018 12:57:51 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/tags/homelab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vRealize Operations Manager</title>
+      <link>https://www.thomgreene.com/tags/vrealize-operations-manager/</link>
+      <pubDate>Wed, 04 Apr 2018 12:57:51 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/tags/vrealize-operations-manager/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vExpert</title>
+      <link>https://www.thomgreene.com/tags/vexpert/</link>
+      <pubDate>Mon, 30 Oct 2017 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/tags/vexpert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Mentoring</title>
       <link>https://www.thomgreene.com/tags/mentoring/</link>
       <pubDate>Wed, 30 Aug 2017 12:57:51 -0400</pubDate>
       
       <guid>https://www.thomgreene.com/tags/mentoring/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Networking</title>
-      <link>https://www.thomgreene.com/tags/networking/</link>
-      <pubDate>Fri, 11 Mar 2016 12:57:51 -0400</pubDate>
-      
-      <guid>https://www.thomgreene.com/tags/networking/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Openstack</title>
-      <link>https://www.thomgreene.com/tags/openstack/</link>
-      <pubDate>Wed, 04 Jan 2017 12:00:00 -0400</pubDate>
-      
-      <guid>https://www.thomgreene.com/tags/openstack/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Powercli</title>
-      <link>https://www.thomgreene.com/tags/powercli/</link>
-      <pubDate>Fri, 24 Feb 2017 12:57:51 -0400</pubDate>
-      
-      <guid>https://www.thomgreene.com/tags/powercli/</guid>
       <description></description>
     </item>
     
@@ -147,6 +111,15 @@
     </item>
     
     <item>
+      <title>Azure</title>
+      <link>https://www.thomgreene.com/tags/azure/</link>
+      <pubDate>Sat, 03 Jun 2017 12:57:51 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/tags/azure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Storage</title>
       <link>https://www.thomgreene.com/tags/storage/</link>
       <pubDate>Sat, 03 Jun 2017 12:57:51 -0400</pubDate>
@@ -156,74 +129,47 @@
     </item>
     
     <item>
-      <title>Studying</title>
-      <link>https://www.thomgreene.com/tags/studying/</link>
-      <pubDate>Wed, 02 Nov 2016 12:57:51 -0400</pubDate>
+      <title>AWS</title>
+      <link>https://www.thomgreene.com/tags/aws/</link>
+      <pubDate>Fri, 28 Apr 2017 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/tags/studying/</guid>
+      <guid>https://www.thomgreene.com/tags/aws/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Tfd13</title>
+      <title>Hardware</title>
+      <link>https://www.thomgreene.com/tags/hardware/</link>
+      <pubDate>Fri, 24 Feb 2017 12:57:51 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/tags/hardware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PowerCLI</title>
+      <link>https://www.thomgreene.com/tags/powercli/</link>
+      <pubDate>Fri, 24 Feb 2017 12:57:51 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/tags/powercli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VMware tools</title>
+      <link>https://www.thomgreene.com/tags/vmware-tools/</link>
+      <pubDate>Fri, 24 Feb 2017 12:57:51 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/tags/vmware-tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TFD13</title>
       <link>https://www.thomgreene.com/tags/tfd13/</link>
       <pubDate>Tue, 07 Feb 2017 12:00:00 -0400</pubDate>
       
       <guid>https://www.thomgreene.com/tags/tfd13/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Trip Report</title>
-      <link>https://www.thomgreene.com/tags/trip-report/</link>
-      <pubDate>Wed, 31 Aug 2016 12:00:00 -0400</pubDate>
-      
-      <guid>https://www.thomgreene.com/tags/trip-report/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Uila</title>
-      <link>https://www.thomgreene.com/tags/uila/</link>
-      <pubDate>Tue, 07 Feb 2017 12:00:00 -0400</pubDate>
-      
-      <guid>https://www.thomgreene.com/tags/uila/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vbrownbag</title>
-      <link>https://www.thomgreene.com/tags/vbrownbag/</link>
-      <pubDate>Tue, 25 Jul 2017 12:57:51 -0400</pubDate>
-      
-      <guid>https://www.thomgreene.com/tags/vbrownbag/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vcap</title>
-      <link>https://www.thomgreene.com/tags/vcap/</link>
-      <pubDate>Wed, 29 Jun 2016 12:00:00 -0400</pubDate>
-      
-      <guid>https://www.thomgreene.com/tags/vcap/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vcdx</title>
-      <link>https://www.thomgreene.com/tags/vcdx/</link>
-      <pubDate>Sun, 06 Nov 2016 12:00:00 -0400</pubDate>
-      
-      <guid>https://www.thomgreene.com/tags/vcdx/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vdm30in30</title>
-      <link>https://www.thomgreene.com/tags/vdm30in30/</link>
-      <pubDate>Sun, 20 Nov 2016 12:00:00 -0400</pubDate>
-      
-      <guid>https://www.thomgreene.com/tags/vdm30in30/</guid>
       <description></description>
     </item>
     
@@ -237,38 +183,92 @@
     </item>
     
     <item>
-      <title>Vexpert</title>
-      <link>https://www.thomgreene.com/tags/vexpert/</link>
-      <pubDate>Mon, 30 Oct 2017 12:00:00 -0400</pubDate>
+      <title>OpenStack</title>
+      <link>https://www.thomgreene.com/tags/openstack/</link>
+      <pubDate>Wed, 04 Jan 2017 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/tags/vexpert/</guid>
+      <guid>https://www.thomgreene.com/tags/openstack/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Vmware Tools</title>
-      <link>https://www.thomgreene.com/tags/vmware-tools/</link>
-      <pubDate>Fri, 24 Feb 2017 12:57:51 -0400</pubDate>
+      <title>Command Line</title>
+      <link>https://www.thomgreene.com/tags/command-line/</link>
+      <pubDate>Thu, 15 Dec 2016 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/tags/vmware-tools/</guid>
+      <guid>https://www.thomgreene.com/tags/command-line/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Vmworld</title>
-      <link>https://www.thomgreene.com/tags/vmworld/</link>
-      <pubDate>Wed, 30 Aug 2017 12:57:51 -0400</pubDate>
+      <title>vDM30in30</title>
+      <link>https://www.thomgreene.com/tags/vdm30in30/</link>
+      <pubDate>Sun, 20 Nov 2016 12:00:00 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/tags/vmworld/</guid>
+      <guid>https://www.thomgreene.com/tags/vdm30in30/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Vrealize Operations Manager</title>
-      <link>https://www.thomgreene.com/tags/vrealize-operations-manager/</link>
-      <pubDate>Wed, 04 Apr 2018 12:57:51 -0400</pubDate>
+      <title>Documentation</title>
+      <link>https://www.thomgreene.com/tags/documentation/</link>
+      <pubDate>Mon, 07 Nov 2016 12:57:51 -0400</pubDate>
       
-      <guid>https://www.thomgreene.com/tags/vrealize-operations-manager/</guid>
+      <guid>https://www.thomgreene.com/tags/documentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VCDX</title>
+      <link>https://www.thomgreene.com/tags/vcdx/</link>
+      <pubDate>Sun, 06 Nov 2016 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/tags/vcdx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Studying</title>
+      <link>https://www.thomgreene.com/tags/studying/</link>
+      <pubDate>Wed, 02 Nov 2016 12:57:51 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/tags/studying/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trip-Report</title>
+      <link>https://www.thomgreene.com/tags/trip-report/</link>
+      <pubDate>Wed, 31 Aug 2016 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/tags/trip-report/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VCAP</title>
+      <link>https://www.thomgreene.com/tags/vcap/</link>
+      <pubDate>Wed, 29 Jun 2016 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/tags/vcap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ESXCLI</title>
+      <link>https://www.thomgreene.com/tags/esxcli/</link>
+      <pubDate>Tue, 05 Apr 2016 12:00:00 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/tags/esxcli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Networking</title>
+      <link>https://www.thomgreene.com/tags/networking/</link>
+      <pubDate>Fri, 11 Mar 2016 12:57:51 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/tags/networking/</guid>
       <description></description>
     </item>
     

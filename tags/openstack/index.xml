@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Openstack on Virtualizing a Physical World</title>
+    <title>OpenStack on Virtualizing a Physical World</title>
     <link>https://www.thomgreene.com/tags/openstack/</link>
-    <description>Recent content in Openstack on Virtualizing a Physical World</description>
+    <description>Recent content in OpenStack on Virtualizing a Physical World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 04 Jan 2017 12:00:00 -0400</lastBuildDate>

@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vcap on Virtualizing a Physical World</title>
+    <title>VCAP on Virtualizing a Physical World</title>
     <link>https://www.thomgreene.com/tags/vcap/</link>
-    <description>Recent content in Vcap on Virtualizing a Physical World</description>
+    <description>Recent content in VCAP on Virtualizing a Physical World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 29 Jun 2016 12:00:00 -0400</lastBuildDate>
@@ -22,32 +22,12 @@
     
     <item>
       <title>Strategy Going into the VCAP6-DCV Deploy</title>
-      <link>https://www.thomgreene.com/blog/2016/6/25/strategy-going-into-the-vcap6-dcv-deploy/</link>
-      <pubDate>Sat, 25 Jun 2016 12:57:51 -0400</pubDate>
-      
-      <guid>https://www.thomgreene.com/blog/2016/6/25/strategy-going-into-the-vcap6-dcv-deploy/</guid>
-      <description>As I prepare to take an advanced test on a version of VMware I had never touched prior to dropping my $100 I knew I needed a strategy. I searched the blueprint for what was new and hoped my notes from the DCA were enough to patch me through.
-Plenty of articles exist to study by. I used many of them to prepare myself. When the time comes for me to take my seat here is how I&amp;rsquo;ll prepare:</description>
-    </item>
-    
-    <item>
-      <title>Strategy Going into the VCAP6-DCV Deploy</title>
       <link>https://www.thomgreene.com/post/2016/2016-06-25-vcap6deploystrategy/</link>
       <pubDate>Sat, 25 Jun 2016 12:57:51 -0400</pubDate>
       
       <guid>https://www.thomgreene.com/post/2016/2016-06-25-vcap6deploystrategy/</guid>
       <description>As I prepare to take an advanced test on a version of VMware I had never touched prior to dropping my $100 I knew I needed a strategy. I searched the blueprint for what was new and hoped my notes from the DCA were enough to patch me through.
 Plenty of articles exist to study by. I used many of them to prepare myself. When the time comes for me to take my seat here is how I&amp;rsquo;ll prepare:</description>
-    </item>
-    
-    <item>
-      <title>VCAP6-DCV Deploy Blueprint Changes from VCAP5-DCA</title>
-      <link>https://www.thomgreene.com/blog/2016/6/16/vcap6-dcv-deploy-blueprint-changes-from-vcap5-dca/</link>
-      <pubDate>Sun, 19 Jun 2016 12:00:00 -0400</pubDate>
-      
-      <guid>https://www.thomgreene.com/blog/2016/6/16/vcap6-dcv-deploy-blueprint-changes-from-vcap5-dca/</guid>
-      <description>VMware recently announced a 2 week availability for the VCAP6-DCV Deploy beta. After some debate I signed up to sit the exam on June 28, 2016. They provide a beta version of the blueprint so I started there to see what had changed from my VCAP5-DCA 5.5 blueprint and notes. I made some quick notes and want to share them here.
- As a disclaimer my list is quick first pass.</description>
     </item>
     
     <item>

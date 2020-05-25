@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vmware Tools on Virtualizing a Physical World</title>
+    <title>VMware tools on Virtualizing a Physical World</title>
     <link>https://www.thomgreene.com/tags/vmware-tools/</link>
-    <description>Recent content in Vmware Tools on Virtualizing a Physical World</description>
+    <description>Recent content in VMware tools on Virtualizing a Physical World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 24 Feb 2017 12:57:51 -0400</lastBuildDate>
@@ -18,7 +18,7 @@
       
       <guid>https://www.thomgreene.com/post/2017/2017-02-24-vmtoolsnoreboot/</guid>
       <description>Historically, one of my biggest little annoyances with a VMware version upgrade has been upgrading VMware tools. In vSphere 5.5, VMware added the ability to update tools without a reboot. If you were manually kicking off the tools upgrade all you need to do is enter the following features into the advanced settings box
-/s /v&amp;quot;/qn REBOOT=ReallySuppress?  This is great and causes the tool update to only lose one ping instead of requiring a full restart.</description>
+/s /v&amp;quot;/qn REBOOT=ReallySuppress?This is great and causes the tool update to only lose one ping instead of requiring a full restart.</description>
     </item>
     
   </channel>

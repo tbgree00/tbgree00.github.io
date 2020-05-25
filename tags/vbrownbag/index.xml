@@ -1,15 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vbrownbag on Virtualizing a Physical World</title>
+    <title>vBrownbag on Virtualizing a Physical World</title>
     <link>https://www.thomgreene.com/tags/vbrownbag/</link>
-    <description>Recent content in Vbrownbag on Virtualizing a Physical World</description>
+    <description>Recent content in vBrownbag on Virtualizing a Physical World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Jul 2017 12:57:51 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 05 Jul 2018 10:44:37 -0400</lastBuildDate>
     
 	<atom:link href="https://www.thomgreene.com/tags/vbrownbag/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Make the Most out of VMworld 2018</title>
+      <link>https://www.thomgreene.com/post/2018/2018-07-05-vmworldtips/</link>
+      <pubDate>Thu, 05 Jul 2018 10:44:37 -0400</pubDate>
+      
+      <guid>https://www.thomgreene.com/post/2018/2018-07-05-vmworldtips/</guid>
+      <description>VMworld is one of the most anticipated events of the year for many people in the tech world. Engineers and architects from all over the world come together to share, learn, and make new friends. I have been fortunate enough to attend both VMworld 2016 and 2017 and have learned many lessons about how to maximize my time.
+There are a few tips you&amp;rsquo;ll read over and over again. They are definitely worth repeating, though.</description>
+    </item>
     
     <item>
       <title>Mock Job Interview</title>
