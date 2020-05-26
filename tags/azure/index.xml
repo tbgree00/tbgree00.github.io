@@ -6,10 +6,20 @@
     <description>Recent content in Azure on thomgreene.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 May 2020 12:39:17 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2020 14:09:23 -0400</lastBuildDate>
     
 	<atom:link href="https://thomgreene.com/tags/azure/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Azure Fundamentals Exam Experience</title>
+      <link>https://thomgreene.com/post/2020/2020-05-26-azurefundamental/</link>
+      <pubDate>Tue, 26 May 2020 14:09:23 -0400</pubDate>
+      
+      <guid>https://thomgreene.com/post/2020/2020-05-26-azurefundamental/</guid>
+      <description>The Microsoft Azure Fundamentals certification (AZ-900) is an entry-level exam, introducing Azure to technical and non-technical people. The test covers a range of general cloud concepts and Microsoft products. This exam gives students a firm foundation to continue learning Microsoft Azure and to participate in the infrastructure shift from on-premises to the cloud.
+The Azure Fundamentals exam is about 35 questions with a 60-minute time limit. They are a mix of drop-down, drag and drop, and multiple-choice questions.</description>
+    </item>
     
     <item>
       <title>At-Home Certification: The New Normal</title>
