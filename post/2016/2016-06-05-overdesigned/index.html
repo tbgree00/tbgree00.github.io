@@ -112,14 +112,14 @@ if (!doNotTrack) {
 <p>I created a single dvSwitch, set the NIC teaming rules to meet the requirements, and all was well. A year later a few blades with only two NICs were purchased. Another technician added them to the dvSwitch. All networking checks succeeded except we couldn&rsquo;t ping the NFS vmkernel port or the VM that needed to sit in that VLAN.</p>
 <h2 id="the-original-design">The Original Design</h2>
 <p>I set out to fulfill the requirement to dedicate two network adapters to NFS storage. There are quite a few ways to fulfill this requirement but there are two common solutions. You can use one switch and set explicit failover rules. All port groups except for NFS use dvUplink 1 and 2. The NFS port group use dvUplink 3 and 4.</p>
-<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/misc/overdesign/01-one-dvswitch.png" alt="one-dvswitch"></p>
+<p><img src="/img/misc/overdesign/01-one-dvswitch.png" alt="one-dvswitch"></p>
 <p>The other decision would be to create two dvSwitches. One dedicated to NFS, a second dedicated to all other traffic. Then you simply have NFS uplinks 1 and 2 for the storage dvswitch and the a second set up uplinks 1 and 2 for the production switch.</p>
-<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/misc/overdesign/02-two-dvswitch.png" alt="two-dvswitch"></p>
+<p><img src="/img/misc/overdesign/02-two-dvswitch.png" alt="two-dvswitch"></p>
 <p>They both work, but which way is correct? That is a discussion for your team. I prefer a single switch. That leads to fewer decisions when setting up a new host. Two switches give you less room for error with non-standard hardware but more switches to maintain.</p>
 <h2 id="lessons-learned">Lessons Learned</h2>
 <p>What I should have done was change the name of the uplinks in the dvSwitch. I should have renamed uplinks 1 and 2 to Prod-Uplink1 and Prod-Uplink2. Then I should have renamed uplink 2 and 3 to NFS-Uplink1 and NFS-Uplink2. This would have made it more clear that no physical adapters were connected to the NFS uplinks.</p>
 <p>Secondly I should have drew it out in Visio. I also should have written a networking section as part of an overall design document defending my decisions. This is how it should have looked.</p>
-<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/misc/overdesign/03-correct-dvswitch.png" alt="correct-dvswitch"></p>
+<p><img src="/img/misc/overdesign/03-correct-dvswitch.png" alt="correct-dvswitch"></p>
 <p>Thirty minutes of documentation with this could have saved hours of troubleshooting. This was early in my enterprise career and one of the first design decisions I ever made with a dvSwitch. I have since passed the VCAP-DCD and am now starting on the VCDX. Thanks to these studies I have a much better grasp on the level of documentation needed to be successful. I plan to go back to make these changes and draw these switches. Hopefully we won&rsquo;t face an error due to an over designed and under documented decision again.</p>
 
 		</div>

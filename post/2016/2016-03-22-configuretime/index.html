@@ -108,18 +108,18 @@ if (!doNotTrack) {
 			<p>I once had an opportunity to improve and standardize ESXi host time synchronization in an environment with hundreds of hosts. There had been issues with time sync and drift that needed to be addressed. To fix this I turned to PowerCLI to do a quick and dirty dump of the configuredNTP settings on each of the hosts in the Datacenter.</p>
 <pre><code>Get-VMHost | Get-VMHostService |Where-Object {$_.key -eq &quot;ntpd&quot;}
 </code></pre><p>This commandlet returns output which gets us part of the way to the solution, but we can refine it and make it better.</p>
-<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/vmware/NTP/01-get-vmhostservice.png" alt="get-vmhostservice"></p>
+<p><img src="/img/vmware/NTP/01-get-vmhostservice.png" alt="get-vmhostservice"></p>
 <p>We already know the key, we explicitly searched for ntpd. Same with label, we know we&rsquo;re looking for the NTP service. Policy and Running are of interest to us.</p>
 <ul>
 <li><strong>Running</strong>: True means the NTP service is started,  False means it is stopped. Simple enough.</li>
 <li><strong>Policy</strong>: Values can be on, off, and automatic. These map directly to the GUI settings for how to start and stop a service.</li>
 </ul>
-<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/vmware/NTP/02-startstopntpgui.png" alt="ntpstartstop"></p>
+<p><img src="/img/vmware/NTP/02-startstopntpgui.png" alt="ntpstartstop"></p>
 <p>On is &ldquo;Start and stop with host&rdquo;, Off is &ldquo;Start and stop manually&rdquo;, and automatic is &ldquo;Start automatically&hellip;&rdquo;</p>
 <p>I want my list to show me less info and include the hostname. Select-Object to the rescue.</p>
 <pre><code>Get-VMHost | Get-VMHostService |Where-Object {$_.key -eq &quot;ntpd&quot;}| Select-Object VMHost, Policy, Running
 </code></pre><p>So now we get a more human friendly output</p>
-<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/vmware/NTP/03-hostnametable.png" alt="table"></p>
+<p><img src="/img/vmware/NTP/03-hostnametable.png" alt="table"></p>
 <p>Now we can see if the services are running and how they start and stop with the hosts.</p>
 <p>At this point the output told me I should execute the codes against the whole datacenter. It may only be a few hosts in your environment that need configuration but I wanted to make sure everything was set properly. I used a set of commands I found on the <a href="https://communities.vmware.com/thread/444518?start=0&amp;tstart=0?src=af_5acfd77177ffa&amp;cid=70134000001YR7f">VMware forums</a> as a starting point and applied them datacenter wide. In the following example replace TIMESERVER with the hostname or IP address of the time server you use, just leave the quotation marks.</p>
 <pre><code>Get-VMHost | Add-VmHostNtpServer -NtpServer &quot;TIMESERVER&quot;

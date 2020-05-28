@@ -110,15 +110,15 @@ if (!doNotTrack) {
 <h3 id="application-dependency-mapping">Application Dependency Mapping</h3>
 <p>All screenshots come from Uila&rsquo;s interactive demo environment. Feel free to access it <a href="https://demo.uila.com/1.30.0.79aa43f/index.html">here</a> and follow along.</p>
 <p>If you wish to create an application dependency mapping, click the VM&rsquo;s name in the Application Performance widget. A box will open up with details about the health and communication history for the VM. Click <em>Add to Dependent Services</em> at the bottom of the box.</p>
-<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/misc/uila/01-UilaAppService.png" alt="Uila App Service"></p>
+<p><img src="/img/misc/uila/01-UilaAppService.png" alt="Uila App Service"></p>
 <p>The screen will change to the Dependency Mapping view and the VM, along with its dependent systems, appear in an interactive diagram. This example shows a couple dependencies, though the diagrams can scale to dozens of nodes. The ability to drag items around the map can increase clarity in this view.
-<img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/misc/uila/02-UilaDependancyMap.png" alt="DependencyMap"></p>
+<img src="/img/misc/uila/02-UilaDependancyMap.png" alt="DependencyMap"></p>
 <p>If we click the floppy disk icon to <em>Export Application Map</em> Uila exports a CSV file with a lot of useful details. All the information required to plan an application migration appears on the report, along with sizing information on the virtual machines.</p>
-<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/misc/uila/03-UilaCSV.png" alt="CSV Export"></p>
+<p><img src="/img/misc/uila/03-UilaCSV.png" alt="CSV Export"></p>
 <p>The report lays out information in a straightforward fashion, letting your networking and security teams view the traffic flow and plan accordingly. The data is collected in real-time, meaning the report can be gathered minutes after deploying the system, though the Uila team recommends letting it collect data for a week to make sure it captures everything.</p>
 <h3 id="application-baselining">Application Baselining</h3>
 <p>Another powerful Application Mapping feature is the Application Baseline. Continuing with the <em>wpserver</em> Application Map, click <strong>Save Baseline</strong>. The top bar will turn green, showing that the current state of the application matches the baseline. Now, drag the time slider at the top to somewhere in the red. It&rsquo;s likely that at least one of the links in the application map will change. The connection between <em>wpserver</em> and <em>dbserver</em> has changed in my example. A dotted line means that the communication has stopped and a new dependency appears as a blue line. My favorite part is that the application map data is historical, so you can move the time picker to a time when an application was working, save the baseline, then move the time to a point where it isn&rsquo;t working and see what changed.</p>
-<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/misc/uila/04-UilaApplicationBaseline.png" alt="UilaBaseline"></p>
+<p><img src="/img/misc/uila/04-UilaApplicationBaseline.png" alt="UilaBaseline"></p>
 <p>Uila is one of my favorite monitoring tools. I first met Chia-Chee and Roger during <a href="http://techfieldday.com/companies/uila/">Tech Field Day 13</a> and the tool has impressed me with each new update.</p>
 
 		</div>

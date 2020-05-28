@@ -104,23 +104,23 @@ if (!doNotTrack) {
 		</header><div class="content post__content clearfix">
 			<p>Tracking resource configuration is a common struggle for an enterprise level environment. Even SMBs can have trouble keeping track of how their memory is provisioned and when it changes. What&rsquo;s worse, VMware&rsquo;s vSphere Client doesn&rsquo;t provide any insight as to what changes when someone edits the virtual machine settings. An event named&quot;Reconfigure virtual machine&rdquo; hits the task log but this isn&rsquo;t a lot of information. If you open Edit Settings and click OK vCenter registers this event even if you didn&rsquo;t change anything. This does, however give you a timestamp (and username) for our investigation.
 Someone opened Edit Settings, but what did they edit?</p>
-<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/vmware/vmconfigchanges/01-ReconfigEvent.png" alt="Someone opened Edit Settings, but what did they edit?"></p>
+<p><img src="/img/vmware/vmconfigchanges/01-ReconfigEvent.png" alt="Someone opened Edit Settings, but what did they edit?"></p>
 <p>The Events log doesn&rsquo;t tell you much either. It may return &ldquo;Resource allocation changed&rdquo; but you will also see those events if you vMotion a virtual machine or DRS moves it. This still isn&rsquo;t a smoking gun to say &ldquo;The memory was changed to X GB at this time&rdquo;.</p>
 <h2 id="vmwarelog-to-the-rescue">VMware.log to the rescue</h2>
 <p>Thankfully there is a way to get a timestamp that tells you exactly when a VM had its memory changed and how much it was set to&hellip; time to SSH into a host to find <strong>vmware.log</strong></p>
 <p>VMware.log is a file located in the datastore that stores your machine&rsquo;s vmx file. It&rsquo;s a running log of everything happening to the machine. By default VMware keeps 10 rotations so you could see up to 10 files. If you want to change the location, maximum size, or rotations to keep check out <a href="https://kb.vmware.com/selfservice/search.do?cmd=displayKC&amp;docType=kc&amp;docTypeID=DT_KB_1_1&amp;externalId=8182749?src=af_5acfd77177ffa&amp;cid=70134000001YR7f">KB 8182749</a>.</p>
 <p>There are many paths we can take at this point. We could browse the datastore and download the vmware.log file or files with the timestamp we want to investigate. My personal preference is to turn to the command line to investigate. I&rsquo;ll run through each of the commands individually.</p>
 <p>Open putty or your SSH client of choice and connect to the host. Remember to start the SSH service on the host if you haven&rsquo;t already!</p>
-<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/vmware/vmconfigchanges/02-putty.png" alt="putty"></p>
+<p><img src="/img/vmware/vmconfigchanges/02-putty.png" alt="putty"></p>
 <p>Browse to the datastore. If you aren&rsquo;t familiar with navigating a non-Windows file system, use <strong>ls</strong> to list the contents of your current directory, the same as <strong>dir</strong> in Windows.</p>
-<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/vmware/vmconfigchanges/03-browsehost.png" alt="Browse Host"></p>
+<p><img src="/img/vmware/vmconfigchanges/03-browsehost.png" alt="Browse Host"></p>
 <p>We are trying to get to the datastore that your virtual machine is sitting on. to get there you can <strong>cd</strong> into directory like a windows command prompt.</p>
 <pre><code>~# cd /vmfs/volumes/DATASTORE/VIRTUALMACHINE/
 </code></pre><p>This would take you into the directory for the vm VIRTUALMACHINE in the DATASTORE datastore. ESXi&rsquo;s file system is case sensitive so you have to be careful when typing. It does support tab completion. If you start typing a command or directory name the TAB key will autocomplete the word for you. It&rsquo;s a handy trick.</p>
 <p>Now we&rsquo;re in the offending virtual machine&rsquo;s directory. At this point, type <strong>ls -l</strong> to return the contents of the directory with a timestamp. Remember, you&rsquo;re looking for one of possibly ten vmware.log files.</p>
 <p>Let&rsquo;s say you have decided vmware-3.log has a timestamp that would correspond with one of the earlier identified reconfigure log entries. use a <strong>grep</strong> to search the log file for the term <strong>memsize</strong>. If you want to see about a number of vCPU the term is <strong>numVCP</strong>. Lastly if you suspect someone of growing a hard drive the search term is <strong>&lsquo;Growing disk&rsquo;</strong></p>
 <pre><code># grep memsize vmware-3.log
-</code></pre><p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/vmware/vmconfigchanges/04-grepoutput.png" alt="Grep Output"></p>
+</code></pre><p><img src="/img/vmware/vmconfigchanges/04-grepoutput.png" alt="Grep Output"></p>
 <p>As you can see there&rsquo;s an entry that says ConfigDB: Setting memsize = &ldquo;4096&rdquo;. Whomever edited the virtual machine at this time was the culprit!</p>
 <h2 id="summary">Summary</h2>
 <p>To sum it all up:</p>
@@ -144,7 +144,7 @@ $changeevents = Get-VM $vm | Get-VIEvent | Where { $_.FullFormattedMessage -like
 $changeevents[0,1,2].UserName
 $changeevents[0,1,2].ConfigSpec |Select-Object NumCPUs, MemoryMB, DeviceChange
 </code></pre><p>This returns the usernames of the three most recent reconfiguration events on one line and then returns a table of the changes for each of those events:</p>
-<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/vmware/vmconfigchanges/05-powerclioutput.png" alt="PowerCLI Output"></p>
+<p><img src="/img/vmware/vmconfigchanges/05-powerclioutput.png" alt="PowerCLI Output"></p>
 <p>Notice in row two it returns <strong>{VMware.Vim.VirtualDeviceConfigSpec}</strong>. This change was me adding 10 GB to the hard drive. I&rsquo;m not sure how to pull that information more specifically, however I now know to look for that command in the logs if I really need to know exactly how much they added. It&rsquo;s fantastic to pull memory and cpus. if the lines showed up blank I would remove the filters and look at all the configuration items to see if the user changed something a little more obscure.</p>
 
 		</div>

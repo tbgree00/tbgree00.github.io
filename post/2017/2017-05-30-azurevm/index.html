@@ -108,28 +108,28 @@ if (!doNotTrack) {
 			<p>One of the most basic tasks a VMware administrator will perform is deploying a virtual machine. Whether it is creating a VM from scratch or using a template, we&rsquo;ve all worked through the wizard.</p>
 <p>As I dig deeper into Azure I can&rsquo;t help but bring my experience with vSphere along with me. The Azure Resource Manger is a very different experience from the vSphere Web Client but there also quite a few similarities. I invite you to join me as I walk through the creation of an Azure Virtual machine.</p>
 <p>The basic deployment of an Azure Virtual Machine starts at <a href="https://portal.azure.com">https://portal.azure.com</a>. This leads you to the Azure Resource Manager (aka ARM) dashboard, the launching pad for all of Microsoft&rsquo;s ARM services. Once you&rsquo;re logged in, click on Virtual Machines in the left navigation blade.</p>
-<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/azure/createvm/1-Azure-Dashboard.png" alt="Azure Dashboard"></p>
+<p><img src="/img/azure/createvm/1-Azure-Dashboard.png" alt="Azure Dashboard"></p>
 <p>After you click into the Virtual Machine service, click the Add button to add a new Virtual Machine.</p>
-<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/azure/createvm/2-Add-vm.png" alt="Add VM"></p>
+<p><img src="/img/azure/createvm/2-Add-vm.png" alt="Add VM"></p>
 <p>This opens the Azure virtual machine creation wizard. The navigation system is called a blade. These blades take you through the process of creating the virtual machine.</p>
 <p>the first blade that opens is the Azure Marketplace. You can choose an operating system or a partner created image here. You can think of this as you vSphere content library or folder of templates.</p>
 <p>To continue through this tutorial click Windows Server</p>
-<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/azure/createvm/3-choose-image.png" alt="Choose Operation System"></p>
+<p><img src="/img/azure/createvm/3-choose-image.png" alt="Choose Operation System"></p>
 <p>Another blade opens. This blade gives you many options for the version of Windows Server available to deploy. Choose Windows Server 2016 Datacenter</p>
-<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/azure/createvm/4-choose-version.png" alt="Choose OS Image"></p>
+<p><img src="/img/azure/createvm/4-choose-version.png" alt="Choose OS Image"></p>
 <p>After choosing the operating system version you choose a deployment model. There are two deployment models: Resource Manager and Classic. There are many differences between the two models, though I&rsquo;ll keep it brief in the interest of time. Basically, Resource Manager allows for grouping resources with the same lifecycle with Resource Groups. You can delete, delegate access with Role Based Access Control, and separate your bill via Resource group.</p>
 <p>Azure is encouraging everyone to use Resource Manager so we will choose that.</p>
-<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/azure/createvm/5-choose-deploy-model.png" alt="ChooseDeployModel"></p>
+<p><img src="/img/azure/createvm/5-choose-deploy-model.png" alt="ChooseDeployModel"></p>
 <p>Now it&rsquo;s time to start creating our virtual machine.  The first blade we encounter allows us to set the basic details of our machine. I will set up this machine as if I had a brand new account with nothing created aside from the subscription. Check out my <a href="https://tbgree00.github.io/post/azurefree/">Azure resources</a> post if you still need to set up a subscription. You can redeem the free trial or the Visual Studio Essentials credit mentioned in that article.</p>
 <p>In this example I choose HDD as my VM disk type. You can also choose SSD but this affects your options for VM sizing and price.</p>
 <p>I chose to create a new resource group for this example. If this VM was part of a bigger project or application We could choose an existing resource group.</p>
-<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/azure/createvm/6-vm-basics.png" alt="VMBasics"></p>
+<p><img src="/img/azure/createvm/6-vm-basics.png" alt="VMBasics"></p>
 <p>After hitting OK another blade opens. This blade allows you to choose a size for the virtual machine. If you&rsquo;re a VMware administrator new to cloud, this will be an odd concept. When I make a VM in vSphere I can add any combination of cores and RAM.  In Azure you must choose from a number of predetermined VM sizes. Not only do these sizes impact CPU and RAM but also the maximum number of extra data disks that can be attached.</p>
 <p>When the blade loads it only shows you three <strong>Recommended</strong> VM sizes. If the price and configuration of these machines are acceptable, feel free to click one. I felt it was very expensive so I clicked <strong>View All</strong>.</p>
-<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/azure/createvm/7-view-all-size.png" alt="ViewAllSizes"></p>
+<p><img src="/img/azure/createvm/7-view-all-size.png" alt="ViewAllSizes"></p>
 <p>The full list of possible virtual machine sizes will populate. Some may be unavailable due to restrictions on your subscription. For example, there is a limit of 4 total cpu on my subscription so I couldn&rsquo;t deploy a 6 CPU machine,</p>
 <p>Scroll through the list and choose a <strong>A0 Basic</strong> machine size. This will be fine for our example.</p>
-<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/azure/createvm/8-vm-size.png" alt="VMSize"></p>
+<p><img src="/img/azure/createvm/8-vm-size.png" alt="VMSize"></p>
 <p>Making that choice opens another blade for optional features. There is a lot to unpack on this blade:</p>
 <p><strong><a href="https://tbgree00.github.io/post/azurestorageacct/">Storage account</a></strong>: In vSphere datastores are configured on the host. When you deploy a VM you choose a datastore or datastore cluster. The performance and resilience are configured at the SAN. In Azure you must create a storage account to store your VMs.</p>
 <p>A storage account allows you to configure performance, encryption at rest, and redundancy on the account. After configuring this account you choose it from a drop down and it just works.</p>
@@ -140,14 +140,14 @@ if (!doNotTrack) {
 <p>In Azure this isn&rsquo;t the case. If you only deploy one virtual machine there is no guarantee of availability. In order to achieve a 99.9 uptime you must deploy at least two virtual machines.</p>
 <p>You have the option to create an availability set. This will let you deploy multiple identical copies of the virtual machine and assure that there will be at least one copy available 99.9% of the time.</p>
 <p>Just leave the defaults and click OK to move on.</p>
-<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/azure/createvm/9-optional-settings.png" alt="OptionalSettings"></p>
+<p><img src="/img/azure/createvm/9-optional-settings.png" alt="OptionalSettings"></p>
 <p>The summary blade displays everything we configured. At the bottom of the page is an interesting link: Download template and parameters. Click it.</p>
-<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/azure/createvm/10-summary-template.png" alt="Summary"></p>
+<p><img src="/img/azure/createvm/10-summary-template.png" alt="Summary"></p>
 <p>There were quite a few clicks to go through just to deploy one VM. Azure provides us a very easy way to download a template to recreate this machine, just by clicking this link. A new blade opens and gives you the option to add the template to a library or to download the script and run it yourself. The best part is that you can customize the template and use it to deploy other virtual machines in the future.</p>
 <p>Press the <strong>X</strong> in the top right of the template blade to return to the summary, then click OK.</p>
-<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/azure/createvm/11-save-template.png" alt="SaveTemplate"></p>
+<p><img src="/img/azure/createvm/11-save-template.png" alt="SaveTemplate"></p>
 <p>We are finally deploying our first Azure virtual machine. When you deploy a virtual machine it will create a widget on your dashboard. Once the machine has deployed you can click there to open the blade with the virtual machine connection and management information.</p>
-<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/azure/createvm/12-deploy-widget.png" alt="DeployingWidget"></p>
+<p><img src="/img/azure/createvm/12-deploy-widget.png" alt="DeployingWidget"></p>
 <p>There are many new concepts to learn as you extend VMware knowledge into Azure. Hopefully this helps clear up some of the basics of Azure Virtual Machines as they compare to vSphere virtual machines.</p>
 
 		</div>

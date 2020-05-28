@@ -139,7 +139,7 @@ if (!doNotTrack) {
 </tbody>
 </table>
 <p>Since there is only one master node, all adapters will point to it. In a larger cluster adapters would be assigned to different data nodes or remote collectors, as appropriate.</p>
-<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/vmware/vrops/vropshomelab.png" alt="Home Lab Diagram"></p>
+<p><img src="/img/vmware/vrops/vropshomelab.png" alt="Home Lab Diagram"></p>
 <p>In this diagram we see the users accessing the UI URL, the End Point Agents accessing the FQDN of the single node, and both configured adapters residing on that same node. The adapters are fetching data from the endpoints, vCenter and Log Insight in this instance, and feeding it back to the analytics node for storage and processing.</p>
 <p>This exercise was a lot of effort considering the outcome will be &ldquo;Deploy a small node and point everything there.&rdquo; The effort will make more sense in the next post when we can compare a single node deployment to a cluster. Next, we will design and diagram a medium deployment.</p>
 

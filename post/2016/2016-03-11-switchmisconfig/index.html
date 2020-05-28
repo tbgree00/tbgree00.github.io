@@ -108,7 +108,7 @@ if (!doNotTrack) {
 			<p>Years ago I received a call for help from someone setting up a vSphere host. The install had never worked right and the clients were upset at the upgrade. It sometimes took 30 seconds to connect to a server and their SQL applications would crash daily. My intuition told me there was something strange going on with the network.</p>
 <p>It was a very basic install with one Standard vSwitch doing management and virtual machine network traffic. iSCSI, vMotion, etc hadn&rsquo;t been configured yet.</p>
 <p>Once I was given access I found this setup:</p>
-<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/vmware/switchmisconfig/01-vSwitchMisconfig.png" alt="What is Wrong?"></p>
+<p><img src="/img/vmware/switchmisconfig/01-vSwitchMisconfig.png" alt="What is Wrong?"></p>
 <p>The vSwitch&rsquo;s failover has been configured in such a way that an uncabled NIC is set as the active adapter. The clients were experiencing delay in connectivity for VMs running on this host. When we moved vmnic1 and vmnic3 to active and moved vmnic0 to standby everything returned to stable and the client was happy.</p>
 
 		</div>

@@ -116,9 +116,9 @@ if (!doNotTrack) {
 <h2 id="license-groups">License Groups</h2>
 <p>A license group is a collection of resources that can be associated with a vRealize Operations Manager license. When a license group is created it can be configured in two ways: The group can always include objects that meet a specific criteria (i.e. virtual machine that contain &ldquo;prod&rdquo;) or to explicitly include or exclude specific hosts or VMs.</p>
 <p>For example, this license group excludes the VM &ldquo;ansible&rdquo;</p>
-<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/vmware/vrops/vropslicenseexclude.png" alt="ansible exclude"></p>
+<p><img src="/img/vmware/vrops/vropslicenseexclude.png" alt="ansible exclude"></p>
 <p>Excluded VMs don&rsquo;t count against your licensing. Adding the test machines mentioned earlier to the exclusion list will prevent them from consuming licenses. If you did happen to check out an excluded VM you would see a message that the license is invalid.</p>
-<p><img src="https://s3.us-east-2.amazonaws.com/thomgreene-blog-photos/vmware/vrops/vropsinvalidlicense.png" alt="License is Invalid"></p>
+<p><img src="/img/vmware/vrops/vropsinvalidlicense.png" alt="License is Invalid"></p>
 <p>Another reason to use a license group is mixing Advanced and Enterprise license keys. Create a new license group with the license key, add the objects dynamically or explicitly, and the new licensed features will be available.</p>
 <p>Licensing for vRealize Operations Manager can be fairly complex, so I hope this summary helps clear it up a little. These summaries are not exhaustive of all features present in each edition, just some of the highlights for context. For all of the latest information on vRealize Operations Manager please check out the <a href="https://www.vmware.com/products/vrealize-operations.html?src=af_5acfd77177ffa&amp;cid=70134000001YR7f">official page</a></p>
 
