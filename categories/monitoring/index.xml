@@ -17,16 +17,6 @@
     </item>
     
     <item>
-      <title>What is a KPI?</title>
-      <link>https://thomgreene.com/post/2018/2018-07-09-whatiskpi/</link>
-      <pubDate>Mon, 09 Jul 2018 08:42:07 -0400</pubDate>
-      
-      <guid>https://thomgreene.com/post/2018/2018-07-09-whatiskpi/</guid>
-      <description>Monitoring is an important aspect of any architecture. Without a proper plan to monitor performance, capacity, and
-A key performance indicator is a value which helps validate that a resource is</description>
-    </item>
-    
-    <item>
       <title>Application Discovery and Mapping with Uila</title>
       <link>https://thomgreene.com/post/2018/2018-06-29-uilaappdiscovery/</link>
       <pubDate>Fri, 29 Jun 2018 09:05:25 -0400</pubDate>
