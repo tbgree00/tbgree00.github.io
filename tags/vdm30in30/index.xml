@@ -6,11 +6,7 @@
     <description>Recent content in vDM30in30 on Thom Talks Tech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Nov 2016 12:00:00 -0400</lastBuildDate>
-    
-	<atom:link href="https://thomgreene.com/tags/vdm30in30/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 20 Nov 2016 12:00:00 -0400</lastBuildDate><atom:link href="https://thomgreene.com/tags/vdm30in30/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>So You Want a Home Lab</title>
       <link>https://thomgreene.com/post/2016/2016-11-20-soyouwantahomelab/</link>

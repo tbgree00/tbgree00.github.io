@@ -6,11 +6,7 @@
     <description>Recent content in Documentation on Thom Talks Tech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Nov 2016 12:57:51 -0400</lastBuildDate>
-    
-	<atom:link href="https://thomgreene.com/tags/documentation/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 07 Nov 2016 12:57:51 -0400</lastBuildDate><atom:link href="https://thomgreene.com/tags/documentation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Merging SSO Domains in vCenter Server 5.5 pt 2: How?</title>
       <link>https://thomgreene.com/post/2016/2016-11-07-ssodomainpt2/</link>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home Lab on Thom Talks Tech</title>
+    <link>https://thomgreene.com/tags/home-lab/</link>
+    <description>Recent content in Home Lab on Thom Talks Tech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Jul 2020 14:09:23 -0400</lastBuildDate><atom:link href="https://thomgreene.com/tags/home-lab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Converting Windows Server 2019 Evaluation Licensing to Volume Licensing</title>
+      <link>https://thomgreene.com/post/2020/2020-07-16-windows-server-licensing-conversion/</link>
+      <pubDate>Thu, 16 Jul 2020 14:09:23 -0400</pubDate>
+      
+      <guid>https://thomgreene.com/post/2020/2020-07-16-windows-server-licensing-conversion/</guid>
+      <description>Microsoft provides evaluation version of Windows Server 2019 on their website. These are intended to allow users to deploy a temporary server for testing or checking out new features. It isn&amp;rsquo;t an easy feat to convert these into KMS servers. In a recent lab environment we used the Windows Server 2019 evaluation without understanding the difficulty in converting it to NFR once we received those licenses. We researched the problem and found a solution to convert a server created with an evaluation ISO to a KMS licensed lab VM.</description>
+    </item>
+    
+  </channel>
+</rss>

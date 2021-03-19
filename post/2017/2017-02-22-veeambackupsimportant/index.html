@@ -10,18 +10,15 @@
 		<meta property="og:title" content="Backups are Important, Recovery is Essential" />
 <meta property="og:description" content="On January 31, 2017 Gitlab experienced a massive database outage. They suffered hours of downtime, which they have detailed here. The transparency in that link is breathtaking for a couple reasons. First, any company willing to details their failures and challenges in such public terms gets my kudos. It&rsquo;s not easy to put yourself on display, warts and all. Second, there are so many self inflicted wounds and unforced errors in the story." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://thomgreene.com/post/2017/2017-02-22-veeambackupsimportant/" />
+<meta property="og:url" content="https://thomgreene.com/post/2017/2017-02-22-veeambackupsimportant/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2017-02-07T12:00:00-04:00" />
 <meta property="article:modified_time" content="2017-02-07T12:00:00-04:00" />
 
+
 		<meta itemprop="name" content="Backups are Important, Recovery is Essential">
-<meta itemprop="description" content="On January 31, 2017 Gitlab experienced a massive database outage. They suffered hours of downtime, which they have detailed here. The transparency in that link is breathtaking for a couple reasons. First, any company willing to details their failures and challenges in such public terms gets my kudos. It&rsquo;s not easy to put yourself on display, warts and all. Second, there are so many self inflicted wounds and unforced errors in the story.">
-<meta itemprop="datePublished" content="2017-02-07T12:00:00-04:00" />
+<meta itemprop="description" content="On January 31, 2017 Gitlab experienced a massive database outage. They suffered hours of downtime, which they have detailed here. The transparency in that link is breathtaking for a couple reasons. First, any company willing to details their failures and challenges in such public terms gets my kudos. It&rsquo;s not easy to put yourself on display, warts and all. Second, there are so many self inflicted wounds and unforced errors in the story."><meta itemprop="datePublished" content="2017-02-07T12:00:00-04:00" />
 <meta itemprop="dateModified" content="2017-02-07T12:00:00-04:00" />
 <meta itemprop="wordCount" content="701">
-
-
-
 <meta itemprop="keywords" content="TFD13,Veeam," />
 		<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Backups are Important, Recovery is Essential"/>
@@ -111,7 +108,7 @@ if (!doNotTrack) {
 <p>At Tech Field Day 13, Veeam demonstrated an agent based approach to fill this gap. With Veeam Agent for Linux and Veeam Agent for Windows, you can get the same management and recovery options you&rsquo;re accustomed to for VMs on physical machines. Not only is it designed to work on bare metal servers but workstations and cloud instances can also be protected. A struggle I experienced in my early days using public cloud was a lack of viable backup options. Most cloud workloads are ephemeral but there are some that need to be backed up so this would fit the bill.</p>
 <p>Veeam has provided a free Endpoint Backup program for years. In fact, it is their most popular free product. There are some key feature differences between the different license levels of the agent based solution. <a href="https://www.twitter.com/ClintWyckoff">Clint Wyckoff</a> wrote a fantastic article here that can detail everything much better than I can. I will share their chart to list the differences.</p>
 <p><img src="/img/tfd/tfd13/VeeamVersions.png" alt="VeeamVersions"></p>
-<p>There is one particularly interesting entries on this chart that is worth calling out, &ldquo;Endpoint protection for mobile users&rdquo;. This feature is a extremely powerful in an organization with a mobile workforce. If a user&rsquo;s laptop is being protected with Veeam Agent for Windows but they are away during their scheduled backup time, the backup can still run and cache on their machine. When they return to a network connection that can resolve the Veeam Backup Repository, it will silently sync the backup. This is a great option to make sure your road warriors&rsquo; data is still protected. Endpoint protection for mobile users pairs perfectly with the feature Backup directly to Veeam Cloud Connect, which allows the backup to go to a Veeam service partner or Cloud Connect archive. With the paid version, a backup could run on the plane and sync up when you arrive at a strong wifi connection.</p>
+<p>There is one particularly interesting entries on this chart that is worth calling out, &ldquo;Endpoint protection for mobile users&rdquo;. This feature is a extremely powerful in an organization with a mobile workforce. If a user&rsquo;s laptop is being protected with Veeam Agent for Windows but they are away during their scheduled backup time, the backup can still run and cache on their machine. When they return to a network connection that can resolve the Veeam Backup Repository, it will silently sync the backup. This is a great option to make sure your road warriors' data is still protected. Endpoint protection for mobile users pairs perfectly with the feature Backup directly to Veeam Cloud Connect, which allows the backup to go to a Veeam service partner or Cloud Connect archive. With the paid version, a backup could run on the plane and sync up when you arrive at a strong wifi connection.</p>
 <p>I&rsquo;ve chosen to feature just one of the new products Veeam discussed during the Tech Field Day 13 presentation. There are many more management and recovery tools displayed in the session itself. You can watch the full video on the <a href="http://techfieldday.com/appearance/veeam-presents-at-tech-field-day-13/">Tech Field Day</a> site if you&rsquo;re interested in seeing everything they showed. As of this article the Veeam Agent for Windows product is in beta and can be downloaded <a href="https://go.veeam.com/windows-backup?ad=in-text-link">at their site</a>. I am currently running it and plan to write up those experiences as well for a future article. I&rsquo;ve explored many of the recovery options and I am extremely impressed.</p>
 
 		</div>
@@ -137,7 +134,7 @@ if (!doNotTrack) {
 		<img alt="Thom Greene avatar" src="/img/T3Logo.png" class="avatar" height="90" width="90">
 	</figure>
 	<div class="authorbox__header">
-		<span class="authorbox__name">About Thom Greene</span>
+		<span class="authorbox__name"></span>
 	</div>
 	<div class="authorbox__description">
 		vBrownbag crew, vExpert
@@ -188,6 +185,9 @@ if (!doNotTrack) {
 				<a class="widget__link" href="/categories/community/">Community</a>
 			</li>
 			<li class="widget__item">
+				<a class="widget__link" href="/categories/how-to/">How-To</a>
+			</li>
+			<li class="widget__item">
 				<a class="widget__link" href="/categories/monitoring/">Monitoring</a>
 			</li>
 			<li class="widget__item">
@@ -217,16 +217,24 @@ if (!doNotTrack) {
 		<a class="widget-taglist__link widget__link btn" href="/tags/aws/" title="AWS">AWS</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/az-900/" title="AZ-900">AZ-900</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/azure/" title="Azure">Azure</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/cloud/" title="Cloud">Cloud</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/command-line/" title="Command Line">Command Line</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/docker/" title="docker">docker</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/documentation/" title="Documentation">Documentation</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/esxcli/" title="ESXCLI">ESXCLI</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/git/" title="Git">Git</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/hardware/" title="Hardware">Hardware</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/hashicorp/" title="HashiCorp">HashiCorp</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/hcx/" title="HCX">HCX</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/home-lab/" title="Home Lab">Home Lab</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/homelab/" title="Homelab">Homelab</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/how-to/" title="How-To">How-To</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/hugo/" title="Hugo">Hugo</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/licensing/" title="Licensing">Licensing</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/markdown/" title="Markdown">Markdown</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/mentoring/" title="Mentoring">Mentoring</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/microsoft/" title="Microsoft">Microsoft</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/migration/" title="Migration">Migration</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/networking/" title="Networking">Networking</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/openstack/" title="OpenStack">OpenStack</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pearson-vue/" title="Pearson Vue">Pearson Vue</a>
@@ -234,6 +242,7 @@ if (!doNotTrack) {
 		<a class="widget-taglist__link widget__link btn" href="/tags/public-speaking/" title="Public Speaking">Public Speaking</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/storage/" title="Storage">Storage</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/studying/" title="Studying">Studying</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/terraform/" title="Terraform">Terraform</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/tfd13/" title="TFD13">TFD13</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/trip-report/" title="Trip-Report">Trip-Report</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/trip-review/" title="Trip Review">Trip Review</a>
@@ -247,6 +256,7 @@ if (!doNotTrack) {
 		<a class="widget-taglist__link widget__link btn" href="/tags/vmware-tools/" title="VMware tools">VMware tools</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/vmworld/" title="VMworld">VMworld</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/vrealize-operations-manager/" title="vRealize Operations Manager">vRealize Operations Manager</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/windows/" title="Windows">Windows</a>
 	</div>
 </div>
 <div class="widget-social widget">
@@ -280,7 +290,7 @@ if (!doNotTrack) {
 	<div class="container footer__container flex">
 		
 		<div class="footer__copyright">
-			&copy; 2020 Thom Greene.
+			&copy; 2021 Thom Greene.
 			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
 		</div>
 	</div>

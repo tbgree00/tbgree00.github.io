@@ -11,7 +11,7 @@
 <meta property="og:description" content="Based in Orlando, Florida, Thom Greene explores the world of technology certification, VMware troubleshooting, and interesting experiences in the tech world." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://thomgreene.com/post/" />
-<meta property="og:updated_time" content="2020-05-26T14:09:23-04:00" />
+
 
 		<meta itemprop="name" content="Posts">
 <meta itemprop="description" content="Based in Orlando, Florida, Thom Greene explores the world of technology certification, VMware troubleshooting, and interesting experiences in the tech world.">
@@ -89,6 +89,83 @@ if (!doNotTrack) {
 	<header class="main__header">
 		<h1 class="main__title">Posts</h1>
 	</header><article class="list__item post">
+	<header class="list__header">
+		<h3 class="list__title post__title ">
+			<a href="/post/2017/2017-04-13-getstartedaws/" rel="bookmark">
+			Getting Started with AWS on the Cheap
+			</a>
+		</h3>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2017-04-13T12:57:51-04:00">April 13, 2017</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/cloud/" rel="category">Cloud</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		I have been skimming the surface of AWS and Azure for various work projects and as part of my new role as a vBrownBag crew member. I feel it is safe to say that public cloud has arrived for the enterprise. It is a very scary transition for Operations. Cloud reminds/infers layoffs and reorgs. If we don&rsquo;t manage hardware why have a hardware team. I think education is the easiest way to cut through fear.
+	</div>
+	<div class="list__footer clearfix">
+		<a class="list__footer-readmore btn" href="/post/2017/2017-04-13-getstartedaws/">Read more…</a>
+	</div>
+</article><article class="list__item post">
+	<header class="list__header">
+		<h3 class="list__title post__title ">
+			<a href="/post/2017/2017-02-24-vmtoolsnoreboot/" rel="bookmark">
+			Upgrading VMware Tools Without a Reboot Using PowerCLI
+			</a>
+		</h3>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2017-02-24T12:57:51-04:00">February 24, 2017</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/vmware/" rel="category">VMware</a>, <a class="meta__link" href="/categories/troubleshooting/" rel="category">Troubleshooting</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Historically, one of my biggest little annoyances with a VMware version upgrade has been upgrading VMware tools. In vSphere 5.5, VMware added the ability to update tools without a reboot. If you were manually kicking off the tools upgrade all you need to do is enter the following features into the advanced settings box
+/s /v&quot;/qn REBOOT=ReallySuppress?This is great and causes the tool update to only lose one ping instead of requiring a full restart.
+	</div>
+	<div class="list__footer clearfix">
+		<a class="list__footer-readmore btn" href="/post/2017/2017-02-24-vmtoolsnoreboot/">Read more…</a>
+	</div>
+</article><article class="list__item post">
+	<header class="list__header">
+		<h3 class="list__title post__title ">
+			<a href="/post/2017/2017-02-22-veeambackupsimportant/" rel="bookmark">
+			Backups are Important, Recovery is Essential
+			</a>
+		</h3>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2017-02-07T12:00:00-04:00">February 07, 2017</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/tech-field-day/" rel="category">Tech Field Day</a>, <a class="meta__link" href="/categories/backup/" rel="category">Backup</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		On January 31, 2017 Gitlab experienced a massive database outage. They suffered hours of downtime, which they have detailed here. The transparency in that link is breathtaking for a couple reasons. First, any company willing to details their failures and challenges in such public terms gets my kudos. It&rsquo;s not easy to put yourself on display, warts and all. Second, there are so many self inflicted wounds and unforced errors in the story.
+	</div>
+	<div class="list__footer clearfix">
+		<a class="list__footer-readmore btn" href="/post/2017/2017-02-22-veeambackupsimportant/">Read more…</a>
+	</div>
+</article><article class="list__item post">
+	<header class="list__header">
+		<h3 class="list__title post__title ">
+			<a href="/post/2017/2017-02-07-roadrootcause/" rel="bookmark">
+			The Road to Root Cause
+			</a>
+		</h3>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2017-02-07T12:00:00-04:00">February 07, 2017</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/tech-field-day/" rel="category">Tech Field Day</a>, <a class="meta__link" href="/categories/monitoring/" rel="category">Monitoring</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Have you ever received a call from someone that started with &ldquo;Why is everything so slow&rdquo;? I think it&rsquo;s a safe assumption that everyone working in IT Operations has heard some variation of that question. The request could be anything from issue accessing Yahoo mail to a mission critical application unable to communicate with its database. The worst of these calls happen at 2am. Everyone is crabby, nobody wants to take blame or have a finger pointed at them, and there may not be solid supporting data showing slow down.
+	</div>
+	<div class="list__footer clearfix">
+		<a class="list__footer-readmore btn" href="/post/2017/2017-02-07-roadrootcause/">Read more…</a>
+	</div>
+</article><article class="list__item post">
 	<header class="list__header">
 		<h3 class="list__title post__title ">
 			<a href="/post/2017/2017-02-01-tfd13ishere/" rel="bookmark">
@@ -202,83 +279,6 @@ I have professional experience using their network configuration manager and vir
 	<div class="list__footer clearfix">
 		<a class="list__footer-readmore btn" href="/post/2017/2017-01-18-veeampreview/">Read more…</a>
 	</div>
-</article><article class="list__item post">
-	<header class="list__header">
-		<h3 class="list__title post__title ">
-			<a href="/post/2017/2017-01-16-stormagicpreview/" rel="bookmark">
-			Tech Field Day 13 Preview: StorMagic
-			</a>
-		</h3>
-		<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2017-01-16T12:00:00-04:00">January 16, 2017</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/tech-field-day/" rel="category">Tech Field Day</a>
-	</span>
-</div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		For my next Tech Field Day preview I will focus on StorMagic. Founded in 2006, StorMagic has strove to find a simple, cost effective software defined storage solution. Virtualization depends on shared storage to provide high availability. This is typically provided with a SAN or NAS device. Sometimes there’s a branch office or some remote site that needs server infrastructure but it doesn’t make financial sense or is logistically impossible to buy a primary storage device.
-	</div>
-	<div class="list__footer clearfix">
-		<a class="list__footer-readmore btn" href="/post/2017/2017-01-16-stormagicpreview/">Read more…</a>
-	</div>
-</article><article class="list__item post">
-	<header class="list__header">
-		<h3 class="list__title post__title ">
-			<a href="/post/2017/2017-01-09-uilapreview/" rel="bookmark">
-			Tech Field Day 13 Preview: Uila
-			</a>
-		</h3>
-		<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2017-01-09T12:00:00-04:00">January 09, 2017</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/tech-field-day/" rel="category">Tech Field Day</a>
-	</span>
-</div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		As part two of my Tech Field Day preview I wanted to spotlight Uila, Inc (pronounced wee-lah). Uila Inc released Uila, a root cause analysis and network monitoring solution. Their solution was announced in February 2016 as a way to address a black hole in data center management tools.
-As virtualization has grown in prevalence and importance a new challenge has surfaced. When a virtualized application performs poorly there is no longer one tool to narrow it down.
-	</div>
-	<div class="list__footer clearfix">
-		<a class="list__footer-readmore btn" href="/post/2017/2017-01-09-uilapreview/">Read more…</a>
-	</div>
-</article><article class="list__item post">
-	<header class="list__header">
-		<h3 class="list__title post__title ">
-			<a href="/post/2017/2017-01-04-zerostackpreview/" rel="bookmark">
-			Tech Field Day 13 Preview: Zerostack
-			</a>
-		</h3>
-		<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2017-01-04T12:00:00-04:00">January 04, 2017</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/tech-field-day/" rel="category">Tech Field Day</a>
-	</span>
-</div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		There are many interesting and exciting vendors on the itinerary for Tech Field Day 13. One that really intrigues me is ZeroStack. I did a month long study trying to learn Openstack for my vBrownbag Tech talk at VMworld 2016. I love cloud technologies and their ease of consumption. There are a lot of issues associated with public cloud that Openstack addresses. You use on-premises hardware, have total control of your data, and don&rsquo;t have the reoccurring costs.
-	</div>
-	<div class="list__footer clearfix">
-		<a class="list__footer-readmore btn" href="/post/2017/2017-01-04-zerostackpreview/">Read more…</a>
-	</div>
-</article><article class="list__item post">
-	<header class="list__header">
-		<h3 class="list__title post__title ">
-			<a href="/post/2017/2017-01-03-techfieldday13/" rel="bookmark">
-			Tech Field Day 13!
-			</a>
-		</h3>
-		<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2017-01-03T12:00:00-04:00">January 03, 2017</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/tech-field-day/" rel="category">Tech Field Day</a>
-	</span>
-</div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		I am extremely proud to say that I was selected as a delegate for Tech Field Day 13! You may be asking the question &ldquo;what is Tech Field Day?&rdquo; Well I&rsquo;m glad you asked. Tech Field Day is an organization that takes independent IT professionals and IT vendors, puts them in the same room, and lets the good times roll. A delegate gets unprecedented access to a vendor&rsquo;s executives and engineers.
-	</div>
-	<div class="list__footer clearfix">
-		<a class="list__footer-readmore btn" href="/post/2017/2017-01-03-techfieldday13/">Read more…</a>
-	</div>
 </article>
 </main>
 
@@ -316,6 +316,9 @@ As virtualization has grown in prevalence and importance a new challenge has sur
 				<a class="widget__link" href="/categories/community/">Community</a>
 			</li>
 			<li class="widget__item">
+				<a class="widget__link" href="/categories/how-to/">How-To</a>
+			</li>
+			<li class="widget__item">
 				<a class="widget__link" href="/categories/monitoring/">Monitoring</a>
 			</li>
 			<li class="widget__item">
@@ -345,16 +348,24 @@ As virtualization has grown in prevalence and importance a new challenge has sur
 		<a class="widget-taglist__link widget__link btn" href="/tags/aws/" title="AWS">AWS</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/az-900/" title="AZ-900">AZ-900</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/azure/" title="Azure">Azure</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/cloud/" title="Cloud">Cloud</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/command-line/" title="Command Line">Command Line</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/docker/" title="docker">docker</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/documentation/" title="Documentation">Documentation</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/esxcli/" title="ESXCLI">ESXCLI</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/git/" title="Git">Git</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/hardware/" title="Hardware">Hardware</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/hashicorp/" title="HashiCorp">HashiCorp</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/hcx/" title="HCX">HCX</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/home-lab/" title="Home Lab">Home Lab</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/homelab/" title="Homelab">Homelab</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/how-to/" title="How-To">How-To</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/hugo/" title="Hugo">Hugo</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/licensing/" title="Licensing">Licensing</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/markdown/" title="Markdown">Markdown</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/mentoring/" title="Mentoring">Mentoring</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/microsoft/" title="Microsoft">Microsoft</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/migration/" title="Migration">Migration</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/networking/" title="Networking">Networking</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/openstack/" title="OpenStack">OpenStack</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pearson-vue/" title="Pearson Vue">Pearson Vue</a>
@@ -362,6 +373,7 @@ As virtualization has grown in prevalence and importance a new challenge has sur
 		<a class="widget-taglist__link widget__link btn" href="/tags/public-speaking/" title="Public Speaking">Public Speaking</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/storage/" title="Storage">Storage</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/studying/" title="Studying">Studying</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/terraform/" title="Terraform">Terraform</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/tfd13/" title="TFD13">TFD13</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/trip-report/" title="Trip-Report">Trip-Report</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/trip-review/" title="Trip Review">Trip Review</a>
@@ -375,6 +387,7 @@ As virtualization has grown in prevalence and importance a new challenge has sur
 		<a class="widget-taglist__link widget__link btn" href="/tags/vmware-tools/" title="VMware tools">VMware tools</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/vmworld/" title="VMworld">VMworld</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/vrealize-operations-manager/" title="vRealize Operations Manager">vRealize Operations Manager</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/windows/" title="Windows">Windows</a>
 	</div>
 </div>
 <div class="widget-social widget">
@@ -408,7 +421,7 @@ As virtualization has grown in prevalence and importance a new challenge has sur
 	<div class="container footer__container flex">
 		
 		<div class="footer__copyright">
-			&copy; 2020 Thom Greene.
+			&copy; 2021 Thom Greene.
 			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
 		</div>
 	</div>

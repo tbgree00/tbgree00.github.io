@@ -6,11 +6,7 @@
     <description>Recent content in VMware on Thom Talks Tech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Apr 2018 12:57:51 -0400</lastBuildDate>
-    
-	<atom:link href="https://thomgreene.com/categories/vmware/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 04 Apr 2018 12:57:51 -0400</lastBuildDate><atom:link href="https://thomgreene.com/categories/vmware/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VMware vRealize Operations Manager: Licensing and License Groups</title>
       <link>https://thomgreene.com/post/2018/2018-04-04-vropslicensing/</link>
@@ -192,7 +188,7 @@ The blueprint is 100% on point for this test. Download it, download a checklist 
       <pubDate>Tue, 15 Mar 2016 12:57:51 -0400</pubDate>
       
       <guid>https://thomgreene.com/post/2016/2016-03-15-vmconfigchange/</guid>
-      <description>Tracking resource configuration is a common struggle for an enterprise level environment. Even SMBs can have trouble keeping track of how their memory is provisioned and when it changes. What&amp;rsquo;s worse, VMware&amp;rsquo;s vSphere Client doesn&amp;rsquo;t provide any insight as to what changes when someone edits the virtual machine settings. An event named&amp;quot;Reconfigure virtual machine&amp;rdquo; hits the task log but this isn&amp;rsquo;t a lot of information. If you open Edit Settings and click OK vCenter registers this event even if you didn&amp;rsquo;t change anything.</description>
+      <description>Tracking resource configuration is a common struggle for an enterprise level environment. Even SMBs can have trouble keeping track of how their memory is provisioned and when it changes. What&amp;rsquo;s worse, VMware&amp;rsquo;s vSphere Client doesn&amp;rsquo;t provide any insight as to what changes when someone edits the virtual machine settings. An event named&amp;quot;Reconfigure virtual machine&amp;quot; hits the task log but this isn&amp;rsquo;t a lot of information. If you open Edit Settings and click OK vCenter registers this event even if you didn&amp;rsquo;t change anything.</description>
     </item>
     
     <item>

@@ -6,11 +6,7 @@
     <description>Recent content in VCAP on Thom Talks Tech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Jun 2016 12:00:00 -0400</lastBuildDate>
-    
-	<atom:link href="https://thomgreene.com/tags/vcap/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 29 Jun 2016 12:00:00 -0400</lastBuildDate><atom:link href="https://thomgreene.com/tags/vcap/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My VCAP6-DCV Deploy Beta Experience</title>
       <link>https://thomgreene.com/post/2016/2016-06-29-vcap6deploybeta/</link>

@@ -6,10 +6,35 @@
     <description>Recent content on Thom Talks Tech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 May 2020 14:09:23 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 19 Mar 2021 13:45:01 -0400</lastBuildDate><atom:link href="https://thomgreene.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021 03 19 Three Tips Hcx</title>
+      <link>https://thomgreene.com/post/2021/2021-03-19-three-tips-hcx/</link>
+      <pubDate>Fri, 19 Mar 2021 13:45:01 -0400</pubDate>
+      
+      <guid>https://thomgreene.com/post/2021/2021-03-19-three-tips-hcx/</guid>
+      <description></description>
+    </item>
     
-	<atom:link href="https://thomgreene.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Converting Windows Server 2019 Evaluation Licensing to Volume Licensing</title>
+      <link>https://thomgreene.com/post/2020/2020-07-16-windows-server-licensing-conversion/</link>
+      <pubDate>Thu, 16 Jul 2020 14:09:23 -0400</pubDate>
+      
+      <guid>https://thomgreene.com/post/2020/2020-07-16-windows-server-licensing-conversion/</guid>
+      <description>Microsoft provides evaluation version of Windows Server 2019 on their website. These are intended to allow users to deploy a temporary server for testing or checking out new features. It isn&amp;rsquo;t an easy feat to convert these into KMS servers. In a recent lab environment we used the Windows Server 2019 evaluation without understanding the difficulty in converting it to NFR once we received those licenses. We researched the problem and found a solution to convert a server created with an evaluation ISO to a KMS licensed lab VM.</description>
+    </item>
     
+    <item>
+      <title>Getting Started with Terraform on Windows 10</title>
+      <link>https://thomgreene.com/post/2020/2020-06-15-terraform-getting-started-windows/</link>
+      <pubDate>Mon, 15 Jun 2020 14:09:23 -0400</pubDate>
+      
+      <guid>https://thomgreene.com/post/2020/2020-06-15-terraform-getting-started-windows/</guid>
+      <description>Getting Started with Terraform on Windows 10 
+Terraform is a tool for defining and provisioning infrastructure as code (IaC). You can use Terraform to deploy a consistent infrastructure platform with predictable results every time. In this guide, you will install Terraform on your computer, and then you will create and destroy a Docker container.
+Prerequisites  Computer with Windows 10 updated version 2004 Windows Subsystem for Linux version 2 (WSL2) Docker Desktop  Install Terraform To install Terraform, visit Terraform.</description>
+    </item>
     
     <item>
       <title>Azure Fundamentals Exam Experience</title>
@@ -37,6 +62,16 @@ The Azure Fundamentals exam is about 35 questions with a 60-minute time limit. T
       
       <guid>https://thomgreene.com/post/2018/2018-7-16-uilahybridcloud/</guid>
       <description>On July 16, 2018, Uila released version 2.0 of its application monitoring and analytics platform. Previously we explored its application discovery and mapping features, focusing on resources that resided within an on-premises datacenter. As industry trends shift toward a hybrid cloud model many monitoring tools have a visibility gap. They only inspect data within their domains, creating a black hole between the on-premises datacenter and the cloud instances. Uila 2.0 seeks to fill that gap and provide real time visibility across any cloud.</description>
+    </item>
+    
+    <item>
+      <title>What is a KPI?</title>
+      <link>https://thomgreene.com/post/2018/2018-07-09-whatiskpi/</link>
+      <pubDate>Mon, 09 Jul 2018 08:42:07 -0400</pubDate>
+      
+      <guid>https://thomgreene.com/post/2018/2018-07-09-whatiskpi/</guid>
+      <description>Monitoring is an important aspect of any architecture. Without a proper plan to monitor performance, capacity, and
+A key performance indicator is a value which helps validate that a resource is</description>
     </item>
     
     <item>
@@ -652,7 +687,7 @@ The blueprint is 100% on point for this test. Download it, download a checklist 
       <pubDate>Tue, 15 Mar 2016 12:57:51 -0400</pubDate>
       
       <guid>https://thomgreene.com/post/2016/2016-03-15-vmconfigchange/</guid>
-      <description>Tracking resource configuration is a common struggle for an enterprise level environment. Even SMBs can have trouble keeping track of how their memory is provisioned and when it changes. What&amp;rsquo;s worse, VMware&amp;rsquo;s vSphere Client doesn&amp;rsquo;t provide any insight as to what changes when someone edits the virtual machine settings. An event named&amp;quot;Reconfigure virtual machine&amp;rdquo; hits the task log but this isn&amp;rsquo;t a lot of information. If you open Edit Settings and click OK vCenter registers this event even if you didn&amp;rsquo;t change anything.</description>
+      <description>Tracking resource configuration is a common struggle for an enterprise level environment. Even SMBs can have trouble keeping track of how their memory is provisioned and when it changes. What&amp;rsquo;s worse, VMware&amp;rsquo;s vSphere Client doesn&amp;rsquo;t provide any insight as to what changes when someone edits the virtual machine settings. An event named&amp;quot;Reconfigure virtual machine&amp;quot; hits the task log but this isn&amp;rsquo;t a lot of information. If you open Edit Settings and click OK vCenter registers this event even if you didn&amp;rsquo;t change anything.</description>
     </item>
     
     <item>

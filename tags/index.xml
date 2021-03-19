@@ -6,10 +6,105 @@
     <description>Recent content in Tags on Thom Talks Tech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 May 2020 14:09:23 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 19 Mar 2021 13:45:01 -0400</lastBuildDate><atom:link href="https://thomgreene.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloud</title>
+      <link>https://thomgreene.com/tags/cloud/</link>
+      <pubDate>Fri, 19 Mar 2021 13:45:01 -0400</pubDate>
+      
+      <guid>https://thomgreene.com/tags/cloud/</guid>
+      <description></description>
+    </item>
     
-	<atom:link href="https://thomgreene.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HCX</title>
+      <link>https://thomgreene.com/tags/hcx/</link>
+      <pubDate>Fri, 19 Mar 2021 13:45:01 -0400</pubDate>
+      
+      <guid>https://thomgreene.com/tags/hcx/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>How-To</title>
+      <link>https://thomgreene.com/tags/how-to/</link>
+      <pubDate>Fri, 19 Mar 2021 13:45:01 -0400</pubDate>
+      
+      <guid>https://thomgreene.com/tags/how-to/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Migration</title>
+      <link>https://thomgreene.com/tags/migration/</link>
+      <pubDate>Fri, 19 Mar 2021 13:45:01 -0400</pubDate>
+      
+      <guid>https://thomgreene.com/tags/migration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Home Lab</title>
+      <link>https://thomgreene.com/tags/home-lab/</link>
+      <pubDate>Thu, 16 Jul 2020 14:09:23 -0400</pubDate>
+      
+      <guid>https://thomgreene.com/tags/home-lab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Licensing</title>
+      <link>https://thomgreene.com/tags/licensing/</link>
+      <pubDate>Thu, 16 Jul 2020 14:09:23 -0400</pubDate>
+      
+      <guid>https://thomgreene.com/tags/licensing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microsoft</title>
+      <link>https://thomgreene.com/tags/microsoft/</link>
+      <pubDate>Thu, 16 Jul 2020 14:09:23 -0400</pubDate>
+      
+      <guid>https://thomgreene.com/tags/microsoft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>https://thomgreene.com/tags/windows/</link>
+      <pubDate>Thu, 16 Jul 2020 14:09:23 -0400</pubDate>
+      
+      <guid>https://thomgreene.com/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://thomgreene.com/tags/docker/</link>
+      <pubDate>Mon, 15 Jun 2020 14:09:23 -0400</pubDate>
+      
+      <guid>https://thomgreene.com/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HashiCorp</title>
+      <link>https://thomgreene.com/tags/hashicorp/</link>
+      <pubDate>Mon, 15 Jun 2020 14:09:23 -0400</pubDate>
+      
+      <guid>https://thomgreene.com/tags/hashicorp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terraform</title>
+      <link>https://thomgreene.com/tags/terraform/</link>
+      <pubDate>Mon, 15 Jun 2020 14:09:23 -0400</pubDate>
+      
+      <guid>https://thomgreene.com/tags/terraform/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Azure</title>
@@ -17,15 +112,6 @@
       <pubDate>Tue, 26 May 2020 14:09:23 -0400</pubDate>
       
       <guid>https://thomgreene.com/tags/azure/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Microsoft</title>
-      <link>https://thomgreene.com/tags/microsoft/</link>
-      <pubDate>Tue, 26 May 2020 14:09:23 -0400</pubDate>
-      
-      <guid>https://thomgreene.com/tags/microsoft/</guid>
       <description></description>
     </item>
     

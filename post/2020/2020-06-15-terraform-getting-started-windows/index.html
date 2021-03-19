@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Getting Started with Terraform on Windows 10 - Thom Talks Tech</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:title" content="Getting Started with Terraform on Windows 10" />
+<meta property="og:description" content="Getting Started with Terraform on Windows 10 
+Terraform is a tool for defining and provisioning infrastructure as code (IaC). You can use Terraform to deploy a consistent infrastructure platform with predictable results every time. In this guide, you will install Terraform on your computer, and then you will create and destroy a Docker container.
+Prerequisites  Computer with Windows 10 updated version 2004 Windows Subsystem for Linux version 2 (WSL2) Docker Desktop  Install Terraform To install Terraform, visit Terraform." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://thomgreene.com/post/2020/2020-06-15-terraform-getting-started-windows/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2020-06-15T14:09:23-04:00" />
+<meta property="article:modified_time" content="2020-06-15T14:09:23-04:00" />
+
+
+		<meta itemprop="name" content="Getting Started with Terraform on Windows 10">
+<meta itemprop="description" content="Getting Started with Terraform on Windows 10 
+Terraform is a tool for defining and provisioning infrastructure as code (IaC). You can use Terraform to deploy a consistent infrastructure platform with predictable results every time. In this guide, you will install Terraform on your computer, and then you will create and destroy a Docker container.
+Prerequisites  Computer with Windows 10 updated version 2004 Windows Subsystem for Linux version 2 (WSL2) Docker Desktop  Install Terraform To install Terraform, visit Terraform."><meta itemprop="datePublished" content="2020-06-15T14:09:23-04:00" />
+<meta itemprop="dateModified" content="2020-06-15T14:09:23-04:00" />
+<meta itemprop="wordCount" content="1421">
+<meta itemprop="keywords" content="Terraform,HashiCorp,docker," />
+		<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Getting Started with Terraform on Windows 10"/>
+<meta name="twitter:description" content="Getting Started with Terraform on Windows 10 
+Terraform is a tool for defining and provisioning infrastructure as code (IaC). You can use Terraform to deploy a consistent infrastructure platform with predictable results every time. In this guide, you will install Terraform on your computer, and then you will create and destroy a Docker container.
+Prerequisites  Computer with Windows 10 updated version 2004 Windows Subsystem for Linux version 2 (WSL2) Docker Desktop  Install Terraform To install Terraform, visit Terraform."/>
+
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/custom.css">
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-117155450-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/" title="Thom Talks Tech" rel="home">
+			<div class="logo__title">Thom Talks Tech</div>
+			<div class="logo__tagline">Cloud, Virtualization, Monitoring</div>
+		</a>
+	</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/page/vrops/">
+				
+				<span class="menu__text">vROPs</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/tags/azure/">
+				
+				<span class="menu__text">Azure</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/page/about/">
+				
+				<span class="menu__text">About</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Getting Started with Terraform on Windows 10</h1>
+			<div class="post__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-06-15T14:09:23-04:00">June 15, 2020</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/how-to/" rel="category">How-To</a>
+	</span>
+</div></div>
+		</header><div class="content post__content clearfix">
+			<h1 id="getting-started-with-terraform-on-windows-10">Getting Started with Terraform on Windows 10</h1>
+<p><a href="http://www.youtube.com/watch?v=X7XrHvW1w3c"><img src="http://img.youtube.com/vi/X7XrHvW1w3c/0.jpg" alt="Installing Terraform on Windows 10"></a></p>
+<p>Terraform is a tool for defining and provisioning infrastructure as code (IaC). You can use Terraform to deploy a consistent infrastructure platform with predictable results every time. In this guide, you will install Terraform on your computer, and then you will create and destroy a Docker container.</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+<li>Computer with Windows 10 updated version 2004</li>
+<li><a href="https://aka.ms/wsl2kernel">Windows Subsystem for Linux version 2 (WSL2)</a></li>
+<li><a href="https://docs.docker.com/engine/install/">Docker Desktop</a></li>
+</ul>
+<h2 id="install-terraform">Install Terraform</h2>
+<p>To install Terraform, visit <a href="https://www.terraform.io/downloads.html">Terraform.io</a> and download the package compatible with your computer. During the extraction process you will create a new folder, for example <code>C:\HashiCorp\Terraform</code>. Extract the <code>terraform.exe</code> file in this folder.</p>
+<h2 id="create-path-variable-on-windows">Create PATH Variable on Windows</h2>
+<p>Adding Terraform to the PATH environmental variable will allow you to run <code>terraform</code> from the command prompt.</p>
+<ul>
+<li>Search the Windows Start menu for the <strong>Advanced System Settings</strong></li>
+<li>On the Advanced tab, select <strong>Environment Variables&hellip;</strong></li>
+<li>Click on <strong>Path</strong> and then <strong>Edit</strong></li>
+<li>Click <strong>New</strong> and enter the path to the <code>terraform.exe</code> file</li>
+<li>Close and reopen any open command prompt windows</li>
+</ul>
+<p>Finally, test Terraform from the command prompt.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">terraform -help
+</code></pre></div><p>If you see the following output, the installation is complete.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-hcl" data-lang="hcl"><span style="color:#66d9ef">Usage</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#66d9ef">terraform</span> [<span style="color:#960050;background-color:#1e0010">-</span><span style="color:#66d9ef">version</span>] [<span style="color:#960050;background-color:#1e0010">-</span><span style="color:#66d9ef">help</span>] <span style="color:#960050;background-color:#1e0010">&lt;</span><span style="color:#66d9ef">command</span><span style="color:#960050;background-color:#1e0010">&gt;</span> [<span style="color:#66d9ef">args</span>]
+
+<span style="color:#66d9ef">The</span> <span style="color:#66d9ef">available</span> <span style="color:#66d9ef">commands</span> <span style="color:#66d9ef">for</span> <span style="color:#66d9ef">execution</span> <span style="color:#66d9ef">are</span> <span style="color:#66d9ef">listed</span> <span style="color:#66d9ef">below</span>.
+<span style="color:#66d9ef">The</span> <span style="color:#66d9ef">most</span> <span style="color:#66d9ef">common</span>, <span style="color:#66d9ef">useful</span> <span style="color:#66d9ef">commands</span> <span style="color:#66d9ef">are</span> <span style="color:#66d9ef">shown</span> <span style="color:#66d9ef">first</span>, <span style="color:#66d9ef">followed</span> <span style="color:#66d9ef">by</span>
+<span style="color:#66d9ef">less</span> <span style="color:#66d9ef">common</span> <span style="color:#66d9ef">or</span> <span style="color:#66d9ef">more</span> <span style="color:#66d9ef">advanced</span> <span style="color:#66d9ef">commands</span>. <span style="color:#66d9ef">If</span> <span style="color:#66d9ef">you</span><span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#66d9ef">re</span> <span style="color:#66d9ef">just</span> <span style="color:#66d9ef">getting</span>
+<span style="color:#66d9ef">started</span> <span style="color:#66d9ef">with</span> <span style="color:#66d9ef">Terraform</span>, <span style="color:#66d9ef">stick</span> <span style="color:#66d9ef">with</span> <span style="color:#66d9ef">the</span> <span style="color:#66d9ef">common</span> <span style="color:#66d9ef">commands</span>. <span style="color:#66d9ef">For</span> <span style="color:#66d9ef">the</span>
+<span style="color:#66d9ef">other</span> <span style="color:#66d9ef">commands</span>, <span style="color:#66d9ef">please</span> <span style="color:#66d9ef">read</span> <span style="color:#66d9ef">the</span> <span style="color:#66d9ef">help</span> <span style="color:#66d9ef">and</span> <span style="color:#66d9ef">docs</span> <span style="color:#66d9ef">before</span> <span style="color:#66d9ef">usage</span>.
+</code></pre></div><h2 id="troubleshoot">Troubleshoot</h2>
+<p>If Windows returns <code>'terraform' is not recognized as an internal or external command, operable program or batch file.</code> you may need to close and reopen the command prompt.</p>
+<p>Now that you have installed Terraform, you can create a folder and deploy a test environment.</p>
+<h2 id="create-a-working-folder">Create a Working Folder</h2>
+<p>A working folder is a folder on your computer which holds Terraform files for a project. Use the command prompt to create the working folder.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">mkdir terraform-demo
+cd terraform-demo
+</code></pre></div><p>Next, create a file for your Terraform configuration code.</p>
+<h2 id="create-terraform-main-file">Create Terraform Main File</h2>
+<pre><code class="language-hcf" data-lang="hcf">start notepad main.tf
+</code></pre><p>Paste the following lines into the file and save.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-hcl" data-lang="hcl"><span style="color:#66d9ef">provider</span> <span style="color:#e6db74">&#34;docker&#34;</span> {
+    host <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;tcp://localhost:2375&#34;</span>
+}
+
+<span style="color:#66d9ef">resource</span> <span style="color:#e6db74">&#34;docker_container&#34; &#34;nginx&#34;</span> {
+  image <span style="color:#f92672">=</span> <span style="color:#66d9ef">docker_image</span>.<span style="color:#66d9ef">nginx</span>.<span style="color:#66d9ef">latest</span>
+  name  <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;training&#34;</span>
+  <span style="color:#66d9ef">ports</span> {
+    internal <span style="color:#f92672">=</span> <span style="color:#ae81ff">80</span>
+    external <span style="color:#f92672">=</span> <span style="color:#ae81ff">80</span>
+  }
+}
+
+<span style="color:#66d9ef">resource</span> <span style="color:#e6db74">&#34;docker_image&#34; &#34;nginx&#34;</span> {
+  name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;nginx:latest&#34;</span>
+}
+</code></pre></div><h2 id="initialize-terraform-environment">Initialize Terraform Environment</h2>
+<p>Initialize Terraform with the <code>init</code> command. This will install the Docker provider and allow you to work with Terraform commands.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ terraform init
+</code></pre></div><p>The output should display as follows.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-hcl" data-lang="hcl"><span style="color:#66d9ef">Initializing</span> <span style="color:#66d9ef">the</span> <span style="color:#66d9ef">backend</span>...
+
+<span style="color:#66d9ef">Initializing</span> <span style="color:#66d9ef">provider</span> <span style="color:#66d9ef">plugins</span>...
+<span style="color:#960050;background-color:#1e0010">-</span> <span style="color:#66d9ef">Checking</span> <span style="color:#66d9ef">for</span> <span style="color:#66d9ef">available</span> <span style="color:#66d9ef">provider</span> <span style="color:#66d9ef">plugins</span>...
+<span style="color:#960050;background-color:#1e0010">-</span> <span style="color:#66d9ef">Downloading</span> <span style="color:#66d9ef">plugin</span> <span style="color:#66d9ef">for</span> <span style="color:#66d9ef">provider</span> <span style="color:#e6db74">&#34;docker&#34;</span> (<span style="color:#66d9ef">terraform</span><span style="color:#960050;background-color:#1e0010">-</span><span style="color:#66d9ef">providers</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#66d9ef">docker</span>) <span style="color:#ae81ff">2</span>.<span style="color:#ae81ff">7</span>.<span style="color:#ae81ff">1</span>...
+
+<span style="color:#66d9ef">The</span> <span style="color:#66d9ef">following</span> <span style="color:#66d9ef">providers</span> <span style="color:#66d9ef">do</span> <span style="color:#66d9ef">not</span> <span style="color:#66d9ef">have</span> <span style="color:#66d9ef">any</span> <span style="color:#66d9ef">version</span> <span style="color:#66d9ef">constraints</span> <span style="color:#66d9ef">in</span> <span style="color:#66d9ef">configuration</span>,
+<span style="color:#66d9ef">so</span> <span style="color:#66d9ef">the</span> <span style="color:#66d9ef">latest</span> <span style="color:#66d9ef">version</span> <span style="color:#66d9ef">was</span> <span style="color:#66d9ef">installed</span>.
+
+<span style="color:#66d9ef">To</span> <span style="color:#66d9ef">prevent</span> <span style="color:#66d9ef">automatic</span> <span style="color:#66d9ef">upgrades</span> <span style="color:#66d9ef">to</span> <span style="color:#66d9ef">new</span> <span style="color:#66d9ef">major</span> <span style="color:#66d9ef">versions</span> <span style="color:#66d9ef">that</span> <span style="color:#66d9ef">may</span> <span style="color:#66d9ef">contain</span> <span style="color:#66d9ef">breaking</span>
+changes, it is recommended to add version <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;...&#34;</span> <span style="color:#66d9ef">constraints</span> <span style="color:#66d9ef">to</span> <span style="color:#66d9ef">the</span>
+<span style="color:#66d9ef">corresponding</span> <span style="color:#66d9ef">provider</span> <span style="color:#66d9ef">blocks</span> <span style="color:#66d9ef">in</span> <span style="color:#66d9ef">configuration</span>, <span style="color:#66d9ef">with</span> <span style="color:#66d9ef">the</span> <span style="color:#66d9ef">constraint</span> <span style="color:#66d9ef">strings</span>
+<span style="color:#66d9ef">suggested</span> <span style="color:#66d9ef">below</span>.
+
+* provider.docker: version <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;~&gt; 2.7&#34;</span>
+
+<span style="color:#66d9ef">Terraform</span> <span style="color:#66d9ef">has</span> <span style="color:#66d9ef">been</span> <span style="color:#66d9ef">successfully</span> <span style="color:#66d9ef">initialized</span><span style="color:#960050;background-color:#1e0010">!</span>
+
+<span style="color:#66d9ef">You</span> <span style="color:#66d9ef">may</span> <span style="color:#66d9ef">now</span> <span style="color:#66d9ef">begin</span> <span style="color:#66d9ef">working</span> <span style="color:#66d9ef">with</span> <span style="color:#66d9ef">Terraform</span>. <span style="color:#66d9ef">Try</span> <span style="color:#66d9ef">running</span> <span style="color:#e6db74">&#34;terraform plan&#34;</span> <span style="color:#66d9ef">to</span> <span style="color:#66d9ef">see</span>
+<span style="color:#66d9ef">any</span> <span style="color:#66d9ef">changes</span> <span style="color:#66d9ef">that</span> <span style="color:#66d9ef">are</span> <span style="color:#66d9ef">required</span> <span style="color:#66d9ef">for</span> <span style="color:#66d9ef">your</span> <span style="color:#66d9ef">infrastructure</span>. <span style="color:#66d9ef">All</span> <span style="color:#66d9ef">Terraform</span> <span style="color:#66d9ef">commands</span>
+<span style="color:#66d9ef">should</span> <span style="color:#66d9ef">now</span> <span style="color:#66d9ef">work</span>.
+
+<span style="color:#66d9ef">If</span> <span style="color:#66d9ef">you</span> <span style="color:#66d9ef">ever</span> <span style="color:#66d9ef">set</span> <span style="color:#66d9ef">or</span> <span style="color:#66d9ef">change</span> <span style="color:#66d9ef">modules</span> <span style="color:#66d9ef">or</span> <span style="color:#66d9ef">backend</span> <span style="color:#66d9ef">configuration</span> <span style="color:#66d9ef">for</span> <span style="color:#66d9ef">Terraform</span>,
+<span style="color:#66d9ef">rerun</span> <span style="color:#66d9ef">this</span> <span style="color:#66d9ef">command</span> <span style="color:#66d9ef">to</span> <span style="color:#66d9ef">reinitialize</span> <span style="color:#66d9ef">your</span> <span style="color:#66d9ef">working</span> <span style="color:#66d9ef">directory</span>. <span style="color:#66d9ef">If</span> <span style="color:#66d9ef">you</span> <span style="color:#66d9ef">forget</span>, <span style="color:#66d9ef">other</span>
+<span style="color:#66d9ef">commands</span> <span style="color:#66d9ef">will</span> <span style="color:#66d9ef">detect</span> <span style="color:#66d9ef">it</span> <span style="color:#66d9ef">and</span> <span style="color:#66d9ef">remind</span> <span style="color:#66d9ef">you</span> <span style="color:#66d9ef">to</span> <span style="color:#66d9ef">do</span> <span style="color:#66d9ef">so</span> <span style="color:#66d9ef">if</span> <span style="color:#66d9ef">necessary</span>.
+</code></pre></div><p>If the command completed without any errors, provision the resource using the <code>apply</code> command.</p>
+<h2 id="apply-terraform-environment">Apply Terraform Environment</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ terraform apply
+</code></pre></div><p>The output will detail the environment configuration. At the bottom of the output it asks for confirmation. Type <code>yes</code> and hit ENTER. Terraform will create the environment.</p>
+<p>The expected output is as follows:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-hcl" data-lang="hcl"><span style="color:#66d9ef">An</span> <span style="color:#66d9ef">execution</span> <span style="color:#66d9ef">plan</span> <span style="color:#66d9ef">has</span> <span style="color:#66d9ef">been</span> <span style="color:#66d9ef">generated</span> <span style="color:#66d9ef">and</span> <span style="color:#66d9ef">is</span> <span style="color:#66d9ef">shown</span> <span style="color:#66d9ef">below</span>.
+<span style="color:#66d9ef">Resource</span> <span style="color:#66d9ef">actions</span> <span style="color:#66d9ef">are</span> <span style="color:#66d9ef">indicated</span> <span style="color:#66d9ef">with</span> <span style="color:#66d9ef">the</span> <span style="color:#66d9ef">following</span> <span style="color:#66d9ef">symbols</span><span style="color:#960050;background-color:#1e0010">:</span>
+  <span style="color:#960050;background-color:#1e0010">+</span> <span style="color:#66d9ef">create</span>
+
+<span style="color:#66d9ef">Terraform</span> <span style="color:#66d9ef">will</span> <span style="color:#66d9ef">perform</span> <span style="color:#66d9ef">the</span> <span style="color:#66d9ef">following</span> <span style="color:#66d9ef">actions</span><span style="color:#960050;background-color:#1e0010">:</span><span style="color:#75715e">
+</span><span style="color:#75715e">
+</span><span style="color:#75715e">  # docker_container.nginx will be created
+</span><span style="color:#75715e"></span>  <span style="color:#960050;background-color:#1e0010">+</span> <span style="color:#66d9ef">resource</span> <span style="color:#e6db74">&#34;docker_container&#34; &#34;nginx&#34;</span> {
+      + attach           <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span>
+      + bridge           <span style="color:#f92672">=</span> (<span style="color:#66d9ef">known</span> <span style="color:#66d9ef">after</span> <span style="color:#66d9ef">apply</span>)
+      + command          <span style="color:#f92672">=</span> (<span style="color:#66d9ef">known</span> <span style="color:#66d9ef">after</span> <span style="color:#66d9ef">apply</span>)
+      + container_logs   <span style="color:#f92672">=</span> (<span style="color:#66d9ef">known</span> <span style="color:#66d9ef">after</span> <span style="color:#66d9ef">apply</span>)
+      + entrypoint       <span style="color:#f92672">=</span> (<span style="color:#66d9ef">known</span> <span style="color:#66d9ef">after</span> <span style="color:#66d9ef">apply</span>)
+      + env              <span style="color:#f92672">=</span> (<span style="color:#66d9ef">known</span> <span style="color:#66d9ef">after</span> <span style="color:#66d9ef">apply</span>)
+      + exit_code        <span style="color:#f92672">=</span> (<span style="color:#66d9ef">known</span> <span style="color:#66d9ef">after</span> <span style="color:#66d9ef">apply</span>)
+      + gateway          <span style="color:#f92672">=</span> (<span style="color:#66d9ef">known</span> <span style="color:#66d9ef">after</span> <span style="color:#66d9ef">apply</span>)
+      + hostname         <span style="color:#f92672">=</span> (<span style="color:#66d9ef">known</span> <span style="color:#66d9ef">after</span> <span style="color:#66d9ef">apply</span>)
+      + id               <span style="color:#f92672">=</span> (<span style="color:#66d9ef">known</span> <span style="color:#66d9ef">after</span> <span style="color:#66d9ef">apply</span>)
+      + image            <span style="color:#f92672">=</span> (<span style="color:#66d9ef">known</span> <span style="color:#66d9ef">after</span> <span style="color:#66d9ef">apply</span>)
+      + ip_address       <span style="color:#f92672">=</span> (<span style="color:#66d9ef">known</span> <span style="color:#66d9ef">after</span> <span style="color:#66d9ef">apply</span>)
+      + ip_prefix_length <span style="color:#f92672">=</span> (<span style="color:#66d9ef">known</span> <span style="color:#66d9ef">after</span> <span style="color:#66d9ef">apply</span>)
+      + ipc_mode         <span style="color:#f92672">=</span> (<span style="color:#66d9ef">known</span> <span style="color:#66d9ef">after</span> <span style="color:#66d9ef">apply</span>)
+      + log_driver       <span style="color:#f92672">=</span> (<span style="color:#66d9ef">known</span> <span style="color:#66d9ef">after</span> <span style="color:#66d9ef">apply</span>)
+      + log_opts         <span style="color:#f92672">=</span> (<span style="color:#66d9ef">known</span> <span style="color:#66d9ef">after</span> <span style="color:#66d9ef">apply</span>)
+      + logs             <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span>
+      + must_run         <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>
+      + name             <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;training&#34;</span>
+      + network_data     <span style="color:#f92672">=</span> (<span style="color:#66d9ef">known</span> <span style="color:#66d9ef">after</span> <span style="color:#66d9ef">apply</span>)
+      + read_only        <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span>
+      + restart          <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;no&#34;</span>
+      + rm               <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span>
+      + shm_size         <span style="color:#f92672">=</span> (<span style="color:#66d9ef">known</span> <span style="color:#66d9ef">after</span> <span style="color:#66d9ef">apply</span>)
+      + start            <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>
+      + user             <span style="color:#f92672">=</span> (<span style="color:#66d9ef">known</span> <span style="color:#66d9ef">after</span> <span style="color:#66d9ef">apply</span>)
+
+      <span style="color:#960050;background-color:#1e0010">+</span> <span style="color:#66d9ef">labels</span> {
+          + label <span style="color:#f92672">=</span> (<span style="color:#66d9ef">known</span> <span style="color:#66d9ef">after</span> <span style="color:#66d9ef">apply</span>)
+          + value <span style="color:#f92672">=</span> (<span style="color:#66d9ef">known</span> <span style="color:#66d9ef">after</span> <span style="color:#66d9ef">apply</span>)
+        }
+
+      <span style="color:#960050;background-color:#1e0010">+</span> <span style="color:#66d9ef">ports</span> {
+          + external <span style="color:#f92672">=</span> <span style="color:#ae81ff">80</span>
+          + internal <span style="color:#f92672">=</span> <span style="color:#ae81ff">80</span>
+          + ip       <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;0.0.0.0&#34;</span>
+          + protocol <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;tcp&#34;</span>
+        }
+    }<span style="color:#75715e">
+</span><span style="color:#75715e">
+</span><span style="color:#75715e">  # docker_image.nginx will be created
+</span><span style="color:#75715e"></span>  <span style="color:#960050;background-color:#1e0010">+</span> <span style="color:#66d9ef">resource</span> <span style="color:#e6db74">&#34;docker_image&#34; &#34;nginx&#34;</span> {
+      + id     <span style="color:#f92672">=</span> (<span style="color:#66d9ef">known</span> <span style="color:#66d9ef">after</span> <span style="color:#66d9ef">apply</span>)
+      + latest <span style="color:#f92672">=</span> (<span style="color:#66d9ef">known</span> <span style="color:#66d9ef">after</span> <span style="color:#66d9ef">apply</span>)
+      + name   <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;nginx:latest&#34;</span>
+    }
+
+<span style="color:#66d9ef">Plan</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#ae81ff">2</span> <span style="color:#66d9ef">to</span> <span style="color:#66d9ef">add</span>, <span style="color:#ae81ff">0</span> <span style="color:#66d9ef">to</span> <span style="color:#66d9ef">change</span>, <span style="color:#ae81ff">0</span> <span style="color:#66d9ef">to</span> <span style="color:#66d9ef">destroy</span>.
+
+<span style="color:#66d9ef">Do</span> <span style="color:#66d9ef">you</span> <span style="color:#66d9ef">want</span> <span style="color:#66d9ef">to</span> <span style="color:#66d9ef">perform</span> <span style="color:#66d9ef">these</span> <span style="color:#66d9ef">actions</span><span style="color:#960050;background-color:#1e0010">?</span>
+  <span style="color:#66d9ef">Terraform</span> <span style="color:#66d9ef">will</span> <span style="color:#66d9ef">perform</span> <span style="color:#66d9ef">the</span> <span style="color:#66d9ef">actions</span> <span style="color:#66d9ef">described</span> <span style="color:#66d9ef">above</span>.
+  <span style="color:#66d9ef">Only</span> <span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#66d9ef">yes</span><span style="color:#960050;background-color:#1e0010">&#39;</span> <span style="color:#66d9ef">will</span> <span style="color:#66d9ef">be</span> <span style="color:#66d9ef">accepted</span> <span style="color:#66d9ef">to</span> <span style="color:#66d9ef">approve</span>.
+
+  <span style="color:#66d9ef">Enter</span> <span style="color:#66d9ef">a</span> <span style="color:#66d9ef">value</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#66d9ef">yes</span>
+
+<span style="color:#66d9ef">docker_image</span>.<span style="color:#66d9ef">nginx</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#66d9ef">Creating</span>...
+docker_image.nginx: Creation complete after 7s [id<span style="color:#f92672">=</span><span style="color:#66d9ef">sha256</span><span style="color:#960050;background-color:#1e0010">:</span><span style="color:#ae81ff">2622</span><span style="color:#960050;background-color:#1e0010">e</span><span style="color:#ae81ff">6</span><span style="color:#960050;background-color:#1e0010">cca</span><span style="color:#ae81ff">7</span><span style="color:#960050;background-color:#1e0010">ebbb</span><span style="color:#ae81ff">6</span><span style="color:#960050;background-color:#1e0010">e</span><span style="color:#ae81ff">310743</span><span style="color:#960050;background-color:#1e0010">abce</span><span style="color:#ae81ff">3</span><span style="color:#960050;background-color:#1e0010">fc</span><span style="color:#ae81ff">47335393</span><span style="color:#960050;background-color:#1e0010">e</span><span style="color:#ae81ff">79171</span><span style="color:#960050;background-color:#1e0010">b</span><span style="color:#ae81ff">9</span><span style="color:#960050;background-color:#1e0010">d</span><span style="color:#ae81ff">76</span><span style="color:#960050;background-color:#1e0010">ba</span><span style="color:#ae81ff">9</span><span style="color:#960050;background-color:#1e0010">d</span><span style="color:#ae81ff">4</span><span style="color:#960050;background-color:#1e0010">f</span><span style="color:#ae81ff">446</span><span style="color:#960050;background-color:#1e0010">ce</span><span style="color:#ae81ff">7</span><span style="color:#960050;background-color:#1e0010">b</span><span style="color:#ae81ff">163</span><span style="color:#960050;background-color:#1e0010">nginx:</span><span style="color:#66d9ef">latest</span>]
+<span style="color:#66d9ef">docker_container</span>.<span style="color:#66d9ef">nginx</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#66d9ef">Creating</span>...
+docker_container.nginx: Creation complete after 4s [id<span style="color:#f92672">=</span><span style="color:#66d9ef">b4c56384b514adc77db44b0e52e1790573be76cf44df56c2efa22ea1e4db7d1c</span>]
+</code></pre></div><p>Once the process is complete it will display a message indicating that it created the resource. You can validate the container is available by opening a browser to <a href="http:%5Clocalhost:80">http:\localhost:80</a></p>
+<h2 id="destroy-terraform-environment">Destroy Terraform Environment</h2>
+<p>Once you have confirmed the deployment succeeded, destroy the infrastructure.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ terraform destroy
+</code></pre></div><p>Look for a message are the bottom of the output asking for confirmation. Type <code>yes</code> and hit ENTER. Terraform will destroy the resources it had created earlier.</p>
+<p>The output is as follows:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-hcl" data-lang="hcl">docker_image.nginx: Refreshing state... [id<span style="color:#f92672">=</span><span style="color:#66d9ef">sha256</span><span style="color:#960050;background-color:#1e0010">:</span><span style="color:#ae81ff">2622</span><span style="color:#960050;background-color:#1e0010">e</span><span style="color:#ae81ff">6</span><span style="color:#960050;background-color:#1e0010">cca</span><span style="color:#ae81ff">7</span><span style="color:#960050;background-color:#1e0010">ebbb</span><span style="color:#ae81ff">6</span><span style="color:#960050;background-color:#1e0010">e</span><span style="color:#ae81ff">310743</span><span style="color:#960050;background-color:#1e0010">abce</span><span style="color:#ae81ff">3</span><span style="color:#960050;background-color:#1e0010">fc</span><span style="color:#ae81ff">47335393</span><span style="color:#960050;background-color:#1e0010">e</span><span style="color:#ae81ff">79171</span><span style="color:#960050;background-color:#1e0010">b</span><span style="color:#ae81ff">9</span><span style="color:#960050;background-color:#1e0010">d</span><span style="color:#ae81ff">76</span><span style="color:#960050;background-color:#1e0010">ba</span><span style="color:#ae81ff">9</span><span style="color:#960050;background-color:#1e0010">d</span><span style="color:#ae81ff">4</span><span style="color:#960050;background-color:#1e0010">f</span><span style="color:#ae81ff">446</span><span style="color:#960050;background-color:#1e0010">ce</span><span style="color:#ae81ff">7</span><span style="color:#960050;background-color:#1e0010">b</span><span style="color:#ae81ff">163</span><span style="color:#960050;background-color:#1e0010">nginx:</span><span style="color:#66d9ef">latest</span>]
+docker_container.nginx: Refreshing state... [id<span style="color:#f92672">=</span><span style="color:#66d9ef">b4c56384b514adc77db44b0e52e1790573be76cf44df56c2efa22ea1e4db7d1c</span>]
+
+<span style="color:#66d9ef">An</span> <span style="color:#66d9ef">execution</span> <span style="color:#66d9ef">plan</span> <span style="color:#66d9ef">has</span> <span style="color:#66d9ef">been</span> <span style="color:#66d9ef">generated</span> <span style="color:#66d9ef">and</span> <span style="color:#66d9ef">is</span> <span style="color:#66d9ef">shown</span> <span style="color:#66d9ef">below</span>.
+<span style="color:#66d9ef">Resource</span> <span style="color:#66d9ef">actions</span> <span style="color:#66d9ef">are</span> <span style="color:#66d9ef">indicated</span> <span style="color:#66d9ef">with</span> <span style="color:#66d9ef">the</span> <span style="color:#66d9ef">following</span> <span style="color:#66d9ef">symbols</span><span style="color:#960050;background-color:#1e0010">:</span>
+  <span style="color:#960050;background-color:#1e0010">-</span> <span style="color:#66d9ef">destroy</span>
+
+<span style="color:#66d9ef">Terraform</span> <span style="color:#66d9ef">will</span> <span style="color:#66d9ef">perform</span> <span style="color:#66d9ef">the</span> <span style="color:#66d9ef">following</span> <span style="color:#66d9ef">actions</span><span style="color:#960050;background-color:#1e0010">:</span><span style="color:#75715e">
+</span><span style="color:#75715e">
+</span><span style="color:#75715e">  # docker_container.nginx will be destroyed
+</span><span style="color:#75715e"></span>  <span style="color:#960050;background-color:#1e0010">-</span> <span style="color:#66d9ef">resource</span> <span style="color:#e6db74">&#34;docker_container&#34; &#34;nginx&#34;</span> {
+      - attach            <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span> <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - command           <span style="color:#f92672">=</span> [
+          <span style="color:#960050;background-color:#1e0010">-</span> <span style="color:#e6db74">&#34;nginx&#34;</span>,
+          <span style="color:#960050;background-color:#1e0010">-</span> <span style="color:#e6db74">&#34;-g&#34;</span>,
+          <span style="color:#960050;background-color:#1e0010">-</span> <span style="color:#e6db74">&#34;daemon off;&#34;</span>,
+        ] <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - cpu_shares        <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span> <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - dns               <span style="color:#f92672">=</span> [] <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - dns_opts          <span style="color:#f92672">=</span> [] <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - dns_search        <span style="color:#f92672">=</span> [] <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - entrypoint        <span style="color:#f92672">=</span> [
+          <span style="color:#960050;background-color:#1e0010">-</span> <span style="color:#e6db74">&#34;/docker-entrypoint.sh&#34;</span>,
+        ] <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - env               <span style="color:#f92672">=</span> [] <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - gateway           <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;172.17.0.1&#34;</span> <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - group_add         <span style="color:#f92672">=</span> [] <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - hostname          <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;b4c56384b514&#34;</span> <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - id                <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;b4c56384b514adc77db44b0e52e1790573be76cf44df56c2efa22ea1e4db7d1c&#34;</span> <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - image             <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;sha256:2622e6cca7ebbb6e310743abce3fc47335393e79171b9d76ba9d4f446ce7b163&#34;</span> <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - ip_address        <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;172.17.0.2&#34;</span> <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - ip_prefix_length  <span style="color:#f92672">=</span> <span style="color:#ae81ff">16</span> <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - ipc_mode          <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;private&#34;</span> <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - links             <span style="color:#f92672">=</span> [] <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - log_driver        <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;json-file&#34;</span> <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - log_opts          <span style="color:#f92672">=</span> {} <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - logs              <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span> <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - max_retry_count   <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span> <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - memory            <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span> <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - memory_swap       <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span> <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - must_run          <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span> <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - network_data      <span style="color:#f92672">=</span> [
+          <span style="color:#960050;background-color:#1e0010">-</span> {
+              - gateway          <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;172.17.0.1&#34;</span>
+              - ip_address       <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;172.17.0.2&#34;</span>
+              - ip_prefix_length <span style="color:#f92672">=</span> <span style="color:#ae81ff">16</span>
+              - network_name     <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;bridge&#34;</span>
+            },
+        ] <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - network_mode      <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;default&#34;</span> <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - privileged        <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span> <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - publish_all_ports <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span> <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - read_only         <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span> <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - restart           <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;no&#34;</span> <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - rm                <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span> <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - shm_size          <span style="color:#f92672">=</span> <span style="color:#ae81ff">64</span> <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - start             <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span> <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - sysctls           <span style="color:#f92672">=</span> {} <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - tmpfs             <span style="color:#f92672">=</span> {} <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+
+      <span style="color:#960050;background-color:#1e0010">-</span> <span style="color:#66d9ef">ports</span> {
+          - external <span style="color:#f92672">=</span> <span style="color:#ae81ff">80</span> <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+          - internal <span style="color:#f92672">=</span> <span style="color:#ae81ff">80</span> <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+          - ip       <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;0.0.0.0&#34;</span> <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+          - protocol <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;tcp&#34;</span> <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+    }<span style="color:#75715e">
+</span><span style="color:#75715e">
+</span><span style="color:#75715e">  # docker_image.nginx will be destroyed
+</span><span style="color:#75715e"></span>  <span style="color:#960050;background-color:#1e0010">-</span> <span style="color:#66d9ef">resource</span> <span style="color:#e6db74">&#34;docker_image&#34; &#34;nginx&#34;</span> {
+      - id     <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;sha256:2622e6cca7ebbb6e310743abce3fc47335393e79171b9d76ba9d4f446ce7b163nginx:latest&#34;</span> <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - latest <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;sha256:2622e6cca7ebbb6e310743abce3fc47335393e79171b9d76ba9d4f446ce7b163&#34;</span> <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+      - name   <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;nginx:latest&#34;</span> <span style="color:#960050;background-color:#1e0010">-&gt;</span> <span style="color:#66d9ef">null</span>
+    }
+
+<span style="color:#66d9ef">Plan</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#ae81ff">0</span> <span style="color:#66d9ef">to</span> <span style="color:#66d9ef">add</span>, <span style="color:#ae81ff">0</span> <span style="color:#66d9ef">to</span> <span style="color:#66d9ef">change</span>, <span style="color:#ae81ff">2</span> <span style="color:#66d9ef">to</span> <span style="color:#66d9ef">destroy</span>.
+
+<span style="color:#66d9ef">Do</span> <span style="color:#66d9ef">you</span> <span style="color:#66d9ef">really</span> <span style="color:#66d9ef">want</span> <span style="color:#66d9ef">to</span> <span style="color:#66d9ef">destroy</span> <span style="color:#66d9ef">all</span> <span style="color:#66d9ef">resources</span><span style="color:#960050;background-color:#1e0010">?</span>
+  <span style="color:#66d9ef">Terraform</span> <span style="color:#66d9ef">will</span> <span style="color:#66d9ef">destroy</span> <span style="color:#66d9ef">all</span> <span style="color:#66d9ef">your</span> <span style="color:#66d9ef">managed</span> <span style="color:#66d9ef">infrastructure</span>, <span style="color:#66d9ef">as</span> <span style="color:#66d9ef">shown</span> <span style="color:#66d9ef">above</span>.
+  <span style="color:#66d9ef">There</span> <span style="color:#66d9ef">is</span> <span style="color:#66d9ef">no</span> <span style="color:#66d9ef">undo</span>. <span style="color:#66d9ef">Only</span> <span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#66d9ef">yes</span><span style="color:#960050;background-color:#1e0010">&#39;</span> <span style="color:#66d9ef">will</span> <span style="color:#66d9ef">be</span> <span style="color:#66d9ef">accepted</span> <span style="color:#66d9ef">to</span> <span style="color:#66d9ef">confirm</span>.
+
+  <span style="color:#66d9ef">Enter</span> <span style="color:#66d9ef">a</span> <span style="color:#66d9ef">value</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#66d9ef">yes</span>
+
+docker_container.nginx: Destroying... [id<span style="color:#f92672">=</span><span style="color:#66d9ef">b4c56384b514adc77db44b0e52e1790573be76cf44df56c2efa22ea1e4db7d1c</span>]
+<span style="color:#66d9ef">docker_container</span>.<span style="color:#66d9ef">nginx</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#66d9ef">Destruction</span> <span style="color:#66d9ef">complete</span> <span style="color:#66d9ef">after</span> <span style="color:#ae81ff">0</span><span style="color:#960050;background-color:#1e0010">s</span>
+docker_image.nginx: Destroying... [id<span style="color:#f92672">=</span><span style="color:#66d9ef">sha256</span><span style="color:#960050;background-color:#1e0010">:</span><span style="color:#ae81ff">2622</span><span style="color:#960050;background-color:#1e0010">e</span><span style="color:#ae81ff">6</span><span style="color:#960050;background-color:#1e0010">cca</span><span style="color:#ae81ff">7</span><span style="color:#960050;background-color:#1e0010">ebbb</span><span style="color:#ae81ff">6</span><span style="color:#960050;background-color:#1e0010">e</span><span style="color:#ae81ff">310743</span><span style="color:#960050;background-color:#1e0010">abce</span><span style="color:#ae81ff">3</span><span style="color:#960050;background-color:#1e0010">fc</span><span style="color:#ae81ff">47335393</span><span style="color:#960050;background-color:#1e0010">e</span><span style="color:#ae81ff">79171</span><span style="color:#960050;background-color:#1e0010">b</span><span style="color:#ae81ff">9</span><span style="color:#960050;background-color:#1e0010">d</span><span style="color:#ae81ff">76</span><span style="color:#960050;background-color:#1e0010">ba</span><span style="color:#ae81ff">9</span><span style="color:#960050;background-color:#1e0010">d</span><span style="color:#ae81ff">4</span><span style="color:#960050;background-color:#1e0010">f</span><span style="color:#ae81ff">446</span><span style="color:#960050;background-color:#1e0010">ce</span><span style="color:#ae81ff">7</span><span style="color:#960050;background-color:#1e0010">b</span><span style="color:#ae81ff">163</span><span style="color:#960050;background-color:#1e0010">nginx:</span><span style="color:#66d9ef">latest</span>]
+<span style="color:#66d9ef">docker_image</span>.<span style="color:#66d9ef">nginx</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#66d9ef">Destruction</span> <span style="color:#66d9ef">complete</span> <span style="color:#66d9ef">after</span> <span style="color:#ae81ff">1</span><span style="color:#960050;background-color:#1e0010">s</span>
+
+<span style="color:#66d9ef">Destroy</span> <span style="color:#66d9ef">complete</span><span style="color:#960050;background-color:#1e0010">!</span> <span style="color:#66d9ef">Resources</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#ae81ff">2</span> <span style="color:#66d9ef">destroyed</span>.
+</code></pre></div><h2 id="next-steps">Next Steps</h2>
+<p>You have installed Terraform, deployed and destroyed your first environment using Infrastructure as Code. This code is reusable and will consistently create the same environment. Next you will use Terraform to create a new environment in the cloud.</p>
+
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/terraform/" rel="tag">Terraform</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/hashicorp/" rel="tag">HashiCorp</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/docker/" rel="tag">docker</a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+<div class="authorbox clearfix">
+	<figure class="authorbox__avatar">
+		<img alt="Thom Greene avatar" src="/img/T3Logo.png" class="avatar" height="90" width="90">
+	</figure>
+	<div class="authorbox__header">
+		<span class="authorbox__name"></span>
+	</div>
+	<div class="authorbox__description">
+		vBrownbag crew, vExpert
+	</div>
+</div>
+
+<nav class="pager flex">
+	<div class="pager__item pager__item--prev">
+		<a class="pager__link" href="/post/2020/2020-05-26-azurefundamental/" rel="prev">
+			<span class="pager__subtitle">«&thinsp;Previous</span>
+			<p class="pager__title">Azure Fundamentals Exam Experience</p>
+		</a>
+	</div>
+	<div class="pager__item pager__item--next">
+		<a class="pager__link" href="/post/2020/2020-07-16-windows-server-licensing-conversion/" rel="next">
+			<span class="pager__subtitle">Next&thinsp;»</span>
+			<p class="pager__title">Converting Windows Server 2019 Evaluation Licensing to Volume Licensing</p>
+		</a>
+	</div>
+</nav>
+
+
+
+			</div>
+			<aside class="sidebar"><div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
+		<label>
+			<input class="widget-search__field" type="search" placeholder="SEARCH..." value="" name="q" aria-label="SEARCH...">
+		</label>
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="https://thomgreene.com/" />
+	</form>
+</div>
+<div class="widget-categories widget">
+	<h4 class="widget__title">Categories</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/backup/">Backup</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/certification/">Certification</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/cloud/">Cloud</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/community/">Community</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/how-to/">How-To</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/monitoring/">Monitoring</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/presentations/">Presentations</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/productivity/">Productivity</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/tech-field-day/">Tech Field Day</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/troubleshooting/">Troubleshooting</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/vmware/">VMware</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/website/">Website</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Tags</h4>
+	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/tags/aws/" title="AWS">AWS</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/az-900/" title="AZ-900">AZ-900</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/azure/" title="Azure">Azure</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/cloud/" title="Cloud">Cloud</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/command-line/" title="Command Line">Command Line</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/docker/" title="docker">docker</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/documentation/" title="Documentation">Documentation</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/esxcli/" title="ESXCLI">ESXCLI</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/git/" title="Git">Git</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/hardware/" title="Hardware">Hardware</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/hashicorp/" title="HashiCorp">HashiCorp</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/hcx/" title="HCX">HCX</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/home-lab/" title="Home Lab">Home Lab</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/homelab/" title="Homelab">Homelab</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/how-to/" title="How-To">How-To</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/hugo/" title="Hugo">Hugo</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/licensing/" title="Licensing">Licensing</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/markdown/" title="Markdown">Markdown</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/mentoring/" title="Mentoring">Mentoring</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/microsoft/" title="Microsoft">Microsoft</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/migration/" title="Migration">Migration</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/networking/" title="Networking">Networking</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/openstack/" title="OpenStack">OpenStack</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/pearson-vue/" title="Pearson Vue">Pearson Vue</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/powercli/" title="PowerCLI">PowerCLI</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/public-speaking/" title="Public Speaking">Public Speaking</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/storage/" title="Storage">Storage</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/studying/" title="Studying">Studying</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/terraform/" title="Terraform">Terraform</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/tfd13/" title="TFD13">TFD13</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/trip-report/" title="Trip-Report">Trip-Report</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/trip-review/" title="Trip Review">Trip Review</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/uila/" title="Uila">Uila</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/vbrownbag/" title="vBrownbag">vBrownbag</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/vcap/" title="VCAP">VCAP</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/vcdx/" title="VCDX">VCDX</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/vdm30in30/" title="vDM30in30">vDM30in30</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/veeam/" title="Veeam">Veeam</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/vexpert/" title="vExpert">vExpert</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/vmware-tools/" title="VMware tools">VMware tools</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/vmworld/" title="VMworld">VMworld</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/vrealize-operations-manager/" title="vRealize Operations Manager">vRealize Operations Manager</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/windows/" title="Windows">Windows</a>
+	</div>
+</div>
+<div class="widget-social widget">
+	<h4 class="widget-social__title widget__title">Social</h4>
+	<div class="widget-social__content widget__content">
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Twitter" rel="noopener noreferrer" href="https://twitter.com/thomtalkstech" target="_blank">
+				<svg class="widget-social__link-icon icon icon-twitter" width="24" height="24" viewBox="0 0 384 312"><path d="m384 36.9c-14.1 6.3-29.3 10.5-45.2 12.4 16.3-9.7 28.8-25.2 34.6-43.6-15.2 9-32.1 15.6-50 19.1-14.4-15.2-34.9-24.8-57.5-24.8-43.5 0-78.8 35.3-78.8 78.8 0 6.2.7 12.2 2 17.9-65.5-3.3-123.5-34.6-162.4-82.3-6.7 11.6-10.6 25.2-10.6 39.6 0 27.3 13.9 51.4 35 65.6-12.9-.4-25.1-4-35.7-9.9v1c0 38.2 27.2 70 63.2 77.2-6.6 1.8-13.6 2.8-20.8 2.8-5.1 0-10-.5-14.8-1.4 10 31.3 39.1 54.1 73.6 54.7-27 21.1-60.9 33.7-97.8 33.7-6.4 0-12.6-.4-18.8-1.1 34.9 22.4 76.3 35.4 120.8 35.4 144.9 0 224.1-120 224.1-224.1 0-3.4-.1-6.8-.2-10.2 15.4-11.1 28.7-25 39.3-40.8z"/></svg>
+				<span>Twitter</span>
+			</a>
+		</div>
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="LinkedIn" rel="noopener noreferrer" href="https://linkedin.com/in/thom-greene" target="_blank">
+				<svg class="widget-social__link-icon icon icon-linkedin" width="24" height="24" viewBox="0 0 352 352"><path d="M0,40v272c0,21.9,18.1,40,40,40h272c21.9,0,40-18.1,40-40V40c0-21.9-18.1-40-40-40H40C18.1,0,0,18.1,0,40z M312,32 c4.6,0,8,3.4,8,8v272c0,4.6-3.4,8-8,8H40c-4.6,0-8-3.4-8-8V40c0-4.6,3.4-8,8-8H312z M59.5,87c0,15.2,12.3,27.5,27.5,27.5 c15.2,0,27.5-12.3,27.5-27.5c0-15.2-12.3-27.5-27.5-27.5C71.8,59.5,59.5,71.8,59.5,87z M187,157h-1v-21h-45v152h47v-75 c0-19.8,3.9-39,28.5-39c24.2,0,24.5,22.4,24.5,40v74h47v-83.5c0-40.9-8.7-72-56.5-72C208.5,132.5,193.3,145.1,187,157z M64,288h47.5 V136H64V288z"/></svg>
+				<span>LinkedIn</span>
+			</a>
+		</div>
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="GitHub" rel="noopener noreferrer" href="https://github.com/tbgree00" target="_blank">
+				<svg class="widget-social__link-icon icon icon-github" width="24" height="24" viewBox="0 0 384 374"><path d="m192 0c-106.1 0-192 85.8-192 191.7 0 84.7 55 156.6 131.3 181.9 9.6 1.8 13.1-4.2 13.1-9.2 0-4.6-.2-16.6-.3-32.6-53.4 11.6-64.7-25.7-64.7-25.7-8.7-22.1-21.3-28-21.3-28-17.4-11.9 1.3-11.6 1.3-11.6 19.3 1.4 29.4 19.8 29.4 19.8 17.1 29.3 44.9 20.8 55.9 15.9 1.7-12.4 6.7-20.8 12.2-25.6-42.6-4.8-87.5-21.3-87.5-94.8 0-20.9 7.5-38 19.8-51.4-2-4.9-8.6-24.3 1.9-50.7 0 0 16.1-5.2 52.8 19.7 15.3-4.2 31.7-6.4 48.1-6.5 16.3.1 32.7 2.2 48.1 6.5 36.7-24.8 52.8-19.7 52.8-19.7 10.5 26.4 3.9 45.9 1.9 50.7 12.3 13.4 19.7 30.5 19.7 51.4 0 73.7-44.9 89.9-87.7 94.6 6.9 5.9 13 17.6 13 35.5 0 25.6-.2 46.3-.2 52.6 0 5.1 3.5 11.1 13.2 9.2 76.2-25.5 131.2-97.3 131.2-182 0-105.9-86-191.7-192-191.7z"/></svg>
+				<span>GitHub</span>
+			</a>
+		</div>
+
+		
+	</div>
+</div>
+</aside>
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2021 Thom Greene.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+<script src="/js/custom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+</body>
+</html>

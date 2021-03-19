@@ -1,580 +1,395 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
+    <loc>https://thomgreene.com/post/2021/2021-03-19-three-tips-hcx/</loc>
+    <lastmod>2021-03-19T13:45:01-04:00</lastmod>
+  </url><url>
+    <loc>https://thomgreene.com/tags/cloud/</loc>
+    <lastmod>2021-03-19T13:45:01-04:00</lastmod>
+  </url><url>
+    <loc>https://thomgreene.com/tags/hcx/</loc>
+    <lastmod>2021-03-19T13:45:01-04:00</lastmod>
+  </url><url>
+    <loc>https://thomgreene.com/tags/how-to/</loc>
+    <lastmod>2021-03-19T13:45:01-04:00</lastmod>
+  </url><url>
+    <loc>https://thomgreene.com/tags/migration/</loc>
+    <lastmod>2021-03-19T13:45:01-04:00</lastmod>
+  </url><url>
+    <loc>https://thomgreene.com/post/</loc>
+    <lastmod>2021-03-19T13:45:01-04:00</lastmod>
+  </url><url>
+    <loc>https://thomgreene.com/tags/</loc>
+    <lastmod>2021-03-19T13:45:01-04:00</lastmod>
+  </url><url>
+    <loc>https://thomgreene.com/</loc>
+    <lastmod>2021-03-19T13:45:01-04:00</lastmod>
+  </url><url>
+    <loc>https://thomgreene.com/categories/</loc>
+    <lastmod>2020-07-16T14:09:23-04:00</lastmod>
+  </url><url>
+    <loc>https://thomgreene.com/post/2020/2020-07-16-windows-server-licensing-conversion/</loc>
+    <lastmod>2020-07-16T14:09:23-04:00</lastmod>
+  </url><url>
+    <loc>https://thomgreene.com/tags/home-lab/</loc>
+    <lastmod>2020-07-16T14:09:23-04:00</lastmod>
+  </url><url>
+    <loc>https://thomgreene.com/categories/how-to/</loc>
+    <lastmod>2020-07-16T14:09:23-04:00</lastmod>
+  </url><url>
+    <loc>https://thomgreene.com/tags/licensing/</loc>
+    <lastmod>2020-07-16T14:09:23-04:00</lastmod>
+  </url><url>
+    <loc>https://thomgreene.com/tags/microsoft/</loc>
+    <lastmod>2020-07-16T14:09:23-04:00</lastmod>
+  </url><url>
+    <loc>https://thomgreene.com/tags/windows/</loc>
+    <lastmod>2020-07-16T14:09:23-04:00</lastmod>
+  </url><url>
+    <loc>https://thomgreene.com/tags/docker/</loc>
+    <lastmod>2020-06-15T14:09:23-04:00</lastmod>
+  </url><url>
+    <loc>https://thomgreene.com/post/2020/2020-06-15-terraform-getting-started-windows/</loc>
+    <lastmod>2020-06-15T14:09:23-04:00</lastmod>
+  </url><url>
+    <loc>https://thomgreene.com/tags/hashicorp/</loc>
+    <lastmod>2020-06-15T14:09:23-04:00</lastmod>
+  </url><url>
+    <loc>https://thomgreene.com/tags/terraform/</loc>
+    <lastmod>2020-06-15T14:09:23-04:00</lastmod>
+  </url><url>
     <loc>https://thomgreene.com/tags/azure/</loc>
     <lastmod>2020-05-26T14:09:23-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2020/2020-05-26-azurefundamental/</loc>
     <lastmod>2020-05-26T14:09:23-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thomgreene.com/categories/</loc>
-    <lastmod>2020-05-26T14:09:23-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/categories/certification/</loc>
     <lastmod>2020-05-26T14:09:23-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thomgreene.com/tags/microsoft/</loc>
-    <lastmod>2020-05-26T14:09:23-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thomgreene.com/post/</loc>
-    <lastmod>2020-05-26T14:09:23-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/tags/studying/</loc>
     <lastmod>2020-05-26T14:09:23-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thomgreene.com/tags/</loc>
-    <lastmod>2020-05-26T14:09:23-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thomgreene.com/</loc>
-    <lastmod>2020-05-26T14:09:23-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/tags/trip-review/</loc>
     <lastmod>2020-05-26T14:09:23-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2020/2020-05-25-onlinecertification/</loc>
     <lastmod>2020-05-25T12:39:17-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/tags/az-900/</loc>
     <lastmod>2020-05-25T12:39:17-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/tags/pearson-vue/</loc>
     <lastmod>2020-05-25T12:39:17-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/categories/monitoring/</loc>
     <lastmod>2018-07-16T14:51:25-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/tags/uila/</loc>
     <lastmod>2018-07-16T14:51:25-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2018/2018-7-16-uilahybridcloud/</loc>
     <lastmod>2018-07-16T14:51:25-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://thomgreene.com/post/2018/2018-07-09-whatiskpi/</loc>
+    <lastmod>2018-07-09T08:42:07-04:00</lastmod>
+  </url><url>
     <loc>https://thomgreene.com/categories/community/</loc>
     <lastmod>2018-07-05T10:44:37-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2018/2018-07-05-vmworldtips/</loc>
     <lastmod>2018-07-05T10:44:37-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/tags/vbrownbag/</loc>
     <lastmod>2018-07-05T10:44:37-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/tags/vmworld/</loc>
     <lastmod>2018-07-05T10:44:37-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2018/2018-06-29-uilaappdiscovery/</loc>
     <lastmod>2018-06-29T09:05:25-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2018/2018-05-29-staticsitehugo/</loc>
     <lastmod>2018-05-29T10:57:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/tags/git/</loc>
     <lastmod>2018-05-29T10:57:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/tags/hugo/</loc>
     <lastmod>2018-05-29T10:57:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/tags/markdown/</loc>
     <lastmod>2018-05-29T10:57:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/categories/website/</loc>
     <lastmod>2018-05-29T10:57:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/page/</loc>
     <lastmod>2018-05-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/page/links/</loc>
     <lastmod>2018-05-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/tags/homelab/</loc>
     <lastmod>2018-04-04T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/categories/vmware/</loc>
     <lastmod>2018-04-04T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2018/2018-04-04-vropslicensing/</loc>
     <lastmod>2018-04-04T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/tags/vrealize-operations-manager/</loc>
     <lastmod>2018-04-04T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/page/about/</loc>
     <lastmod>2018-03-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/page/vrops/</loc>
     <lastmod>2018-03-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2018/2018-03-27-vropsdesignlab/</loc>
     <lastmod>2018-03-27T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2018/2018-03-27-vropsdesignintro/</loc>
     <lastmod>2018-03-27T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/tags/vexpert/</loc>
     <lastmod>2017-10-30T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2017/2017-10-30-vexpertcloud2017/</loc>
     <lastmod>2017-10-30T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2017/2017-08-30-hackingpublicspeaking/</loc>
     <lastmod>2017-08-30T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/tags/mentoring/</loc>
     <lastmod>2017-08-30T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/categories/presentations/</loc>
     <lastmod>2017-08-30T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/tags/public-speaking/</loc>
     <lastmod>2017-08-30T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2017/2017-08-16-vmworld2017preview/</loc>
     <lastmod>2017-08-16T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/categories/cloud/</loc>
     <lastmod>2017-06-03T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2017/2017-06-03-azurestorageacct/</loc>
     <lastmod>2017-06-03T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/tags/storage/</loc>
     <lastmod>2017-06-03T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2017/2017-05-30-azurevm/</loc>
     <lastmod>2017-05-30T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2017/2017-05-26-azurefree/</loc>
     <lastmod>2017-05-26T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/tags/aws/</loc>
     <lastmod>2017-04-28T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2017/2017-04-28-quicklabsaws/</loc>
     <lastmod>2017-04-28T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2017/2017-04-13-getstartedaws/</loc>
     <lastmod>2017-04-13T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/tags/hardware/</loc>
     <lastmod>2017-02-24T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/tags/powercli/</loc>
     <lastmod>2017-02-24T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/categories/troubleshooting/</loc>
     <lastmod>2017-02-24T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2017/2017-02-24-vmtoolsnoreboot/</loc>
     <lastmod>2017-02-24T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/tags/vmware-tools/</loc>
     <lastmod>2017-02-24T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/categories/backup/</loc>
     <lastmod>2017-02-07T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2017/2017-02-22-veeambackupsimportant/</loc>
     <lastmod>2017-02-07T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/categories/tech-field-day/</loc>
     <lastmod>2017-02-07T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/tags/tfd13/</loc>
     <lastmod>2017-02-07T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2017/2017-02-07-roadrootcause/</loc>
     <lastmod>2017-02-07T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/tags/veeam/</loc>
     <lastmod>2017-02-07T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2017/2017-02-01-tfd13ishere/</loc>
     <lastmod>2017-02-01T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2017/2017-01-27-dellemcpreview/</loc>
     <lastmod>2017-01-27T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2017/2017-01-25-solarwindspreview/</loc>
     <lastmod>2017-01-25T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2017/2017-01-23-platform9preview/</loc>
     <lastmod>2017-01-23T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2017/2017-01-20-robinpreview/</loc>
     <lastmod>2017-01-20T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2017/2017-01-18-veeampreview/</loc>
     <lastmod>2017-01-18T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2017/2017-01-16-stormagicpreview/</loc>
     <lastmod>2017-01-16T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2017/2017-01-09-uilapreview/</loc>
     <lastmod>2017-01-09T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/tags/openstack/</loc>
     <lastmod>2017-01-04T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2017/2017-01-04-zerostackpreview/</loc>
     <lastmod>2017-01-04T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2017/2017-01-03-techfieldday13/</loc>
     <lastmod>2017-01-03T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2017/2017-01-02-lookingforward2017/</loc>
     <lastmod>2017-01-02T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2016/2016-12-15-tistheseason2016/</loc>
     <lastmod>2016-12-15T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/tags/command-line/</loc>
     <lastmod>2016-12-15T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2016/2016-11-20-soyouwantahomelab/</loc>
     <lastmod>2016-11-20T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/tags/vdm30in30/</loc>
     <lastmod>2016-11-20T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2016/2016-11-19-vcenterplugintracker/</loc>
     <lastmod>2016-11-19T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2016/2016-11-08-vexpert2017application/</loc>
     <lastmod>2016-11-08T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/tags/documentation/</loc>
     <lastmod>2016-11-07T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2016/2016-11-07-ssodomainpt2/</loc>
     <lastmod>2016-11-07T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2016/2016-11-06-vcdxfirststeps/</loc>
     <lastmod>2016-11-06T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/tags/vcdx/</loc>
     <lastmod>2016-11-06T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2016/2016-11-05-fullstackengineer/</loc>
     <lastmod>2016-11-05T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2016/2016-11-04-ssodomainpt1/</loc>
     <lastmod>2016-11-04T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2016/2016-11-03-advicetoavoid/</loc>
     <lastmod>2016-11-03T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/categories/productivity/</loc>
     <lastmod>2016-11-02T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2016/2016-11-02-certificationcareer/</loc>
     <lastmod>2016-11-02T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2016/2016-11-01-vdm30in30/</loc>
     <lastmod>2016-11-01T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2016/2016-09-28-datastoreaccess/</loc>
     <lastmod>2016-09-28T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2016/2016-09-01-vmworld2016review/</loc>
     <lastmod>2016-09-01T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2016/2016-08-31-missioncomplete/</loc>
     <lastmod>2016-08-31T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/tags/trip-report/</loc>
     <lastmod>2016-08-31T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2016/2016-08-29-vmworld2016dayzero/</loc>
     <lastmod>2016-08-29T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2016/2016-07-19-openstackmonth/</loc>
     <lastmod>2016-07-19T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2016/2016-06-29-vcap6deploybeta/</loc>
     <lastmod>2016-06-29T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/tags/vcap/</loc>
     <lastmod>2016-06-29T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2016/2016-06-25-vcap6deploystrategy/</loc>
     <lastmod>2016-06-25T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2016/2016-06-19-vcap6deploychanges/</loc>
     <lastmod>2016-06-19T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2016/2016-06-10-cloudoutsourcing/</loc>
     <lastmod>2016-06-10T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2016/2016-06-05-overdesigned/</loc>
     <lastmod>2016-06-05T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2016/2016-05-20-headincloud/</loc>
     <lastmod>2016-05-20T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2016/2016-05-12-keeporganized/</loc>
     <lastmod>2016-05-12T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2016/2016-04-08-vcap5dcdexperience/</loc>
     <lastmod>2016-04-08T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/tags/esxcli/</loc>
     <lastmod>2016-04-05T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2016/2016-04-05-hbaspeed/</loc>
     <lastmod>2016-04-05T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2016/2016-03-29-vcap5examretirement/</loc>
     <lastmod>2016-03-29T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2016/2016-03-25-studyhabits/</loc>
     <lastmod>2016-03-25T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2016/2016-03-22-configuretime/</loc>
     <lastmod>2016-03-22T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2016/2016-03-18-vcap5dcaexperience/</loc>
     <lastmod>2016-03-18T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2016/2016-03-15-vmconfigchange/</loc>
     <lastmod>2016-03-15T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2016/2016-03-11-switchmisconfig/</loc>
     <lastmod>2016-03-11T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/tags/networking/</loc>
     <lastmod>2016-03-11T12:57:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://thomgreene.com/post/2016/2016-03-08-disableats/</loc>
     <lastmod>2016-03-08T12:57:51-04:00</lastmod>
   </url>
-  
 </urlset>

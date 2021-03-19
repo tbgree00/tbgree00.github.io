@@ -6,11 +6,7 @@
     <description>Recent content in Monitoring on Thom Talks Tech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Jul 2018 14:51:25 -0400</lastBuildDate>
-    
-	<atom:link href="https://thomgreene.com/categories/monitoring/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 16 Jul 2018 14:51:25 -0400</lastBuildDate><atom:link href="https://thomgreene.com/categories/monitoring/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Uila 2.0 Hybrid Cloud Monitoring</title>
       <link>https://thomgreene.com/post/2018/2018-7-16-uilahybridcloud/</link>
@@ -18,6 +14,16 @@
       
       <guid>https://thomgreene.com/post/2018/2018-7-16-uilahybridcloud/</guid>
       <description>On July 16, 2018, Uila released version 2.0 of its application monitoring and analytics platform. Previously we explored its application discovery and mapping features, focusing on resources that resided within an on-premises datacenter. As industry trends shift toward a hybrid cloud model many monitoring tools have a visibility gap. They only inspect data within their domains, creating a black hole between the on-premises datacenter and the cloud instances. Uila 2.0 seeks to fill that gap and provide real time visibility across any cloud.</description>
+    </item>
+    
+    <item>
+      <title>What is a KPI?</title>
+      <link>https://thomgreene.com/post/2018/2018-07-09-whatiskpi/</link>
+      <pubDate>Mon, 09 Jul 2018 08:42:07 -0400</pubDate>
+      
+      <guid>https://thomgreene.com/post/2018/2018-07-09-whatiskpi/</guid>
+      <description>Monitoring is an important aspect of any architecture. Without a proper plan to monitor performance, capacity, and
+A key performance indicator is a value which helps validate that a resource is</description>
     </item>
     
     <item>

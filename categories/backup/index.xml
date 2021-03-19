@@ -6,11 +6,7 @@
     <description>Recent content in Backup on Thom Talks Tech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Feb 2017 12:00:00 -0400</lastBuildDate>
-    
-	<atom:link href="https://thomgreene.com/categories/backup/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 07 Feb 2017 12:00:00 -0400</lastBuildDate><atom:link href="https://thomgreene.com/categories/backup/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Backups are Important, Recovery is Essential</title>
       <link>https://thomgreene.com/post/2017/2017-02-22-veeambackupsimportant/</link>
